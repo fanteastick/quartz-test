@@ -1,3 +1,7 @@
+---
+date created: Sunday, March 24th 2024, 4:42:14 pm
+date modified: Sunday, March 24th 2024, 6:30:00 pm
+---
 #mac
 
 **Things I installed**
