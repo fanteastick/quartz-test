@@ -1,10 +1,11 @@
 ---
 date created: Sunday, March 24th 2024, 4:42:14 pm
-date modified: Wednesday, April 3rd 2024, 11:23:05 pm
+date modified: Wednesday, April 3rd 2024, 11:46:56 pm
 tags:
   - mac
 ---
-**Things I installed**
+## **Things I installed**
+
 zsh
 
 oh my zsh
@@ -27,7 +28,7 @@ started out w installing pale moon as internet browser…
 
 [https://hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/](https://hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/) —> but i’m just using the tabs function in iTerm, too lazy to learn the keyboard shortcuts (got confused by them at work too)
 
-Trying to set up adguard home
+## Trying to set up adguard home
 
 sudo /Applications/AdGuardHome/AdGuardHome
 
