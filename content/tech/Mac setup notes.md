@@ -1,6 +1,6 @@
 ---
 date created: 2024-04-03T23:46:57.5757-07:00
-date modified: 2024-04-18T20:55:56.5656-07:00
+date modified: 2024-04-18T21:14:48.4848-07:00
 tags:
   - mac
 ---
@@ -27,33 +27,3 @@ rectangle (window manager)
 started out w installing pale moon as internet browser…
 
 [https://hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/](https://hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/) —> but i’m just using the tabs function in iTerm, too lazy to learn the keyboard shortcuts (got confused by them at work too)
-
-## Trying to set up adguard home
-
-sudo /Applications/AdGuardHome/AdGuardHome
-
-the above stopped working so i installed colima to get docker working
-
-[https://github.com/abiosoft/colima](https://github.com/abiosoft/colima)
-
-had to brew install docker
-
-[https://github.com/pyenv/pyenv?tab=readme-ov-file#set-up-your-shell-environment-for-pyenv](https://github.com/pyenv/pyenv?tab=readme-ov-file#set-up-your-shell-environment-for-pyenv) --> setting up pyenv
-
-had to set up virtualenv
-
-[https://docs.python.org/3/library/venv.html](https://docs.python.org/3/library/venv.html)
-
-installed fastask in the venv
-
-installing git
-
-[https://docs.github.com/en/get-started/getting-started-with-git/set-up-git](https://docs.github.com/en/get-started/getting-started-with-git/set-up-git) 
-
-setting up https cloning
-
-downloaded node v20 [https://nodejs.org/en/download/package-manager](https://nodejs.org/en/download/package-manager) 
-
-[https://github.com/nvm-sh/nvm?tab=readme-ov-file#troubleshooting-on-macos](https://github.com/nvm-sh/nvm?tab=readme-ov-file#troubleshooting-on-macos) downloaded nvm for nom
-
-the aesthetic system info command: neofetch
