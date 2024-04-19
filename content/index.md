@@ -1,7 +1,7 @@
 ---
 title: Eilleen's Space
-date created: Sunday, March 24th 2024, 4:56:01 pm
-date modified: Thursday, April 18th 2024, 8:41:09 pm
+date created: 2024-04-18T20:41:11.1111-07:00
+date modified: 2024-04-18T20:55:58.5858-07:00
 ---
 
 Welcome to my digital allocation of space (?).

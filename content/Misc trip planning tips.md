@@ -1,6 +1,6 @@
 ---
-date created: Thursday, April 18th 2024, 5:11:48 pm
-date modified: Thursday, April 18th 2024, 5:32:07 pm
+date created: 2024-04-18T17:32:09.099-07:00
+date modified: 2024-04-18T20:56:01.011-07:00
 ---
 ## Most important details
 - where
