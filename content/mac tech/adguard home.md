@@ -1,6 +1,5 @@
 ---
-date created: 2024-04-03T23:41:40.4040-07:00
-date modified: 2024-04-18T21:15:08.088-07:00
+date modified: 2024-05-09T15:10
 ---
 
 important text from this was moved to apple notes for privacy

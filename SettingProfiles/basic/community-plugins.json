@@ -1,5 +1,12 @@
 [
   "obsidian-linter",
   "settings-search",
-  "settings-profiles"
+  "settings-profiles",
+  "dataview",
+  "obsidian-auto-link-title",
+  "obsidian-minimal-settings",
+  "obsidian-style-settings",
+  "omnisearch",
+  "obsidian-timestamper",
+  "hotkey-helper"
 ]

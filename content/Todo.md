@@ -1,6 +1,6 @@
 ---
-date created: 2024-04-18T17:13:13.1313-07:00
-date modified: 2024-04-18T20:56:06.066-07:00
+date created: 2024-05-09T14:44
+date modified: 2024-05-09T15:06
 ---
 - [ ] move the explorer to constantly viewable
 - [ ] note outlines on the side
@@ -14,3 +14,5 @@ date modified: 2024-04-18T20:56:06.066-07:00
 - [ ] neovim setup
 - [ ] stow dotfiles
 - [ ] pi or esp32
+
+GH page https://github.com/fanteastick/quartz-test 

@@ -1,6 +1,6 @@
 ---
-date created: 2024-04-18T17:22:33.3333-07:00
-date modified: 2024-04-18T20:55:59.5959-07:00
+date created: 2024-05-09T14:44
+date modified: 2024-05-09T15:01
 ---
 
 First 2-3 months
@@ -13,6 +13,7 @@ Month 3
 - pickleball
 
 Month 4: 
+
 - exercising, trips, good habits
 Month 5:
 - grinding, exercising, and spending time
