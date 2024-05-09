@@ -11,8 +11,3 @@ Month 3
 
 - spring has sprung, back into doing thing outdoors
 - pickleball
-
-Month 4: 
-- exercising, trips, good habits
-Month 5:
-- grinding, exercising, and spending time
