@@ -10,7 +10,7 @@ import { i18n } from "../i18n"
 
 // Options interface defined in `ExplorerNode` to avoid circular dependency
 const defaultOptions = {
-  folderClickBehavior: "collapse",
+  folderClickBehavior: "link", // changed on 5/9/24 from "collapse"
   folderDefaultState: "collapsed",
   useSavedState: true,
   mapFn: (node) => {
