@@ -1,0 +1,9 @@
+{
+  "exportPath": "./",
+  "baseFilename": "sssss",
+  "fileNumber": "001",
+  "sepChar": "sepChar-semicolon",
+  "quoteDataChar": "quoteChar-noQuote",
+  "saveToClipboardToo": true,
+  "removeCRLF": "removeCRLF-space"
+}

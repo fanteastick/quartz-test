@@ -58,11 +58,11 @@
       "yaml-sort-order-for-other-keys": "None"
     },
     "yaml-timestamp": {
-      "enabled": true,
+      "enabled": false,
       "date-created": false,
       "date-created-key": "date created",
       "force-retention-of-create-value": false,
-      "date-modified": true,
+      "date-modified": false,
       "date-modified-key": "date modified",
       "format": "YYYY-MM-DDTHH:mm"
     },
