@@ -61,7 +61,7 @@
       "enabled": false,
       "date-created": false,
       "date-created-key": "date created",
-      "force-retention-of-create-value": false,
+      "force-retention-of-create-value": true,
       "date-modified": false,
       "date-modified-key": "date modified",
       "format": "YYYY-MM-DDTHH:mm"
