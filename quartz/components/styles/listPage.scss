@@ -11,8 +11,8 @@ li.section-li {
 
   & > .section {
     display: grid;
-    grid-template-columns: 6em 3fr 1fr;
-
+    // grid-template-columns: 6em 3fr 1fr;
+    grid-template-columns: 7em 3fr 1fr;
     @media all and (max-width: $mobileBreakpoint) {
       & > .tags {
         display: none;
