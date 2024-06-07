@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "(¯`·._.·)",
+    pageTitle: "(°·._.·°)",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -55,7 +55,7 @@ const config: QuartzConfig = {
     transformers: [
       Plugin.FrontMatter(),
       Plugin.CreatedModifiedDate({
-        priority: ["git","frontmatter", "filesystem"],
+        priority: ["git", "frontmatter", "filesystem"],
       }),
       Plugin.SyntaxHighlighting({
         theme: {
