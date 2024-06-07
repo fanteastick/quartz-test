@@ -14,17 +14,19 @@ return (
     <h3>Source code</h3>
     <ul>
       <li>
-        <a href={`https://github.com/fanteastick/quartz-test/blob/v4/content/${fileData.slug}.md`}>
-          Source
-        </a>
+        {/* <a href={`https://github.com/fanteastick/quartz-test/blob/v4/content/${fileData.slug?.replace(/-/g, '%20')}.md`}> */}
+        <a href={`https://github.com/fanteastick/quartz-test/blob/v4/${fileData.filePath!}`}>
+          Source {`${fileData.filePath!}`}
+        </a>  
       </li>
       <li>
-        <a href={`https://github.com/fanteastick/quartz-test/commits/v4/content/${fileData.slug}.md`}>
+        <a href={`https://github.com/fanteastick/quartz-test/commits/v4/${fileData.filePath!}`}>
           History
         </a>
       </li>
       <li>
-        <a href={`https://github.com/fanteastick/quartz-test/blame/v4/content/${fileData.slug}.md`}>
+        {/* <a href={`https://github.com/fanteastick/quartz-test/blame/v4/content/${fileData.slug}.md`}> */}
+        <a href={`https://github.com/fanteastick/quartz-test/blame/v4/${fileData.filePath!}`}>
           Blame
         </a>
       </li>

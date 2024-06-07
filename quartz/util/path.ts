@@ -92,7 +92,6 @@ export function transformInternalLink(link: string): RelativeURL {
   let segments = fplike.split("/").filter((x) => x.length > 0)
   let prefix = segments.filter(isRelativeSegment).join("/")
   let fp = segments.filter((seg) => !isRelativeSegment(seg) && seg !== "").join("/")
-
   // manually add ext here as we want to not strip 'index' if it has an extension
   const simpleSlug = simplifySlug(slugifyFilePath(fp as FilePath))
   const joined = joinSegments(stripSlashes(prefix), stripSlashes(simpleSlug))
