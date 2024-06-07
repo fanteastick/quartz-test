@@ -25,6 +25,15 @@ export type Analytics =
       host?: string
       scriptSrc?: string
     }
+  | {
+      provider: "posthog"
+      apiKey: string
+      host?: string
+    }
+  | {
+      provider: "tinylytics"
+      siteId: string
+    }
 
 export interface GlobalConfiguration {
   pageTitle: string
