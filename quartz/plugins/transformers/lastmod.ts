@@ -53,7 +53,7 @@ export const CreatedModifiedDate: QuartzTransformerPlugin<Partial<Options> | und
                 created ||= file.data.frontmatter.date as MaybeDate
                 modified ||= file.data.frontmatter.lastmod as MaybeDate
                 modified ||= file.data.frontmatter.updated as MaybeDate
-                modified ||= file.data.frontmatter["date modified"] as MaybeDate // changed from last-modified (ez)
+                modified ||= file.data.frontmatter["last-modified"] as MaybeDate
                 published ||= file.data.frontmatter.publishDate as MaybeDate
               } else if (source === "git") {
                 if (!repo) {
