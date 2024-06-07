@@ -23,6 +23,11 @@ return (
           History
         </a>
       </li>
+      <li>
+        <a href={`https://github.com/fanteastick/quartz-test/blame/v4/content/${fileData.slug}.md`}>
+          Blame
+        </a>
+      </li>
     </ul>
   </div>
 )
