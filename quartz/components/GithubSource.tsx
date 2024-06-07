@@ -16,7 +16,7 @@ return (
       <li>
         {/* <a href={`https://github.com/fanteastick/quartz-test/blob/v4/content/${fileData.slug?.replace(/-/g, '%20')}.md`}> */}
         <a href={`https://github.com/fanteastick/quartz-test/blob/v4/${fileData.filePath!}`}>
-          Source {`${fileData.filePath!}`}
+          Source
         </a>  
       </li>
       <li>
