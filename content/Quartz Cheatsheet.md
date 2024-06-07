@@ -1,9 +1,24 @@
+---
+date created: 2024-06-06T22:54
+date modified: 2024-06-07T14:28
+---
 ## Sync content changes
 
 `git pull`
 
 `npx quartz sync`
 
+Alternatively: (honestly preferred bc I like seeing a more descriptive message than "quartz sync: [date]")
+
+```
+git add . (or some regex); git commit -m "message"; git push
+```
+
+If added too many and want to remove from the commit but still preserve local changes:
+
+```
+git reset --mixed HEAD content* (or some other regex)
+```
 ## Merge changes from upstream
 
 h/t [git - How can I merge changes from an upstream branch to my fork's branch - Stack Overflow](https://stackoverflow.com/questions/52981111/how-can-i-merge-changes-from-an-upstream-branch-to-my-forks-branch)
@@ -40,8 +55,10 @@ git merge upstream/master
 ```
 
 > [!warning] To change
-> Instead of using `master` as the branch it should be `v4`
+> Instead of using `master` as the branch it should be `v4` for Quartz. 
 
 ## Preview locally
 
 `npx quartz build --serve`
+
+Doesn't hotload so need to restart every time I change stuff. 

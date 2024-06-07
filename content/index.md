@@ -1,7 +1,7 @@
 ---
 title: Eilleen's (online!) Everything Notebook
 date created: 2024-06-06T22:24
-date modified: 2024-06-06T22:48
+date modified: 2024-06-07T12:09
 ---
 
 Welcome to my digital allocation of space (?).
@@ -10,9 +10,9 @@ Throughout high school, bullet journaling was a huge trend (still is, maybe not 
 
 %% See the [documentation](https://quartz.jzhao.xyz). %%
 
-[[Quartz Cheatsheet]]
+[[Quartz Cheatsheet]] and [[Quartz customization log]]
 
-Why does every digital garden website feel the need to add a page defining what a digital garden is? 🤷‍♀️ 
+Why does every digital garden website add a page defining what a digital garden is? 🤷‍♀️ 
 
 ```
 ⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣦⡀⠀⠀⠀⠀⠀⠀⠀
