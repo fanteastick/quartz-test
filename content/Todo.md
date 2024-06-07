@@ -1,8 +1,9 @@
 ---
 date created: 2024-05-09T14:44
-date modified: 2024-05-09T15:06
+date modified: 2024-06-06T22:44
 ---
-- [ ] move the explorer to constantly viewable
+- [-] move the explorer to constantly viewable
+	- decided that it looks bad.
 - [ ] note outlines on the side
 - [ ] fix subdomains
 - [x] cleanup gh
@@ -16,4 +17,3 @@ date modified: 2024-05-09T15:06
 - [ ] pi or esp32
 
 GH page https://github.com/fanteastick/quartz-test 
-
