@@ -1,6 +1,6 @@
 ---
 date created: 2024-06-06T22:54
-date modified: 2024-06-07T14:28
+date modified: 2024-06-25T23:11
 ---
 ## Sync content changes
 
@@ -18,6 +18,21 @@ If added too many and want to remove from the commit but still preserve local ch
 
 ```
 git reset --mixed HEAD content* (or some other regex)
+```
+
+Alternative #2: 
+
+To add anything non-`content`: 
+
+```
+git add .
+git reset -- content
+```
+
+To add only `content`:
+
+```
+git add content
 ```
 ## Merge changes from upstream
 

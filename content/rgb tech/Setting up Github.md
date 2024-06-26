@@ -1,7 +1,11 @@
 ---
 date created: 2024-05-09T14:44
-date modified: 2024-05-09T15:01
+date modified: 2024-06-25T23:23
 ---
+
+> [!warning] Actual steps to follow...
+> ...are in the second half, there's a link to the Microsoft learn page for setting up git on WSL
+
 - Install git and git bash
 https://docs.github.com/en/get-started/getting-started-with-git/set-up-git
 git --version to check version
@@ -18,7 +22,7 @@ authenticate w github from git
 - did ssh for rgb computer
 - https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git 
 
-quick diversion to [[Setting up conda anaconda on a new computer]]
+quick diversion to [[Setting up conda anaconda]]
 
 --- 
 

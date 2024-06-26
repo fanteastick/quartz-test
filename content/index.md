@@ -1,7 +1,7 @@
 ---
 title: Eilleen's (online!) Everything Notebook
-date created: 2024-06-06T22:24
-date modified: 2024-06-07T12:09
+date created: 2024-05-06T22:24
+date modified: 2024-06-08T16:12
 ---
 
 Welcome to my digital allocation of space (?).
@@ -39,3 +39,5 @@ Why does every digital garden website add a page defining what a digital garden 
 ⠀⠀⠀⠀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡄
 ⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇
 ```
+
+The whole site is a work in progress! (it'll always be a work in progress)
