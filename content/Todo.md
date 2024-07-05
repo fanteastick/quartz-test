@@ -1,6 +1,6 @@
 ---
 date created: 2024-05-09T14:44
-date modified: 2024-06-25T23:14
+date modified: 2024-07-02T16:23
 draft: "true"
 ---
 - move the explorer to constantly viewable
@@ -20,6 +20,12 @@ draft: "true"
 - [ ] check out [Syntax Highlighting](https://quartz.jzhao.xyz/features/syntax-highlighting) 
 - [ ] [Let’s Git started | Happy Git and GitHub for the useR](https://happygitwithr.com/) 
 - [ ] Subtitles on a quartz page? maybe like if subtitle then display it as part of the beforebody in like all caps type of font
+- [ ] Investigate the weird github renaming stuff
+- [x] remove the strikethrough on a checked-off item
+- [ ] remove the fade on the explorer
+- [ ] change the colors
+	- [ ] background
+	- [ ] links vs internal links
 
 GH page https://github.com/fanteastick/quartz-test 
 

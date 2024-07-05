@@ -1,6 +1,6 @@
 ---
 date created: 2024-05-09T14:44
-date modified: 2024-05-09T15:03
+date modified: 2024-07-05T12:14
 ---
 
 https://docs.anaconda.com/free/anaconda/install/linux/

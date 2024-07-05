@@ -1,9 +1,170 @@
 ---
 date created: 2024-06-06T22:54
-date modified: 2024-06-25T19:17
+date modified: 2024-07-05T13:24
 ---
 
 These are all the things that I changed in my Quartz setup, and approximately where in the code they were changed.
+
+## Underline external links in page bodies
+
+Added a class to the `a` section in `base.scss`
+
+```scss title="base.scss"
+a {
+...
+  &.external { // this whole section was added
+    text-decoration: underline wavy;
+  }
+}
+```
+
+How it works: this file below adds the class `external` to any links that are external
+
+```ts title="transformers/links.ts"
+const classes = (node.properties.className ?? []) as string[]
+                const isExternal = isAbsoluteUrl(dest)
+                classes.push(isExternal ? "external" : "internal")
+
+```
+
+## Change the colors of the interface
+```ts title="quartz.config.ts"
+colors: {
+        // lightMode: {
+        //   light: "#faf8f8",
+        //   lightgray: "#e5e5e5",
+        //   gray: "#b8b8b8",
+        //   darkgray: "#4e4e4e",
+        //   dark: "#2b2b2b",
+        //   secondary: "#284b63",
+        //   tertiary: "#84a59d",
+        //   highlight: "rgba(143, 159, 169, 0.15)",
+        // },
+      //   'desert-storm': {
+      //     '50': '#fafbf9',
+      //     '100': '#eff2ec',
+      //     '200': '#dde2d5',
+      //     '300': '#bfc9b0',
+      //     '400': '#9bab85',
+      //     '500': '#809166',
+      //     '600': '#677851',
+      //     '700': '#546242',
+      //     '800': '#475339',
+      //     '900': '#3e4733',
+      //     '950': '#292f22',
+      // },
+        lightMode: {
+          light: "#eff2ec",
+          lightgray: "#dde2d5",
+          gray: "#9bab85",
+          darkgray: "#475339",
+          dark: "#292f22",
+          secondary: "#3e4733",
+          tertiary: "#84a59d",
+          highlight: "rgba(191,201,176, 0.25)",
+        },
+```
+
+Commented out `lightMode` is the original. Commented out `desert-storm` is the color scheme taken from [uicolors.app/create](https://uicolors.app/). In the actual thing, secondary should be darker than tertiary. 
+
+I love green 🟢
+
+## Change the font
+```ts title="quartz.config.ts"
+      typography: {
+        header: "Schibsted Grotesk",
+        // body: "Source Sans Pro", << original
+        body: "Atkinson Hyperlegible",
+        code: "IBM Plex Mono",
+      },
+```
+## Consistent opacity in the table of contents, not in-view opacity
+```scss title="toc.scss"
+  & ul {
+... ...
+    & > li > a {
+      color: var(--dark);
+      // opacity: 0.35; dislike the grayed out stuff
+      opacity: 0.75;
+      transition:
+        0.5s ease opacity,
+        0.3s ease color;
+      &.in-view {
+        opacity: 0.75; // set normal to same as in-view
+      }
+    }
+  }
+```
+
+## Add a divider right after page content
+```tsx title="Content.tsx"
+const Content: QuartzComponent = ({ fileData, tree }: QuartzComponentProps) => {
+... ...
+  return <article class={classString}>
+    {content} 
+    <p style={{ textAlign: 'center', opacity: 0.7 }}>───✱*.｡:｡✱*.:｡✧*.｡✰*.:｡✧*.｡:｡*.｡✱ ───</p>
+  </article>
+}
+```
+
+Can find some cute dividers here: [Sparkle Emoji for Bio](https://www.aestheticbio.net/p/sparkle.html) 
+
+## Update the footer links
+```ts title="quartz.layout.ts"
+// components shared across all pages
+export const sharedPageComponents: SharedLayout = {
+  head: Component.Head(),
+  header: [],
+  footer: Component.Footer({
+    links: {
+      GitHub: "https://github.com/fanteastick/quartz-test",
+      // "Discord Community": "https://discord.gg/cRFFHYye7t",
+    },
+  }),
+}
+```
+
+## Layout changes
+- Graph on desktop only
+- GithubSource and backlinks and table of contents on the left if desktop
+- GithubSource and backlinks on the right if mobile
+- remove ContentMeta from the beforeBody on list pages
+```ts title="quartz.layout.ts"
+  left: [
+    Component.PageTitle(),
+    Component.MobileOnly(Component.Spacer()),
+    Component.Search(),
+    Component.DesktopOnly(Component.TableOfContents()),
+    Component.DesktopOnly(Component.GithubSource()),
+    Component.DesktopOnly(Component.Backlinks()),
+    // Component.Darkmode(),
+  ],
+  right: [
+    Component.Explorer(),
+    Component.DesktopOnly(Component.Graph()),
+    Component.MobileOnly(Component.GithubSource()),
+    Component.MobileOnly(Component.Backlinks()),
+  ],
+
+// components for pages that display lists of pages  (e.g. tags or folders)
+export const defaultListPageLayout: PageLayout = {
+  // beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
+  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle()],
+  left: [
+    Component.PageTitle(),
+    Component.MobileOnly(Component.Spacer()),
+    Component.Search(),
+    // Component.Darkmode(),
+  ],
+  right: [],
+```
+
+## Removing strikethrough on checked-off boxes
+```scss title="base.scss"
+    & li:has(> input[type="checkbox"]:checked) {
+      // text-decoration: line-through; 
+      // previously the above line is NOT commented out
+```
 
 ## Github source component
 
@@ -63,12 +224,15 @@ grid-template-columns: 7em 3fr 1fr;
     const iconPath = joinSegments(baseDir, "static/icon2.png")
 ```
 
-## Changed footer and the site title
-
-`footer.tsx` --> just changed some text
+## Changed the site title
 
 ```ts title=quartz.config.ts
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "(°·._.·°)", // or whatever else you want
+```
+
+## Change baseUrl
+```ts title="quartz.config.ts"
+    baseUrl: "quartz.eilleeenz.com",
 ```

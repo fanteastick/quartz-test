@@ -1,6 +1,6 @@
 ---
 date created: 2024-06-06T22:54
-date modified: 2024-06-25T23:11
+date modified: 2024-07-03T00:02
 ---
 ## Sync content changes
 
@@ -20,7 +20,7 @@ If added too many and want to remove from the commit but still preserve local ch
 git reset --mixed HEAD content* (or some other regex)
 ```
 
-Alternative #2: 
+### Alternative: 
 
 To add anything non-`content`: 
 
@@ -76,4 +76,4 @@ git merge upstream/master
 
 `npx quartz build --serve`
 
-Doesn't hotload so need to restart every time I change stuff. 
+Only does a hard reload when certain files change, like `quartz.layout.ts`. 
