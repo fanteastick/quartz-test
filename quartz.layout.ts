@@ -19,6 +19,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
+    Component.MobileOnly(Component.TableOfContents())
   ],
   // left: [
   //   Component.PageTitle(),
@@ -32,7 +33,7 @@ export const defaultContentPageLayout: PageLayout = {
   //   Component.DesktopOnly(Component.TableOfContents()),
   //   Component.Backlinks(),
   //   Component.MobileOnly(Component.Explorer()),
-  // ],
+  // ], 
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
@@ -43,11 +44,12 @@ export const defaultContentPageLayout: PageLayout = {
     // Component.Darkmode(),
   ],
   right: [
-    Component.Explorer(),
     Component.DesktopOnly(Component.Graph()),
-    Component.MobileOnly(Component.GithubSource()),
+    Component.Explorer(),
     Component.MobileOnly(Component.Backlinks()),
+    Component.MobileOnly(Component.GithubSource()),
   ],
+
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
