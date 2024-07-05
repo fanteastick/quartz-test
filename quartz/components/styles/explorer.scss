@@ -59,8 +59,8 @@ button#explorer {
     padding: 0;
     transition:
       max-height 0.35s ease,
-      transform 0.35s ease,
-      opacity 0.2s ease;
+      opacity 0.2s ease,
+      transform 0.35s ease;
     & li > a {
       color: var(--dark);
       opacity: 0.75;
