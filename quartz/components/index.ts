@@ -9,6 +9,7 @@ import PageTitle from "./PageTitle"
 import ContentMeta from "./ContentMeta"
 import Spacer from "./Spacer"
 import TableOfContents from "./TableOfContents"
+import TableOfContents2 from "./TableOfContents2"
 import Explorer from "./Explorer"
 import TagList from "./TagList"
 import Graph from "./Graph"
@@ -21,6 +22,7 @@ import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import GithubSource from "./GithubSource"
 
+
 export {
   ArticleTitle,
   Content,
@@ -32,6 +34,7 @@ export {
   ContentMeta,
   Spacer,
   TableOfContents,
+  TableOfContents2,
   Explorer,
   TagList,
   Graph,
