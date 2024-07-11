@@ -10,14 +10,10 @@ export const sharedPageComponents: SharedLayout = {
     { title: "Eilleen's (online!) Everything Notebook" },
     Component.RecentNotes({ showTags: false, title: "Recently edited notes:", showDate: true })
   ), 
-  // Component.OnlyFor(
-  //   {title: "Eilleen's (online!) Everything Notebook" }, 
-  //   Component.MobileOnly(Component.Backlinks())
-  // )
 ],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/fanteastick/quartz-test",
+      GitHub: "https://github.com/fanteastick",
     },
   }),
 }
@@ -31,19 +27,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TagList(),
     Component.MobileOnly(Component.TableOfContents())
   ],
-  // left: [
-  //   Component.PageTitle(),
-  //   Component.MobileOnly(Component.Spacer()),
-  //   Component.Search(),
-  //   // Component.Darkmode(),
-  //   Component.DesktopOnly(Component.Explorer()),
-  // ],
-  // right: [
-  //   // Component.Graph(), 
-  //   Component.DesktopOnly(Component.TableOfContents()),
-  //   Component.Backlinks(),
-  //   Component.MobileOnly(Component.Explorer()),
-  // ], 
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
@@ -59,7 +42,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Backlinks()),
     Component.MobileOnly(Component.GithubSource()),
   ],
-
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
