@@ -1,7 +1,7 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
-// components shared across all pages
+// components shared across all pages 
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
@@ -14,7 +14,12 @@ export const sharedPageComponents: SharedLayout = {
   ), 
   Component.OnlyFor(
     { titles: ["Eilleen's (online!) Everything Notebook"] }, 
-    Component.Graph())
+    Component.Graph()
+  ),
+  Component.OnlyFor(
+    { titles: ["Eilleen's (online!) Everything Notebook"] }, 
+    Component.GiscusComments()
+  )
 ],
   footer: Component.Footer({
     links: {

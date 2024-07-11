@@ -23,6 +23,7 @@ import Breadcrumbs from "./Breadcrumbs"
 import GithubSource from "./GithubSource"
 import OnlyFor from "./_OnlyFor"
 import NotFor from "./_NotFor"
+import GiscusComments from "./_GiscusComments"
 
 
 export {
@@ -51,4 +52,5 @@ export {
   GithubSource,
   OnlyFor,
   NotFor,
+  GiscusComments
 }
