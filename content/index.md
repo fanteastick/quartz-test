@@ -1,7 +1,8 @@
 ---
 title: Eilleen's (online!) Everything Notebook
 date created: 2024-05-06T22:24
-date modified: 2024-07-10T21:09
+date modified: 2024-07-11T01:58
+subtitle: the digital version
 ---
 
 Welcome to my digital allocation of space (?).
@@ -10,9 +11,7 @@ Throughout high school, bullet journaling was a huge trend (still is, maybe not 
 
 %% See the [documentation](https://quartz.jzhao.xyz). %%
 
-How I set up the site: [[Quartz Cheatsheet]] and [[Quartz customization log]]
-
-Possible options for more config: [[Quartz Inspos and Alternatives]]
+I spent too long changing things on the site, which is all written out in the [[Quartz customization log]], and I also have some more ideas for changing things ([[Quartz Inspos and Alternatives]]), but I still need a [[Quartz Cheatsheet|cheatsheet]] to remember what I'm doing.
 
 I have some [[blog ideas]] too! And I've [[Infinite boredom|been up to]] various things lately.
 

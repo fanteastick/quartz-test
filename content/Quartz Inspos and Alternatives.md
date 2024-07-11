@@ -1,7 +1,15 @@
 ---
 date created: 2024-07-09T02:02
-date modified: 2024-07-10T21:24
+date modified: 2024-07-11T12:03
 ---
+
+Misc ideas: 
+
+- emitter: a page with all the exploring-related things? take inspo from custom landing page. --> prob want new file to define layouts
+- transformer: add some subtitle stuff based on lastmod transformer and adding to createdmodifieddate
+- content: integrate a google doc somewhere so I can just say "this is LITERALLY what I'm doing now"
+- component: utterances blog but only on the first page and as like a guestbook
+
 ## Quartz snippets that could be used 
 
 Pulled from discord mostly, but maybe also GitHub crawling. 
@@ -15,6 +23,12 @@ Kirby — 02/22/2024 8:36 AM
 > is:pr is:closed plugin in the GitHub pull requests page
 > 
 > if my PR gets merged, search for .quartz on any source hosting service (that's the optional naming guideline, name your repo plugin.quartz)
+
+### Giscus comments better styling etc
+
+[Add comment section, and re-add right-side formatting which was reverted · morrowind-modding/morrowind-modding.github.io@1bad00e · GitHub](https://github.com/morrowind-modding/morrowind-modding.github.io/commit/1bad00e1e8b27ee2dc85ab08dd2da5b75642f5b3)
+
+Giscus is the same as utterances but better bc newer and discussions. 
 
 ### Tag-based explorer (!!!)
 

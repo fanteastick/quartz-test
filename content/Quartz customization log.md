@@ -1,6 +1,6 @@
 ---
 date created: 2024-06-06T22:54
-date modified: 2024-07-11T00:15
+date modified: 2024-07-11T10:26
 ---
 
 These are all the things that I changed in my Quartz setup, and approximately where in the code they were changed.
@@ -13,6 +13,11 @@ Misc things to remember:
 
 - attachment folders won't show up if there's no `.md` files in them. 
 
+## GetDate gives the modified date rather than created
+
+```ts title="quartz.layout.ts"
+    defaultDateType: "modified", // options are modified, created, published
+```
 ## Return to home button on folder and tag pages
 
 ```tsx title="FolderContent.tsx"
@@ -44,23 +49,23 @@ And in `en-US.ts` I changed the `pages:error:home` to `home: "🏡 Return to Hom
 
 ## OnlyFor component and in layout
 
-Code copied from: [File not found · GitHub](https://github.com/t-schreibs/sound-accumulator/blob/main/quartz%2Fcomponents%2FOnlyFor.tsx) 
+Code copied from: [File not found · GitHub](https://github.com/t-schreibs/sound-accumulator/blob/main/quartz%2Fcomponents%2FOnlyFor.tsx) + changing it into a list version
 
 ```tsx title="OnlyFor.tsx"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
 interface OnlyForOptions {
   /**
-   * The title to look for
+   * The titles to look for
    */
-  title: string
+  titles: string[];
 }
 
 export default ((opts?: Partial<OnlyForOptions>, component?: QuartzComponent) => {
   if (component) {
     const Component = component
     function OnlyFor(props: QuartzComponentProps) {
-      return props.fileData.frontmatter?.title === opts?.title ? 
+      return opts?.titles?.some(title => props.fileData.frontmatter?.title === title) ? 
         <Component {...props} /> :
         <></>;
     }
@@ -81,17 +86,23 @@ And then in the layout file the syntax is:
 ```ts title="quartz.layout.ts"
 afterBody: [
   Component.OnlyFor(
-    { title: "Eilleen's (online!) Everything Notebook" },
+    { titles: ["Eilleen's (online!) Everything Notebook"] },
     Component.RecentNotes({ showTags: false, title: "Recently edited notes:", showDate: true })
   ), 
   // Component.OnlyFor(
-  //   {title: "Eilleen's (online!) Everything Notebook" }, 
+  //   {titles: ["Eilleen's (online!) Everything Notebook"] }, 
   //   Component.MobileOnly(Component.Backlinks())
   // ) this part is to show example of a second component working w backlinks too
 ],
 ```
 
-## Changing `RecentNotes` component
+Remember to add it to `components/index.ts`!!
+
+### Very similar - `NotFor` component
+
+Same code as above but reversing the checker.
+
+## Changing `RecentNotes` - OnlyFor, rounded border, conditional date
 
 - used `OnlyFor` to only put it on `afterBody` on the index homepage (see above)
 - rounded corners and a dotted border
@@ -101,7 +112,7 @@ afterBody: [
   padding: 20px; /* Optional padding to demonstrate the effect */
 ```
 
-- conditional date display, date reduced opacity + on the same row, decreasing size of the links
+- conditional date display, date reduced opacity + on the same row, decreasing size (`h3` to `h4`) of the links
 ```tsx title="RecentNotes.tsx"
 <div class="desc">
 {/* Changed heading size of each link 3->4 on 7/10/24 */}
@@ -183,7 +194,7 @@ Create the new component file, and remove button and svg in the component: (this
       <div id="toc-content">
 ```
 
-## Underline external links in page bodies
+## Underline external links in page bodies, and lighter
 
 Added a class to the `a` section in `base.scss`
 
@@ -192,6 +203,7 @@ a {
 ...
   &.external { // this whole section was added
     text-decoration: underline wavy;
+	opacity: 0.9;
   }
 }
 ```
@@ -375,7 +387,7 @@ Plugin.CreatedModifiedDate({
 }),
 ```
 
-## Putting date created & modified on content pages
+## Putting date created & modified on content pages, but not index
 ```ts title="lastmod.ts"
 created ||= file.data.frontmatter["date created"] as MaybeDate
 // original: created ||= file.data.frontmatter.date as MaybeDate
@@ -385,7 +397,7 @@ modified ||= file.data.frontmatter["date modified"] as MaybeDate
 ```
 
 ```tsx title="ContentMeta.tsx"
-if (fileData.dates) {
+if (fileData.dates && fileData.slug !== "index") {
 // segments.push(formatDate(getDate(cfg, fileData)!, cfg.locale))
 segments.push("Created: " + formatDate(fileData.dates.created))
 segments.push("Modified: " + formatDate(fileData.dates.modified))
