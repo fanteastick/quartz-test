@@ -1,6 +1,6 @@
 ---
 date created: 2024-06-06T22:54
-date modified: 2024-07-10T00:43
+date modified: 2024-07-11T00:15
 ---
 
 These are all the things that I changed in my Quartz setup, and approximately where in the code they were changed.
@@ -12,6 +12,135 @@ All changes made by me: [Commits · fanteastick/quartz-test · GitHub](https://g
 Misc things to remember:
 
 - attachment folders won't show up if there's no `.md` files in them. 
+
+## Return to home button on folder and tag pages
+
+```tsx title="FolderContent.tsx"
++// If baseUrl contains a pathname after the domain, use this as the home link
++const url = new URL(`https://${cfg.baseUrl ?? "example.com"}`)
++const baseDir = url.pathname
+
+return (
+  <div class={classes}>
+	<article>{content}</article>
+	<div class="page-listing">
+	  {options.showFolderCount && (
+		<p>
+		  {i18n(cfg.locale).pages.folderContent.itemsUnderFolder({
+			count: allPagesInFolder.length,
+		  })}
+		</p>
+	  )}
+	  <div>
+		<PageList {...listProps} />
+	  </div>
+	</div>
++	<a href={baseDir}>{i18n(cfg.locale).pages.error.home}</a>
++	<hr />
+  </div>
+```
+
+And in `en-US.ts` I changed the `pages:error:home` to `home: "🏡 Return to Homepage",`
+
+## OnlyFor component and in layout
+
+Code copied from: [File not found · GitHub](https://github.com/t-schreibs/sound-accumulator/blob/main/quartz%2Fcomponents%2FOnlyFor.tsx) 
+
+```tsx title="OnlyFor.tsx"
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+
+interface OnlyForOptions {
+  /**
+   * The title to look for
+   */
+  title: string
+}
+
+export default ((opts?: Partial<OnlyForOptions>, component?: QuartzComponent) => {
+  if (component) {
+    const Component = component
+    function OnlyFor(props: QuartzComponentProps) {
+      return props.fileData.frontmatter?.title === opts?.title ? 
+        <Component {...props} /> :
+        <></>;
+    }
+
+    OnlyFor.displayName = component.displayName
+    OnlyFor.afterDOMLoaded = component.afterDOMLoaded
+    OnlyFor.beforeDOMLoaded = component.beforeDOMLoaded
+    OnlyFor.css = component.css
+    return OnlyFor
+  } else {
+    return () => <></>
+  }
+}) satisfies QuartzComponentConstructor
+```
+
+And then in the layout file the syntax is: 
+
+```ts title="quartz.layout.ts"
+afterBody: [
+  Component.OnlyFor(
+    { title: "Eilleen's (online!) Everything Notebook" },
+    Component.RecentNotes({ showTags: false, title: "Recently edited notes:", showDate: true })
+  ), 
+  // Component.OnlyFor(
+  //   {title: "Eilleen's (online!) Everything Notebook" }, 
+  //   Component.MobileOnly(Component.Backlinks())
+  // ) this part is to show example of a second component working w backlinks too
+],
+```
+
+## Changing `RecentNotes` component
+
+- used `OnlyFor` to only put it on `afterBody` on the index homepage (see above)
+- rounded corners and a dotted border
+```scss title="recentNotes.scss"
+  border: 2px dotted rgba(191,201,176, 0.50); /* 2px width, dotted style, color same as highlight */
+  border-radius: 10px; /* Rounded corners, adjust value as needed */
+  padding: 20px; /* Optional padding to demonstrate the effect */
+```
+
+- conditional date display, date reduced opacity + on the same row, decreasing size of the links
+```tsx title="RecentNotes.tsx"
+<div class="desc">
+{/* Changed heading size of each link 3->4 on 7/10/24 */}
+<h4>
+  ✿ <a href={resolveRelative(fileData.slug!, page.slug!)} class="internal">
+	{title}
+  </a>
+  {/* Changed showdate to optional + same row + faded a bit 7/10/24 */}
+  {opts.showDate && page.dates && (
+	<span style="opacity: 0.4"> ₊⊹⊹₊ <Date date={getDate(cfg, page)!} locale={cfg.locale} /></span>
+  )}
+</h4>
+</div>
+{opts.showTags && (
+<ul class="tags">
+  {tags.map((tag) => (
+	<li>
+	  <a
+		class="internal tag-link"
+		href={resolveRelative(fileData.slug!, `tags/${tag}` as FullSlug)}
+>
+		{tag}
+	  </a>
+	</li>
+  ))}
+</ul>
+)}
+```
+
+## Putting a conditional hr based on slug
+
+Add this to the correct part of the component:
+
+```tsx
+{fileData.slug === "index" && <hr />}
+```
+## Customizing the 404 page
+
+Added an ASCII art snake with a text bubble. Annoying to do because the code in `404.tsx` is wrapped around `<article>` tags, which then makes whitespaces not really work. Did it by putting my code block into my index, looking at the generated html for the snake code block, and copying it into the `components/404.tsx` file. Then I used `<br>` and made everything one line to preserve the leading whitespaces.
 
 ## Making a second table of contents component
 

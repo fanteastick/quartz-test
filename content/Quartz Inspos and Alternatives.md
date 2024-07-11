@@ -1,6 +1,6 @@
 ---
 date created: 2024-07-09T02:02
-date modified: 2024-07-10T19:21
+date modified: 2024-07-10T21:24
 ---
 ## Quartz snippets that could be used 
 
@@ -42,7 +42,7 @@ Basically the index.md in the main content folder is blank except for title, and
 
 [Discord](https://discordapp.com/channels/927628110009098281/1211952698673602580) --> the forum thread
 
-### Conditional footer elements
+### Conditional footer elements - 
 
 sjgknight — 05/19/2024 5:31 PM
 
@@ -98,7 +98,7 @@ const fund = opts?.funding ?? []
 </p>
 ```
 
-### Simpler option for conditional elements
+### Simpler option for conditional elements - for not rendering on certain slugs
 
 Simen _—_ 03/16/2024 4:34 AM
 
@@ -142,7 +142,7 @@ From nara on discord.
 
 - also a good example of a transformer plugin
 
-### Also nara: sticky notes 
+### Sticky notes 
 
 [feat: add transformer to add dragable sticky notes (no css) · jackyzha0/quartz@d993faf · GitHub](https://github.com/jackyzha0/quartz/commit/d993fafcbd0062458f3ae6158d607e4f513303d5)
 

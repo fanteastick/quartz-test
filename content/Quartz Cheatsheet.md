@@ -1,6 +1,6 @@
 ---
 date created: 2024-06-06T22:54
-date modified: 2024-07-09T16:06
+date modified: 2024-07-11T00:03
 ---
 ## For copy-pasting
 ```
@@ -41,6 +41,14 @@ To add only `content`:
 git add content
 ```
 ## Merge changes from upstream
+
+TLDR:
+
+```
+git fetch upstream
+git checkout v4
+git merge upstream/v4
+```
 
 h/t [git - How can I merge changes from an upstream branch to my fork's branch - Stack Overflow](https://stackoverflow.com/questions/52981111/how-can-i-merge-changes-from-an-upstream-branch-to-my-forks-branch)
 
@@ -94,3 +102,7 @@ Doesn't work because the functions like this:
 function setupExplorer() {
   const explorer = document.getElementById("explorer")
 ```
+
+So there are two elements with the same ID "explorer" which is NOT ok. 
+
+Similar issue for graphs, except the problem is more with the button to see the full graph view. Oh well. 
