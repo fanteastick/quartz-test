@@ -5,7 +5,16 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+  Component.OnlyFor(
+    { title: "Eilleen's (online!) Everything Notebook" },
+    Component.RecentNotes({ showTags: false, title: "Recently edited notes:", showDate: true })
+  ), 
+  // Component.OnlyFor(
+  //   {title: "Eilleen's (online!) Everything Notebook" }, 
+  //   Component.MobileOnly(Component.Backlinks())
+  // )
+],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/fanteastick/quartz-test",
@@ -61,7 +70,8 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     // Component.Darkmode(),
+  ],
+  right: [
     Component.DesktopOnly(Component.Explorer()),
   ],
-  right: [],
 }

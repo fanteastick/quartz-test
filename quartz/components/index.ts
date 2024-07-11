@@ -21,6 +21,7 @@ import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import GithubSource from "./GithubSource"
+import OnlyFor from "./_OnlyFor"
 
 
 export {
@@ -47,4 +48,5 @@ export {
   NotFound,
   Breadcrumbs,
   GithubSource,
+  OnlyFor,
 }
