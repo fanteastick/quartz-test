@@ -16,3 +16,12 @@
         }
     }
 }
+
+.external-icon {
+    height: 1ex;
+    margin: 0 0.15em;
+
+    > path {
+      fill: var(--dark);
+    }
+}
