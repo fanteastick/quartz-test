@@ -2,16 +2,16 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 
 interface OnlyForOptions {
   /**
-   * The title to look for
+   * The titles to look for
    */
-  title: string
+  titles: string[];
 }
 
 export default ((opts?: Partial<OnlyForOptions>, component?: QuartzComponent) => {
   if (component) {
     const Component = component
     function OnlyFor(props: QuartzComponentProps) {
-      return props.fileData.frontmatter?.title === opts?.title ? 
+      return opts?.titles?.some(title => props.fileData.frontmatter?.title === title) ? 
         <Component {...props} /> :
         <></>;
     }

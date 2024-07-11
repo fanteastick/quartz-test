@@ -7,9 +7,14 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   afterBody: [
   Component.OnlyFor(
-    { title: "Eilleen's (online!) Everything Notebook" },
-    Component.RecentNotes({ showTags: false, title: "Recently edited notes:", showDate: true })
+    { titles: ["Eilleen's (online!) Everything Notebook"] },
+    Component.RecentNotes(
+      { showTags: false, title: "Recently edited notes:", showDate: true }
+    )
   ), 
+  Component.OnlyFor(
+    { titles: ["Eilleen's (online!) Everything Notebook"] }, 
+    Component.Graph())
 ],
   footer: Component.Footer({
     links: {
@@ -18,7 +23,7 @@ export const sharedPageComponents: SharedLayout = {
   }),
 }
 
-// components for pages that display a single page (e.g. a single note)
+// components for pages that display a single page (e.g. a single note) 
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.Breadcrumbs(),
@@ -37,7 +42,10 @@ export const defaultContentPageLayout: PageLayout = {
     // Component.Darkmode(),
   ],
   right: [
-    Component.DesktopOnly(Component.Graph()),
+    Component.NotFor( 
+      {titles: ["Eilleen's (online!) Everything Notebook"]}, 
+      Component.DesktopOnly(Component.Graph())
+    ),
     Component.Explorer(),
     Component.MobileOnly(Component.Backlinks()),
     Component.MobileOnly(Component.GithubSource()),

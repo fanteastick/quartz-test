@@ -3,7 +3,7 @@ import { FullSlug, SimpleSlug, resolveRelative } from "../util/path"
 import { QuartzPluginData } from "../plugins/vfile"
 import { byDateAndAlphabetical } from "./PageList"
 import style from "./styles/recentNotes.scss"
-import { Date, getDate } from "./Date"
+import { Date, getDate, formatDate } from "./Date"
 import { GlobalConfiguration } from "../cfg"
 import { i18n } from "../i18n"
 import { classNames } from "../util/lang"
@@ -57,6 +57,7 @@ export default ((userOpts?: Partial<Options>) => {
                       {/* Changed showdate to optional + same row + faded a bit 7/10/24 */}
                       {opts.showDate && page.dates && (
                         <span style="opacity: 0.4"> ₊⊹⊹₊ <Date date={getDate(cfg, page)!} locale={cfg.locale} /></span>
+                        // <span style="opacity: 0.4">{" ₊⊹⊹₊ " + formatDate(page.dates.modified)}</span>
                       )}
                     </h4>
                   </div>

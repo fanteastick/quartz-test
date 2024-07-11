@@ -1,6 +1,7 @@
 @use "../../styles/variables.scss" as *;
 
 .graph {
+  padding-top: 10px;
   & > h3 {
     font-size: 1rem;
     margin: 0;

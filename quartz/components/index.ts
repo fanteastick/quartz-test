@@ -22,6 +22,7 @@ import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import GithubSource from "./GithubSource"
 import OnlyFor from "./_OnlyFor"
+import NotFor from "./_NotFor"
 
 
 export {
@@ -49,4 +50,5 @@ export {
   Breadcrumbs,
   GithubSource,
   OnlyFor,
+  NotFor,
 }
