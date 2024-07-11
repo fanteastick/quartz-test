@@ -1,6 +1,6 @@
 ---
 date created: 2024-05-09T14:44
-date modified: 2024-06-06T22:42
+date modified: 2024-07-09T17:46
 ---
 
 First 2-3 months
@@ -26,3 +26,8 @@ Month 6:
 - Debating whether to move out
 - weather is good, step counting challenge and running with friends
 - A schedule and acceptance
+
+Month 7: 
+
+- I LOVE SUMMER!
+- Fixin' up the websites and online presence

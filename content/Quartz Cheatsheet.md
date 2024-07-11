@@ -1,7 +1,13 @@
 ---
 date created: 2024-06-06T22:54
-date modified: 2024-07-03T00:02
+date modified: 2024-07-09T16:06
 ---
+## For copy-pasting
+```
+git add content*; git status
+git commit -m "Content update"; git push
+```
+
 ## Sync content changes
 
 `git pull`
@@ -77,3 +83,14 @@ git merge upstream/master
 `npx quartz build --serve`
 
 Only does a hard reload when certain files change, like `quartz.layout.ts`. 
+
+## The reason why 2 explorers or 2 toc's doesn't work
+
+First off, putting it in mobile-only and desktop-only is still instantiating it twice, it just has size 0 when in the corresponding layout. 
+
+Doesn't work because the functions like this:
+
+```ts title='explorer.inline.ts'
+function setupExplorer() {
+  const explorer = document.getElementById("explorer")
+```

@@ -1,9 +1,58 @@
 ---
 date created: 2024-06-06T22:54
-date modified: 2024-07-05T13:24
+date modified: 2024-07-10T00:43
 ---
 
 These are all the things that I changed in my Quartz setup, and approximately where in the code they were changed.
+
+Github repo: [GitHub - fanteastick/quartz-test: Personal website built with Quartz](https://github.com/fanteastick/quartz-test)
+
+All changes made by me: [Commits · fanteastick/quartz-test · GitHub](https://github.com/fanteastick/quartz-test/commits?author=fanteastick) 
+
+Misc things to remember:
+
+- attachment folders won't show up if there's no `.md` files in them. 
+
+## Making a second table of contents component
+
+Probably bad code practice but I wanted to fix the issue where table of contents wouldn't fold down in mobileonly mode. 
+
+Add to transformers: 
+
+```ts title="plugins/transformers/index.ts"
+ export { TableOfContents } from "./toc" // original
++export { TableOfContents2 } from "./toc2" // new
+```
+
+Add to components:
+
+```ts title="plugins/components/index.ts"
+ import TableOfContents from "./TableOfContents"
++import TableOfContents2 from "./TableOfContents2"
+
+ export {
+...
+   TableOfContents,
++  TableOfContents2,
+```
+
+Add to layout: 
+
+```ts title="quartz.layout.ts"
+left: [
+...
+-    Component.DesktopOnly(Component.TableOfContents()),
++    Component.DesktopOnly(Component.TableOfContents2()),
+```
+
+Create the new component file, and remove button and svg in the component: (this is what the code looks like after removing all the things)
+
+```tsx title="TableOfContents2.tsx"
+  return (
+    <div class={classNames(displayClass, "toc")}>
+        <h3>{i18n(cfg.locale).components.tableOfContents.title}</h3>
+      <div id="toc-content">
+```
 
 ## Underline external links in page bodies
 
@@ -174,7 +223,10 @@ I also added a link to the git blame because I like the blame view better than t
 
 Had to change it to this: `${fileData.filePath!}`
 
-- Took forever to find that! Thankful that a repo-wide search bar exists.
+Using external service [Git History](https://githistory.xyz/) for history because it's a very nice view. So I turned that part into an external link by adding the class, manually adding the svg, manually adding the svg class to the githubsource scss.
+
+- [quartz-test/quartz/components/GithubSource.tsx at v4 · fanteastick/quartz-test · GitHub](https://github.com/fanteastick/quartz-test/blob/v4/quartz/components/GithubSource.tsx) 
+- [quartz-test/quartz/components/styles/githubSource.scss at v4 · fanteastick/quartz-test · GitHub](https://github.com/fanteastick/quartz-test/blob/v4/quartz/components/styles/githubSource.scss) 
 
 ## Clicking on the folder name opens the folder page
 ```tsx title="Explorer.tsx"
@@ -218,10 +270,11 @@ grid-template-columns: 7em 3fr 1fr;
 // original: 6em
 ```
 
-## Changed favicon by the image path
+## Changed favicon by the image path, also the banner
 
 ```tsx title="Head.tsx"
     const iconPath = joinSegments(baseDir, "static/icon2.png")
+	const ogImagePath = `https://${cfg.baseUrl}/static/hello-there-banner.png`
 ```
 
 ## Changed the site title

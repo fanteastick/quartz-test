@@ -1,12 +1,13 @@
 ---
 date created: 2024-06-10T09:37
-date modified: 2024-06-10T15:06
+date modified: 2024-07-09T02:00
 ---
+
 Source: [Dataview in Obsidian: A Beginner's Guide - Obsidian Rocks](https://obsidian.rocks/dataview-in-obsidian-a-beginners-guide/) 
 
-Accessed 2024-06-10(09:39)
+Accessed 2024-06-10 (09:39am)
 
-Hot-reload checker!!
+Not included in the table: if you want to reference a custom file property, you can use the name with spaces replaced with `-`. For example, do `LIST date-created` if the property is "date created".
 
 | Field Name         | Data Type      | Description                                                                                                                                                                     |
 | :----------------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

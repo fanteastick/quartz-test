@@ -1,6 +1,7 @@
 ---
 date created: 2024-06-10T08:51
-date modified: 2024-06-10T09:34
+date modified: 2024-07-09T17:10
+title: book club
 ---
 
 Joined a little book club/discussion group amongst friends :) Excited to read with accountability. 
