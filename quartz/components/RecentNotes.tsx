@@ -39,7 +39,28 @@ export default ((userOpts?: Partial<Options>) => {
     const remaining = Math.max(0, pages.length - opts.limit)
     return (
       <div class={classNames(displayClass, "recent-notes")}>
-        <h3>{opts.title ?? i18n(cfg.locale).components.recentNotes.title}</h3>
+        <h3>{opts.title ?? i18n(cfg.locale).components.recentNotes.title} 
+          <span class="see-more">
+            <span class="see-more">  </span>
+            <a href="https://github.com/fanteastick/quartz-test/commits/v4/content?author=fanteastick" class="external">see more</a>
+            <svg 
+              class="external-icon"
+              viewBox= "0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              fill="currentColor"
+              xmlSpace="preserve"
+            >
+              <path 
+                d= "M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"
+              />
+            </svg>
+          </span>
+          
+        </h3>
+        
         <ul class="recent-ul">
           {pages.slice(0, opts.limit).map((page) => {
             const title = page.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title
@@ -56,7 +77,7 @@ export default ((userOpts?: Partial<Options>) => {
                       </a>
                       {/* Changed showdate to optional + same row + faded a bit 7/10/24 */}
                       {opts.showDate && page.dates && (
-                        <span style="opacity: 0.4"> ₊⊹⊹₊ <Date date={getDate(cfg, page)!} locale={cfg.locale} /></span>
+                        <span class="see-more"> ₊⊹⊹₊ <Date date={getDate(cfg, page)!} locale={cfg.locale} /></span>
                         // <span style="opacity: 0.4">{" ₊⊹⊹₊ " + formatDate(page.dates.modified)}</span>
                       )}
                     </h4>

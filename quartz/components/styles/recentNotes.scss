@@ -28,3 +28,17 @@
   padding: 20px; /* Optional padding to demonstrate the effect */
 
 }
+.see-more{
+  font-size: 0.85rem;
+  opacity: 0.5;
+  white-space: pre;
+}
+
+.external-icon {
+  height: 1ex;
+  margin: 0 0.15em;
+
+  > path {
+    fill: var(--dark);
+  }
+}
