@@ -16,7 +16,7 @@ const GiscusComments: QuartzComponent = ({
   return (
     <div class={classNames(displayClass)} id="giscus-container">
       <h3>Guestbook 📗</h3>
-      <small style="opacity:0.6">~You might need to refresh the page~</small>
+      <small style="opacity:0.6">(You might need to refresh the page)</small>
       <script src="https://giscus.app/client.js"
         data-repo="fanteastick/quartz-test"
         data-repo-id="R_kgDOMVIwGw" // TO ANYONE WHO MIGHT BE COPYING THIS CODE

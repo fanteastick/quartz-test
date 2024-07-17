@@ -9,13 +9,9 @@ const ScrollToTop: QuartzComponent = ({ displayClass, fileData }: QuartzComponen
 return (
   <div class={classNames(displayClass, "scroll-to-top")}>
     {/* <h3>Source code</h3> */}
-    <ul>
-      <li>
         <a href="#">
-          Scroll to top
-        </a>  
-      </li>
-    </ul>
+          Scroll to top ↑
+        </a>
   </div>
 )
 }
