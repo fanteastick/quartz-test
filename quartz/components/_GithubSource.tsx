@@ -1,5 +1,5 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import style from "./styles/githubSource.scss"
+import style from "./styles/_githubSource.scss"
 
 // @ts-ignore
 import { classNames } from "../util/lang"

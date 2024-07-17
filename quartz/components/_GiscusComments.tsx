@@ -12,15 +12,17 @@ const GiscusComments: QuartzComponent = ({
   displayClass,
   cfg,
 }: QuartzComponentProps) => {
+
   return (
     <div class={classNames(displayClass)} id="giscus-container">
       <h3>Guestbook 📗</h3>
+      <small style="opacity:0.6">~You might need to refresh the page~</small>
       <script src="https://giscus.app/client.js"
         data-repo="fanteastick/quartz-test"
-        data-repo-id="R_kgDOMVIwGw"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOMVIwG84Cguqi"
-        data-mapping="specific"
+        data-repo-id="R_kgDOMVIwGw" // TO ANYONE WHO MIGHT BE COPYING THIS CODE
+        data-category="Announcements" // Please don't copy it, these are keys for my own repo :)
+        data-category-id="DIC_kwDOMVIwG84Cguqi" // the comments will go to MY discussion
+        data-mapping="specific" // you can setup giscus for yourself! https://giscus.app
         data-term="Guestbook"
         data-strict="0"
         data-reactions-enabled="0"

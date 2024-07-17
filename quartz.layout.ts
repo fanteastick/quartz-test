@@ -44,7 +44,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.TableOfContents2()),
     Component.DesktopOnly(Component.GithubSource()),
     Component.DesktopOnly(Component.Backlinks()),
-    // Component.Darkmode(),
   ],
   right: [
     Component.NotFor( 
@@ -52,11 +51,13 @@ export const defaultContentPageLayout: PageLayout = {
       Component.DesktopOnly(Component.Graph())
     ),
     Component.Explorer(),
-    Component.MobileOnly(Component.Backlinks()),
-    Component.MobileOnly(Component.GithubSource()),
+    Component.MobileOnly(Component.ComponentGroup([
+      Component.Backlinks(),
+      Component.GithubSource(),
+      Component.ScrollToTop()
+    ])),
   ],
 }
-
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle()],
@@ -64,7 +65,6 @@ export const defaultListPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
-    // Component.Darkmode(),
   ],
   right: [
     Component.DesktopOnly(Component.Explorer()),

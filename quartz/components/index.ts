@@ -9,7 +9,7 @@ import PageTitle from "./PageTitle"
 import ContentMeta from "./ContentMeta"
 import Spacer from "./Spacer"
 import TableOfContents from "./TableOfContents"
-import TableOfContents2 from "./TableOfContents2"
+import TableOfContents2 from "./_TableOfContents2"
 import Explorer from "./Explorer"
 import TagList from "./TagList"
 import Graph from "./Graph"
@@ -20,10 +20,12 @@ import DesktopOnly from "./DesktopOnly"
 import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
-import GithubSource from "./GithubSource"
+import GithubSource from "./_GithubSource"
 import OnlyFor from "./_OnlyFor"
 import NotFor from "./_NotFor"
 import GiscusComments from "./_GiscusComments"
+import ScrollToTop from "./_ScrollToTop"
+import ComponentGroup from "./_ComponentGroup"
 
 
 export {
@@ -52,5 +54,7 @@ export {
   GithubSource,
   OnlyFor,
   NotFor,
-  GiscusComments
+  GiscusComments,
+  ScrollToTop,
+  ComponentGroup
 }
