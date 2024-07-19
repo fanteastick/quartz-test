@@ -27,6 +27,8 @@ import GiscusComments from "./_GiscusComments"
 import ScrollToTop from "./_ScrollToTop"
 import ComponentGroup from "./_ComponentGroup"
 import RandomPageButton from "./_RandomPageButton"
+import Column from "./_Column"
+import Row from "./_Row"
 
 
 export {
@@ -58,5 +60,7 @@ export {
   GiscusComments,
   ScrollToTop,
   ComponentGroup,
-  RandomPageButton
+  RandomPageButton,
+  Column,
+  Row
 }

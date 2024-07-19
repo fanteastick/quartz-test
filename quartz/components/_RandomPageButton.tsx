@@ -8,7 +8,7 @@ const RandomPageButton: QuartzComponent = ({ displayClass, fileData }: QuartzCom
     return (
         <div id="random-page-button" class={classNames(displayClass,  "random-page")}>
             {/* <ul>
-                <li>
+                <li> */}
                 <svg y="0px" x="0px" viewBox="0 0 316 316">
                     <title>Random page</title>
                     <g>
@@ -21,10 +21,10 @@ const RandomPageButton: QuartzComponent = ({ displayClass, fileData }: QuartzCom
                         <ellipse class="random-page-ellipse" ry="20" rx="20" cy="158" cx="108" />
                     </g>
                 </svg>
-                </li>
+                {/* </li>
             </ul> */}
             
-            <h3>Go to a random page 🎲</h3>
+            {/* <h3>Go to a random page 🎲</h3> */}
         </div>
     )
 }
