@@ -43,3 +43,27 @@ document.addEventListener("nav", () => {
   const headers = document.querySelectorAll("h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]")
   headers.forEach((header) => observer.observe(header))
 })
+
+// TOC2
+
+function setupToc2() {
+  const toc = document.getElementById("toc2")
+  if (toc) {
+    const collapsed = toc.classList.contains("collapsed")
+    const content = toc.nextElementSibling as HTMLElement | undefined
+    if (!content) return
+    content.style.maxHeight = collapsed ? "0px" : content.scrollHeight + "px"
+    toc.addEventListener("click", toggleToc)
+    window.addCleanup(() => toc.removeEventListener("click", toggleToc))
+  }
+}
+
+window.addEventListener("resize", setupToc2)
+document.addEventListener("nav", () => {
+  setupToc2()
+
+  // update toc entry highlighting
+  observer.disconnect()
+  const headers = document.querySelectorAll("h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]")
+  headers.forEach((header) => observer.observe(header))
+})

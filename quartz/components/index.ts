@@ -26,6 +26,7 @@ import NotFor from "./_NotFor"
 import GiscusComments from "./_GiscusComments"
 import ScrollToTop from "./_ScrollToTop"
 import ComponentGroup from "./_ComponentGroup"
+import RandomPageButton from "./_RandomPageButton"
 
 
 export {
@@ -56,5 +57,6 @@ export {
   NotFor,
   GiscusComments,
   ScrollToTop,
-  ComponentGroup
+  ComponentGroup,
+  RandomPageButton
 }

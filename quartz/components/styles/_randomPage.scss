@@ -1,0 +1,40 @@
+.random-page {
+    position: relative;
+    // width: 20px;
+    // height: 20px;
+    margin: 0 10px;
+
+    &>ul {
+        list-style: none;
+        padding: 0;
+        margin: 0.5rem 0;
+    }
+  
+    > svg {
+      cursor: pointer;
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      top: calc(50% - 10px);
+    }
+
+    &:hover {
+        opacity: 0.7; /* Decrease opacity on hover */
+        cursor: pointer;
+    } 
+    &>h3 {
+        font-size: 1rem;
+        margin: 0;
+    }
+  }
+  
+  .random-page-ellipse {
+    stroke: var(--darkgray);
+    fill: var(--darkgray);
+    transition: stroke 0.5s ease;
+  }
+  
+  .random-page-square {
+    stroke: var(--darkgray);
+    transition: stroke 0.5s ease;
+  }

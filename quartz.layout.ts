@@ -1,7 +1,7 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
-// components shared across all pages 
+// components shared across all pages  
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
@@ -23,7 +23,7 @@ export const sharedPageComponents: SharedLayout = {
 ],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/fanteastick",
+      GitHub: "https://github.com/fanteastick/quartz-test",
     },
   }),
 }
@@ -42,15 +42,19 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.DesktopOnly(Component.TableOfContents2()),
-    Component.DesktopOnly(Component.GithubSource()),
     Component.DesktopOnly(Component.Backlinks()),
+    Component.DesktopOnly(
+      Component.ComponentGroup([
+        Component.GithubSource(),
+        Component.ScrollToTop(),
+      ])),
   ],
   right: [
     Component.NotFor( 
       {titles: ["Eilleen's (online!) Everything Notebook"]}, 
       Component.DesktopOnly(Component.Graph())
     ),
-    Component.Explorer(),
+    Component.Explorer(), 
     Component.MobileOnly(Component.ComponentGroup([
       Component.Backlinks(),
       Component.GithubSource(),
