@@ -58,7 +58,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.ComponentGroup([
       Component.Backlinks(),
       Component.GithubSource(),
-      Component.ScrollToTop()
+      Component.ScrollToTop(),
     ])),
   ],
 }
