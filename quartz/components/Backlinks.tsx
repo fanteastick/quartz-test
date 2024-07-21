@@ -11,7 +11,13 @@ const Backlinks: QuartzComponent = ({
   cfg,
 }: QuartzComponentProps) => {
   const slug = simplifySlug(fileData.slug!)
-  const backlinkFiles = allFiles.filter((file) => file.links?.includes(slug))
+  const backlinkFiles1 = allFiles.filter((file) => file.links?.includes(slug))
+  const backlinkFiles = backlinkFiles1.filter((file) => {
+    const hasBacklinksExcludeTag =
+      file.frontmatter?.tags?.includes("backlinks-exclude")
+    return !hasBacklinksExcludeTag;
+  });
+
   return (
     <div class={classNames(displayClass, "backlinks")}>
       <h3>{i18n(cfg.locale).components.backlinks.title}</h3>

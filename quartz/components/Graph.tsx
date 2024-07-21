@@ -37,7 +37,8 @@ const defaultOptions: GraphOptions = {
     fontSize: 0.6,
     opacityScale: 1,
     showTags: true,
-    removeTags: [],
+    removeTags: ["graph-exclude", "explorer-exclude", 
+      "backlinks-exclude", "recents-exclude"],
     focusOnHover: false,
   },
   globalGraph: {

@@ -33,7 +33,8 @@ const defaultOptions = {
       return -1
     }
   },
-  filterFn: (node) => node.name !== "tags",
+  filterFn: (node) => node.name !== "tags" &&
+  !(node.file?.frontmatter?.tags?.includes("explorer-exclude") === true), // added 7-20-24
   order: ["filter", "map", "sort"],
 } satisfies Options
 

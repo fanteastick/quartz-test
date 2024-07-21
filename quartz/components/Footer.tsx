@@ -26,7 +26,7 @@ export default ((opts?: Options) => {
             </li>
           ))}
         </ul>
-        <p></p>
+        <p></p> 
         <ul>
           <li>
             <a href="#">

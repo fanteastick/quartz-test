@@ -47,12 +47,16 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     focusOnHover,
   } = JSON.parse(graph.dataset["cfg"]!)
 
-  const data: Map<SimpleSlug, ContentDetails> = new Map(
+  const data1: Map<SimpleSlug, ContentDetails> = new Map(
     Object.entries<ContentDetails>(await fetchData).map(([k, v]) => [
       simplifySlug(k as FullSlug),
       v,
     ]),
   )
+  const data: Map<SimpleSlug, ContentDetails> = new Map(
+    [...data1.entries()].filter(([key, value]) => !key.includes("graph-exclude")),
+  )
+  // Now filteredData contains only entries where keys do not contain the above values
   const links: LinkData[] = []
   const tags: SimpleSlug[] = []
 

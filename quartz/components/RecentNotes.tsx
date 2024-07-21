@@ -42,7 +42,7 @@ export default ((userOpts?: Partial<Options>) => {
         <h3>{opts.title ?? i18n(cfg.locale).components.recentNotes.title} 
           <span class="see-more">
             <span class="see-more">  </span>
-            <a href="https://github.com/fanteastick/quartz-test/commits/v4/content?author=fanteastick" class="external">see more</a>
+            <a href="https://github.com/fanteastick/quartz-test/commits/v4/content?author=fanteastick" class="external">see history</a>
             <svg 
               class="external-icon"
               viewBox= "0 0 512 512"
@@ -62,7 +62,10 @@ export default ((userOpts?: Partial<Options>) => {
         </h3>
         
         <ul class="recent-ul">
-          {pages.slice(0, opts.limit).map((page) => {
+          {pages.slice(0, opts.limit).filter(page => {
+            // Filter out pages where a specific tag exists in frontmatter tags
+            return !fileData.frontmatter?.tags?.includes('recents-exclude');
+          }).map((page) => {
             const title = page.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title
             const tags = page.frontmatter?.tags ?? []
 
