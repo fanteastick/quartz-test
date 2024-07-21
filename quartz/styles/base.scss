@@ -513,7 +513,7 @@ ul.overflow,
 ol.overflow {
   max-height: 400;
   overflow-y: auto;
-  border-bottom: 1px dotted var(--gray); // added this 7-18-24
+  // border-bottom: 1px dotted var(--gray); // added this 7-18-24
 
   // clearfix
   content: "";
