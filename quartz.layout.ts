@@ -53,6 +53,7 @@ export const sharedPageComponents: SharedLayout = {
 ],
   footer: Component.Footer({
     links: {
+      Main: "https://www.eilleeenz.com/",
       GitHub: "https://github.com/fanteastick/quartz-test",
     },
   }),
