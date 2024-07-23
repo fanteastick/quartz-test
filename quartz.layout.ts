@@ -14,6 +14,10 @@ const graphConfig = {
     removeTags: tagsToRemove
   }
 };
+const hideGraphOnRightConfig = [homepageTitle, modifiedListTitle]
+const tagListConfig = {
+  removeTags: tagsToRemove
+}
 const explorerConfig = {
   filterFn: (node: FileNode) => node.name !== "tags" &&
   !(node.file?.frontmatter?.tags?.includes("explorer-exclude") === true)
@@ -25,12 +29,8 @@ const recentNotesConfig = {
   linkToMore: "meta/" + modifiedListTitle as SimpleSlug,
   removeTags: ["recents-exclude"]
 }
-const hideGraphOnRightConfig = [homepageTitle, modifiedListTitle]
-const tagListConfig = {
-  removeTags: tagsToRemove
-}
 const backlinksConfig = {
-  removeTags: tagsToRemove
+  removeTags: ["backlinks-exclude"]
 }
 ///////////////////////////////////////////////////
 // components shared across all pages  
