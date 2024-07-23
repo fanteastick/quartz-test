@@ -16,6 +16,7 @@ interface Options {
   showDate: boolean
   filter: (f: QuartzPluginData) => boolean
   sort: (f1: QuartzPluginData, f2: QuartzPluginData) => number
+  removeTags: string[]
 }
 
 const defaultOptions = (cfg: GlobalConfiguration): Options => ({
@@ -25,6 +26,7 @@ const defaultOptions = (cfg: GlobalConfiguration): Options => ({
   showDate: true,
   filter: () => true,
   sort: byDateAndAlphabetical(cfg),
+  removeTags: []
 })
 
 export default ((userOpts?: Partial<Options>) => {
@@ -37,6 +39,7 @@ export default ((userOpts?: Partial<Options>) => {
     const opts = { ...defaultOptions(cfg), ...userOpts }
     const pages = allFiles.filter(opts.filter).sort(opts.sort)
     const remaining = Math.max(0, pages.length - opts.limit)
+    const _excludeTags = opts.removeTags
     return (
       <div class={classNames(displayClass, "recent-notes")}>
         <h3>{opts.title ?? i18n(cfg.locale).components.recentNotes.title} 
@@ -62,10 +65,9 @@ export default ((userOpts?: Partial<Options>) => {
         </h3>
         
         <ul class="recent-ul">
-          {pages.slice(0, opts.limit).filter(page => {
-            // Filter out pages where a specific tag exists in frontmatter tags
-            return !fileData.frontmatter?.tags?.includes('recents-exclude');
-          }).map((page) => {
+          {pages.filter(page => { // added this code to first filter by tag and then slice
+            return !_excludeTags.some(tag => page.frontmatter?.tags?.includes(tag));
+          }).slice(0, opts.limit).map(page => {
             const title = page.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title
             const tags = page.frontmatter?.tags ?? []
 
