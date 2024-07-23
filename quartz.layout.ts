@@ -1,26 +1,53 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { FileNode } from "./quartz/components/ExplorerNode";
+import { SimpleSlug } from "./quartz/util/path";
+// Constants for config that are reused a lot
+const homepageTitle = "Eilleen's (online!) Everything Notebook"
+const modifiedListTitle = "All-files-chronologically-modified"
+const tagsToRemove = ["graph-exclude", "explorer-exclude", "backlinks-exclude", "recents-exclude"]
+const graphConfig = {
+  localGraph: {
+    removeTags: tagsToRemove
+  },
+  globalGraph: {
+    removeTags: tagsToRemove
+  }
+};
+const explorerConfig = {
+  filterFn: (node: FileNode) => node.name !== "tags" &&
+  !(node.file?.frontmatter?.tags?.includes("explorer-exclude") === true)
+}
+const recentNotesConfig = { 
+  showTags: false, 
+  title: "Recently edited notes:", 
+  showDate: true,
+  linkToMore: "meta/" + modifiedListTitle as SimpleSlug,
+  removeTags: ["recents-exclude"]
+}
+const hideGraphOnRightConfig = [homepageTitle, modifiedListTitle]
+const tagListConfig = {
+  removeTags: tagsToRemove
+}
+const backlinksConfig = {
+  removeTags: tagsToRemove
+}
+///////////////////////////////////////////////////
 // components shared across all pages  
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [
   Component.OnlyFor(
-    { titles: ["Eilleen's (online!) Everything Notebook"] },
-    Component.RecentNotes({ 
-      showTags: false, 
-      title: "Recently edited notes:", 
-      showDate: true,
-      linkToMore: "meta/All-files-chronologically-modified-graph-exclude"
-      // todo make the above a slug object
-    })
+    { titles: [homepageTitle] },
+    Component.RecentNotes(recentNotesConfig)
   ), 
   Component.OnlyFor(
-    { titles: ["Eilleen's (online!) Everything Notebook"] }, 
-    Component.Graph()
+    { titles: [homepageTitle] }, 
+    Component.Graph(graphConfig)
   ),
   Component.OnlyFor(
-    { titles: ["Eilleen's (online!) Everything Notebook"] }, 
+    { titles: [homepageTitle] }, 
     Component.GiscusComments()
   )
 ],
@@ -37,7 +64,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.ContentMeta(),
-    Component.TagList(),
+    Component.TagList(tagListConfig),
     Component.MobileOnly(Component.TableOfContents())
   ],
   left: [
@@ -45,17 +72,17 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.DesktopOnly(Component.TableOfContents2()),
-    Component.DesktopOnly(Component.Backlinks()),
+    Component.DesktopOnly(Component.Backlinks(backlinksConfig)),
     Component.DesktopOnly(Component.GithubSource()),
   ],
   right: [
     Component.NotFor( 
-      {titles: ["Eilleen's (online!) Everything Notebook", "All files chronologically modified"]}, 
-      Component.DesktopOnly(Component.Graph())
+      {titles: hideGraphOnRightConfig}, 
+      Component.DesktopOnly(Component.Graph(graphConfig))
     ),
-    Component.Explorer(), 
+    Component.Explorer(explorerConfig), 
     Component.MobileOnly(Component.ComponentGroup([
-      Component.Backlinks(),
+      Component.Backlinks(backlinksConfig),
       Component.GithubSource(),
     ])),
   ],
@@ -69,6 +96,6 @@ export const defaultListPageLayout: PageLayout = {
     Component.Search(),
   ],
   right: [
-    Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(Component.Explorer(explorerConfig)),
   ],
 }
