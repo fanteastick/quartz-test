@@ -1,14 +1,18 @@
 ---
 date created: 2024-07-09T02:02
-date modified: 2024-07-11T12:03
+date modified: 2024-07-23T01:10
 ---
 
 Misc ideas: 
 
 - emitter: a page with all the exploring-related things? take inspo from custom landing page. --> prob want new file to define layouts
 - transformer: add some subtitle stuff based on lastmod transformer and adding to createdmodifieddate
-- content: integrate a google doc somewhere so I can just say "this is LITERALLY what I'm doing now"
-- component: utterances blog but only on the first page and as like a guestbook
+- content: integrate a google doc somewhere so I can just say "this is LITERALLY what I'm doing now" --> alternatively just a separate site
+- feature: copy current URL to clipboard
+- feature: fix footnotes linking and jumping around
+- feature: merge in the official comments giscus widget but just don't use it
+
+Also: [[Cool other websites]]
 
 ## Quartz snippets that could be used 
 
@@ -24,11 +28,52 @@ Kirby — 02/22/2024 8:36 AM
 > 
 > if my PR gets merged, search for .quartz on any source hosting service (that's the optional naming guideline, name your repo plugin.quartz)
 
-### Giscus comments better styling etc
-
-[Add comment section, and re-add right-side formatting which was reverted · morrowind-modding/morrowind-modding.github.io@1bad00e · GitHub](https://github.com/morrowind-modding/morrowind-modding.github.io/commit/1bad00e1e8b27ee2dc85ab08dd2da5b75642f5b3)
-
 Giscus is the same as utterances but better bc newer and discussions. 
+
+## Hide the popover-hint on certain pages
+
+Classic "slug manipulation in the render page emitter". Thinking: in theory could do this tag-based by doing like frontmatter.tags.includes?
+
+```html title="renderPage.tsx"
+<div class="popover-hint">
+  { slug.includes("writings") && beforeBody.map((BodyComponent) =>
+    (<BodyComponent {...componentData} />))
+  }
+</div>
+```
+## Possible improvement to GiscusComments - the weird refreshing thing
+
+[Giscus comments are not loaded except when you refresh the page multiple times · Issue #1418 · giscus/giscus · GitHub](https://github.com/giscus/giscus/issues/1418)
+
+```html
+    <script>
+        let giscusTheme = localStorage.theme;
+        let giscusAttributes = {
+            "src": "https://giscus.app/client.js",
+            "data-repo": "[ENTER REPO HERE]",
+            "data-repo-id": "[ENTER REPO ID HERE]",
+            "data-category": "[ENTER CATEGORY NAME HERE]",
+            "data-category-id": "[ENTER CATEGORY ID HERE]",
+            "data-mapping": "pathname",
+            "data-strict": "1",
+            "data-reactions-enabled": "1",
+            "data-emit-metadata": "0",
+            "data-input-position": "bottom",
+            "data-theme": giscusTheme,
+            "data-lang": "en",
+            "data-loading": "lazy",
+            "crossorigin": "anonymous",
+            "async": ""};
+        let giscusScript = document.createElement("script");
+        Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+        document.getElementById("comments").appendChild(giscusScript);
+    </script>
+```
+## Removing the fade!! omg
+
+[quartz/quartz/styles/base.scss at b37c408985878b04f6474c473e2b98c0fec728ab · jackyzha0/quartz · GitHub](https://github.com/jackyzha0/quartz/blob/b37c408985878b04f6474c473e2b98c0fec728ab/quartz/styles/base.scss#L530)
+
+this specific line of code linked above ^^
 
 ### Tag-based explorer (!!!)
 
@@ -122,7 +167,7 @@ Simen _—_ 03/16/2024 4:34 AM
 > 
 > in `backlinks.tsx`, on line 14: as you can see the image here (edited)
 
-![[Quartz Inspos and Alternatives_image_1.png]]
+![[Quartz Snippets_image_1.png]]
 
 ### Adding an ID to components? to allow conditional filtering
 
@@ -202,16 +247,4 @@ MCMBen _—_ 03/26/2024 4:13 AM
         }
       }
 ```
-## Cool personal websites
-
-### Not digital garden-y
-
-[Bret Victor, struggling](https://worrydream.com/)
-
-- especially some of the older versions! caltech alum too
-## Other digital garden platforms
-
-[How to build a digital garden with TiddlyWiki - Ness Labs](https://nesslabs.com/digital-garden-tiddlywiki) 
-
-- as seen with [Mental Nodes](https://www.mentalnodes.com/) by Anne-Laure Le Cunff
 

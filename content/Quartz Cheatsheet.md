@@ -1,6 +1,6 @@
 ---
 date created: 2024-06-06T22:54
-date modified: 2024-07-11T00:03
+date modified: 2024-07-23T01:54
 ---
 ## For copy-pasting
 ```
@@ -26,7 +26,7 @@ If added too many and want to remove from the commit but still preserve local ch
 git reset --mixed HEAD content* (or some other regex)
 ```
 
-### Alternative: 
+### Alternative: with git reset
 
 To add anything non-`content`: 
 
@@ -92,7 +92,7 @@ git merge upstream/master
 
 Only does a hard reload when certain files change, like `quartz.layout.ts`. 
 
-## The reason why 2 explorers or 2 toc's doesn't work
+## The reason why 2x components w a script doesn't work
 
 First off, putting it in mobile-only and desktop-only is still instantiating it twice, it just has size 0 when in the corresponding layout. 
 
@@ -106,3 +106,7 @@ function setupExplorer() {
 So there are two elements with the same ID "explorer" which is NOT ok. 
 
 Similar issue for graphs, except the problem is more with the button to see the full graph view. Oh well. 
+
+## Hiding tags from various components
+
+![[Hiding tags from various components#Summary]]

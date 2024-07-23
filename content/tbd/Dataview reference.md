@@ -1,7 +1,21 @@
 ---
 date created: 2024-06-10T09:37
-date modified: 2024-07-09T02:00
+date modified: 2024-07-23T01:07
 ---
+
+## My own notes
+
+Calling a custom frontmatter property: just do the kebab-case version of the name. e.g. "date modified" becomes `date-modified`. 
+
+Excluding a tag: do a `FROM -#tag`
+
+### Date format
+
+Dataview uses [Luxon tokens](https://moment.github.io/luxon/#/formatting?id=table-of-tokens) for formatting. 
+
+Use this by doing something like `dateformat(date-modified, MMM d, yyyy) as Modified`
+
+## File properties
 
 Source: [Dataview in Obsidian: A Beginner's Guide - Obsidian Rocks](https://obsidian.rocks/dataview-in-obsidian-a-beginners-guide/) 
 

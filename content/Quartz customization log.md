@@ -1,6 +1,8 @@
 ---
 date created: 2024-06-06T22:54
-date modified: 2024-07-11T10:26
+date modified: 2024-07-23T02:18
+tags:
+  - recents-exclude
 ---
 
 These are all the things that I changed in my Quartz setup, and approximately where in the code they were changed.
@@ -12,6 +14,194 @@ All changes made by me: [Commits · fanteastick/quartz-test · GitHub](https://g
 Misc things to remember:
 
 - attachment folders won't show up if there's no `.md` files in them. 
+
+## Removed mermaid graphs
+
+Commented out something in the config. 
+
+```ts title="ofm.ts"
+const defaultOptions: Options = {
+...
+  mermaid: false, // disabled mermaid diagrams 7-18-24
+```
+
+## Hide tags from graph and explorer and backlinks and more
+
+![[Hiding tags from various components#Summary]]
+
+## Disable popovers on a certain slug (not used)
+
+todo later - change to disable on filedata.frontmatter.tag.includes(x)
+
+```tsx title="renderPage.tsx"
+<div class="popover-hint">
+  {!slug.includes("All files chronologically modified") && beforeBody.map((BodyComponent) => (
+	<BodyComponent {...componentData} />
+  ))}
+</div>
+```
+
+## Overflow lists styling
+```scss title="base.scss"
+ul.overflow,
+ol.overflow {
+  max-height: 400;
+  overflow-y: auto;
+
+  // clearfix
+  content: "";
+  clear: both;
+
+  & > li:last-of-type {
++   margin-bottom: 10px; // changed this from 30px 7-19-24 bc it was too thick
+  }
+
+  &:after {
+    pointer-events: none;
+    content: "";
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+-   // background: linear-gradient(transparent 0px, var(--light));
+  }
+}
+```
+
+### Related: reducing backlinks and toc margin
+```scss title="backlinks.scss"
+  & > ul {
+    list-style: none;
+    padding: 0;
+    // margin: 0.5rem 0; removed this
+```
+
+```scss title="toc.scss"
+  & ul {
+    list-style: none;
+    // margin: 0.5rem 0;
+```
+## Scroll to Top + random page
+
+Scroll to top is very simple, just an `<a href="#">` put into a component + styling. 
+
+Weird hacky check that I ended up not using: 
+
+```tsx title="ScrollToTop.tsx"
+      {/* check displayclass exist, check value, render */}
+      {displayClass && !displayClass.includes('mobile-only') && (
+      <li>
+        <a id="random-page-button-mobile">
+        Random Page 🎲
+        </a>
+      </li>
+      )}
+      {displayClass && !displayClass.includes('desktop-only') && (
+      <li>
+        <a id="random-page-button-desktop">
+        Random Page 🎲
+        </a>
+      </li>
+      )}
+```
+
+Ended up shoving everything in the `Footer.tsx` component. Turns out the spacing gets weird so you need to add a blank `<p>` to put the second `<ul>` in a new row. 
+
+### Random page
+
+Code is from these links: thanks t-schreibs
+
+- [RandomPageButton.tsx](https://github.com/t-schreibs/sound-accumulator/blob/497adf732f8260e0f936a6a4cb9d619febf6bef1/quartz/components/RandomPageButton.tsx)
+- [randomPage.scss](https://github.com/t-schreibs/sound-accumulator/blob/497adf732f8260e0f936a6a4cb9d619febf6bef1/quartz/components/styles/randomPage.scss)
+- [randomPage.inline.ts](https://github.com/t-schreibs/sound-accumulator/blob/497adf732f8260e0f936a6a4cb9d619febf6bef1/quartz/components/scripts/randomPage.inline.ts)
+
+I didn't like the button so I just made it an h3 with the same styling as my GithubSource component. Also added a `cursor: pointer;` on hover.
+
+Also added a part where it avoids giving you the same page as the current. 
+
+2024-07-21 update - ended up adding this to the footer component. 
+
+## ComponentGroup
+
+Works great with simple components but does NOT work well with TOC, explorer...
+
+```tsx title="ComponentGroup.tsx"
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+
+export default ((components?: QuartzComponent[]) => {
+    if (components) {
+
+        const Components: QuartzComponent = (props: QuartzComponentProps) => {
+            return <div class="component-group">
+                {components.map((c, i) => {
+                    const Component = c;
+                    return <Component {...props} />
+                })}
+            </div>
+        }
+        Components.css             = components.map((c, _) => c.css).join("\n");
+        Components.afterDOMLoaded  = components.map((c, _) => c.afterDOMLoaded).join("\n");
+        Components.beforeDOMLoaded = components.map((c, _) => c.beforeDOMLoaded).join("\n");
+
+        return Components
+    } else {
+        return () => <></>
+    }
+}) satisfies QuartzComponentConstructor
+
+// Copied from https://github.com/Naraenda/quartz-ascone/commit/fc70036371523ddb78b6eee895e374ab73d28519#diff-03e64821c7ee39078af3ee5bdd6f2a0765a9bae0b96160e662f275ef7ac7d0cc
+```
+
+Very useful and works exactly as I had hoped.
+
+## Giscus Comments
+
+Slightly based on code from [morrowind-modding/morrowind-modding.github.io@1bad00e · GitHub](https://github.com/morrowind-modding/morrowind-modding.github.io/commit/1bad00e1e8b27ee2dc85ab08dd2da5b75642f5b3). There's a script that I tried adding too but it wasn't fully working for me, but it should prevent case where the comments don't show up when clicking the homepage. Also consider - put the ID names in some sort of git secret stuff so other people copy-pasting code won't accidentally crosspost to my discussions. 
+
+```tsx title="GiscusComments.tsx"
+// @ts-ignore: this is safe, we don't want to actually make darkmode.inline.ts a module as
+// modules are automatically deferred and we don't want that to happen for critical beforeDOMLoads
+// see: https://v8.dev/features/modules#defer
+import giscuscommentsscript from "./scripts/_giscuscomments.inline"
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import { classNames } from "../util/lang"
+
+const GiscusComments: QuartzComponent = ({
+  fileData,
+  allFiles,
+  displayClass,
+  cfg,
+}: QuartzComponentProps) => {
+  return (
+    <div class={classNames(displayClass)} id="giscus-container">
+      <h3>Guestbook 📗</h3>
+      <script src="https://giscus.app/client.js"
+        data-repo="fanteastick/quartz-test"
+        data-repo-id="[your id here]"
+        data-category="Announcements"
+        data-category-id="[your id here]"
+        data-mapping="specific"
+        data-term="Guestbook"
+        data-strict="0"
+        data-reactions-enabled="0"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="light_protanopia"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+      </script>
+    </div>
+  )
+}
+
+// GiscusComments.beforeDOMLoaded = giscuscommentsscript not really working
+export default (() => GiscusComments) satisfies QuartzComponentConstructor
+```
 
 ## GetDate gives the modified date rather than created
 
@@ -105,13 +295,51 @@ Same code as above but reversing the checker.
 ## Changing `RecentNotes` - OnlyFor, rounded border, conditional date
 
 - used `OnlyFor` to only put it on `afterBody` on the index homepage (see above)
-- rounded corners and a dotted border
+- rounded corners and a dotted border, external icon, see-more
 ```scss title="recentNotes.scss"
   border: 2px dotted rgba(191,201,176, 0.50); /* 2px width, dotted style, color same as highlight */
   border-radius: 10px; /* Rounded corners, adjust value as needed */
   padding: 20px; /* Optional padding to demonstrate the effect */
-```
 
+.see-more{
+  font-size: 0.85rem;
+  opacity: 0.5;
+  white-space: pre;
+}
+
+.external-icon {
+  height: 1ex;
+  margin: 0 0.15em;
+
+  > path {
+    fill: var(--dark);
+  }
+}
+
+```
+-  at the top, add svg icon, add a "see more" link
+```tsx title="RecentNotes.tsx"
+<h3>{opts.title ?? i18n(cfg.locale).components.recentNotes.title} 
+  <span class="see-more">
+	<span class="see-more">  </span>
+	<a href="https://github.com/fanteastick/quartz-test/commits/v4/content?author=fanteastick" class="external">see more</a>
+	<svg 
+	  class="external-icon"
+	  viewBox= "0 0 512 512"
+	  xmlns="http://www.w3.org/2000/svg"
+	  xmlnsXlink="http://www.w3.org/1999/xlink"
+	  x="0px"
+	  y="0px"
+	  fill="currentColor"
+	  xmlSpace="preserve"
+>
+	  <path 
+		d= "M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"
+	  />
+	</svg>
+  </span>
+</h3>
+```
 - conditional date display, date reduced opacity + on the same row, decreasing size (`h3` to `h4`) of the links
 ```tsx title="RecentNotes.tsx"
 <div class="desc">
@@ -185,15 +413,45 @@ left: [
 +    Component.DesktopOnly(Component.TableOfContents2()),
 ```
 
-Create the new component file, and remove button and svg in the component: (this is what the code looks like after removing all the things)
+Create the new component file, and rename the button class to toc2:
 
 ```tsx title="TableOfContents2.tsx"
   return (
     <div class={classNames(displayClass, "toc")}>
-        <h3>{i18n(cfg.locale).components.tableOfContents.title}</h3>
-      <div id="toc-content">
+      <button type="button" id="toc2" class={fileData.collapseToc ? "collapsed" : ""}>
 ```
 
+In the stylesheet, add toc2 to the toc styling:
+
+```scss title="toc.scss"
+button#toc, button#toc2 {
+```
+
+In the inline script, add a toc2 section: which is just the toc script copy pasted
+
+```ts title="
+function setupToc2() {
+  const toc = document.getElementById("toc2")
+  if (toc) {
+    const collapsed = toc.classList.contains("collapsed")
+    const content = toc.nextElementSibling as HTMLElement | undefined
+    if (!content) return
+    content.style.maxHeight = collapsed ? "0px" : content.scrollHeight + "px"
+    toc.addEventListener("click", toggleToc)
+    window.addCleanup(() => toc.removeEventListener("click", toggleToc))
+  }
+}
+
+window.addEventListener("resize", setupToc2)
+document.addEventListener("nav", () => {
+  setupToc2()
+
+  // update toc entry highlighting
+  observer.disconnect()
+  const headers = document.querySelectorAll("h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]")
+  headers.forEach((header) => observer.observe(header))
+})
+```
 ## Underline external links in page bodies, and lighter
 
 Added a class to the `a` section in `base.scss`
@@ -214,7 +472,6 @@ How it works: this file below adds the class `external` to any links that are ex
 const classes = (node.properties.className ?? []) as string[]
                 const isExternal = isAbsoluteUrl(dest)
                 classes.push(isExternal ? "external" : "internal")
-
 ```
 
 ## Change the colors of the interface
@@ -407,15 +664,15 @@ segments.push("Modified: " + formatDate(fileData.dates.modified))
 ## Increase width of the date column on list pages
 
 ```scss title="listPage.scss"
-grid-template-columns: 7em 3fr 1fr;
+grid-template-columns: 8em 3fr 1fr;
 // original: 6em
 ```
 
 ## Changed favicon by the image path, also the banner
 
 ```tsx title="Head.tsx"
-    const iconPath = joinSegments(baseDir, "static/icon2.png")
-	const ogImagePath = `https://${cfg.baseUrl}/static/hello-there-banner.png`
+const iconPath = joinSegments(baseDir, "static/icon2.png")
+const ogImagePath = `https://${cfg.baseUrl}/static/hello-there-banner.png`
 ```
 
 ## Changed the site title

@@ -11,7 +11,7 @@ Throughout high school, bullet journaling was a huge trend (still is, maybe not 
 
 %% See the [documentation](https://quartz.jzhao.xyz). %%
 
-I spent too long changing things on the site, which is all written out in the [[Quartz customization log]], and I also have some more ideas for changing things ([[Quartz Inspos and Alternatives]]), but I still need a [[Quartz Cheatsheet|cheatsheet]] to remember what I'm doing.
+I spent too long changing things on the site, which is all written out in the [[Quartz customization log]], and I also have some more ideas for changing things ([[Quartz Snippets]]), but I still need a [[Quartz Cheatsheet|cheatsheet]] to remember what I'm doing.
 
 I have some [[blog ideas]] too! And I've [[Infinite boredom|been up to]] various things lately.
 
