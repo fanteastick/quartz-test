@@ -16,7 +16,7 @@ interface Options {
   showDate: boolean
   filter: (f: QuartzPluginData) => boolean
   sort: (f1: QuartzPluginData, f2: QuartzPluginData) => number
-  removeTags: string[]
+  excludeTags: string[]
 }
 
 const defaultOptions = (cfg: GlobalConfiguration): Options => ({
@@ -26,7 +26,7 @@ const defaultOptions = (cfg: GlobalConfiguration): Options => ({
   showDate: true,
   filter: () => true,
   sort: byDateAndAlphabetical(cfg),
-  removeTags: []
+  excludeTags: []
 })
 
 export default ((userOpts?: Partial<Options>) => {
@@ -39,7 +39,7 @@ export default ((userOpts?: Partial<Options>) => {
     const opts = { ...defaultOptions(cfg), ...userOpts }
     const pages = allFiles.filter(opts.filter).sort(opts.sort)
     const remaining = Math.max(0, pages.length - opts.limit)
-    const _excludeTags = opts.removeTags
+    const _excludeTags = opts.excludeTags
     return (
       <div class={classNames(displayClass, "recent-notes")}>
         <h3>{opts.title ?? i18n(cfg.locale).components.recentNotes.title} 

@@ -8,15 +8,17 @@ const modifiedListTitle = "All-files-chronologically-modified"
 const tagsToRemove = ["graph-exclude", "explorer-exclude", "backlinks-exclude", "recents-exclude"]
 const graphConfig = {
   localGraph: {
-    removeTags: tagsToRemove
+    removeTags: tagsToRemove,
+    excludeTags: ["graph-exclude"]
   },
   globalGraph: {
-    removeTags: tagsToRemove
+    removeTags: tagsToRemove,
+    excludeTags: ["graph-exclude"]
   }
 };
 const hideGraphOnRightConfig = [homepageTitle, modifiedListTitle]
 const tagListConfig = {
-  removeTags: tagsToRemove
+  excludeTags: tagsToRemove
 }
 const explorerConfig = {
   filterFn: (node: FileNode) => node.name !== "tags" &&
@@ -27,10 +29,10 @@ const recentNotesConfig = {
   title: "Recently edited notes:", 
   showDate: true,
   linkToMore: "meta/" + modifiedListTitle as SimpleSlug,
-  removeTags: ["recents-exclude"]
+  excludeTags: ["recents-exclude"]
 }
 const backlinksConfig = {
-  removeTags: ["backlinks-exclude"]
+  excludeTags: ["backlinks-exclude"]
 }
 ///////////////////////////////////////////////////
 // components shared across all pages  

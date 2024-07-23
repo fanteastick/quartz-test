@@ -4,16 +4,16 @@ import { classNames } from "../util/lang"
 import { GlobalConfiguration } from "../cfg"
 
 interface Options {
-  removeTags: string[]
+  excludeTags: string[]
 }
 const defaultOptions = (cfg: GlobalConfiguration): Options => ({
-  removeTags: []
+  excludeTags: []
 })
 
 export default ((userOpts?: Partial<Options>) => {
   const TagList: QuartzComponent = ({ fileData, displayClass, cfg }: QuartzComponentProps) => {
     const opts = { ...defaultOptions(cfg), ...userOpts }
-    const _excludeTags = opts.removeTags
+    const _excludeTags = opts.excludeTags
     const tags = fileData.frontmatter?.tags
     const baseDir = pathToRoot(fileData.slug!)
     if (tags && tags.length > 0) {

@@ -45,18 +45,21 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     removeTags,
     showTags,
     focusOnHover,
+    excludeTags,
   } = JSON.parse(graph.dataset["cfg"]!)
 
-  const data1: Map<SimpleSlug, ContentDetails> = new Map(
+  const originalData: Map<SimpleSlug, ContentDetails> = new Map(
     Object.entries<ContentDetails>(await fetchData).map(([k, v]) => [
       simplifySlug(k as FullSlug),
       v,
     ]),
   )
+  // Take out files that have the tags in excludeTags
   const data: Map<SimpleSlug, ContentDetails> = new Map(
-    [...data1.entries()].filter(([key, value]) => !key.includes("graph-exclude")),
+    [...originalData.entries()].filter(([key, value]) => {
+    return !value.tags?.some(tag => excludeTags.includes(tag))
+    })
   )
-  // Now filteredData contains only entries where keys do not contain the above values
   const links: LinkData[] = []
   const tags: SimpleSlug[] = []
 

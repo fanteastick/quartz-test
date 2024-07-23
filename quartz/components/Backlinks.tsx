@@ -6,11 +6,11 @@ import { classNames } from "../util/lang"
 import { GlobalConfiguration } from "../cfg"
 
 interface Options {
-  removeTags: string[]
+  excludeTags: string[]
 }
 
 const defaultOptions = (cfg: GlobalConfiguration): Options => ({
-  removeTags: []
+  excludeTags: []
 })
 export default ((userOpts?: Partial<Options>) => {
   const Backlinks: QuartzComponent = ({
@@ -22,7 +22,7 @@ export default ((userOpts?: Partial<Options>) => {
     const slug = simplifySlug(fileData.slug!)
     // Parse config
     const opts = { ...defaultOptions(cfg), ...userOpts }
-    const _excludeTags = opts.removeTags
+    const _excludeTags = opts.excludeTags
     // check if the file has the link, and then remove the file if it has the tags
     const unfilteredBacklinkFiles = allFiles.filter((file) => file.links?.includes(slug))
     const backlinkFiles = unfilteredBacklinkFiles.filter((file) => {
