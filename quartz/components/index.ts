@@ -29,7 +29,7 @@ import ComponentGroup from "./_ComponentGroup"
 import RandomPageButton from "./_RandomPageButton"
 import Column from "./_Column"
 import Row from "./_Row"
-
+import Comments from "./Comments"
 
 export {
   ArticleTitle,
@@ -54,13 +54,4 @@ export {
   RecentNotes,
   NotFound,
   Breadcrumbs,
-  GithubSource,
-  OnlyFor,
-  NotFor,
-  GiscusComments,
-  ScrollToTop,
-  ComponentGroup,
-  RandomPageButton,
-  Column,
-  Row
 }
