@@ -17,7 +17,6 @@ const graphConfig = {
     excludeTags: ["graph-exclude"]
   }
 };
-const hideGraphOnRightConfig = [homepageTitle, modifiedListTitle, mapTitle]
 const tagListConfig = { 
   excludeTags: tagsToRemove
 }
@@ -37,21 +36,21 @@ const backlinksConfig = {
 }
 const giscusConfig = {
   provider: "giscus",
-    options: {
-      // from data-repo
-      repo: 'fanteastick/quartz-test',
-      // from data-repo-id
-      repoId: 'R_kgDOMVIwGw',
-      // from data-category
-      category: 'Announcements',
-      // from data-category-id
-      categoryId: 'DIC_kwDOMVIwG84Cguqi',
-      mapping: "specific",
-      strict: false,
-      reactionsEnabled: false,
-      inputPosition: "top"
-  }
-}
+  options: {
+    // from data-repo
+    repo: 'fanteastick/quartz-test',
+    // from data-repo-id
+    repoId: 'R_kgDOMVIwGw',
+    // from data-category
+    category: 'Announcements',
+    // from data-category-id
+    categoryId: 'DIC_kwDOMVIwG84Cguqi',
+    mapping: "specific",
+    strict: false,
+    reactionsEnabled: false,
+    inputPosition: "top",
+    term: "Guestbook"
+}}
 ///////////////////////////////////////////////////
 // components shared across all pages  
 export const sharedPageComponents: SharedLayout = {
@@ -63,12 +62,24 @@ export const sharedPageComponents: SharedLayout = {
     Component.RecentNotes(recentNotesConfig)
   ), 
   Component.OnlyFor(
-    { titles: [homepageTitle, mapTitle] }, 
-    Component.Graph(graphConfig)
-  ),
-  Component.OnlyFor(
     { titles: [homepageTitle] }, 
-    Component.GiscusComments()
+    Component.Comments({
+      provider: "giscus",
+      options: {
+        // from data-repo
+        repo: 'fanteastick/quartz-test',
+        // from data-repo-id
+        repoId: 'R_kgDOMVIwGw',
+        // from data-category
+        category: 'Announcements',
+        // from data-category-id
+        categoryId: 'DIC_kwDOMVIwG84Cguqi',
+        mapping: "specific",
+        strict: false,
+        reactionsEnabled: false,
+        inputPosition: "top",
+        term: "Guestbook"
+    }})
   )
 ],
   footer: Component.Footer({
@@ -86,30 +97,25 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(tagListConfig),
-    Component.MobileOnly(Component.TableOfContents())
+    Component.MobileOnly(Component.TableOfContents()),
+    Component.OnlyFor({titles: [mapTitle]}, Component.Explorer(explorerConfig))
   ],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Row([
-      Component.Search(),
       Component.Map(),
       Component.Darkmode(),
+      Component.Search(),
     ]),
     Component.DesktopOnly(Component.TableOfContents2()),
-    Component.DesktopOnly(Component.Backlinks(backlinksConfig)),
-    Component.DesktopOnly(Component.GithubSource()),
   ],
   right: [
-    Component.NotFor( 
-      {titles: hideGraphOnRightConfig}, 
-      Component.DesktopOnly(Component.Graph(graphConfig))
-    ),
-    Component.Explorer(explorerConfig), 
-    Component.MobileOnly(Component.ComponentGroup([
-      Component.Backlinks(backlinksConfig),
-      Component.GithubSource(),
-    ])),
+    Component.Graph(graphConfig),
+    Component.ComponentGroup([
+        Component.Backlinks(backlinksConfig),
+        Component.GithubSource(),
+      ]),
   ],
 }
 // components for pages that display lists of pages  (e.g. tags or folders)
@@ -119,12 +125,10 @@ export const defaultListPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Row([
-      Component.Search(),
       Component.Map(),
       Component.Darkmode(),
+      Component.Search(),
     ]),
   ],
-  right: [
-    Component.DesktopOnly(Component.Explorer(explorerConfig)),
-  ],
+  right: [],
 }
