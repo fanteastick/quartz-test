@@ -23,7 +23,6 @@ import Breadcrumbs from "./Breadcrumbs"
 import GithubSource from "./_GithubSource"
 import OnlyFor from "./_OnlyFor"
 import NotFor from "./_NotFor"
-import GiscusComments from "./_GiscusComments"
 import ScrollToTop from "./_ScrollToTop"
 import ComponentGroup from "./_ComponentGroup"
 import RandomPageButton from "./_RandomPageButton"
@@ -59,7 +58,6 @@ export {
   GithubSource,
   OnlyFor,
   NotFor,
-  GiscusComments,
   ScrollToTop,
   ComponentGroup,
   RandomPageButton,

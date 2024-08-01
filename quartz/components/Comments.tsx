@@ -7,6 +7,7 @@ type Options = {
     repoId: string
     category: string
     categoryId: string
+    term: string
     mapping?: "url" | "title" | "og:title" | "specific" | "number" | "pathname"
     strict?: boolean
     reactionsEnabled?: boolean
@@ -19,7 +20,10 @@ function boolToStringBool(b: boolean): string {
 }
 
 export default ((opts: Options) => {
-  const Comments: QuartzComponent = (_props: QuartzComponentProps) => <div class="giscus"></div>
+  const Comments: QuartzComponent = (_props: QuartzComponentProps) => <div>
+    <h3>Guestbook 📗</h3>
+    <div class="giscus"></div>
+    </div>
 
   Comments.afterDOMLoaded = `
     const changeTheme = (e) => {
@@ -54,7 +58,7 @@ export default ((opts: Options) => {
       giscusScript.setAttribute("data-strict", "${boolToStringBool(opts.options.strict ?? true)}")
       giscusScript.setAttribute("data-reactions-enabled", "${boolToStringBool(opts.options.reactionsEnabled ?? true)}")
       giscusScript.setAttribute("data-input-position", "${opts.options.inputPosition ?? "bottom"}")
-
+      giscusScript.setAttribute("data-term", "${opts.options.term}")
       const theme = document.documentElement.getAttribute("saved-theme")
       giscusScript.setAttribute("data-theme", theme)
       giscusContainer.appendChild(giscusScript)
