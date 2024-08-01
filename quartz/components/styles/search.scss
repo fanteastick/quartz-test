@@ -3,7 +3,7 @@
 .search {
   min-width: fit-content;
   max-width: 14rem;
-  flex-grow: 0.3;
+  // flex-grow: 0.3;
 
   & > #search-icon {
     background-color: var(--lightgray);
@@ -14,9 +14,9 @@
     cursor: pointer;
     white-space: nowrap;
 
-    & > div {
-      flex-grow: 1;
-    }
+    // & > div {
+      // flex-grow: 1;
+    // }
 
     & > p {
       display: inline;

@@ -30,6 +30,8 @@ import RandomPageButton from "./_RandomPageButton"
 import Column from "./_Column"
 import Row from "./_Row"
 import Comments from "./Comments"
+import Map from "./_Map"
+import MiniButton from "./_MiniButton"
 
 export {
   ArticleTitle,
@@ -64,4 +66,6 @@ export {
   Column,
   Row,
   Comments,
+  Map,
+  MiniButton,
 }

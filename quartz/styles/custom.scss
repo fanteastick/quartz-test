@@ -1,3 +1,43 @@
 @use "./base.scss";
-
+@use "./variables.scss" as *;
+@use "./syntax.scss";
+@use "./callouts.scss";
 // put your custom CSS here!
+
+
+.forced-row {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    // gap: 2rem;
+    top: 0;
+    // width: initial;
+    // margin-top: 2rem;
+    box-sizing: border-box;
+    padding: 0;
+    position: initial;
+    & .map, .darkmode, .minibutton {
+        margin: 0.4rem;
+    }
+    @media all and (max-width: $fullPageWidth) {
+        justify-content: flex-end;
+    }
+}
+
+.forced-column{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    top: 0;
+    box-sizing: border-box;
+    padding: 0;
+    position: initial;
+    & .map, .darkmode {
+        margin: 0.4rem;
+    }
+    @media all and (max-width: $fullPageWidth) {
+        justify-content: flex-end;
+    }
+}

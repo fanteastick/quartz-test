@@ -5,6 +5,7 @@ import { SimpleSlug } from "./quartz/util/path";
 // Constants for config that are reused a lot
 const homepageTitle = "Eilleen's (online!) Everything Notebook"
 const modifiedListTitle = "All-files-chronologically-modified"
+const mapTitle = "Map"
 const tagsToRemove = ["graph-exclude", "explorer-exclude", "backlinks-exclude", "recents-exclude"]
 const graphConfig = {
   localGraph: {
@@ -16,8 +17,8 @@ const graphConfig = {
     excludeTags: ["graph-exclude"]
   }
 };
-const hideGraphOnRightConfig = [homepageTitle, modifiedListTitle]
-const tagListConfig = {
+const hideGraphOnRightConfig = [homepageTitle, modifiedListTitle, mapTitle]
+const tagListConfig = { 
   excludeTags: tagsToRemove
 }
 const explorerConfig = {
@@ -29,10 +30,27 @@ const recentNotesConfig = {
   title: "Recently edited notes:", 
   showDate: true,
   linkToMore: "meta/" + modifiedListTitle as SimpleSlug,
-  excludeTags: ["recents-exclude"]
+  excludeTags: ["recents-exclude"],
 }
 const backlinksConfig = {
   excludeTags: ["backlinks-exclude"]
+}
+const giscusConfig = {
+  provider: "giscus",
+    options: {
+      // from data-repo
+      repo: 'fanteastick/quartz-test',
+      // from data-repo-id
+      repoId: 'R_kgDOMVIwGw',
+      // from data-category
+      category: 'Announcements',
+      // from data-category-id
+      categoryId: 'DIC_kwDOMVIwG84Cguqi',
+      mapping: "specific",
+      strict: false,
+      reactionsEnabled: false,
+      inputPosition: "top"
+  }
 }
 ///////////////////////////////////////////////////
 // components shared across all pages  
@@ -41,11 +59,11 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   afterBody: [
   Component.OnlyFor(
-    { titles: [homepageTitle] },
+    { titles: [homepageTitle, mapTitle] },
     Component.RecentNotes(recentNotesConfig)
   ), 
   Component.OnlyFor(
-    { titles: [homepageTitle] }, 
+    { titles: [homepageTitle, mapTitle] }, 
     Component.Graph(graphConfig)
   ),
   Component.OnlyFor(
@@ -73,7 +91,11 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
+    Component.Row([
+      Component.Search(),
+      Component.Map(),
+      Component.Darkmode(),
+    ]),
     Component.DesktopOnly(Component.TableOfContents2()),
     Component.DesktopOnly(Component.Backlinks(backlinksConfig)),
     Component.DesktopOnly(Component.GithubSource()),
@@ -96,7 +118,11 @@ export const defaultListPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
+    Component.Row([
+      Component.Search(),
+      Component.Map(),
+      Component.Darkmode(),
+    ]),
   ],
   right: [
     Component.DesktopOnly(Component.Explorer(explorerConfig)),

@@ -3,7 +3,7 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 
 export default ((children?: QuartzComponent[]) => {
   if (children) {
-    return getFlexContainer(children!, 'column');
+    return getFlexContainer(children!, 'forced-column');
   }
   else {
     return () => <></>
