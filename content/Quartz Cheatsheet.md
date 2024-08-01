@@ -1,6 +1,6 @@
 ---
 date created: 2024-06-06T22:54
-date modified: 2024-07-23T01:54
+date modified: 2024-07-31T20:52
 ---
 ## For copy-pasting
 ```
@@ -110,3 +110,11 @@ Similar issue for graphs, except the problem is more with the button to see the 
 ## Hiding tags from various components
 
 ![[Hiding tags from various components#Summary]]
+
+## For some nice SVGs
+
+[SVG Repo](https://www.svgrepo.com/) 
+
+## Ascii art
+
+[Emoji Combos](https://emojicombos.com/) 

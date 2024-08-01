@@ -1,20 +1,16 @@
 ---
 date created: 2024-07-11T01:48
-date modified: 2024-07-11T13:36
+date modified: 2024-07-31T16:33
 ---
 ## College era, around 2021
 
 Eunice made this mostly. Thanks Eunice!
 
-[UCT - upper clown triple](https://upper-clown-triple.github.io/)
-
 ![[Old sites_image_1.png|500]]
 
 ## Orange era, around 2020
 
-personal website: [Eilleen Zhang](https://orange.eilleeenz.com/)
-
-> [GitHub - fanteastick/first-react-site: My first personal website. It was orange!](https://github.com/fanteastick/first-react-site)
+personal website:
 
 blog: [Eilleen's Blog](https://orangeblog.eilleeenz.com/) 
 

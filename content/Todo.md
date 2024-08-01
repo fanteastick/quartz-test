@@ -1,6 +1,6 @@
 ---
 date created: 2024-05-09T14:44
-date modified: 2024-07-19T14:19
+date modified: 2024-07-31T19:30
 draft: "true"
 ---
 ## Quartz
@@ -9,20 +9,22 @@ draft: "true"
 - [ ] change the heading font to something matching
 - [ ] Custom landing page - maybe for the first one, no source, backlinks, graph and explorer to left
 - [ ] Copy URL to clipboard optional component [Tailwind CSS Copy to Clipboard - Flowbite](https://flowbite.com/docs/components/clipboard/)
-- [ ] update cv site favicon
+- [ ] change githubsource component to have input variables for user, repo, branch
+- [ ] feature: fix footnotes linking and jumping around
 ## Non-quartz
-
-- [ ] brat generator
-- [ ] get the "jb" off of the cv site favicon
+- [ ] update cv site favicon [Favicon · Issue #60 · BartoszJarocki/cv · GitHub](https://github.com/BartoszJarocki/cv/issues/60) 
+- [ ] analytics site
 - [ ] setup home server
 	- [ ] learn about NAS?
 - [ ] check out [LilyPond – Music notation for everyone](https://lilypond.org/) 
 - [ ] neovim setup
 - [ ] stow dotfiles
 - [ ] pi or esp32
-- [ ] [Let’s Git started | Happy Git and GitHub for the useR](https://happygitwithr.com/) 
 
 ## Done
+- [x] integrate a google doc somewhere so I can just say "this is LITERALLY what I'm doing now"
+- [x] brat generator
+- [x] feature: merge in the official comments giscus widget but just don't use it
 - [x] layout: make a combined githubsource and backlinks thing so that it sticks together on mobileonly
 - [x] add a floating return to top button
 	- 2024-07-09 tried it out. had a lot of trouble figuring out what part of the code to add it to. pretty easy to copy code from freecodecamp for a css-only thing, bc honestly just an `a href="#"` anyway.
@@ -37,7 +39,6 @@ draft: "true"
 - [x] change the colors
 	- [x] background
 	- [x] links vs internal links
-
 - [x] fix the table of contents not folding down on mobileonly view
 - [x] move the explorer to constantly viewable
 - [x] note outlines on the side, or on top when mobile view
@@ -46,12 +47,12 @@ draft: "true"
 	- pihole/adguard -> tbd
 	- port forwarding
 
-## ALL TASKS:
+## ALL (other) TASKS:
 
  > [!TODO] All tasks
 > ```dataview
 > TASK
-> WHERE !completed
+> WHERE !completed AND file.name != this.file.name
 > GROUP BY file.link
 > SORT rows.file.ctime ASC
 > ``` 

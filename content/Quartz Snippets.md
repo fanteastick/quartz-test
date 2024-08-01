@@ -1,16 +1,13 @@
 ---
 date created: 2024-07-09T02:02
-date modified: 2024-07-23T01:10
+date modified: 2024-07-31T16:56
 ---
 
 Misc ideas: 
 
 - emitter: a page with all the exploring-related things? take inspo from custom landing page. --> prob want new file to define layouts
 - transformer: add some subtitle stuff based on lastmod transformer and adding to createdmodifieddate
-- content: integrate a google doc somewhere so I can just say "this is LITERALLY what I'm doing now" --> alternatively just a separate site
 - feature: copy current URL to clipboard
-- feature: fix footnotes linking and jumping around
-- feature: merge in the official comments giscus widget but just don't use it
 
 Also: [[Cool other websites]]
 
@@ -30,7 +27,21 @@ Kirby — 02/22/2024 8:36 AM
 
 Giscus is the same as utterances but better bc newer and discussions. 
 
-## Hide the popover-hint on certain pages
+## Hide the horizontal scroll bars on code blocks
+
+```scss title="base.scss"
+pre {
+...
+  &:has(>code.mermaid) {...}
+  & > code {
+    ...
++    overflow-x: hidden;
+etc etc
+```
+
+Although apparently it's better to just do a custom styling of the scroll bar, for accessibility. Don't know if hiding overflow-x would then prevent horizontal scroll... hmm... 
+
+### Hide the popover-hint on certain pages
 
 Classic "slug manipulation in the render page emitter". Thinking: in theory could do this tag-based by doing like frontmatter.tags.includes?
 
@@ -41,7 +52,7 @@ Classic "slug manipulation in the render page emitter". Thinking: in theory coul
   }
 </div>
 ```
-## Possible improvement to GiscusComments - the weird refreshing thing
+### Possible improvement to GiscusComments - the weird refreshing thing
 
 [Giscus comments are not loaded except when you refresh the page multiple times · Issue #1418 · giscus/giscus · GitHub](https://github.com/giscus/giscus/issues/1418)
 
@@ -69,7 +80,7 @@ Classic "slug manipulation in the render page emitter". Thinking: in theory coul
         document.getElementById("comments").appendChild(giscusScript);
     </script>
 ```
-## Removing the fade!! omg
+### Removing the fade!! omg
 
 [quartz/quartz/styles/base.scss at b37c408985878b04f6474c473e2b98c0fec728ab · jackyzha0/quartz · GitHub](https://github.com/jackyzha0/quartz/blob/b37c408985878b04f6474c473e2b98c0fec728ab/quartz/styles/base.scss#L530)
 
