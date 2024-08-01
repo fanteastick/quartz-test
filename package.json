@@ -87,7 +87,7 @@
     "toml": "^3.0.0",
     "unified": "^11.0.4",
     "unist-util-visit": "^5.0.0",
-    "vfile": "^6.0.1",
+    "vfile": "^6.0.2",
     "workerpool": "^9.1.2",
     "ws": "^8.18.0",
     "yargs": "^17.7.2"
@@ -100,7 +100,7 @@
     "@types/node": "^20.14.11",
     "@types/pretty-time": "^1.1.5",
     "@types/source-map-support": "^0.5.10",
-    "@types/ws": "^8.5.11",
+    "@types/ws": "^8.5.12",
     "@types/yargs": "^17.0.32",
     "esbuild": "^0.19.9",
     "prettier": "^3.3.2",
