@@ -1,6 +1,6 @@
 ---
 date created: 2024-07-09T17:41
-date modified: 2024-07-31T19:27
+date modified: 2024-08-01T16:56
 title: Blog Ideas
 ---
 - how to get over a social media addiction
@@ -16,5 +16,6 @@ title: Blog Ideas
 	- git
 	- multivariable calculus and also series in regular calculus
 	- statistical distributions
-- how I use ai to help w programming
+- how I use gpt to help w programming
 	- programming vs coding vs promptin 💀
+	- basically paste in code --> "what does this do" --> "make it do this other thing" --> be happy

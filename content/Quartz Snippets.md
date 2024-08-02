@@ -39,7 +39,7 @@ pre {
 etc etc
 ```
 
-Although apparently it's better to just do a custom styling of the scroll bar, for accessibility. Don't know if hiding overflow-x would then prevent horizontal scroll... hmm... 
+Although apparently it's better to just do a custom styling of the scroll bar, for accessibility. Don't know if hiding overflow-x would then prevent horizontal scroll... hmm... [[Scrollbars and styling]]
 
 ### Hide the popover-hint on certain pages
 

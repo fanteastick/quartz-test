@@ -1,11 +1,11 @@
 ---
 date created: 2024-07-16T15:46
-date modified: 2024-07-16T21:47
+date modified: 2024-08-01T12:35
 draft: "true"
 ---
 
-TLDR ended up doing the ubuntu setup and ran away with it from there. WSL...
-
+TLDR ended up doing the ubuntu setup and ran away with it from there. WSL... so confusing...
+See more with setting up [[Custom domains|custom domains]].
 ## Random Instructions idk
 
 Installed ruby from [RubyInstaller for Windows](https://rubyinstaller.org/) (run anyway...) - install for me
@@ -22,7 +22,7 @@ But getting ruby specifically w jekyll: ([Jekyll on Windows](https://jekyllrb.co
 
 ---
 
-## Found the wsl instructions...
+### Found the wsl instructions...
 
 Open bash
 
@@ -43,7 +43,7 @@ sudo apt-get install ruby2.5 ruby2.5-dev build-essential dh-autoreconf
 it's not working... off we go to ubuntu instructions
 
 ---
-## Ubuntu instructions
+### Ubuntu instructions
 
 ```
 sudo apt-get install ruby-full build-essential zlib1g-dev
@@ -115,15 +115,6 @@ good stuff
 ```
 
 ---
-## Custom domains
-
-Vercel: [Adding & Configuring a Custom Domain](https://vercel.com/docs/projects/domains/add-a-domain#subdomains) 
-
-Github: [Managing a custom domain for your GitHub Pages site - GitHub Docs](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site) 
-
-- Apex domain and www: [Managing a custom domain for your GitHub Pages site - GitHub Docs](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain-and-the-www-subdomain-variant) 
-- basically put the www as the custom domain in the gh pages part of the repo settings, and then in dns settings put the cname to www and to name.github.io and the a records also to the right ips
-
 ## Favicon things
 
 [Add Favicon: A Beginner's Guide to Add an Icon to Your Website](https://www.hostinger.com/tutorials/how-to-add-favicon-to-website#How_to_Add_a_Favicon_to_Your_Website) 
