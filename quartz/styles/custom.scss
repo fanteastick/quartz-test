@@ -41,3 +41,160 @@
         justify-content: flex-end;
     }
 }
+
+
+////////////////////////////////////////////////////////////////////////////
+// https://github.com/Naraenda/quartz-ascone/commit/6c094df3ac0863d0f13690ca2136ad894943e76e#diff-c68e4a912f86f4c86fff1eda2b1c8c4395023a4f543e4183ab454afe6d3955e9
+// CSS Houdini
+// Using properties we can stack multiple types of transforms!
+// But this is not in mainline firefox yet :(
+// @property --mov-y {
+//   syntax: '<length>';
+//   initial-value: 0px;
+//   inherits: false;
+// }
+// @property --rot-y {
+//   syntax: '<angle>';
+//   initial-value: 0deg;
+//   inherits: false;
+// }
+
+:root {
+    --mov-y: 0px;
+    --rot-y: 0deg;
+  }
+  
+  .ft- {
+  
+    @keyframes rainbow-animate {
+        0% {
+          background-position: 0px 0;
+        }
+        50% {
+          background-position: 100px 0;
+        }
+        100% {
+          background-position: 200px 0;
+        }
+      };
+  
+    @keyframes shake-animate {
+      // CSS Houdini
+      // 0% { --mov-y: 1px }
+      // 100% { --mov-y: -1px }
+      0% { transform: translateY(1px) }
+      100% { transform: translateY(-1px) }
+    };
+  
+    @keyframes spin-animate {
+      // CSS Houdini
+      // 0% { --rot-y: 0deg }
+      // 100% { --rot-y: 360deg }
+      0% { transform: rotateY(0deg) }
+      100% { transform: rotateY(-360deg) }
+    };
+  
+    @for $i from 0 through 10 {
+      &char {
+        animation-delay: 10ms;
+      }
+    }
+    &letters {
+      white-space: nowrap;
+    }
+  
+    &letters span {
+      white-space: pre;
+    }
+  
+    &rainbow {
+      background: repeating-linear-gradient(to right,#cb94ff 0px, #028ba1 20px, #4dc725 40px, #ff941a 60px, #d21b1b 80px, #cb94ff 100px);
+      background-size: 100px;
+      background-clip: text;
+      color: transparent !important;
+      & span, p {
+        color: transparent;
+      }
+      animation: rainbow-animate 2s linear infinite;
+    }
+  
+    &shake .char {
+      animation: shake-animate 0.05s linear infinite alternate;
+      display: inline-block;
+      @for $i from 0 through 10 {
+        &:nth-child(10n + #{$i}) {
+          animation-delay: #{$i * -20ms};
+        }
+      }
+    }
+  
+    &wave .char {
+      animation: shake-animate 0.20s ease-in-out infinite alternate;
+      display: inline-block;
+      @for $i from 0 through 10 {
+        &:nth-child(10n + #{$i}) {
+          animation-delay: #{$i * -40ms};
+        }
+      }
+    }
+  
+    &spin .char {
+      animation: spin-animate 1.00s ease-in-out infinite;
+      display: inline-block;
+      @for $i from 0 through 10 {
+        &:nth-child(10n + #{$i}) {
+          animation-delay: #{$i * 40ms - 400ms};
+        }
+      }
+    }
+  
+    &italics .char {
+      font-style: italic;
+    }
+  
+    // CSS Houdini
+    // &letters .char {
+    //   transform: translateY(var(--mov-y)) rotateY(var(--rot-y));
+    // }
+  }
+  ////////////////////////////////////////////////////////////////////////////
+  .sticky-note-wrapper {
+    margin: 0 auto;
+    left: calc(50% - 90px - 1em);
+    position: absolute;
+    padding: 0;
+    width: 0;
+  }
+  
+  .sticky-note {
+    position: absolute;
+    background-color: powderblue;
+    width: 180px;
+    min-height: 100px;
+    padding: 0 1em;
+    // box-shadow: 1em 1em rgba(0, 0, 0, 0.5), inset 0px 1em rgba(255, 255, 255, 0.5) !important;
+    box-shadow: inset 0px 1em rgba(255, 255, 255, 0.5) !important;
+    z-index: 1;
+    cursor: grab;
+
+    &:active {
+        cursor: grabbing;
+    }
+  
+    &.red {
+      background-color: salmon;
+    }
+  
+    &.green {
+      background-color: lightgreen;
+    }
+  
+    &.blue {
+      background-color: powderblue;
+    }
+  
+    &.purple {
+      background-color: goldenrod;
+    }
+  }
+  

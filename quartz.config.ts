@@ -93,6 +93,8 @@ const config: QuartzConfig = {
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "git", "filesystem"],
       }),
+      Plugin.FancyText(),
+      Plugin.StickyNotes(),
       Plugin.SyntaxHighlighting({
         theme: {
           light: "github-light",
