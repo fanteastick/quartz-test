@@ -27,6 +27,7 @@ type GiscusElement = Omit<HTMLElement, "dataset"> & {
     repoId: string
     category: string
     categoryId: string
+    term: string
     mapping: "url" | "title" | "og:title" | "specific" | "number" | "pathname"
     strict: string
     reactionsEnabled: string
@@ -50,6 +51,7 @@ document.addEventListener("nav", () => {
   giscusScript.setAttribute("data-repo-id", giscusContainer.dataset.repoId)
   giscusScript.setAttribute("data-category", giscusContainer.dataset.category)
   giscusScript.setAttribute("data-category-id", giscusContainer.dataset.categoryId)
+  giscusScript.setAttribute("data-term", giscusContainer.dataset.term)
   giscusScript.setAttribute("data-mapping", giscusContainer.dataset.mapping)
   giscusScript.setAttribute("data-strict", giscusContainer.dataset.strict)
   giscusScript.setAttribute("data-reactions-enabled", giscusContainer.dataset.reactionsEnabled)
