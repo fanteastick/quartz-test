@@ -88,7 +88,8 @@ export const TagPage: QuartzEmitterPlugin<Partial<TagPageOptions>> = (userOpts) 
           const title =
             tag === "index"
               ? i18n(cfg.locale).pages.tagContent.tagIndex
-              : `${i18n(cfg.locale).pages.tagContent.tag}: ${tag}`
+              : `${tag}`
+              // : `${i18n(cfg.locale).pages.tagContent.tag}: ${tag}` original commented out 8/5/24
           return [
             tag,
             defaultProcessedContent({
