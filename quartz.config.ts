@@ -9,6 +9,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "(°·._.·°)",
+    titleSuffix: " | Eilleen's e-Notebook",
     enableSPA: true,
     enablePopovers: true,
     analytics: {

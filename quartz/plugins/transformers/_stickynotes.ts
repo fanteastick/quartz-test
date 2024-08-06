@@ -52,7 +52,7 @@ export const StickyNotes: QuartzTransformerPlugin = () => {
                         let color = colors[(color_offset + note_id) % colors.length]
                         let side = (note_id % 2) * -2 + 1;
                         // let pos = Math.round(side * (300.0 + Math.random() * 100.0))
-                        let pos = Math.round(300)
+                        let pos = Math.round(  300)
 
                         parent.children[index] = {
                             type: 'parent',
