@@ -1,6 +1,6 @@
 ---
 date created: 2024-06-06T22:54
-date modified: 2024-07-23T02:18
+date modified: 2024-08-06T02:27
 tags:
   - recents-exclude
 ---
@@ -15,6 +15,92 @@ Misc things to remember:
 
 - attachment folders won't show up if there's no `.md` files in them. 
 
+## Changing tag pages and folder pages
+
+The problem - the default title for a tag page is `Tag: name`, and breadcrumb is just tags. But when you make a tag page in the tags folder, it names the page the same as the tag name. So instead of "Tag: git" it becomes "git". 
+
+Similarly, for folder pages, if you create an index page in the folder, the title becomes "index" instead of the folder name. 
+
+Removing the "Tag: " part: 
+
+```tsx title="TagContent.tsx"
+const tagDescriptions: Record<string, ProcessedContent> = Object.fromEntries(
+[...tags].map((tag) => {
+  const title =
+	tag === "index"
+	  ? i18n(cfg.locale).pages.tagContent.tagIndex
+	  : `${tag}`
+	  // : `${i18n(cfg.locale).pages.tagContent.tag}: ${tag}` original commented out 8/5/24
+
+```
+
+Changing the breadcrumb: If the crumb in the breadcrumb is "tags", change it to add the little tags icon. 
+
+```tsx title="Breadcrumbs.tsx"
+return (
+  <nav class={classNames(displayClass, "breadcrumb-container")} aria-label="breadcrumbs">
+	{crumbs.map((crumb, index) => (
+	  <div class="breadcrumb-element">
+		{/* <a href={crumb.path}>{crumb.displayName}</a> removed 8-5-24 ez*/}
+		<a href={crumb.path}>{crumb.displayName === "tags" ? "🔖 tags" : crumb.displayName}</a>
+```
+
+Removing the "Folder: " part: 
+
+```tsx title="folderPage.tsx"
+const folderDescriptions: Record<string, ProcessedContent> = Object.fromEntries(
+[...folders].map((folder) => [
+  folder,
+  defaultProcessedContent({
+	slug: joinSegments(folder, "index") as FullSlug,
+	frontmatter: {
+	  // title: `${i18n(cfg.locale).pages.folderContent.folder}: ${folder}`, 8-5-24 removed by ez
+	  title: `${folder}`, 
+```
+
+Big and hacky change to ArticleTitle:
+
+```tsx title="ArticleTitle.tsx"
+const ArticleTitle: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
+  const slug = fileData.slug
+  const folderNameRaw = path.dirname(slug ?? "") as SimpleSlug
+  const folderName = folderNameRaw.replace(/-/g, ' '); // hacky - 8-5-24 ez
+
+  // @ts-ignore
+  const segments = slug.split('/').filter(Boolean); // also hacky - don't know how to cast the split
+  const lastSegment = segments.length > 0 ? segments[segments.length - 1] : '';
+
+
+  const title = (slug && folderName !== "." && folderName !== "tags" && lastSegment === "index" ) 
+  ? `📂 ${folderName}` 
+  : fileData.frontmatter?.title;
+
+  // const title = fileData.frontmatter?.title original text lol 8-5-24 ez
+
+```
+## Add page title suffix config option
+
+Thanks to this pull request, discovered from discord
+
+[Add a page title suffix config option · ripdrive/ripdrive.github.io@db514fd · GitHub](https://github.com/ripdrive/ripdrive.github.io/commit/db514fd4ae441f203069ae9e8e9b2ee5591d63c5) 
+
+```ts title="quartz.config.ts"
+const config: QuartzConfig = {
+  configuration: {
+    pageTitle: "The Rip Drive Project",
++    titleSuffix: " | The Rip Drive Project",
+```
+
+```ts title="quartz/cfg.ts"
+export interface GlobalConfiguration {
++  titleSuffix: string
+```
+
+```tsx title="Head.tsx"
+export default (() => {
+  const Head: QuartzComponent = ({ cfg, fileData, externalResources }: QuartzComponentProps) => {
++   const title = (fileData.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title) + cfg.titleSuffix
+```
 ## Removed mermaid graphs
 
 Commented out something in the config. 
@@ -571,7 +657,7 @@ export const sharedPageComponents: SharedLayout = {
 }
 ```
 
-## Layout changes
+## Layout changes (old)
 - Graph on desktop only
 - GithubSource and backlinks and table of contents on the left if desktop
 - GithubSource and backlinks on the right if mobile

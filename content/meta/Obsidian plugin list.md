@@ -1,6 +1,6 @@
 ---
 date created: 2024-08-01T12:58
-date modified: 2024-08-01T13:37
+date modified: 2024-08-06T00:39
 tags:
   - obsidian
 ---
@@ -13,7 +13,7 @@ These are the things I'm using in my setup to make life easier with Obsidian! If
 > 
 > [regex101: build, test, and debug regex](https://regex101.com/) 
 > 
-> `\[⬇️\]\(obsidian:\/\/SP-install\?id=.+&enable=true\) ` to nothing
+> `\[⬇️\]\(obsidian:\/\/SP-install\?id=.+&enable=true\) `  to nothing
 
 -  [**Linter**](https://obsidian.md/plugins?id=obsidian-linter) by [*Victor Tao*](https://github.com/platers) Formats and styles your notes. It can be used to format YAML tags, aliases, arrays, and metadata; footnotes; headings; spacing; math blocks; regular markdown contents like list, italics, and bold styles; and more with the use of custom rule options as well.
 -  [**Settings Search**](https://obsidian.md/plugins?id=settings-search) by [*Jeremy Valentine*](https://github.com/valentine195) Globally search settings in Obsidian.md

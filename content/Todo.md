@@ -1,13 +1,12 @@
 ---
 date created: 2024-05-09T14:44
-date modified: 2024-07-31T19:30
+date modified: 2024-08-02T16:32
 draft: "true"
 ---
 ## Quartz
 
 - [ ] Subtitles on a quartz page? maybe if subtitle metadata then display it as part of the beforebody in like all caps type of font
 - [ ] change the heading font to something matching
-- [ ] Custom landing page - maybe for the first one, no source, backlinks, graph and explorer to left
 - [ ] Copy URL to clipboard optional component [Tailwind CSS Copy to Clipboard - Flowbite](https://flowbite.com/docs/components/clipboard/)
 - [ ] change githubsource component to have input variables for user, repo, branch
 - [ ] feature: fix footnotes linking and jumping around
@@ -22,6 +21,7 @@ draft: "true"
 - [ ] pi or esp32
 
 ## Done
+- [x] Custom landing page - maybe for the first one, no source, backlinks, graph and explorer to left
 - [x] integrate a google doc somewhere so I can just say "this is LITERALLY what I'm doing now"
 - [x] brat generator
 - [x] feature: merge in the official comments giscus widget but just don't use it

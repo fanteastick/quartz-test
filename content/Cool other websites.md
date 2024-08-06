@@ -1,6 +1,6 @@
 ---
 date created: 2024-07-23T01:10
-date modified: 2024-07-23T01:42
+date modified: 2024-08-02T18:02
 ---
 
 ## Just cool sites
@@ -42,3 +42,8 @@ date modified: 2024-07-23T01:42
 [How to build a digital garden with TiddlyWiki - Ness Labs](https://nesslabs.com/digital-garden-tiddlywiki) 
 
 - as seen with [Mental Nodes](https://www.mentalnodes.com/) by Anne-Laure Le Cunff
+
+[SilverBullet](https://silverbullet.md/)
+
+- It's like a web wiki with no graph
+![[Cool other websites_image_1.png|500]]

@@ -1,6 +1,8 @@
 ---
 date created: 2024-06-07T13:20
 date modified: 2024-06-08T16:16
+tags:
+  - external
 ---
 
 [Built-in self-test (BiST) - Semiconductor Engineering](https://semiengineering.com/knowledge_centers/test/built-in-self-test-bist/) 

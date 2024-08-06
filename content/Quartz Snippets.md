@@ -1,15 +1,17 @@
 ---
 date created: 2024-07-09T02:02
-date modified: 2024-07-31T16:56
+date modified: 2024-08-05T21:25
 ---
 
-Misc ideas: 
+Misc ideas: to be loosely kept up-to-date with my quartz to-do list %% [[Todo]] %%
 
 - emitter: a page with all the exploring-related things? take inspo from custom landing page. --> prob want new file to define layouts
 - transformer: add some subtitle stuff based on lastmod transformer and adding to createdmodifieddate
 - feature: copy current URL to clipboard
 
 Also: [[Cool other websites]]
+
+> I'm a collector of everything. 💬 Alessandro Michele
 
 ## Quartz snippets that could be used 
 
@@ -27,6 +29,70 @@ Kirby — 02/22/2024 8:36 AM
 
 Giscus is the same as utterances but better bc newer and discussions. 
 
+## Another way to change the search layout and spacing stuff, & changing the dividers
+
+[jackyzha0.github.io/quartz/styles/custom.scss at b2f8a6e12c38e9d0989591a0564e0d7a3a812c99 · jackyzha0/jackyzha0.github.io · GitHub](https://github.com/jackyzha0/jackyzha0.github.io/blob/b2f8a6e12c38e9d0989591a0564e0d7a3a812c99/quartz/styles/custom.scss)
+
+```scss title="custom.scss"
+.left {
+  display: grid !important;
+  gap: 1.5rem !important;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content min-content min-content min-content;
+  align-items: center;
+
+  .page-title {
+    grid-area: 1 / 1 / 2 / 3;
+  }
+
+  .search {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+
+  .darkmode {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+
+  .toc {
+    grid-row: 3;
+    grid-column: 1 / 3;
+  }
+
+  .recent-notes:nth-last-child(2) {
+    grid-area: 3 / 1 / 3 / 3;
+  }
+
+  .recent-notes:nth-last-child(1) {
+    grid-area: 4 / 1 / 4 / 3;
+  }
+
+  @media all and (max-width: $fullPageWidth) {
+    display: flex !important;
+  }
+}
+
+//// dividers ////
+
+hr {
+  overflow: visible;
+  padding: 0;
+  height: 0;
+  margin: 4em auto;
+  border: none;
+  text-align: center;
+  width: 100%;
+
+  &:after {
+    content: "* * *";
+    display: inline-block;
+    margin: -1em 0 0.5em;
+    font-size: 1.5em;
+    padding: 0.5em 1em;
+    color: var(--gray);
+  }
+}
+```
+
 ## Hide the horizontal scroll bars on code blocks
 
 ```scss title="base.scss"
@@ -41,7 +107,7 @@ etc etc
 
 Although apparently it's better to just do a custom styling of the scroll bar, for accessibility. Don't know if hiding overflow-x would then prevent horizontal scroll... hmm... [[Scrollbars and styling]]
 
-### Hide the popover-hint on certain pages
+### (not really) Hide the popover-hint on certain pages
 
 Classic "slug manipulation in the render page emitter". Thinking: in theory could do this tag-based by doing like frontmatter.tags.includes?
 
@@ -52,6 +118,9 @@ Classic "slug manipulation in the render page emitter". Thinking: in theory coul
   }
 </div>
 ```
+
+2024-08-05 - actually I tried this a while back and I don't think it worked. 
+
 ### Possible improvement to GiscusComments - the weird refreshing thing
 
 [Giscus comments are not loaded except when you refresh the page multiple times · Issue #1418 · giscus/giscus · GitHub](https://github.com/giscus/giscus/issues/1418)

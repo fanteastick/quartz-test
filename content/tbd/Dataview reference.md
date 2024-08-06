@@ -1,6 +1,6 @@
 ---
 date created: 2024-06-10T09:37
-date modified: 2024-07-23T01:07
+date modified: 2024-08-05T18:44
 ---
 
 ## My own notes
@@ -8,6 +8,8 @@ date modified: 2024-07-23T01:07
 Calling a custom frontmatter property: just do the kebab-case version of the name. e.g. "date modified" becomes `date-modified`. 
 
 Excluding a tag: do a `FROM -#tag`
+
+The FROM modifier only works with one AND. Can't do FROM x AND x AND x. 
 
 ### Date format
 

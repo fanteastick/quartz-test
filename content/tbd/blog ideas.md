@@ -16,6 +16,6 @@ title: Blog Ideas
 	- git
 	- multivariable calculus and also series in regular calculus
 	- statistical distributions
-- how I use gpt to help w programming
+- how I use gpt to help w programming [[how I use gpt to help with programming|here]]
 	- programming vs coding vs promptin 💀
 	- basically paste in code --> "what does this do" --> "make it do this other thing" --> be happy

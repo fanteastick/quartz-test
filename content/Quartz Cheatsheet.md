@@ -1,6 +1,6 @@
 ---
 date created: 2024-06-06T22:54
-date modified: 2024-07-31T20:52
+date modified: 2024-08-06T00:25
 ---
 ## For copy-pasting
 ```
@@ -10,20 +10,15 @@ git commit -m "Content update"; git push
 
 ## Sync content changes
 
-`git pull`
+### TLDR
 
-`npx quartz sync`
+Been doing this via VS Code GitHub extension. Very convenient but I just need to pull upstream changes every once in a while. 
 
-Alternatively: (honestly preferred bc I like seeing a more descriptive message than "quartz sync: [date]")
-
-```
-git add . (or some regex); git commit -m "message"; git push
-```
-
-If added too many and want to remove from the commit but still preserve local changes:
+### Recommended way
 
 ```
-git reset --mixed HEAD content* (or some other regex)
+git pull
+npx quartz sync
 ```
 
 ### Alternative: with git reset
@@ -40,6 +35,13 @@ To add only `content`:
 ```
 git add content
 ```
+
+If added too many and want to remove from the commit but still preserve local changes:
+
+```
+git reset --mixed HEAD content* (or some other regex)
+```
+
 ## Merge changes from upstream
 
 TLDR:
@@ -118,3 +120,7 @@ Similar issue for graphs, except the problem is more with the button to see the 
 ## Ascii art
 
 [Emoji Combos](https://emojicombos.com/) 
+
+## tsconfig.json
+
+This file can't be deleted lol or else the stylesheet linking starts breaking. I think it's a ts thing.

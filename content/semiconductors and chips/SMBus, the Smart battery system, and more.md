@@ -1,6 +1,8 @@
 ---
 date created: 2024-06-25T23:13
-date modified: 2024-06-25T23:21
+date modified: 2024-08-05T18:25
+tags:
+  - external
 ---
 # System Management Bus...
 
