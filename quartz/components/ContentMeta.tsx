@@ -48,10 +48,9 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
       }
 
       if (fileData.frontmatter?.permalink) {
-        const url = new URL(`https://${cfg.baseUrl ?? "example.com"}`)
         permalinks.push(
           <a href="#" key="permalink" class="internal">
-          {url}/{fileData.frontmatter.permalink}
+          {cfg.baseUrl}/{fileData.frontmatter.permalink}
           </a>
         )
       }
