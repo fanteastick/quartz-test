@@ -1,6 +1,6 @@
 ---
 date created: 2024-06-06T22:54
-date modified: 2024-08-06T02:27
+date modified: 2024-08-26T00:14
 tags:
   - recents-exclude
 ---
@@ -14,6 +14,159 @@ All changes made by me: [Commits · fanteastick/quartz-test · GitHub](https://g
 Misc things to remember:
 
 - attachment folders won't show up if there's no `.md` files in them. 
+
+## Adding permalink and subtitle to the frontmatter
+
+Add the two fields to frontmatter processing
+
+```ts title="frontmatter.ts"
+declare module "vfile" {
+  interface DataMap {
+    frontmatter: { [key: string]: unknown } & {
+      title: string
+    } & Partial<{
+        tags: string[]
+        aliases: string[]
+        description: string
+        publish: boolean
+        draft: boolean
+        lang: string
+        enableToc: string
+        cssclasses: string[]
++        permalink: string
++        subtitle: string
+      }>
+  }
+```
+
+Add it in the ContentMeta: first add to an array, turn the return into a div, return it if the length > 0
+
+```tsx title="ContentMeta.tsx"
+      if (fileData.frontmatter?.permalink) {
+        const url = new URL(`https://${cfg.baseUrl ?? "example.com"}`)
+        permalinks.push(
+          <a href="#" key="permalink" class="internal">
+          {url}/{fileData.frontmatter.permalink}
+          </a>
+        )
+      }
+    
+      if (fileData.frontmatter?.subtitle) {
+        const uppercaseSubtitle = fileData.frontmatter.subtitle.toUpperCase();
+        subtitles.push(
+          `${uppercaseSubtitle}`
+        )
+      }
+
+      const segmentsElements = segments.map((segment) => <span>{segment}</span>)
+
+      return (
+        <div class={classNames(displayClass, "content-meta")}>
+        <p style={{ margin: '0', padding: '0' }} show-comma={options.showComma} class={classNames(displayClass, "content-meta")}>
+          {segmentsElements}
+        </p>
+        {permalinks.length > 0 && (
+          <p style={{ margin: '0', padding: '0' }}  class={classNames(displayClass, "content-meta")}>
+            Semi-permalink: {permalinks}
+          </p>
+        )}
+        {subtitles.length > 0 && (
+          <p style={{ margin: '0', padding: '0' }}  class={classNames(displayClass, "content-meta")}>
+            Alternatively: {subtitles}
+          </p>
+        )}
+        </div>
+      )
+    } else {
+      return null
+    }
+  }
+```
+
+## Add a little secret comment in the heads
+
+It's weird being perceived... A little comment so I can find out who's snooping around :P
+
+```tsx title="Head.tsx"
+<meta name="custom-comment-fanteastick-ez" content="My 'i was here' moment! check out eilleeenz.com" />
+```
+
+## Disabling popover on footnotes
+
+Problem statement: 
+
+On longer documents, the footnote popover gets recognized as the heading for "footnotes" instead of the proper one at the bottom of the document, so upon clicking a footnote link, it just jumps down a little bit instead of to the bottom.
+
+Hacky solution: disable popovers on links that are to footnotes. 
+
+```tsx title="popover.inline.ts"
+async function mouseEnterHandler(
+  this: HTMLAnchorElement,
+  { clientX, clientY }: { clientX: number; clientY: number },
+) {
+  const link = this
+  // console.log('Mouse entered link:', link)
+  // console.log('Link id:', link.id)
++  if (link.dataset.noPopover === "true" || link.id.includes("user-content-fnref-")) {
+    return
+  }
+```
+
+## Copying fancy text and sticky notes from Nara's ascone
+
+My commit is here: [fanteastick/quartz-test@6c4a8af · GitHub](https://github.com/fanteastick/quartz-test/commit/6c4a8afb76672af7909a7b675651420138c01fbd) which is mostly copied from [GitHub - Naraenda/quartz-ascone](https://github.com/Naraenda/quartz-ascone)
+
+And at some point I added some extra animations to `custom.scss` but haven't put them in yet. 
+
+Also the two transformers import a script which then is added to every page sadly... todo: figure out if it reduces performance. 
+
+2024-08-24 - actually I disabled sticky notes because it was causing weird effects on the search in desktop mode. 
+
+## Forcing icons into a row in the top corner
+
+"In this essay, we will..." lol [fanteastick/quartz-test@a24b5b5 · GitHub](https://github.com/fanteastick/quartz-test/commit/a24b5b57a24b2ce78dcf53867e597a9c14fff8bd) this commit has all the info, minus removing the word "search". 
+
+```ts title="quartz.layout.ts" 
+Component.Row([
+  Component.Search(),
+  Component.Map(),
+  Component.Darkmode(),
+]),
+```
+
+Removing the word "Search" in the search component and also the spacing div: 
+
+```tsx title="Search.tsx"
+<div class={classNames(displayClass, "search")}>
+<div id="search-icon">
+  {/* <p>{i18n(cfg.locale).components.search.title}</p> */}
+  {/* <div></div> */}
+  {/* <div></div> */}
+```
+
+Forced row css:
+
+```css title="custom.scss"
+.forced-row {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    // gap: 2rem;
+    top: 0;
+    // width: initial;
+    // margin-top: 2rem;
+    box-sizing: border-box;
+    padding: 0;
+    position: initial;
+    & .map, .darkmode, .minibutton {
+        margin: 0.4rem;
+    }
+    @media all and (max-width: $fullPageWidth) {
+        justify-content: flex-end;
+    }
+}
+```
 
 ## Changing tag pages and folder pages
 
@@ -65,18 +218,14 @@ const ArticleTitle: QuartzComponent = ({ fileData, displayClass }: QuartzCompone
   const slug = fileData.slug
   const folderNameRaw = path.dirname(slug ?? "") as SimpleSlug
   const folderName = folderNameRaw.replace(/-/g, ' '); // hacky - 8-5-24 ez
-
   // @ts-ignore
   const segments = slug.split('/').filter(Boolean); // also hacky - don't know how to cast the split
   const lastSegment = segments.length > 0 ? segments[segments.length - 1] : '';
 
-
   const title = (slug && folderName !== "." && folderName !== "tags" && lastSegment === "index" ) 
   ? `📂 ${folderName}` 
   : fileData.frontmatter?.title;
-
   // const title = fileData.frontmatter?.title original text lol 8-5-24 ez
-
 ```
 ## Add page title suffix config option
 
@@ -241,8 +390,6 @@ export default ((components?: QuartzComponent[]) => {
 // Copied from https://github.com/Naraenda/quartz-ascone/commit/fc70036371523ddb78b6eee895e374ab73d28519#diff-03e64821c7ee39078af3ee5bdd6f2a0765a9bae0b96160e662f275ef7ac7d0cc
 ```
 
-Very useful and works exactly as I had hoped.
-
 ## Giscus Comments
 
 Slightly based on code from [morrowind-modding/morrowind-modding.github.io@1bad00e · GitHub](https://github.com/morrowind-modding/morrowind-modding.github.io/commit/1bad00e1e8b27ee2dc85ab08dd2da5b75642f5b3). There's a script that I tried adding too but it wasn't fully working for me, but it should prevent case where the comments don't show up when clicking the homepage. Also consider - put the ID names in some sort of git secret stuff so other people copy-pasting code won't accidentally crosspost to my discussions. 
@@ -288,6 +435,19 @@ const GiscusComments: QuartzComponent = ({
 // GiscusComments.beforeDOMLoaded = giscuscommentsscript not really working
 export default (() => GiscusComments) satisfies QuartzComponentConstructor
 ```
+
+### July 2024 update - modifying the built-in comments component
+
+My setup - only one discussion for the entire quartz. So I need the data-term attribute, and things got refactored a bit. 
+
+In `Comments.tsx`: 
+
+- add `data-term={opts.options.term}`
+
+In `comments.inline.ts`:
+
+- add `term: string` to the GiscusElement dataset, and 
+- `giscusScript.setAttribute("data-term", giscusContainer.dataset.term)`
 
 ## GetDate gives the modified date rather than created
 

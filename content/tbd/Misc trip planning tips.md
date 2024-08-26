@@ -1,6 +1,8 @@
 ---
 date created: 2024-06-06T22:54
-date modified: 2024-06-08T16:33
+date modified: 2024-08-21T00:29
+tags:
+  - guide
 ---
 ## Most important details
 - where

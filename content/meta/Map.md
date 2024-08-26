@@ -13,4 +13,3 @@ date modified: 2024-08-06T00:03
 
 A list of all the tags and the files tagged: [[tags/|🔖 tags]]
 
-Every file: [[All files chronologically modified]] 

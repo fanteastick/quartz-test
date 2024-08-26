@@ -1,8 +1,8 @@
 ---
 title: Eilleen's (online!) Everything Notebook
 date created: 2024-05-06T22:24
-date modified: 2024-08-06T02:04
-subtitle: the digital version
+date modified: 2024-08-26T00:37
+subtitle: info dump website
 ---
 
 Welcome to my digital allocation of space (?).
@@ -13,7 +13,10 @@ Throughout high school, bullet journaling was a huge trend (still is, maybe not 
 
 I spent too long changing things on the site, which is all written out in the [[Quartz customization log]], and I also have some more ideas for changing things ([[Quartz Snippets]]), but I still need a [[Quartz Cheatsheet|cheatsheet]] to remember what I'm doing.
 
-I have some [[blog ideas]] too! And I've [[Infinite boredom|been up to]] various things lately. If you're lost here, try checking out the [[Map|map]]? 🌎🌐
+I have some [[blog ideas]] too! And I've [[Infinite boredom|been up to]] various things lately. If you're lost here, try checking out the 🌎 [[Map|map]]? 
+
+> [!info]+ I am desperately in need of friends
+> I think it's generally good for personal growth to meet new and interesting people. Please reach out if you think it'd be fun to talk. 👥
 
 Why does every digital garden website add a page defining what a digital garden is? 🤷‍♀️ 
 

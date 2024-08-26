@@ -2,7 +2,8 @@
 date created: 2024-05-09T15:01
 tags:
   - mac
-date modified: 2024-06-08T16:38
+  - guide
+date modified: 2024-08-21T00:30
 ---
 ## Things I installed
 

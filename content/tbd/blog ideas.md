@@ -1,6 +1,6 @@
 ---
 date created: 2024-07-09T17:41
-date modified: 2024-08-01T16:56
+date modified: 2024-08-21T00:27
 title: Blog Ideas
 ---
 - how to get over a social media addiction
@@ -13,9 +13,10 @@ title: Blog Ideas
 - anti-resume or failure resume idk lowkey these are kinda cringe SORRY LOL
 - games that i like playing
 - things that took a long time to get used to/absorb
-	- git
+	- [[tags/git]]
 	- multivariable calculus and also series in regular calculus
 	- statistical distributions
 - how I use gpt to help w programming [[how I use gpt to help with programming|here]]
 	- programming vs coding vs promptin 💀
 	- basically paste in code --> "what does this do" --> "make it do this other thing" --> be happy
+- [[OSINT]]

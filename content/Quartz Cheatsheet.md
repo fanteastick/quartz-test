@@ -124,3 +124,9 @@ Similar issue for graphs, except the problem is more with the button to see the 
 ## tsconfig.json
 
 This file can't be deleted lol or else the stylesheet linking starts breaking. I think it's a ts thing.
+
+## Footnote syntax
+
+Like this [^1]
+
+[^1]: Nothing big to say here. 

@@ -1,17 +1,127 @@
 ---
 date created: 2024-07-09T02:02
-date modified: 2024-08-05T21:25
+date modified: 2024-08-25T22:59
 ---
 
 Misc ideas: to be loosely kept up-to-date with my quartz to-do list %% [[Todo]] %%
 
-- emitter: a page with all the exploring-related things? take inspo from custom landing page. --> prob want new file to define layouts
+- [x] emitter: a page with all the exploring-related things? take inspo from custom landing page. --> prob want new file to define layouts
+	- Ended up making a [[Map]]
 - transformer: add some subtitle stuff based on lastmod transformer and adding to createdmodifieddate
 - feature: copy current URL to clipboard
 
 Also: [[Cool other websites]]
 
 > I'm a collector of everything. 💬 Alessandro Michele
+
+
+## Filter an RSS feed
+
+https://katb.in/velisabalih.diff
+
+```tsx
+From d119c1ef91dba9171aa911d8a1f263ece060e7da Mon Sep 17 00:00:00 2001
+From: Yash-Garg <redacted>
+Date: Sun, 25 Aug 2024 12:59:25 +0530
+Subject: [PATCH] feat: add `filterFn` for rss feed
+
+---
+ quartz.config.ts                        |  6 ++++++
+ quartz/plugins/emitters/contentIndex.ts | 18 ++++++++++++++----
+ 2 files changed, 20 insertions(+), 4 deletions(-)
+
+diff --git a/quartz.config.ts b/quartz.config.ts
+index fcf67a0a..01538e54 100644
+--- a/quartz.config.ts
++++ b/quartz.config.ts
+@@ -84,6 +84,12 @@ const config: QuartzConfig = {
+       Plugin.ContentIndex({
+         enableSiteMap: true,
+         enableRSS: true,
++        filterFn(slug, content) {
++          if (!content.date) return false;
++          if (!slug.includes("posts/")) return false;
++          return true;
++        },
+       }),
+       Plugin.Assets(),
+       Plugin.Static(),
+diff --git a/quartz/plugins/emitters/contentIndex.ts b/quartz/plugins/emitters/contentIndex.ts
+index c0fef86d..258e5ec5 100644
+--- a/quartz/plugins/emitters/contentIndex.ts
++++ b/quartz/plugins/emitters/contentIndex.ts
+@@ -23,6 +23,7 @@ export type ContentDetails = {
+ interface Options {
+   enableSiteMap: boolean
+   enableRSS: boolean
++  filterFn?: (slug: SimpleSlug, content: ContentDetails) => boolean
+   rssLimit?: number
+   rssFullHtml: boolean
+   includeEmptyFiles: boolean
+@@ -31,6 +32,7 @@ interface Options {
+ const defaultOptions: Options = {
+   enableSiteMap: true,
+   enableRSS: true,
++  filterFn: undefined,
+   rssLimit: 10,
+   rssFullHtml: false,
+   includeEmptyFiles: true,
+@@ -48,7 +50,12 @@ function generateSiteMap(cfg: GlobalConfiguration, idx: ContentIndex): string {
+   return `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${urls}</urlset>`
+ }
+ 
+-function generateRSSFeed(cfg: GlobalConfiguration, idx: ContentIndex, limit?: number): string {
++function generateRSSFeed(
++  cfg: GlobalConfiguration,
++  idx: ContentIndex,
++  limit?: number,
++  filterFn?: (slug: SimpleSlug, content: ContentDetails) => boolean
++): string {
+   const base = cfg.baseUrl ?? ""
+ 
+   const createURLEntry = (slug: SimpleSlug, content: ContentDetails): string => `<item>
+@@ -60,6 +67,7 @@ function generateRSSFeed(cfg: GlobalConfiguration, idx: ContentIndex, limit?: nu
+   </item>`
+
+   const items = Array.from(idx)
++    .filter(([slug, content]) => !filterFn || filterFn(simplifySlug(slug), content))
+     .sort(([_, f1], [__, f2]) => {
+       if (f1.date && f2.date) {
+         return f2.date.getTime() - f1.date.getTime()
+@@ -71,6 +79,8 @@ function generateRSSFeed(cfg: GlobalConfiguration, idx: ContentIndex, limit?: nu
+ 
+       return f1.title.localeCompare(f2.title)
+     })
++
++  const posts = items
+     .map(([slug, content]) => createURLEntry(simplifySlug(slug), content))
+     .slice(0, limit ?? idx.size)
+     .join("")
+@@ -80,11 +90,11 @@ function generateRSSFeed(cfg: GlobalConfiguration, idx: ContentIndex, limit?: nu
+     <channel>
+       <title>${escapeHTML(cfg.pageTitle)}</title>
+       <link>https://${base}</link>
+-      <description>${!!limit ? i18n(cfg.locale).pages.rss.lastFewNotes({ count: limit }) : i18n(cfg.locale).pages.rss.recentNotes} on ${escapeHTML(
++      <description>${!!limit ? i18n(cfg.locale).pages.rss.lastFewNotes({ count: items.length }) : i18n(cfg.locale).pages.rss.recentNotes} on ${escapeHTML(
+         cfg.pageTitle,
+       )}</description>
+       <generator>Quartz -- quartz.jzhao.xyz</generator>
+-      ${items}
++      ${posts}
+     </channel>
+   </rss>`
+ }
+@@ -150,7 +160,7 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
+         emitted.push(
+           await write({
+             ctx,
+-            content: generateRSSFeed(cfg, linkIndex, opts.rssLimit),
++            content: generateRSSFeed(cfg, linkIndex, opts.rssLimit, opts.filterFn),
+             slug: "index" as FullSlug,
+             ext: ".xml",
+           }),
+
+```
 
 ## Quartz snippets that could be used 
 
@@ -28,6 +138,79 @@ Kirby — 02/22/2024 8:36 AM
 > if my PR gets merged, search for .quartz on any source hosting service (that's the optional naming guideline, name your repo plugin.quartz)
 
 Giscus is the same as utterances but better bc newer and discussions. 
+
+## Css pattern matching
+
+> Turns out there is a way to do basic pattern matching as follows:
+> 
+> `[data-slug^="tracker-index/"][data-slug$="list"] {}`
+> 
+> This will apply to all data-slug that starts with index/ and ends in list
+
+You can add css to specific page using `[data-slug=""]`
+
+For example, if I want to customize the list items of the homepage:
+
+```
+[data-slug="index"] li {
+margin-bottom: 0.2rem;
+}
+```
+
+## Explorer filter multiple folders
+
+Definitely got this from the discord but I forgot who said it
+
+```ts title="quartz.layout.ts"
+const explorerFilterFn = (node: FileNode) => {
+return !["tags", "university"].some((path) => node.name.includes(path))
+}
+export const defaultListPageLayout: PageLayout = {
+beforeBody: [Component.ArticleTitle()],
+left: [
+Component.Meta({ enableSearch: false, enableDarkMode: false }),
+Component.MobileOnly(Component.Spacer()),
+Component.Search(),
+Component.Darkmode(),
+Component.DesktopOnly(Component.Explorer({ filterFn: explorerFilterFn })),
+],
+right: [],
+}
+```
+
+## Applying custom styling through writing markdown
+
+1. write out some classes in `custom.scss`
+2. In the markdown document you can just do something like this below, and it'll successfully apply the changes. 
+
+```html
+<div class="me">
+<img src="src link"/>
+</div>
+```
+
+Then in custom.css if this is an image:
+
+```scss
+@media (max-width: 480px) {
+  .me {
+    display: none;
+  }
+}
+@media (min-width: 480px) {
+  .me {
+    width: 70%;
+    padding: 10px;
+  }
+
+  .welcome {
+    display: flex;
+    align-items: center;
+  }
+}
+```
+
+Thanks [notes/quartz/styles/custom.scss at 9cb77ded4cd304f0046014c393605d72cc87a40d · ellie/notes · GitHub](https://github.com/ellie/notes/blob/9cb77ded4cd304f0046014c393605d72cc87a40d/quartz/styles/custom.scss) 
 
 ## Another way to change the search layout and spacing stuff, & changing the dividers
 

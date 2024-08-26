@@ -1,11 +1,13 @@
 ---
 date created: 2024-08-02T09:44
-date modified: 2024-08-02T12:05
+date modified: 2024-08-25T23:10
 tags:
   - explorer-exclude
   - graph-exclude
   - recents-exclude
   - backlinks-exclude
+permalink: perma/code-tester
+subtitle: Trying out some markdown and code changes
 ---
 
 ```/hello/ /pog/
@@ -22,7 +24,7 @@ Word highlighting in code
 
 ‼‼ shaking ‼‼
 
-🌊🌊 hey wave 🌊🌊
+🌊🌊 hey wave 🌊🌊 hey [^1]
 
 💫💫spinner💫💫
 
@@ -37,3 +39,7 @@ Thanks!!!
 - As of august 2024 it was on an MIT license ([see here](https://github.com/Naraenda/quartz-ascone/blob/v4-ascone/LICENSE.txt))
 
 > NOTE: This is a note
+
+Sometimes we have footnoes so this needs to be long enough
+
+[^1]: The world is big but simultaneously small. the ocean is unexplored for the most part. convinced there's some dinosaurs there. 

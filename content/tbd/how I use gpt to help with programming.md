@@ -1,6 +1,8 @@
 ---
 date created: 2024-08-06T01:41
-date modified: 2024-08-06T01:44
+date modified: 2024-08-21T00:29
+tags:
+  - guide
 ---
 
 ![[how I use gpt to help with programming_image_1.png]]
