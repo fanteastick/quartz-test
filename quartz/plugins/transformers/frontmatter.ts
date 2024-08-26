@@ -93,6 +93,8 @@ declare module "vfile" {
         lang: string
         enableToc: string
         cssclasses: string[]
+        permalink: string
+        subtitle: string
       }>
   }
 }

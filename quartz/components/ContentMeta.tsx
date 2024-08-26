@@ -28,6 +28,8 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
 
     if (text) {
       const segments: (string | JSX.Element)[] = []
+      const permalinks: (string | JSX.Element)[] = []
+      const subtitles: (string | JSX.Element)[] = []
 
       if (fileData.dates && fileData.slug !== "index") {
         // segments.push(formatDate(getDate(cfg, fileData)!, cfg.locale))
@@ -45,12 +47,40 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
         segments.push(displayedTime)
       }
 
+      if (fileData.frontmatter?.permalink) {
+        const url = new URL(`https://${cfg.baseUrl ?? "example.com"}`)
+        permalinks.push(
+          <a href="#" key="permalink" class="internal">
+          {url}/{fileData.frontmatter.permalink}
+          </a>
+        )
+      }
+    
+      if (fileData.frontmatter?.subtitle) {
+        // const uppercaseSubtitle = fileData.frontmatter.subtitle.toUpperCase();
+        subtitles.push(
+          // `${uppercaseSubtitle}`
+          `${fileData.frontmatter.subtitle}`
+        )
+      }
       const segmentsElements = segments.map((segment) => <span>{segment}</span>)
 
       return (
-        <p show-comma={options.showComma} class={classNames(displayClass, "content-meta")}>
+        <div class={classNames(displayClass, "content-meta")}>
+        <p style={{ margin: '0', padding: '0' }} show-comma={options.showComma} class={classNames(displayClass, "content-meta")}>
           {segmentsElements}
         </p>
+        {permalinks.length > 0 && (
+          <p style={{ margin: '0', padding: '0' }}  class={classNames(displayClass, "content-meta")}>
+            Semi-permalink: {permalinks}
+          </p>
+        )}
+        {subtitles.length > 0 && (
+          <p style={{ margin: '0', padding: '0', fontStyle:'italic' }}  class={classNames(displayClass, "content-meta", "content-meta-subtitle")}>
+            Alternatively: {subtitles}
+          </p>
+        )}
+        </div>
       )
     } else {
       return null

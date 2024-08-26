@@ -2,6 +2,7 @@ import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 import { FileNode } from "./quartz/components/ExplorerNode";
 import { SimpleSlug } from "./quartz/util/path";
+import { QuartzPluginData } from "./quartz/plugins/vfile"
 // Constants for config that are reused a lot
 const homepageTitle = "Eilleen's (online!) Everything Notebook"
 const modifiedListTitle = "All-files-chronologically-modified"
@@ -30,6 +31,7 @@ const recentNotesConfig = {
   showDate: true,
   linkToMore: "meta/" + modifiedListTitle as SimpleSlug,
   excludeTags: ["recents-exclude"],
+  filter: (f: QuartzPluginData) => !f.slug!.startsWith("tags/")
 }
 const backlinksConfig = {
   excludeTags: ["backlinks-exclude"]

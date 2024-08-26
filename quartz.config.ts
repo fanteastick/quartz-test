@@ -95,7 +95,7 @@ const config: QuartzConfig = {
         priority: ["frontmatter", "git", "filesystem"],
       }),
       Plugin.FancyText(),
-      Plugin.StickyNotes(),
+      // Plugin.StickyNotes(),
       Plugin.SyntaxHighlighting({
         theme: {
           light: "github-light",
