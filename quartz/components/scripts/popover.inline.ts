@@ -9,7 +9,10 @@ async function mouseEnterHandler(
   const link = this
   // console.log('Mouse entered link:', link)
   // console.log('Link id:', link.id)
-  if (link.dataset.noPopover === "true" || link.id.includes("user-content-fnref-")) {
+  if (link.dataset.noPopover === "true" || 
+    link.id.includes("user-content-fnref-") ||
+    link.id.includes("permalink")
+  ) {
     return
   }
 

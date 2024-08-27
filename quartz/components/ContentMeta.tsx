@@ -49,7 +49,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
 
       if (fileData.frontmatter?.permalink) {
         permalinks.push(
-          <a href="#" key="permalink" class="internal">
+          <a href="#" key="permalink" class="internal" id="permalink">
           {cfg.baseUrl}/{fileData.frontmatter.permalink}
           </a>
         )
@@ -75,7 +75,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
           </p>
         )}
         {subtitles.length > 0 && (
-          <p style={{ margin: '0', padding: '0', fontStyle:'italic' }}  class={classNames(displayClass, "content-meta", "content-meta-subtitle")}>
+          <p style={{ margin: '0', padding: '0', fontStyle:'italic' }}  class={classNames(displayClass, "content-meta")}>
             Alternatively: {subtitles}
           </p>
         )}
