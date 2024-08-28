@@ -49,7 +49,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
 
       if (fileData.frontmatter?.permalink) {
         permalinks.push(
-          <a href="#" key="permalink" class="internal" id="permalink">
+          <a href="#" key="permalink" class="internal" id="permalink" style="pointer-events: none">
           {cfg.baseUrl}/{fileData.frontmatter.permalink}
           </a>
         )
