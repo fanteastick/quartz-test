@@ -1,6 +1,6 @@
 ---
 date created: 2024-07-31T17:27
-date modified: 2024-08-21T00:17
+date modified: 2024-08-27T00:03
 tags:
   - gaming
 ---
@@ -10,6 +10,7 @@ Favorite combinations
 - trader + loot goblins or loot piñatas
 	- Honestly trader might be a top 3 unit for me
 - hog rider + chicken + shelley
+	- Unfortunately hog rider is a non-negotiable... walking is so slow...
 
 Least favorite battle mods:
 

@@ -1,19 +1,34 @@
 ---
 date created: 2024-07-09T02:02
-date modified: 2024-08-25T22:59
+date modified: 2024-08-27T23:31
 ---
 
 Misc ideas: to be loosely kept up-to-date with my quartz to-do list %% [[Todo]] %%
 
 - [x] emitter: a page with all the exploring-related things? take inspo from custom landing page. --> prob want new file to define layouts
 	- Ended up making a [[Map]]
-- transformer: add some subtitle stuff based on lastmod transformer and adding to createdmodifieddate
+- [x] transformer: add some subtitle stuff based on lastmod transformer and adding to createdmodifieddate
 - feature: copy current URL to clipboard
 
 Also: [[Cool other websites]]
 
 > I'm a collector of everything. 💬 Alessandro Michele
 
+## Quartz snippets that could be used 
+
+Pulled from discord mostly, but maybe also GitHub crawling. 
+
+### Ways to browse plugins
+
+Kirby — 02/22/2024 8:36 AM
+
+> There are some in this channel (use Discord search for has: file in: 🤝-community-plugins)
+> 
+> is:pr is:closed plugin in the GitHub pull requests page
+> 
+> if my PR gets merged, search for .quartz on any source hosting service (that's the optional naming guideline, name your repo plugin.quartz)
+
+Giscus is the same as utterances but better bc newer and discussions. 
 
 ## Filter an RSS feed
 
@@ -120,24 +135,7 @@ index c0fef86d..258e5ec5 100644
              slug: "index" as FullSlug,
              ext: ".xml",
            }),
-
 ```
-
-## Quartz snippets that could be used 
-
-Pulled from discord mostly, but maybe also GitHub crawling. 
-
-### Ways to browse plugins
-
-Kirby — 02/22/2024 8:36 AM
-
-> There are some in this channel (use Discord search for has: file in: 🤝-community-plugins)
-> 
-> is:pr is:closed plugin in the GitHub pull requests page
-> 
-> if my PR gets merged, search for .quartz on any source hosting service (that's the optional naming guideline, name your repo plugin.quartz)
-
-Giscus is the same as utterances but better bc newer and discussions. 
 
 ## Css pattern matching
 

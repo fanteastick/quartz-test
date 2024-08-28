@@ -1,6 +1,6 @@
 ---
 date created: 2024-06-06T22:54
-date modified: 2024-08-06T00:25
+date modified: 2024-08-27T00:34
 ---
 ## For copy-pasting
 ```
@@ -130,3 +130,11 @@ This file can't be deleted lol or else the stylesheet linking starts breaking. I
 Like this [^1]
 
 [^1]: Nothing big to say here. 
+
+## Dataview Serializer syntax
+
+```
+<!-- QueryToSerialize: TABLE file.folder as "Folder", dateformat(date-modified,"MMM d, yyyy") as "Modified" FROM -"tags" SORT date-modified DESC WHERE file.name != this.file.name  AND draft != "true" --> 
+```
+
+Also it's finicky with spaces, and needs a blank line underneath to inject the markdown table. 

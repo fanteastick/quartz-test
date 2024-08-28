@@ -1,15 +1,19 @@
 ---
 date created: 2024-06-10T09:37
-date modified: 2024-08-05T18:44
+date modified: 2024-08-27T00:39
 ---
+
+Official documentation: [Dataview](https://blacksmithgu.github.io/obsidian-dataview/) by blacksmithgu
 
 ## My own notes
 
-Calling a custom frontmatter property: just do the kebab-case version of the name. e.g. "date modified" becomes `date-modified`. 
+### Calling a custom frontmatter property: 
+
+Just do the kebab-case version of the name. e.g. "date modified" becomes `date-modified`. 
 
 Excluding a tag: do a `FROM -#tag`
 
-The FROM modifier only works with one AND. Can't do FROM x AND x AND x. 
+The FROM modifier only works with one `AND`. Can't do `FROM x AND x AND x`. 
 
 ### Date format
 
@@ -47,3 +51,13 @@ Not included in the table: if you want to reference a custom file property, you 
 | `file.frontmatter` | List           | Contains the raw values of all frontmatter in form of `key \|value` text values; mainly useful for checking raw frontmatter values or for dynamically listing frontmatter keys. |
 | `file.day`         | Date           | Only available if the file has a date inside its file name (of form `yyyy-mm-dd` or `yyyymmdd`), or has a `Date` field/inline field.                                            |
 | `file.starred`     | Boolean        | if this file has been starred via the Obsidian Core Plugin "Starred Files".                                                                                                     |
+
+## Dataview Serializer
+
+Official documentation: [Overview | Obsidian Dataview Serializer](https://developassion.gitbook.io/obsidian-dataview-serializer) 
+
+> Currently, this plugin is only compatible with LIST and TABLE queries. CALENDAR and TASK queries are not supported.
+
+![[Quartz Cheatsheet#Dataview Serializer syntax]]
+
+Me, a Serializer fan 🤞🤞

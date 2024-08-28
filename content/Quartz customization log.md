@@ -1,6 +1,6 @@
 ---
 date created: 2024-06-06T22:54
-date modified: 2024-08-26T00:14
+date modified: 2024-08-27T23:52
 tags:
   - recents-exclude
 ---
@@ -14,6 +14,23 @@ All changes made by me: [Commits · fanteastick/quartz-test · GitHub](https://g
 Misc things to remember:
 
 - attachment folders won't show up if there's no `.md` files in them. 
+
+> [!success] Some changes that took some effort, or I really like how it turned out ☺
+> Hiding things from various components
+> 
+> Forcing icons in a row
+> 
+> Tag and folder pages
+> 
+> Random page
+> 
+> Not mine but super useful: OnlyFor, NotFor, ComponentGroup
+> 
+> External link styling
+
+## Adding robots.txt
+
+![[About robots.txt and crawlers#Template used]]
 
 ## Adding permalink and subtitle to the frontmatter
 
@@ -43,10 +60,9 @@ Add it in the ContentMeta: first add to an array, turn the return into a div, re
 
 ```tsx title="ContentMeta.tsx"
       if (fileData.frontmatter?.permalink) {
-        const url = new URL(`https://${cfg.baseUrl ?? "example.com"}`)
         permalinks.push(
-          <a href="#" key="permalink" class="internal">
-          {url}/{fileData.frontmatter.permalink}
+          <a href="#" key="permalink" class="internal" id="permalink" style="pointer-events: none">
+          {cfg.baseUrl}/{fileData.frontmatter.permalink}
           </a>
         )
       }
@@ -83,6 +99,10 @@ Add it in the ContentMeta: first add to an array, turn the return into a div, re
   }
 ```
 
+`style="pointer-events: none"` prevents an `a href` from being clickable. Coolio!
+
+Tried for a long time to get a "click to copy link" type button but it's not working rip. 
+
 ## Add a little secret comment in the heads
 
 It's weird being perceived... A little comment so I can find out who's snooping around :P
@@ -91,7 +111,7 @@ It's weird being perceived... A little comment so I can find out who's snooping 
 <meta name="custom-comment-fanteastick-ez" content="My 'i was here' moment! check out eilleeenz.com" />
 ```
 
-## Disabling popover on footnotes
+## Disabling popover on footnotes and subtitles
 
 Problem statement: 
 
@@ -107,7 +127,10 @@ async function mouseEnterHandler(
   const link = this
   // console.log('Mouse entered link:', link)
   // console.log('Link id:', link.id)
-+  if (link.dataset.noPopover === "true" || link.id.includes("user-content-fnref-")) {
++  if (link.dataset.noPopover === "true" || 
+    link.id.includes("user-content-fnref-") ||
+    link.id.includes("permalink")
+  ) {
     return
   }
 ```
@@ -623,6 +646,9 @@ Add this to the correct part of the component:
 ```tsx
 {fileData.slug === "index" && <hr />}
 ```
+
+2024-07-10 update: I think I just removed it entirely lol.
+
 ## Customizing the 404 page
 
 Added an ASCII art snake with a text bubble. Annoying to do because the code in `404.tsx` is wrapped around `<article>` tags, which then makes whitespaces not really work. Did it by putting my code block into my index, looking at the generated html for the snake code block, and copying it into the `components/404.tsx` file. Then I used `<br>` and made everything one line to preserve the leading whitespaces.
