@@ -5,6 +5,8 @@ import { classNames } from "../util/lang"
 import { i18n } from "../i18n"
 import { JSX } from "preact"
 import style from "./styles/contentMeta.scss"
+// @ts-ignore
+import permalinkScript from "./scripts/_permalinkCopy.inline"
 
 interface ContentMetaOptions {
   /**
@@ -25,7 +27,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
 
   function ContentMetadata({ cfg, fileData, displayClass }: QuartzComponentProps) {
     const text = fileData.text
-
+    
     if (text) {
       const segments: (string | JSX.Element)[] = []
       const permalinks: (string | JSX.Element)[] = []
@@ -49,9 +51,9 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
 
       if (fileData.frontmatter?.permalink) {
         permalinks.push(
-          <a href="#" key="permalink" class="internal" id="permalink" style="pointer-events: none">
-          {cfg.baseUrl}/{fileData.frontmatter.permalink}
-          </a>
+            <a key="permalink" class="internal permalink" id="permalink" >
+              {cfg.baseUrl}/{fileData.frontmatter.permalink}
+            </a>
         )
       }
     
@@ -87,6 +89,6 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
   }
 
   ContentMetadata.css = style
-
+  ContentMetadata.afterDOMLoaded = permalinkScript;
   return ContentMetadata
 }) satisfies QuartzComponentConstructor

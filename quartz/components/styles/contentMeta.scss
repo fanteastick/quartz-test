@@ -12,3 +12,24 @@
     }
   }
 }
+
+a.permalink:hover{
+  cursor: pointer;
+}
+
+.custom-notification{
+  position: fixed;
+  top: 3%; /* Position it at the top right */
+  left: 35%;  /* Position it at the right */
+  background-color: var(--darkgray);
+  color: var(--lightgray);
+  padding: 0.25em;
+  border-radius: 0.25em;
+  z-index: 1000; /* Ensure it appears above other content */
+  transition: opacity 1s ease-in-out; /* Transition for fade effect */
+}
+
+
+.custom-notification.fade-out {
+  opacity: 0; /* Fade out */
+}
