@@ -53,6 +53,9 @@ const giscusConfig = {
     inputPosition: "top",
     term: "Guestbook"
 }}
+const githubSourceConfig = { 
+  repoLink: "https://github.com/fanteastick/quartz-test"
+}
 ///////////////////////////////////////////////////
 // components shared across all pages  
 export const sharedPageComponents: SharedLayout = {
@@ -116,7 +119,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Graph(graphConfig),
     Component.ComponentGroup([
         Component.Backlinks(backlinksConfig),
-        Component.GithubSource(),
+        Component.GithubSource(githubSourceConfig),
       ]),
   ],
 }

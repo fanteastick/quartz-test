@@ -9,13 +9,6 @@ document.addEventListener("nav", () => {
             const notification = document.createElement('div');
             notification.textContent = 'Permalink copied to clipboard!';
             notification.className = 'custom-notification';
-            //@ts-ignore
-            const fontSize = window.getComputedStyle(element).fontSize;
-            const fontSizeInPx = parseFloat(fontSize);
-            
-            // Convert 50px to em (1em = fontSize in px)
-            const paddingInEm = 50 / fontSizeInPx; 
-
             // Calculate position to place the notification above the clicked element
             //@ts-ignore
             const rect = element.getBoundingClientRect();
