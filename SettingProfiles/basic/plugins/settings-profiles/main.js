@@ -13429,7 +13429,7 @@ var DEFAULT_PROFILE_OPTIONS = {
   app: true,
   bookmarks: true,
   communityPlugins: true,
-  communityPluginsAdvanced: {},
+  // communityPluginsAdvanced: {},
   corePlugins: true,
   graph: true,
   hotkeys: true,
@@ -13465,15 +13465,15 @@ var PROFILE_OPTIONS_MAP = {
     file: ["community-plugins.json", `plugins${import_path.sep}*${import_path.sep}*`],
     ignore: `plugins${import_path.sep}settings-profiles${import_path.sep}data.json`
   },
-  communityPluginsAdvanced: {
-    name: "Community plugins advanced",
-    description: "Advanced settings for the community plugins.",
-    advanced: "communityPlugins"
-  },
+  // communityPluginsAdvanced: {
+  // 	name: 'Community plugins advanced',
+  // 	description: 'Advanced settings for the community plugins.',
+  // 	advanced: 'communityPlugins'
+  // },
   corePlugins: {
     name: "Core plugins",
     description: "Says whether the obsidian core plugin settings will sync.",
-    file: ["core-plugins.json", "core-plugins-migration.json"]
+    file: ["core-plugins.json", "core-plugins-migration.json", "backlink.json", "canvas.json", "command-palette.json", "daily-notes.json", "file-recovery.json", "note-composer.json", "page-preview.json", "switcher.json", "templates.json", "workspace.json", "workspaces.json", "zk-prefixer.json"]
   },
   graph: {
     name: "Graph",
@@ -13544,25 +13544,44 @@ var ProfileOptionsModal = class extends import_obsidian.Modal {
 // src/modals/DialogModal.ts
 var import_obsidian2 = require("obsidian");
 var DialogModal = class extends import_obsidian2.Modal {
-  constructor(app, title, message, onSubmit, onDeny, submit = "Agree", deny = "Cancel") {
+  constructor(app, title, message, onSubmit, onDeny, submit = "Agree", submitWarning = false, deny = "Cancel", denyWarning = true) {
     super(app);
     this.titleEl.setText(title);
     this.message = message;
     this.onSubmit = onSubmit;
     this.onDeny = onDeny;
     this.submit = submit;
+    this.submitWarning = submitWarning;
     this.deny = deny;
+    this.denyWarning = denyWarning;
   }
   onOpen() {
     const { contentEl } = this;
     contentEl.createEl("span", { text: this.message });
-    new import_obsidian2.Setting(contentEl).addButton((button) => button.setButtonText(this.submit).onClick(() => {
-      this.close();
-      this.onSubmit();
-    })).addButton((button) => button.setButtonText(this.deny).setWarning().onClick(() => {
-      this.close();
-      this.onDeny();
-    })).setClass("modal-buttons");
+    const setting = new import_obsidian2.Setting(contentEl);
+    if (this.submitWarning) {
+      setting.addButton((button) => button.setButtonText(this.submit).setWarning().onClick(() => {
+        this.close();
+        this.onSubmit();
+      }));
+    } else {
+      setting.addButton((button) => button.setButtonText(this.submit).onClick(() => {
+        this.close();
+        this.onSubmit();
+      }));
+    }
+    if (this.denyWarning) {
+      setting.addButton((button) => button.setButtonText(this.deny).setWarning().onClick(() => {
+        this.close();
+        this.onDeny();
+      }));
+    } else {
+      setting.addButton((button) => button.setButtonText(this.deny).onClick(() => {
+        this.close();
+        this.onDeny();
+      }));
+    }
+    setting.setClass("modal-buttons");
   }
   onClose() {
     const { contentEl } = this;
@@ -13587,6 +13606,7 @@ var ICON_UNLOADED_PROFILE = "user-cog";
 var import_fs = require("fs");
 var import_obsidian3 = require("obsidian");
 var import_path2 = require("path");
+var import_stream = require("stream");
 function getAllFiles(path) {
   let pathSections = [];
   let files = [];
@@ -13702,6 +13722,103 @@ function getVaultPath() {
 var FILE_IGNORE_LIST = [
   ".DS_Store"
 ];
+function filesEqual(file1, file2) {
+  const stream1 = (0, import_fs.createReadStream)(file1);
+  const stream2 = (0, import_fs.createReadStream)(file2);
+  return new Promise((resolve, reject) => {
+    let readStream1 = stream1.pipe(new import_stream.PassThrough({ objectMode: true }));
+    let readStream2 = stream2.pipe(new import_stream.PassThrough({ objectMode: true }));
+    const cleanup = (equal) => {
+      stream1.removeListener("error", reject);
+      readStream1.removeListener("end", onend1);
+      readStream1.removeListener("readable", streamState1.read);
+      stream2.removeListener("error", reject);
+      readStream2.removeListener("end", onend2);
+      readStream1.removeListener("readable", streamState2.read);
+      resolve(equal);
+    };
+    const streamState1 = {
+      id: 1,
+      stream: readStream1,
+      data: null,
+      pos: 0,
+      ended: false,
+      read: () => {
+      }
+    };
+    const streamState2 = {
+      id: 2,
+      stream: readStream2,
+      data: null,
+      pos: 0,
+      ended: false,
+      read: () => {
+      }
+    };
+    streamState1.read = createOnRead(streamState1, streamState2, cleanup);
+    streamState2.read = createOnRead(streamState2, streamState1, cleanup);
+    const onend1 = createOnEndFn(streamState1, streamState2, cleanup);
+    const onend2 = createOnEndFn(streamState2, streamState1, cleanup);
+    stream1.on("error", reject);
+    readStream1.on("end", onend1);
+    stream2.on("error", reject);
+    readStream2.on("end", onend2);
+    streamState1.stream.once("readable", streamState1.read);
+  });
+}
+function createOnRead(streamState1, streamState2, resolve) {
+  return () => {
+    let data = streamState1.stream.read();
+    if (!data) {
+      return streamState1.stream.once("readable", streamState1.read);
+    }
+    if (!Buffer.isBuffer(data)) {
+      if (typeof data === "object") {
+        data = JSON.stringify(data);
+      } else {
+        data = data.toString();
+      }
+      data = Buffer.from(data);
+    }
+    const newPos = streamState1.pos + data.length;
+    if (streamState1.pos < streamState2.pos) {
+      if (!streamState2.data) {
+        return resolve(false);
+      }
+      let minLength = Math.min(data.length, streamState2.data.length);
+      let streamData = data.slice(0, minLength);
+      streamState1.data = data.slice(minLength);
+      let otherStreamData = streamState2.data.slice(0, minLength);
+      streamState2.data = streamState2.data.slice(minLength);
+      for (let i = 0; i < minLength; i++) {
+        if (streamData[i] !== otherStreamData[i]) {
+          return resolve(false);
+        }
+      }
+    } else {
+      streamState1.data = data;
+    }
+    streamState1.pos = newPos;
+    if (newPos > streamState2.pos) {
+      if (streamState2.ended) {
+        return resolve(false);
+      }
+      streamState2.read();
+    } else {
+      streamState1.read();
+    }
+  };
+}
+function createOnEndFn(streamState1, streamState2, resolve) {
+  return () => {
+    streamState1.ended = true;
+    if (streamState2.ended) {
+      resolve(streamState1.pos === streamState2.pos);
+    } else {
+      streamState2.read();
+    }
+  };
+}
 
 // src/settings/SettingsTab.ts
 var SettingsProfilesSettingTab = class extends import_obsidian4.PluginSettingTab {
@@ -13760,7 +13877,7 @@ var SettingsProfilesSettingTab = class extends import_obsidian4.PluginSettingTab
       }, 2e3, true).call(this, value);
     }).inputEl.id = "profile-path");
     new import_obsidian4.Setting(containerEl).setName("UI update").setDesc(createFragment((fragment) => {
-      fragment.append(fragment.createEl("div", { text: "Controls UI update, when disabled, fewer file reads/writes are performed" }), fragment.createEl("div", { text: "Requieres reload for changes to take effect!", cls: "mod-warning" }));
+      fragment.append(fragment.createEl("div", { text: "Controls UI update, when disabled, fewer file reads are performed. The status bar icon is deactivated." }), fragment.createEl("div", { text: "Requieres reload for changes to take effect!", cls: "mod-warning" }));
     })).addToggle((toggle) => toggle.setValue(this.plugin.getUiUpdate()).onChange((value) => {
       try {
         if (value !== this.plugin.getUiUpdate()) {
@@ -13809,7 +13926,7 @@ var SettingsProfilesSettingTab = class extends import_obsidian4.PluginSettingTab
       }).sliderEl.setAttr("id", "ui-interval"));
     }
     new import_obsidian4.Setting(containerEl).setName("Profile update").setDesc(createFragment((fragment) => {
-      fragment.append(fragment.createEl("div", { text: "Controls profile update, when disabled, fewer file reads/writes are performed" }), fragment.createEl("div", { text: "Requieres reload for changes to take effect!", cls: "mod-warning" }));
+      fragment.append(fragment.createEl("div", { text: "Controls profile update, when disabled, fewer file reads/writes are performed. Changed settings are not saved automatically." }), fragment.createEl("div", { text: "Requieres reload for changes to take effect!", cls: "mod-warning" }));
     })).addToggle((toggle) => toggle.setValue(this.plugin.getProfileUpdate()).onChange((value) => {
       try {
         if (value !== this.plugin.getProfileUpdate()) {
@@ -13880,14 +13997,14 @@ var SettingsProfilesSettingTab = class extends import_obsidian4.PluginSettingTab
         this.plugin.removeProfile(profile.name).then(() => {
           this.display();
         });
-      })).addExtraButton((button) => button.setIcon(ICON_PROFILE_SAVE).setTooltip("Save settings to profile").setDisabled(!this.plugin.areSettingsChanged(profile)).onClick(() => {
+      })).addExtraButton((button) => button.setIcon(ICON_PROFILE_SAVE).setTooltip("Save settings to profile").onClick(() => {
         new DialogModal(this.app, "Save current settings to profile?", "You are about to overwrite the current settings of this profile. This cannot be undone.", async () => {
           this.plugin.saveProfileSettings(profile).then(() => {
             new import_obsidian4.Notice("Saved profile successfully.");
             this.display();
           });
         }, async () => {
-        }, "Override").open();
+        }, "Override", true, "Cancel", false).open();
       })).addExtraButton((button) => button.setIcon(this.plugin.isEnabled(profile) ? ICON_CURRENT_PROFILE : ICON_NOT_CURRENT_PROFILE).setTooltip(this.plugin.isEnabled(profile) ? "Deselect profile" : "Switch to profile").onClick(() => {
         this.plugin.switchProfile(this.plugin.isEnabled(profile) ? "" : profile.name).then(() => {
           this.display();
@@ -14118,22 +14235,52 @@ function filterIgnoreFilesList(filesList, profile) {
   const ignoreFiles = getIgnoreFilesList(profile);
   return filesList.filter((file) => !ignoreFiles.contains(file));
 }
-function filterUnchangedFiles(filesList, sourcePath, targetPath) {
+function filterChangedFiles(filesList, sourcePath, targetPath) {
   return filesList.filter((file) => {
     const sourceFile = (0, import_path3.join)(...sourcePath, file);
-    const targetFile = (0, import_path3.join)(...targetPath, file);
-    if (!(0, import_fs2.existsSync)(sourceFile) || !(0, import_fs2.statSync)(sourceFile).isFile()) {
+    if (!(0, import_fs2.existsSync)(sourceFile)) {
       return false;
     }
+    const sourceStat = (0, import_fs2.statSync)(sourceFile);
+    if (!sourceStat.isFile()) {
+      return false;
+    }
+    const targetFile = (0, import_path3.join)(...targetPath, file);
     if (!(0, import_fs2.existsSync)(targetFile)) {
       return true;
     }
-    if (!(0, import_fs2.statSync)(targetFile).isFile()) {
+    const targetStat = (0, import_fs2.statSync)(targetFile);
+    if (!targetStat.isFile()) {
+      return true;
+    }
+    if (sourceStat.size !== targetStat.size) {
+      return true;
+    }
+    return !filesEqual(sourceFile, targetFile);
+  });
+}
+function containsChangedFiles(filesList, sourcePath, targetPath) {
+  return !filesList.every(async (file) => {
+    const sourceFile = (0, import_path3.join)(...sourcePath, file);
+    if (!(0, import_fs2.existsSync)(sourceFile)) {
+      return true;
+    }
+    const sourceStat = (0, import_fs2.statSync)(sourceFile);
+    if (!sourceStat.isFile()) {
+      return true;
+    }
+    const targetFile = (0, import_path3.join)(...targetPath, file);
+    if (!(0, import_fs2.existsSync)(targetFile)) {
       return false;
     }
-    const sourceData = (0, import_fs2.readFileSync)(sourceFile, "utf-8");
-    const targetData = (0, import_fs2.readFileSync)(targetFile, "utf-8");
-    return sourceData !== targetData;
+    const targetStat = (0, import_fs2.statSync)(targetFile);
+    if (!targetStat.isFile()) {
+      return false;
+    }
+    if (sourceStat.size !== targetStat.size) {
+      return false;
+    }
+    return await filesEqual(sourceFile, targetFile);
   });
 }
 
@@ -14220,7 +14367,6 @@ var SettingsProfilesPlugin = class extends PluginExtended {
       }, this.getProfileUpdateDelay(), true));
     }
     if (this.getUiUpdate()) {
-      this.updateUI();
       this.registerInterval(window.setInterval(() => {
         this.updateUI();
       }, this.getUiRefreshInterval()));
@@ -14278,13 +14424,15 @@ var SettingsProfilesPlugin = class extends PluginExtended {
         }
       }
     });
-    this.addCommand({
-      id: "update-profile-status",
-      name: "Update profile status",
-      callback: () => {
-        this.updateUI();
-      }
-    });
+    if (this.getUiUpdate()) {
+      this.addCommand({
+        id: "update-profile-status",
+        name: "Update profile status",
+        callback: () => {
+          this.updateUI();
+        }
+      });
+    }
   }
   onunload() {
     if (this.settingsListener) {
@@ -14298,7 +14446,7 @@ var SettingsProfilesPlugin = class extends PluginExtended {
     this.refreshProfilesList();
     const profile = this.getCurrentProfile();
     if (profile) {
-      if (this.areSettingsChanged(profile)) {
+      if (!this.areSettingsSaved(profile)) {
         if (profile.autoSync) {
           this.saveProfileSettings(profile);
         }
@@ -14396,8 +14544,9 @@ var SettingsProfilesPlugin = class extends PluginExtended {
     }
   }
   /**
-   * Check relevant files for current profile are changed
-   * @returns `ture` if at least one file has changed
+   * Check relevant files for profile are changed
+   * @param profile The profile to check
+   * @returns `ture` if at least one file has changed and is newer than the saved profile
    */
   areSettingsChanged(profile) {
     try {
@@ -14410,15 +14559,38 @@ var SettingsProfilesPlugin = class extends PluginExtended {
         return true;
       }
       let filesList = getConfigFilesList(profile);
-      filesList = filterIgnoreFilesList(filesList, profile);
       filesList = getFilesWithoutPlaceholder(filesList, sourcePath);
       filesList = filterIgnoreFilesList(filesList, profile);
-      filesList = filterUnchangedFiles(filesList, sourcePath, targetPath);
-      return filesList.length > 0;
+      return containsChangedFiles(filesList, targetPath, sourcePath);
     } catch (e) {
       e.message = "Failed to check settings changed! " + e.message + ` Profile: ${JSON.stringify(profile)}`;
       console.error(e);
       return true;
+    }
+  }
+  /**
+   * Check relevant files for profile are saved
+   * @param profile The profile to check
+   * @returns `ture` if at no file has changed or all are older than the saved profile
+   */
+  areSettingsSaved(profile) {
+    try {
+      const sourcePath = [getVaultPath(), this.app.vault.configDir];
+      const targetPath = [this.getAbsolutProfilesPath(), profile.name];
+      if (!(0, import_fs3.existsSync)((0, import_path4.join)(...sourcePath))) {
+        throw Error(`Source path do not exist! SourcePath: ${(0, import_path4.join)(...sourcePath)}`);
+      }
+      if (!(0, import_fs3.existsSync)((0, import_path4.join)(...targetPath))) {
+        return false;
+      }
+      let filesList = getConfigFilesList(profile);
+      filesList = getFilesWithoutPlaceholder(filesList, sourcePath);
+      filesList = filterIgnoreFilesList(filesList, profile);
+      return !containsChangedFiles(filesList, sourcePath, targetPath);
+    } catch (e) {
+      e.message = "Failed to check settings changed! " + e.message + ` Profile: ${JSON.stringify(profile)}`;
+      console.error(e);
+      return false;
     }
   }
   /**
@@ -14467,7 +14639,7 @@ var SettingsProfilesPlugin = class extends PluginExtended {
           new DialogModal(this.app, "Save befor deselect profile?", "Otherwise, unsaved changes will be lost.", async () => {
             await this.saveProfileSettings(currentProfile);
           }, async () => {
-          }, "Save", "Do not Save").open();
+          }, "Save", false, "Do not Save").open();
         }
         this.updateCurrentProfile(void 0);
         await this.saveSettings();
@@ -14589,7 +14761,7 @@ var SettingsProfilesPlugin = class extends PluginExtended {
       filesList = filterIgnoreFilesList(filesList, profile);
       filesList = getFilesWithoutPlaceholder(filesList, sourcePath);
       filesList = filterIgnoreFilesList(filesList, profile);
-      filesList = filterUnchangedFiles(filesList, sourcePath, targetPath);
+      filesList = filterChangedFiles(filesList, sourcePath, targetPath);
       filesList.forEach((file) => {
         if ((0, import_fs3.existsSync)((0, import_path4.join)(...sourcePath, file))) {
           changed = true;
@@ -14624,7 +14796,7 @@ var SettingsProfilesPlugin = class extends PluginExtended {
       filesList = filterIgnoreFilesList(filesList, profile);
       filesList = getFilesWithoutPlaceholder(filesList, sourcePath);
       filesList = filterIgnoreFilesList(filesList, profile);
-      filesList = filterUnchangedFiles(filesList, sourcePath, targetPath);
+      filesList = filterChangedFiles(filesList, sourcePath, targetPath);
       filesList.forEach((file) => {
         if ((0, import_fs3.existsSync)((0, import_path4.join)(...sourcePath, file))) {
           copyFile([...sourcePath, file], [...targetPath, file]);
@@ -14844,13 +15016,14 @@ var SettingsProfilesPlugin = class extends PluginExtended {
    * @returns Is loaded profile newer/equal than saved profile
    */
   isProfileUpToDate(profile) {
-    const profileData = loadProfileOptions(profile, this.getAbsolutProfilesPath());
-    if (!profileData || !profileData.modifiedAt) {
-      return false;
+    const profileOptions = loadProfileOptions(profile, this.getAbsolutProfilesPath());
+    if (!profileOptions || !profileOptions.modifiedAt) {
+      return true;
     }
-    const profileDataDate = new Date(profileData.modifiedAt);
-    const profileDate = new Date(profile.modifiedAt);
-    return profileDate.getTime() >= profileDataDate.getTime();
+    if (new Date(profile.modifiedAt).getTime() >= new Date(profileOptions.modifiedAt).getTime()) {
+      return true;
+    }
+    return !this.areSettingsChanged(profile);
   }
   /**
    * Check the profile settings are saved 
@@ -14858,13 +15031,14 @@ var SettingsProfilesPlugin = class extends PluginExtended {
    * @returns Is saved profile newer/equal than saved profile
    */
   isProfileSaved(profile) {
-    const profileData = loadProfileOptions(profile, this.getAbsolutProfilesPath());
-    if (!profileData || !profileData.modifiedAt) {
+    const profileOptions = loadProfileOptions(profile, this.getAbsolutProfilesPath());
+    if (!profileOptions || !profileOptions.modifiedAt) {
       return false;
     }
-    const profileDataDate = new Date(profileData.modifiedAt);
-    const profileDate = new Date(profile.modifiedAt);
-    return profileDate.getTime() <= profileDataDate.getTime();
+    if (new Date(profile.modifiedAt).getTime() <= new Date(profileOptions.modifiedAt).getTime()) {
+      return true;
+    }
+    return this.areSettingsSaved(profile);
   }
 };
 /*! Bundled license information:

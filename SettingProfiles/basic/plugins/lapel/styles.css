@@ -1,0 +1,54 @@
+/*
+  XXX: Hide gutters inside table cell editor
+  Remove this hack once there's a proper way to not register the editor extension
+  inside table cells.
+*/
+.table-cell-wrapper .cm-gutters {
+  display: none;
+}
+
+.cm-lapel {
+  font-size: var(--font-smallest);
+	letter-spacing: 0.015em;
+  text-align: end;
+  width: 4ch;
+}
+
+.cm-heading-marker {
+  cursor: var(--cursor);
+	color: var(--text-faint);
+	display: inline-block;
+}
+
+.cm-heading-marker.has-active-menu,
+.cm-heading-marker:hover {
+  color: var(--text-accent-hover);
+}
+
+.cm-heading-marker[data-level="1"] {
+  --heading-marker: "H1";
+}
+
+.cm-heading-marker[data-level="2"] {
+  --heading-marker: "H2";
+}
+
+.cm-heading-marker[data-level="3"] {
+  --heading-marker: "H3";
+}
+
+.cm-heading-marker[data-level="4"] {
+  --heading-marker: "H4";
+}
+
+.cm-heading-marker[data-level="5"] {
+  --heading-marker: "H5";
+}
+
+.cm-heading-marker[data-level="6"] {
+  --heading-marker: "H6";
+}
+
+.cm-heading-marker:before {
+  content: var(--heading-marker);
+}

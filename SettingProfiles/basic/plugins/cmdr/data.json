@@ -4,7 +4,14 @@
   "debug": false,
   "editorMenu": [],
   "fileMenu": [],
-  "leftRibbon": [],
+  "leftRibbon": [
+    {
+      "id": "file-explorer:new-file",
+      "icon": "lucide-file-plus",
+      "name": "Create new note",
+      "mode": "any"
+    }
+  ],
   "rightRibbon": [],
   "titleBar": [],
   "statusBar": [],
@@ -14,13 +21,52 @@
       "icon": "lucide-code-2",
       "name": "Toggle Live Preview/Source mode",
       "mode": "any"
+    },
+    {
+      "id": "file-explorer:move-file",
+      "icon": "lucide-folder-tree",
+      "name": "Move current file to another folder",
+      "mode": "any"
+    },
+    {
+      "id": "dataview:dataview-rebuild-current-view",
+      "icon": "refresh-cw",
+      "name": "Dataview: Rebuild current view",
+      "mode": "any"
+    },
+    {
+      "id": "dataview-serializer:serialize-all-dataview-queries",
+      "icon": "refresh-ccw",
+      "name": "Dataview Serializer: Scan and serialize all Dataview queries",
+      "mode": "any"
+    },
+    {
+      "id": "editor:insert-tag",
+      "icon": "lucide-tag",
+      "name": "Add tag",
+      "mode": "any"
+    },
+    {
+      "id": "quick-tagger:quick-remove-tag",
+      "icon": "x-square",
+      "name": "Quick Tagger: Remove tag",
+      "mode": "any"
+    },
+    {
+      "id": "app:delete-file",
+      "icon": "lucide-trash-2",
+      "name": "Delete current file",
+      "mode": "any"
     }
   ],
   "macros": [],
   "explorer": [],
   "hide": {
     "statusbar": [],
-    "leftRibbon": []
+    "leftRibbon": [
+      "Add tag to current note",
+      "Remove tag from current note"
+    ]
   },
   "spacing": 8,
   "advancedToolbar": {
