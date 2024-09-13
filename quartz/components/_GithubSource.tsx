@@ -36,7 +36,7 @@ export default ((opts?: Partial<GithubSourceOptions>) => {
           </a>
         </li>
         <li>
-          <a href={`${options?.repoLink}/commits/${options?.branch}/${fileData.filePath!}`} class="external">
+          <a href={`${options?.repoLink.replace('github.com', 'github.githistory.xyz')}/commits/${options?.branch}/${fileData.filePath!}`} class="external">
             GitHistory 
           </a>
           <svg 

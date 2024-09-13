@@ -11,10 +11,14 @@ const ArticleTitle: QuartzComponent = ({ fileData, displayClass }: QuartzCompone
   // @ts-ignore
   const segments = slug.split('/').filter(Boolean); // also hacky - don't know how to cast the split
   const lastSegment = segments.length > 0 ? segments[segments.length - 1] : '';
-
+  // The below code will take only the content after the last "/" since that's the folder name
+  // This is ok because folders can't have / in the name anyway
+  const baseFolderName = folderName.includes('/')
+  ? folderName.substring(folderName.lastIndexOf('/') + 1)
+  : folderName;
 
   const title = (slug && folderName !== "." && folderName !== "tags" && lastSegment === "index" ) 
-  ? `📂 ${folderName}` 
+  ? `📂 ${baseFolderName}` 
   : fileData.frontmatter?.title;
 
   // const title = fileData.frontmatter?.title original text lol 8-5-24 ez
