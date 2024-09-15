@@ -1,6 +1,6 @@
 ---
 date created: 2024-06-06T22:54
-date modified: 2024-08-27T23:52
+date modified: 2024-09-15T16:25
 tags:
   - recents-exclude
 ---
@@ -20,14 +20,26 @@ Misc things to remember:
 > 
 > Forcing icons in a row
 > 
-> Tag and folder pages
+> Tag and folder pages having consistent names
 > 
-> Random page
+> Random page link (logic not mine originally)
 > 
 > Not mine but super useful: OnlyFor, NotFor, ComponentGroup
 > 
 > External link styling
+>
+> Click permalink to copy to clipboard, with a little notification box
 
+### Skipping footnotes in a transclude except this isn't working yet
+
+I think this is unintended behavior. The transclude code in `renderPage` checks for the next heading of the same level or higher. But footnotes are in a `<section>` so it just added the footnote to the transclude if it was the last header. 
+
+- [ ] todo
+### Adding the full slug to a footnote link
+
+If it's a transclude, the footnote will just link to `#headingname` which is kind of annoying, since it doesn't exist on the current page. Need to add the slug to this. 
+
+- [ ] todo
 ## Adding robots.txt
 
 ![[About robots.txt and crawlers#Template used]]
@@ -101,7 +113,87 @@ Add it in the ContentMeta: first add to an array, turn the return into a div, re
 
 `style="pointer-events: none"` prevents an `a href` from being clickable. Coolio!
 
-Tried for a long time to get a "click to copy link" type button but it's not working rip. 
+~~Tried for a long time to get a "click to copy link" type button but it's not working rip.~~ I got it to work~!
+
+### Click permalink to copy to clipboard, with a notification box
+
+[[Permalinks tracker]] if you want to find a link to test it out on
+
+```tsx title="ContentMetadata.tsx"
+// @ts-ignore
+import permalinkScript from "./scripts/_permalinkCopy.inline"
+...
+if (fileData.frontmatter?.permalink) {
+	permalinks.push(
+		<a key="permalink" class="internal permalink" id="permalink" >
+		  {cfg.baseUrl}/{fileData.frontmatter.permalink}
+		</a>
+	)
+}
+ContentMetadata.afterDOMLoaded = permalinkScript;
+```
+
+The script: 
+
+```ts title="./scripts/_permalinkCopy.inline.ts"
+document.addEventListener("nav", () => {
+    const element = document.getElementById('permalink')
+    if (element) {
+        const txt = element.innerText as string
+        function onclick  () {
+            navigator.clipboard.writeText(txt);
+            
+            // Create and show custom notification
+            const notification = document.createElement('div');
+            notification.textContent = 'Permalink copied to clipboard!';
+            notification.className = 'custom-notification';
+            // Calculate position to place the notification above the clicked element
+            //@ts-ignore
+            const rect = element.getBoundingClientRect();
+            notification.style.position = 'fixed';
+            notification.style.top = `${rect.bottom + 10}px`; // 10px below
+            notification.style.left = `${rect.left}px`; // Align with the left of the element
+
+            document.body.appendChild(notification);
+            setTimeout(() => {
+            // Add class to trigger fade-out
+            notification.classList.add('fade-out');
+            
+            // Remove notification after the fade-out animation is complete
+            setTimeout(() => {
+            document.body.removeChild(notification);
+            }, 750); // Duration of the fade-out animation
+        }, 1500)
+        }
+        element.addEventListener("click", onclick)
+        window.addCleanup(() => element.removeEventListener("click", onclick))
+    }
+})
+```
+
+Some extra styling: and a fade-out
+
+```scss title="contentMeta.scss"
+a.permalink:hover{
+  cursor: pointer;
+}
+
+.custom-notification{
+  position: fixed;
+  top: 3%; /* Position it at the top right */
+  left: 35%;  /* Position it at the right */
+  background-color: var(--darkgray);
+  color: var(--lightgray);
+  padding: 0.25em;
+  border-radius: 0.25em;
+  z-index: 1000; /* Ensure it appears above other content */
+  transition: opacity 1s ease-in-out; /* Transition for fade effect */
+}
+
+.custom-notification.fade-out {
+  opacity: 0; /* Fade out */
+}
+```
 
 ## Add a little secret comment in the heads
 
@@ -286,18 +378,6 @@ const defaultOptions: Options = {
 ## Hide tags from graph and explorer and backlinks and more
 
 ![[Hiding tags from various components#Summary]]
-
-## Disable popovers on a certain slug (not used)
-
-todo later - change to disable on filedata.frontmatter.tag.includes(x)
-
-```tsx title="renderPage.tsx"
-<div class="popover-hint">
-  {!slug.includes("All files chronologically modified") && beforeBody.map((BodyComponent) => (
-	<BodyComponent {...componentData} />
-  ))}
-</div>
-```
 
 ## Overflow lists styling
 ```scss title="base.scss"
@@ -655,7 +735,11 @@ Added an ASCII art snake with a text bubble. Annoying to do because the code in 
 
 ## Making a second table of contents component
 
-Probably bad code practice but I wanted to fix the issue where table of contents wouldn't fold down in mobileonly mode. 
+[hack: TableOfContents2 additions · fanteastick/quartz-test@7a482cf · GitHub](https://github.com/fanteastick/quartz-test/commit/7a482cfe7772142f6a6037d81e1ca44ef971a83b#diff-8a7a3a35709b33dd90a3a46deb08d6326bc17606dd172bfd8eaf82af52faa0f1) 
+
+Probably bad code practice ([Don't repeat yourself - Wikipedia](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)) but I wanted to fix the issue where table of contents wouldn't fold down in mobileonly mode.
+
+Create a new transformer `quartz/plugins/transformers/toc2.ts` which is just the same as the other one but make it `export const TableOfContents2`. 
 
 Add to transformers: 
 
@@ -666,7 +750,7 @@ Add to transformers:
 
 Add to components:
 
-```ts title="plugins/components/index.ts"
+```ts title="components/index.ts"
  import TableOfContents from "./TableOfContents"
 +import TableOfContents2 from "./TableOfContents2"
 
@@ -701,7 +785,7 @@ button#toc, button#toc2 {
 
 In the inline script, add a toc2 section: which is just the toc script copy pasted
 
-```ts title="
+```ts title="scripts/toc.inline.ts"
 function setupToc2() {
   const toc = document.getElementById("toc2")
   if (toc) {
@@ -724,6 +808,7 @@ document.addEventListener("nav", () => {
   headers.forEach((header) => observer.observe(header))
 })
 ```
+
 ## Underline external links in page bodies, and lighter
 
 Added a class to the `a` section in `base.scss`
@@ -895,9 +980,75 @@ Had to change it to this: `${fileData.filePath!}`
 
 Using external service [Git History](https://githistory.xyz/) for history because it's a very nice view. So I turned that part into an external link by adding the class, manually adding the svg, manually adding the svg class to the githubsource scss.
 
-- [quartz-test/quartz/components/GithubSource.tsx at v4 · fanteastick/quartz-test · GitHub](https://github.com/fanteastick/quartz-test/blob/v4/quartz/components/GithubSource.tsx) 
-- [quartz-test/quartz/components/styles/githubSource.scss at v4 · fanteastick/quartz-test · GitHub](https://github.com/fanteastick/quartz-test/blob/v4/quartz/components/styles/githubSource.scss) 
+2024-08-29 Made some extra changes to clean up githubSource, namely adding the config options and built-in defaults. 
 
+For the githistory link, it needs to do a replacement. ``${options?.repoLink.replace('github.com', 'github.githistory.xyz')}/commits/${options?.branch}/${fileData.filePath!}``
+
+```tsx title="GithubSource.tsx"
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import style from "./styles/_githubSource.scss"
+
+// @ts-ignore
+import { classNames } from "../util/lang"
+
+interface GithubSourceOptions {
+  repoLink: string
+  branch: string
+}
+
+const defaultOptions: GithubSourceOptions = {
+  repoLink: "github.com",
+  branch: "v4"
+}
+
+export default ((opts?: Partial<GithubSourceOptions>) => {
+  // Merge options with defaults
+  const options: GithubSourceOptions = { ...defaultOptions, ...opts }
+  const GithubSource: QuartzComponent = ({ 
+    displayClass, 
+    fileData 
+  }: QuartzComponentProps) => {
+  return (
+    <div class={classNames(displayClass, "github-source")}>
+      <h3>Source code</h3>
+      <ul>
+        <li>
+          <a href={`${options?.repoLink}/blob/${options?.branch}/${fileData.filePath!}`}>
+            Source
+          </a>  
+        </li>
+        <li>
+          <a href={`${options?.repoLink}/blame/${options?.branch}/${fileData.filePath!}`}>
+            Blame
+          </a>
+        </li>
+        <li>
+          <a href={`${options?.repoLink.replace('github.com', 'github.githistory.xyz')}/commits/${options?.branch}/${fileData.filePath!}`} class="external">
+            GitHistory 
+          </a>
+          <svg 
+            class="external-icon"
+            viewBox= "0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            fill="currentColor"
+            xmlSpace="preserve"
+          >
+            <path 
+              d= "M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"
+            />
+          </svg>
+        </li>
+      </ul>
+    </div>
+  )
+  }
+  GithubSource.css = style
+  return GithubSource
+}) satisfies QuartzComponentConstructor
+```
 ## Clicking on the folder name opens the folder page
 ```tsx title="Explorer.tsx"
 const defaultOptions = {

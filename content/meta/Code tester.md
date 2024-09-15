@@ -1,6 +1,6 @@
 ---
 date created: 2024-08-02T09:44
-date modified: 2024-08-27T00:21
+date modified: 2024-09-13T00:40
 tags:
   - explorer-exclude
   - graph-exclude
@@ -45,6 +45,8 @@ Thanks!!!
 Sometimes we have footnoes so this needs to be long enough
 
 [^1]: The world is big but simultaneously small. the ocean is unexplored for the most part. convinced there's some dinosaurs there. 
+
+![[Quartz Cheatsheet#Footnote syntax]]
 
 ## lorem ipsummm
 

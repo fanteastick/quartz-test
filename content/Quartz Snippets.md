@@ -1,6 +1,6 @@
 ---
 date created: 2024-07-09T02:02
-date modified: 2024-08-27T23:31
+date modified: 2024-09-15T16:22
 ---
 
 Misc ideas: to be loosely kept up-to-date with my quartz to-do list %% [[Todo]] %%
@@ -8,7 +8,18 @@ Misc ideas: to be loosely kept up-to-date with my quartz to-do list %% [[Todo]] 
 - [x] emitter: a page with all the exploring-related things? take inspo from custom landing page. --> prob want new file to define layouts
 	- Ended up making a [[Map]]
 - [x] transformer: add some subtitle stuff based on lastmod transformer and adding to createdmodifieddate
-- feature: copy current URL to clipboard
+- [x] feature: copy current URL to clipboard
+	- ended up being a "copy permalink to clipboard"
+- [ ] auto unsubscribe from giscus discussion
+	- temporary solution: a note in the first comment with some info about how to unsubscribe
+- [ ] Folder page - consistency for subfolder pages, also show an icon if something is a subfolder?
+	- no index.md in a subfolder --> subfolder name doesn't show in parent folder listing
+	- no title on the subfolder's index.md --> subfolder shows up as "index" in the main folder's page
+	- my weird fix: had to put in some code that makes it only title the folders after the last "/"
+	- There's no way to indicate in the main folder listing that the link is to a subfolder
+- [ ] Footnotes are still super jank
+	- if you have a footnote, and you transclude the last heading of a file, the transclude will include the footnotes. 
+	- If you have a transclude that has a footnote, like to another header or something, it only has the `#headername` so it'll just try to go to current page's `#headername` which is incorrect.
 
 Also: [[Cool other websites]]
 
@@ -30,6 +41,115 @@ Kirby — 02/22/2024 8:36 AM
 
 Giscus is the same as utterances but better bc newer and discussions. 
 
+## Plugin to change an image's color theme based on the site color theme
+
+[feat: add darkmode toggle for image · flyingcakes85/quartz-image-theme@e2d741f · GitHub](https://github.com/flyingcakes85/quartz-image-theme/commit/e2d741fe3428e62d368b5cae58b4595d3409bfe9) 
+
+@flyingcakes85
+
+## Plugin to filter recentnotes based on tag
+
+Skalixur — 09/02/2024
+
+```tsx
+import { QuartzFilterPlugin } from "../types"
+
+export interface Options {
+  tag: string[]
+}
+
+export const TagFilter: QuartzFilterPlugin<Options> = (userOpts) => ({
+  name: "TagFilter",
+  shouldPublish(_ctx, [_tree, vfile]) {
+    return vfile.data?.frontmatter?.tags?.some((tag) => userOpts?.tag.includes(tag)) ?? false
+  },
+})
+```
+
+## Add native components to custom components
+
+savval _—_ Yesterday
+
+> Did it:
+> 
+> The LandingComponent passes` { ...componentData }` from the `renderPage` function which need to be supplied to the native components in your custom components like so:
+
+```tsx
+import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import landingStyle from './styles/landing.scss'
+import Search from "./Search"
+
+
+export default (() => {
+  const SearchComponent = Search()
+  function Landing(componentData: QuartzComponentProps) {
+    return (
+      <div>
+        <SearchComponent {... componentData}/>
+        <div class="content-container">
+          <p class="landing-header">Landing Page</p>
+        </div>
+      </div>
+    )
+  }
+
+  Landing.css = landingStyle
+  return Landing
+}) satisfies QuartzComponentConstructor
+```
+
+## Twitter embed plugin
+
+aaron — 08/04/2024
+
+> an example for this:
+
+```tsx
+import { QuartzTransformerPlugin } from "../types"
+import { Element } from "hast"
+import { Root } from "mdast"
+import { visit } from "unist-util-visit"
+import { i18n } from "../../i18n"
+
+export const twitterUrlRegex = /^.*(twitter\.com|x\.com)\/[a-zA-Z0-9_]+\/(status)\/(\d{19}).*/
+
+export const Twitter: QuartzTransformerPlugin = () => ({
+  name: "Twitter",
+  markdownPlugins(ctx) {
+    const locale = ctx.cfg.configuration.locale.split("-")[0] ?? "en"
+    return [
+      () => async (tree: Root, _file) => {
+        const promises: Promise<void>[] = []
+
+        visit(tree, "paragraph", (node, index, parent) => {
+          if (node.children.length === 0) return
+
+          // find first line and callout content
+          const [firstChild] = node.children
+          if (firstChild.type !== "link" || !twitterUrlRegex.test(firstChild.url)) return
+
+          promises.push(
+            fetch(
+              `https://publish.twitter.com/oembed?url=${firstChild.url}&dnt=false&omit_script=true&lang=${locale}`,
+            )
+              .then((res) => res.json())
+              .then((data) => {
+                parent!.children.splice(index!, 1, {
+                  type: "html",
+                  value: data.html,
+                })
+              }),
+          )
+        })
+
+        await Promise.all(promises)
+      },
+    ]
+  },
+})
+```
+
+> Probably could generalize this for youtube, and others URL that oembed.json supports 
 ## Filter an RSS feed
 
 https://katb.in/velisabalih.diff

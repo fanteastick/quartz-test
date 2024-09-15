@@ -1,18 +1,28 @@
 ---
 date created: 2024-05-09T14:44
-date modified: 2024-08-02T16:32
+date modified: 2024-09-04T23:27
 draft: "true"
 ---
+## ALL (other) TASKS:
+
+ > [!TODO] All tasks
+> ```dataview
+> TASK
+> WHERE !completed AND file.name != this.file.name
+> GROUP BY file.link
+> SORT rows.file.ctime ASC
+> ``` 
+
 ## Quartz
 
-- [ ] Subtitles on a quartz page? maybe if subtitle metadata then display it as part of the beforebody in like all caps type of font
+- [x] Subtitles on a quartz page? maybe if subtitle metadata then display it as part of the beforebody in like all caps type of font
 - [ ] change the heading font to something matching
-- [ ] Copy URL to clipboard optional component [Tailwind CSS Copy to Clipboard - Flowbite](https://flowbite.com/docs/components/clipboard/)
-- [ ] change githubsource component to have input variables for user, repo, branch
-- [ ] feature: fix footnotes linking and jumping around
+- [x] Copy URL to clipboard optional component [Tailwind CSS Copy to Clipboard - Flowbite](https://flowbite.com/docs/components/clipboard/)
+- [x] change githubsource component to have input variables for user, repo, branch
+- [x] feature: fix footnotes linking and jumping around
 ## Non-quartz
 - [ ] update cv site favicon [Favicon · Issue #60 · BartoszJarocki/cv · GitHub](https://github.com/BartoszJarocki/cv/issues/60) 
-- [ ] analytics site
+- [x] analytics site --> goatcounter
 - [ ] setup home server
 	- [ ] learn about NAS?
 - [ ] check out [LilyPond – Music notation for everyone](https://lilypond.org/) 
@@ -47,12 +57,3 @@ draft: "true"
 	- pihole/adguard -> tbd
 	- port forwarding
 
-## ALL (other) TASKS:
-
- > [!TODO] All tasks
-> ```dataview
-> TASK
-> WHERE !completed AND file.name != this.file.name
-> GROUP BY file.link
-> SORT rows.file.ctime ASC
-> ``` 

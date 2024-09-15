@@ -1,6 +1,8 @@
 ---
 date created: 2024-05-09T14:44
 date modified: 2024-06-25T23:22
+tags:
+  - wsl
 ---
 - ubuntu
 - Tabby --> settings --> profiles and connections --> change the default new tab one to the WSL/ubuntu

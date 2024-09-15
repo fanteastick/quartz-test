@@ -25,4 +25,5 @@ SORT file.name ASC
 | [[Avoiding getting doxxed]] | perma/9266641     | thoughts |
 | [[Code tester]]                             | perma/code-tester | meta     |
 | [[Permalinks tracker]]               | perma             | meta     |
+| [[To plan a fish tank]]          | perma/2948303     | hobbies  |
 <!-- SerializedQuery END -->

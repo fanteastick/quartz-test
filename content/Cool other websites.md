@@ -1,6 +1,6 @@
 ---
 date created: 2024-07-23T01:10
-date modified: 2024-08-21T00:21
+date modified: 2024-09-04T20:52
 ---
 
 ## Just cool sites
@@ -34,6 +34,12 @@ date modified: 2024-08-21T00:21
 	- two column layout
 	- table styling of RecentNotes component
 	- Command menu of shortcuts
+
+[John Hays](https://jonhays.net/)
+
+ > This is an archive of the extensive online writings of John Hays, born July 8, 1920. These writings were originally posted to FortuneCity around 2001-2003, as a tribute to his late wife Esther.
+ > 
+ > The front pages of his websites, linked below, have been lightly reformatted for legibility. Most have dozens of subpages. There are over 1400 pages in total; some pages and images have been lost.
 
 ### Not digital garden-y
 

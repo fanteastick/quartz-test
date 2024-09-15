@@ -1,6 +1,6 @@
 ---
 date created: 2024-05-09T14:44
-date modified: 2024-07-09T17:46
+date modified: 2024-09-04T22:14
 ---
 
 First 2-3 months
@@ -31,3 +31,11 @@ Month 7:
 
 - I LOVE SUMMER!
 - Fixin' up the websites and online presence
+
+Month 8:
+
+- Slipped away like a bottle of [wine](https://www.youtube.com/watch?v=nn_0zPAfyo8)!
+
+Month 9: 
+
+- Starting to think about [[To plan a fish tank|a fish tank]] 

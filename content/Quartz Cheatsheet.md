@@ -1,6 +1,6 @@
 ---
 date created: 2024-06-06T22:54
-date modified: 2024-08-27T00:34
+date modified: 2024-09-13T00:23
 ---
 ## For copy-pasting
 ```
@@ -129,6 +129,8 @@ This file can't be deleted lol or else the stylesheet linking starts breaking. I
 
 Like this [^1]
 
+ALSO if you use a footnote then the note has to end with a blank line `#` in order to avoid the footnote being included in transcludes... argh... might just add it as a linter rule
+
 [^1]: Nothing big to say here. 
 
 ## Dataview Serializer syntax
@@ -138,3 +140,5 @@ Like this [^1]
 ```
 
 Also it's finicky with spaces, and needs a blank line underneath to inject the markdown table. 
+
+#
