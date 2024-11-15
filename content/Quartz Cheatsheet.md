@@ -1,6 +1,6 @@
 ---
 date created: 2024-06-06T22:54
-date modified: 2024-09-13T00:23
+date modified: 2024-09-17T11:41
 ---
 ## For copy-pasting
 ```
@@ -57,6 +57,8 @@ h/t [git - How can I merge changes from an upstream branch to my fork's branch -
 A good practice is to have this structure, which looks like you do, but is good to explain for clarification purposes:
 
 ```
+$ git remote -v
+
 origin  https://github.com/your-username/forked-repository.git (fetch)
 origin  https://github.com/your-username/forked-repository.git (push)
 upstream    https://github.com/original-owner-username/original-repository.git (fetch)

@@ -1,6 +1,6 @@
 ---
 date created: 2024-06-06T22:54
-date modified: 2024-09-15T16:25
+date modified: 2024-09-17T23:59
 tags:
   - recents-exclude
 ---
@@ -29,6 +29,52 @@ Misc things to remember:
 > External link styling
 >
 > Click permalink to copy to clipboard, with a little notification box
+
+## Adding native components to custom components
+
+savval
+
+> Did it:
+> 
+> The LandingComponent passes { ...componentData } from the renderPage function which need to be supplied to the native components in your custom components like so:
+
+```tsx
+import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import landingStyle from './styles/landing.scss'
+import Search from "./Search"
+
+
+export default (() => {
+  const SearchComponent = Search()
+  function Landing(componentData: QuartzComponentProps) {
+    return (
+      <div>
+        <SearchComponent {... componentData}/>
+        <div class="content-container">
+          <p class="landing-header">Landing Page</p>
+        </div>
+      </div>
+    )
+  }
+
+  Landing.css = landingStyle
+  return Landing
+}) satisfies QuartzComponentConstructor
+```
+
+## iframes in html and interactivity
+
+Daniel Hintz
+
+> Fix:
+> 
+> adding display: block;" onload="iframeLoaded()" fixed the problem, though I don't fully understand why it fixed the problem 😂. I found the solution from searching iframe and found visrut's post where he specified his website, and from inspecting the iframe I found the fix   (credit: @visrut).
+> 
+> hence, below works
+
+```HTML
+ <iframe src="https://dhintz137.github.io/Embedding_Presentation/" width="100%" height="600px" style="border: none; display: block;" onload="iframeLoaded()"></iframe>
+```
 
 ### Skipping footnotes in a transclude except this isn't working yet
 

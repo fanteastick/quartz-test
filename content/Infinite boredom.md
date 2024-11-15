@@ -1,6 +1,6 @@
 ---
 date created: 2024-05-09T14:44
-date modified: 2024-09-04T22:14
+date modified: 2024-09-17T23:26
 ---
 
 First 2-3 months
@@ -39,3 +39,4 @@ Month 8:
 Month 9: 
 
 - Starting to think about [[To plan a fish tank|a fish tank]] 
+- Getting back into exercise and staying fit! I took a big break.

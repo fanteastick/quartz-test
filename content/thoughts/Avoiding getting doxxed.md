@@ -6,7 +6,7 @@ tags:
 permalink: perma/9266641
 ---
 
-Saw a twitter thread once where people basically datamined out some dude's full identity based on git commit location + emails connecting across accounts + data breach content... data is DEF being sold so I don't really agree with things like "I'm not an important person or doing anything weird, so I don't care about data privacy or online anonymity". To some degree it would be nice to be anonymous online but lowkey might be a little too late for me. I can't think of any more good usernames XDDD to start fresh with. A few years back I tried to set up a whole new gmail, fake name, separate out content between accounts, but its easy to make mistakes. 
+Saw a twitter thread once where people basically datamined out some dude's full identity based on git commit location + emails connecting across accounts + data breach content... data is DEF being sold so I don't really agree with things like "I'm not an important person or doing anything weird, so I don't care about data privacy or online anonymity". To some degree it would be nice to be anonymous online but lowkey might be a little too late for me. I can't think of any more good usernames XDDD to start fresh with. A few years back I tried to set up a whole new gmail, fake name, separate out content between accounts, but it's easy to make mistakes. 
 
 Related: [[OSINT]] and personal opsec
 

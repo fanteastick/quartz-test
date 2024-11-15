@@ -1,6 +1,6 @@
 ---
 date created: 2024-07-09T02:02
-date modified: 2024-09-15T16:22
+date modified: 2024-09-17T09:08
 ---
 
 Misc ideas: to be loosely kept up-to-date with my quartz to-do list %% [[Todo]] %%
@@ -17,6 +17,7 @@ Misc ideas: to be loosely kept up-to-date with my quartz to-do list %% [[Todo]] 
 	- no title on the subfolder's index.md --> subfolder shows up as "index" in the main folder's page
 	- my weird fix: had to put in some code that makes it only title the folders after the last "/"
 	- There's no way to indicate in the main folder listing that the link is to a subfolder
+		- maybe detect for "/" in the slug and put a little folder icon if so?
 - [ ] Footnotes are still super jank
 	- if you have a footnote, and you transclude the last heading of a file, the transclude will include the footnotes. 
 	- If you have a transclude that has a footnote, like to another header or something, it only has the `#headername` so it'll just try to go to current page's `#headername` which is incorrect.
