@@ -98,6 +98,7 @@ export default ((opts?: Partial<FolderContentOptions>) => {
               })}
             </p>
           )}
+          <p style={{ textAlign: 'center', opacity: 0.7 }}>───✱*.｡:｡✱*.:｡✧*.｡✰*.:｡✧*.｡:｡*.｡✱ ───</p>
           <div>
             <PageList {...listProps} />
           </div>

@@ -41,7 +41,7 @@ const defaultOptions: Options = {
   highlight: true,
   wikilinks: true,
   callouts: true,
-  mermaid: false, // disabled mermaid diagrams 7-18-24
+  mermaid: true,
   parseTags: true,
   parseArrows: true,
   parseBlockReferences: true,

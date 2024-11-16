@@ -117,13 +117,15 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   right: [
     Component.Graph(graphConfig),
-    Component.ComponentGroup([
-        Component.Backlinks(backlinksConfig),
-        Component.GithubSource(githubSourceConfig),
-      ]),
+    Component.Backlinks(backlinksConfig),
+    Component.GithubSource(githubSourceConfig),
+    // Component.Column([
+    //     Component.Backlinks(backlinksConfig),
+    //     Component.GithubSource(githubSourceConfig),
+    //   ]),
   ],
 }
-// components for pages that display lists of pages  (e.g. tags or folders)
+// components for pages that display lists of pages  (e.g. tags or folders) 
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle()],
   left: [
