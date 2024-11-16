@@ -9,7 +9,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "(°·._.·°)",
-    titleSuffix: " | Eilleen's e-Notebook",
+    pageTitleSuffix: " | Eilleen's e-Notebook",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -19,6 +19,7 @@ const config: QuartzConfig = {
     baseUrl: "quartz.eilleeenz.com",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
+    generateSocialImages: false,
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,

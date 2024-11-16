@@ -11,6 +11,9 @@ type Options = {
     category: string
     categoryId: string
     term: string
+    themeUrl?: string
+    lightTheme?: string
+    darkTheme?: string
     mapping?: "url" | "title" | "og:title" | "specific" | "number" | "pathname"
     strict?: boolean
     reactionsEnabled?: boolean
@@ -23,22 +26,32 @@ function boolToStringBool(b: boolean): string {
 }
 
 export default ((opts: Options) => {
-  const Comments: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) => {
+  const Comments: QuartzComponent = ({ displayClass, fileData, cfg }: QuartzComponentProps) => {
+    // check if comments should be displayed according to frontmatter
+    const disableComment: boolean =
+      !fileData.frontmatter?.comments || fileData.frontmatter?.comments === "false"
+    if (disableComment) {
+      return <></>
+    }
+
     return (
-      <div>
+      <div
+        class={classNames(displayClass, "giscus")}
+        data-repo={opts.options.repo}
+        data-repo-id={opts.options.repoId}
+        data-category={opts.options.category}
+        data-category-id={opts.options.categoryId}
+        data-mapping={opts.options.mapping ?? "url"}
+        data-strict={boolToStringBool(opts.options.strict ?? true)}
+        data-reactions-enabled={boolToStringBool(opts.options.reactionsEnabled ?? true)}
+        data-input-position={opts.options.inputPosition ?? "bottom"}
+        data-light-theme={opts.options.lightTheme ?? "light"}
+        data-dark-theme={opts.options.darkTheme ?? "dark"}
+        data-theme-url={
+          opts.options.themeUrl ?? `https://${cfg.baseUrl ?? "example.com"}/static/giscus`
+        }
+      >
         <h3>Guestbook 📗</h3>
-        <div
-          class={classNames(displayClass, "giscus")}
-          data-repo={opts.options.repo}
-          data-repo-id={opts.options.repoId}
-          data-category={opts.options.category}
-          data-category-id={opts.options.categoryId}
-          data-term={opts.options.term}
-          data-mapping={opts.options.mapping ?? "url"}
-          data-strict={boolToStringBool(opts.options.strict ?? true)}
-          data-reactions-enabled={boolToStringBool(opts.options.reactionsEnabled ?? true)}
-          data-input-position={opts.options.inputPosition ?? "bottom"}
-        ></div>
       </div>
     )
   }

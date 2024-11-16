@@ -39,7 +39,7 @@ type BuildData = {
 type FileEvent = "add" | "change" | "delete"
 
 function newBuildId() {
-  return new Date().toISOString()
+  return Math.random().toString(36).substring(2, 8)
 }
 
 async function buildQuartz(argv: Argv, mut: Mutex, clientRefresh: () => void) {
@@ -162,10 +162,13 @@ async function partialRebuildFromEntrypoint(
     return
   }
 
-  const buildStart = new Date().getTime()
-  buildData.lastBuildMs = buildStart
+  const buildId = newBuildId()
+  ctx.buildId = buildId
+  buildData.lastBuildMs = new Date().getTime()
   const release = await mut.acquire()
-  if (buildData.lastBuildMs > buildStart) {
+
+  // if there's another build after us, release and let them do it
+  if (ctx.buildId !== buildId) {
     release()
     return
   }
@@ -357,19 +360,19 @@ async function rebuildFromEntrypoint(
     toRemove.add(filePath)
   }
 
-  const buildStart = new Date().getTime()
-  buildData.lastBuildMs = buildStart
+  const buildId = newBuildId()
+  ctx.buildId = buildId
+  buildData.lastBuildMs = new Date().getTime()
   const release = await mut.acquire()
 
   // there's another build after us, release and let them do it
-  if (buildData.lastBuildMs > buildStart) {
+  if (ctx.buildId !== buildId) {
     release()
     return
   }
 
   const perf = new PerfTimer()
   console.log(chalk.yellow("Detected change, rebuilding..."))
-  ctx.buildId = newBuildId()
 
   try {
     const filesToRebuild = [...toRebuild].filter((fp) => !toRemove.has(fp))
@@ -405,10 +408,10 @@ async function rebuildFromEntrypoint(
     }
   }
 
-  release()
   clientRefresh()
   toRebuild.clear()
   toRemove.clear()
+  release()
 }
 
 export default async (argv: Argv, mut: Mutex, clientRefresh: () => void) => {

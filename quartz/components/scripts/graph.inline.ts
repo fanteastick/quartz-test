@@ -20,7 +20,7 @@ import { FullSlug, SimpleSlug, getFullSlug, resolveRelative, simplifySlug } from
 import { D3Config } from "../Graph"
 
 type GraphicsInfo = {
-  color: string   
+  color: string
   gfx: Graphics
   alpha: number
   active: boolean
@@ -557,6 +557,19 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
   addToVisited(simplifySlug(slug))
   await renderGraph("graph-container", slug)
 
+  // Function to re-render the graph when the theme changes
+  const handleThemeChange = () => {
+    renderGraph("graph-container", slug)
+  }
+
+  // event listener for theme change
+  document.addEventListener("themechange", handleThemeChange)
+
+  // cleanup for the event listener
+  window.addCleanup(() => {
+    document.removeEventListener("themechange", handleThemeChange)
+  })
+
   const container = document.getElementById("global-graph-outer")
   const sidebar = container?.closest(".sidebar") as HTMLElement
 
@@ -574,7 +587,7 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
   function hideGlobalGraph() {
     container?.classList.remove("active")
     if (sidebar) {
-      sidebar.style.zIndex = "unset"
+      sidebar.style.zIndex = ""
     }
   }
 
