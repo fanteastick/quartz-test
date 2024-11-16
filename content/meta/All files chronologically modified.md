@@ -36,10 +36,14 @@ Some hidden tags: anything with "exclude" basically
 
 | File                                                                                                                                           | Folder                     | Modified     |
 | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- | ------------ |
+| [[Various areas or fields or categories or]]                             | semiconductors and chips   | Nov 16, 2024 |
+| [[Subtitles tracker]]                                                                                               | meta                       | Nov 16, 2024 |
+| [[Canon 5D mk iii]]                                                                                                | hobbies                    | Nov 16, 2024 |
+| [[Upgrading to quartz 4.4]]                                                                                    | tbd                        | Nov 16, 2024 |
+| [[Quartz customization log]]                                                                                      |                            | Nov 16, 2024 |
 | [[Crocheting]]                                                                                                          | hobbies                    | Nov 15, 2024 |
 | [[Civilization 6]]                                                                                                  | hobbies                    | Nov 15, 2024 |
 | [[Squad Busters by Supercell]]                                                                          | hobbies                    | Nov 11, 2024 |
-| [[Quartz customization log]]                                                                                      |                            | Sep 17, 2024 |
 | [[blog ideas]]                                                                                                              | tbd                        | Sep 17, 2024 |
 | [[Infinite boredom]]                                                                                                      |                            | Sep 17, 2024 |
 | [[Genshin Impact by miHoYo]]                                                                              | hobbies                    | Sep 17, 2024 |
@@ -51,7 +55,6 @@ Some hidden tags: anything with "exclude" basically
 | [[OSINT]]                                                                                                                    | hobbies                    | Sep 15, 2024 |
 | [[brat-ify your python plots - Nicole Kerrison]]                   | hobbies/cool things online | Sep 15, 2024 |
 | [[Code tester]]                                                                                                           | meta                       | Sep 13, 2024 |
-| [[Subtitles tracker]]                                                                                               | meta                       | Sep 12, 2024 |
 | [[Command for the type of shell]]                                                                   | rgb tech                   | Sep 12, 2024 |
 | [[Reading list]]                                                                                                    | book club                  | Sep 4, 2024  |
 | [[Tesla's AI slash inference chips]]                                             | semiconductors and chips   | Sep 4, 2024  |

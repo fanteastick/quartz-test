@@ -1,6 +1,6 @@
 ---
 date created: 2024-06-06T22:54
-date modified: 2024-09-17T23:59
+date modified: 2024-11-16T14:12
 tags:
   - recents-exclude
 ---
@@ -29,6 +29,10 @@ Misc things to remember:
 > External link styling
 >
 > Click permalink to copy to clipboard, with a little notification box
+
+## Merging in the 4.3.1 ➡ 4.4 layout upgrades etc
+
+[[Upgrading to quartz 4.4]]
 
 ## Adding native components to custom components
 
