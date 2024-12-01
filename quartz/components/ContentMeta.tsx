@@ -14,11 +14,17 @@ interface ContentMetaOptions {
    */
   showReadingTime: boolean
   showComma: boolean
+  // Githubsource stuff ported over
+  repoLink: string
+  branch: string
 }
 
 const defaultOptions: ContentMetaOptions = {
   showReadingTime: true,
   showComma: true,
+  // githubsource stuff
+  repoLink: "github.com",
+  branch: "v4"
 }
 
 export default ((opts?: Partial<ContentMetaOptions>) => {
@@ -68,19 +74,32 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
 
       return (
         <div class={classNames(displayClass, "content-meta")}>
-        <p style={{ margin: '0', padding: '0' }} show-comma={options.showComma} class={classNames(displayClass, "content-meta")}>
-          {segmentsElements}
+        <p style={{ margin: '0', padding: '0'}}>
+          <a href={`${options?.repoLink}/blob/${options?.branch}/${fileData.filePath!}`}>
+          ᨒ Source ᨒ 
+            </a>  
+          <a href={`${options?.repoLink}/blame/${options?.branch}/${fileData.filePath!}`}>
+          ↟ Blame ᨒ 
+          </a>
+          <a href={`${options?.repoLink.replace('github.com', 'github.githistory.xyz')}/commits/${options?.branch}/${fileData.filePath!}`}>
+          ↟ GitHistory ↟
+          </a>
         </p>
-        {permalinks.length > 0 && (
-          <p style={{ margin: '0', padding: '0' }}  class={classNames(displayClass, "content-meta")}>
-            Semi-permalink: {permalinks}
-          </p>
-        )}
+        
         {subtitles.length > 0 && (
           <p style={{ margin: '0', padding: '0', fontStyle:'italic' }}  class={classNames(displayClass, "content-meta")}>
             Alternatively: {subtitles}
           </p>
         )}
+        {permalinks.length > 0 && (
+          <p style={{ margin: '0', padding: '0' }}  class={classNames(displayClass, "content-meta")}>
+            Semi-permalink: {permalinks}
+          </p>
+        )}
+        <p style={{ margin: '0', padding: '0' }} show-comma={options.showComma} class={classNames(displayClass, "content-meta")}>
+          {segmentsElements}
+        </p>
+        
         </div>
       )
     } else {

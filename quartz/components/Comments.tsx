@@ -2,6 +2,7 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 import { classNames } from "../util/lang"
 // @ts-ignore
 import script from "./scripts/comments.inline"
+import { StringDecoder } from "node:string_decoder"
 
 type Options = {
   provider: "giscus"
@@ -10,14 +11,14 @@ type Options = {
     repoId: string
     category: string
     categoryId: string
-    term: string
-    themeUrl?: string
+    themeUrl?: StringDecoder
     lightTheme?: string
     darkTheme?: string
     mapping?: "url" | "title" | "og:title" | "specific" | "number" | "pathname"
     strict?: boolean
     reactionsEnabled?: boolean
     inputPosition?: "top" | "bottom"
+    term?: string
   }
 }
 
@@ -29,7 +30,7 @@ export default ((opts: Options) => {
   const Comments: QuartzComponent = ({ displayClass, fileData, cfg }: QuartzComponentProps) => {
     // check if comments should be displayed according to frontmatter
     const disableComment: boolean =
-      !fileData.frontmatter?.comments || fileData.frontmatter?.comments === "false"
+      fileData.frontmatter?.comments === "false"
     if (disableComment) {
       return <></>
     }
@@ -50,9 +51,8 @@ export default ((opts: Options) => {
         data-theme-url={
           opts.options.themeUrl ?? `https://${cfg.baseUrl ?? "example.com"}/static/giscus`
         }
-      >
-        <h3>Guestbook 📗</h3>
-      </div>
+        data-term={opts.options.term}
+      ></div>
     )
   }
 

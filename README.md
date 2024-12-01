@@ -1,3 +1,9 @@
+# Readme 😁
+
+Hi, this is the repo for the website https://quartz.eilleeenz.com/. This was made with Quartz, and I kept the original readme below (which includes a link to get started yourself). Say hi in my [guestbook](https://github.com/fanteastick/quartz-test/discussions/21)! 
+
+---
+
 # Quartz v4
 
 > “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming

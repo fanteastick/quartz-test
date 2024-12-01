@@ -37,7 +37,7 @@ const backlinksConfig = {
   excludeTags: ["backlinks-exclude"]
 }
 const giscusConfig = {
-  provider: "giscus",
+  provider: 'giscus',
   options: {
     // from data-repo
     repo: 'fanteastick/quartz-test',
@@ -69,7 +69,7 @@ export const sharedPageComponents: SharedLayout = {
   Component.OnlyFor(
     { titles: [homepageTitle] }, 
     Component.Comments({
-      provider: "giscus",
+      provider: 'giscus',
       options: {
         // from data-repo
         repo: 'fanteastick/quartz-test',
@@ -100,7 +100,7 @@ export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
-    Component.ContentMeta(),
+    Component.ContentMeta(githubSourceConfig),
     Component.TagList(tagListConfig),
     Component.MobileOnly(Component.TableOfContents()),
     Component.OnlyFor({titles: [mapTitle]}, Component.Explorer(explorerConfig))
@@ -113,12 +113,13 @@ export const defaultContentPageLayout: PageLayout = {
       Component.Darkmode(),
       Component.Search(),
     ]),
+    Component.DesktopOnly(Component.OnlyFor({titles: [homepageTitle]}, Component.Explorer(explorerConfig))),
     Component.DesktopOnly(Component.TableOfContents2()),
   ],
   right: [
     Component.Graph(graphConfig),
     Component.Backlinks(backlinksConfig),
-    Component.GithubSource(githubSourceConfig),
+    // Component.GithubSource(githubSourceConfig),
     // Component.Column([
     //     Component.Backlinks(backlinksConfig),
     //     Component.GithubSource(githubSourceConfig),
