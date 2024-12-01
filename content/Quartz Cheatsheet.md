@@ -1,6 +1,6 @@
 ---
 date created: 2024-06-06T22:54
-date modified: 2024-09-17T11:41
+date modified: 2024-11-16T14:17
 ---
 ## For copy-pasting
 ```
@@ -50,6 +50,9 @@ TLDR:
 git fetch upstream
 git checkout v4
 git merge upstream/v4
+
+# after you're done making all the changes:
+git push
 ```
 
 h/t [git - How can I merge changes from an upstream branch to my fork's branch - Stack Overflow](https://stackoverflow.com/questions/52981111/how-can-i-merge-changes-from-an-upstream-branch-to-my-forks-branch)

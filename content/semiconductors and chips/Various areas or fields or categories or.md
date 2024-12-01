@@ -1,8 +1,7 @@
 ---
 date created: 2024-11-16T14:02
 date modified: 2024-11-16T14:11
-subtitle:
-  - a whole new world
+subtitle: a whole new world
 ---
 
 Digital Design

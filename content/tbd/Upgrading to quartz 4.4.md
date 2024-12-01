@@ -1,9 +1,11 @@
 ---
 date created: 2024-11-16T10:47
-date modified: 2024-11-16T13:29
+date modified: 2024-11-30T11:12
 ---
 
 Was worried about the many layout changes etc. 
+
+- [x] eh??? where did my comments go???? (solved)
 
 ## Merge from upstream
 
@@ -51,4 +53,52 @@ in toc.scss I changed it from 40% to 55%
 <p style={{ textAlign: 'center', opacity: 0.7 }}>───✱*.｡:｡✱*.:｡✧*.｡✰*.:｡✧*.｡:｡*.｡✱ ───</p>
 ```
 
-## 
+## COMMENTS (welcome home!)
+
+I think I put in an optional config when setting my initial giscus. 
+
+In layout: `term: "Guestbook"` to the Component.Comments()
+
+In Comments.tx: 
+
+```
+type Options = {
+...
+    term?: string
+}
+
+<div 
+...
+data-term={opts.options.term}
+></div>
+```
+
+Also I had to comment out this kind of stupid boolean check for comments in the frontmatter to simplify to "only remove the comments if "comments: false" in the frontmatter"
+
+```
+const disableComment: boolean =
+      fileData.frontmatter?.comments === "false"
+    if (disableComment) {
+      return <></>
+    }
+```
+
+In comments.inline.ts:
+
+```
+    term: string
+...
+  giscusScript.setAttribute("data-term", giscusContainer.dataset.term)
+```
+
+## Added a margin-right on the non desktop views because it was too close to the edge
+
+Base.scss
+
+```
+    @media all and not ($desktop) {
+      padding: 0 1rem;
+      margin-right: 10px;
+    }
+```
+

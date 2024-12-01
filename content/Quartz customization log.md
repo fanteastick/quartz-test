@@ -1,6 +1,6 @@
 ---
 date created: 2024-06-06T22:54
-date modified: 2024-11-16T14:12
+date modified: 2024-11-30T10:36
 tags:
   - recents-exclude
 ---
@@ -33,6 +33,8 @@ Misc things to remember:
 ## Merging in the 4.3.1 ➡ 4.4 layout upgrades etc
 
 [[Upgrading to quartz 4.4]]
+
+Also I put the explorer on the left sidebar on the homepage, and moved the github source stuff into the frontmatter because the flex was messing with my footer spacing wrt Graph, source, backlinks.
 
 ## Adding native components to custom components
 

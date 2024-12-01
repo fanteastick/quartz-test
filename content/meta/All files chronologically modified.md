@@ -6,7 +6,7 @@ tags:
   - recents-exclude
 title: All files chronologically modified
 date created: 2024-07-20T22:16
-date modified: 2024-11-15T12:10
+date modified: 2024-11-29T00:51
 ---
 
 Table below made with the help of [Dataview](https://blacksmithgu.github.io/obsidian-dataview/) and [Obsidian Dataview Serializer](https://github.com/dsebastien/obsidian-dataview-serializer). The query:
@@ -36,23 +36,26 @@ Some hidden tags: anything with "exclude" basically
 
 | File                                                                                                                                           | Folder                     | Modified     |
 | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- | ------------ |
-| [[Various areas or fields or categories or]]                             | semiconductors and chips   | Nov 16, 2024 |
-| [[Subtitles tracker]]                                                                                               | meta                       | Nov 16, 2024 |
-| [[Canon 5D mk iii]]                                                                                                | hobbies                    | Nov 16, 2024 |
-| [[Upgrading to quartz 4.4]]                                                                                    | tbd                        | Nov 16, 2024 |
+| [[Subtitles tracker]]                                                                                               | meta                       | Nov 29, 2024 |
+| [[OSINT]]                                                                                                                    | hobbies                    | Nov 29, 2024 |
+| [[Every type of flip flop]]                                                               | semiconductors and chips   | Nov 29, 2024 |
+| [[TinyTapeout]]                                                                                       | semiconductors and chips   | Nov 29, 2024 |
+| [[My first ever raspberry pi!!!]]                                                   | semiconductors and chips   | Nov 29, 2024 |
+| [[Quartz Snippets]]                                                                                                        |                            | Nov 28, 2024 |
+| [[Upgrading to quartz 4.4]]                                                                                    | tbd                        | Nov 19, 2024 |
+| [[Quartz Cheatsheet]]                                                                                                    |                            | Nov 16, 2024 |
 | [[Quartz customization log]]                                                                                      |                            | Nov 16, 2024 |
+| [[Various areas or fields or categories or]]                             | semiconductors and chips   | Nov 16, 2024 |
+| [[Canon 5D mk iii]]                                                                                                | hobbies                    | Nov 16, 2024 |
 | [[Crocheting]]                                                                                                          | hobbies                    | Nov 15, 2024 |
 | [[Civilization 6]]                                                                                                  | hobbies                    | Nov 15, 2024 |
 | [[Squad Busters by Supercell]]                                                                          | hobbies                    | Nov 11, 2024 |
 | [[blog ideas]]                                                                                                              | tbd                        | Sep 17, 2024 |
 | [[Infinite boredom]]                                                                                                      |                            | Sep 17, 2024 |
 | [[Genshin Impact by miHoYo]]                                                                              | hobbies                    | Sep 17, 2024 |
-| [[Quartz Cheatsheet]]                                                                                                    |                            | Sep 17, 2024 |
 | [[Ollama and WSL]]                                                                                                 | rgb tech                   | Sep 17, 2024 |
-| [[Quartz Snippets]]                                                                                                        |                            | Sep 17, 2024 |
 | [[Obsidian plugin list]]                                                                                         | meta                       | Sep 15, 2024 |
 | [[hobbies/cool things online/index.md\|index]]                                                                                                 | hobbies/cool things online | Sep 15, 2024 |
-| [[OSINT]]                                                                                                                    | hobbies                    | Sep 15, 2024 |
 | [[brat-ify your python plots - Nicole Kerrison]]                   | hobbies/cool things online | Sep 15, 2024 |
 | [[Code tester]]                                                                                                           | meta                       | Sep 13, 2024 |
 | [[Command for the type of shell]]                                                                   | rgb tech                   | Sep 12, 2024 |

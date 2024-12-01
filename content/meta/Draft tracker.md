@@ -1,6 +1,7 @@
 ---
 tags:
   - tracker
+  - graph-exclude
 date created: 2024-09-04T23:33
 date modified: 2024-09-04T23:38
 draft: "true"
