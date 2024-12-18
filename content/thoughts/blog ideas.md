@@ -1,15 +1,12 @@
 ---
 date created: 2024-07-09T17:41
-date modified: 2024-09-17T23:28
+date modified: 2024-12-17T01:16
 title: Blog Ideas
 ---
-- how to get over a social media addiction
-- every class I took in college and a review
-- acm104 typed notes
+- [[How to get over a social media addiction]]
 - I love nagging, alternatively titled: it's easier to give advice to others rather than follow it yourself, alternatively titled: advice for my siblings when they get to college, alternatively titled: i wish i did these things when in school
-- city population age demographics, and elementary schools shutting down, and how taxes and mortgage in the bay area are trapping retirees
 - how people in their 20s spend their time
-	- I don't know the answer, and yet time has passed for me anyway?!
+	- I don't know the answer, and yet time has passed for me anyway?! It's ok to stop feeling fear towards aging
 - anti-resume or failure resume idk lowkey these are kinda cringe SORRY LOL
 - games that i like playing
 	- [[tags/gaming]] been logging about a bunch
@@ -17,6 +14,7 @@ title: Blog Ideas
 	- [[tags/git]]
 	- multivariable calculus and also series in regular calculus
 	- statistical distributions
+		- Consider: it's a little useless to post class notes online...
 - how I use gpt to help w programming [[how I use gpt to help with programming|here]]
 	- programming vs coding vs promptin 💀
 	- basically paste in code --> "what does this do" --> "make it do this other thing" --> be happy

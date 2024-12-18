@@ -1,6 +1,6 @@
 ---
 date created: 2024-11-16T13:36
-date modified: 2024-11-16T13:38
+date modified: 2024-12-17T01:10
 ---
 
 Trusty dusty camera! 
@@ -15,3 +15,4 @@ Reach goals to do photography at:
 - [ ] aurora/northern lights
 - [ ] modeling studio
 - [ ] local sports games
+- [ ] art or product photos for small business

@@ -1,9 +1,11 @@
 ---
 date created: 2024-07-31T17:27
-date modified: 2024-11-11T00:50
+date modified: 2024-12-15T16:33
 tags:
   - gaming
 ---
+
+> Busted! 💬 Announcer, Squad Busters
 ## Recommended gameplay strategies
 
 - If given a supplier ({mavis, greg}) in the beginning of a non-supplies battle mod, get it and go for the supply asap
@@ -45,3 +47,23 @@ tags:
 ### How to play doppelgangers battle mod
 - if you need money, get goblins. if you need boots, get chickens.
 - periodically switch to some suppliers so you can stock up on money/healing
+
+## December 2024 update
+
+This is the best update ever. They added 4 game modes instead of just normal gameplay and my favorite is definitely squad league, where you can pick the your team comp. I've gotten some 800+ gem runs on there. The original game mode is now called like Gemstone Rush or something. Also they added a duo queue mode where you collect gems with a partner. Showdown is a 5-man free for all which is pretty cool but kind of stressful. The gui updates are great too, and I like the changes to the awards system. Instead of win streaks, you get 9 taps for a 1st, 8 for 2nd, etc. Also you can just use a multiplier when you feel like it, so I've gotten 12x4 of some commons. 
+
+## Squad league ideal comp
+
+Must have:
+
+- A supplier (I like greg over mavis)
+- Hog rider
+- Trader
+- Bea (I love Bea, plus I have the Bee Bea skin)
+- Archer queen - prefer ranged over melee tbh
+
+I prefer to skip:
+
+- Dynamike - too squishy, not enough damage output
+- Chicken - I'll get boots elsewhere
+- Dr. T - the minion he spawns is so useless I'm sorry

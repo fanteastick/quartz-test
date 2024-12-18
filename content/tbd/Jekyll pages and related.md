@@ -75,7 +75,6 @@ Git cloned my repo
 bundle install
 ```
 
-\
 To run:
 
 ```shell

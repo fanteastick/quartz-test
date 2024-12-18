@@ -1,6 +1,6 @@
 ---
 date created: 2024-11-16T14:02
-date modified: 2024-11-16T14:11
+date modified: 2024-12-17T01:07
 subtitle: a whole new world
 ---
 
@@ -52,3 +52,5 @@ FPGA
 ASIC
 
 IC
+
+Floorplan

@@ -1,11 +1,13 @@
 ---
 date created: 2024-11-10T17:42
-date modified: 2024-11-15T12:06
+date modified: 2024-12-17T01:10
 ---
 
 I learned how to crochet! Thank you to my friend whose name starts with a J. Me and my friend whose name starts with a K learned at the same time, although I borrowed J-friend's yarn and hook. The thing I'm best at making right now is a headphone sprout, although I also learned from youtube videos to make a granny square and a simple flower. I got some brown yarn for myself too. Thank you Joann's the fabric store!
 
 I think it's reasonably easy to learn how to follow a written pattern. It helps a lot more if you follow the YouTube tutorial too. 
+
+It was NOT easy to try following a diagram pattern - I kept forgetting where I was... lol...
 
 ## Crochet terms glossary
 
@@ -32,6 +34,7 @@ ch st - chain stitch
 - Puff flower with 6 petals from a magic circle
 - Granny square (most basic square form)
 - A ton of headphone sprouts
+- tiny heart
 
 ## Written patterns
 

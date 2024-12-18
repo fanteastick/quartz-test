@@ -30,6 +30,5 @@ Also, make sure the subtitle property type is a string, not a list.
 | [[Reading list]]                                                                        | i'm "planning" to "read" some "books"     | book club                |
 | [[To plan a fish tank]]                                                            | Fish for beginners!                       | hobbies                  |
 | [[Various areas or fields or categories or]] | a whole new world                         | semiconductors and chips |
-
 <!-- SerializedQuery END -->
 

@@ -1,6 +1,6 @@
 ---
 date created: 2024-05-09T14:44
-date modified: 2024-09-17T23:26
+date modified: 2024-12-17T01:14
 ---
 
 First 2-3 months
@@ -40,3 +40,9 @@ Month 9:
 
 - Starting to think about [[To plan a fish tank|a fish tank]] 
 - Getting back into exercise and staying fit! I took a big break.
+
+Month 10 and 11 and 12:
+
+- I kept getting sick! Some say it may be due to lack of emphasis on physical health...
+- I was back on the grind though 😋
+- So happy to finally be the type of person that plans Christmas presents far in advance

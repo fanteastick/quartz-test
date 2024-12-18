@@ -36,22 +36,25 @@ Some hidden tags: anything with "exclude" basically
 
 | File                                                                                                                                           | Folder                     | Modified     |
 | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- | ------------ |
-| [[Subtitles tracker]]                                                                                               | meta                       | Nov 29, 2024 |
-| [[OSINT]]                                                                                                                    | hobbies                    | Nov 29, 2024 |
-| [[Every type of flip flop]]                                                               | semiconductors and chips   | Nov 29, 2024 |
+| [[How to get over a social media addiction]]                                             | thoughts                   | Dec 17, 2024 |
+| [[Reasons why I do not like OneNote (2020-2021)]]                                   | thoughts                   | Dec 17, 2024 |
+| [[blog ideas]]                                                                                                         | thoughts                   | Dec 17, 2024 |
+| [[Infinite boredom]]                                                                                                      |                            | Dec 17, 2024 |
+| [[Crocheting]]                                                                                                          | hobbies                    | Dec 17, 2024 |
+| [[Canon 5D mk iii]]                                                                                                | hobbies                    | Dec 17, 2024 |
+| [[Various areas or fields or categories or]]                             | semiconductors and chips   | Dec 17, 2024 |
+| [[Civilization 6]]                                                                                                  | hobbies                    | Dec 17, 2024 |
+| [[Avoiding getting doxxed]]                                                                               | thoughts                   | Dec 17, 2024 |
+| [[OSINT]]                                                                                                                    | hobbies                    | Dec 15, 2024 |
+| [[Squad Busters by Supercell]]                                                                          | hobbies                    | Dec 15, 2024 |
+| [[Quartz Snippets]]                                                                                                        |                            | Dec 15, 2024 |
+| [[Upgrading to quartz 4.4]]                                                                                    | tbd                        | Nov 30, 2024 |
+| [[Quartz customization log]]                                                                                      |                            | Nov 30, 2024 |
 | [[TinyTapeout]]                                                                                       | semiconductors and chips   | Nov 29, 2024 |
+| [[Subtitles tracker]]                                                                                               | meta                       | Nov 29, 2024 |
+| [[Every type of flip flop]]                                                               | semiconductors and chips   | Nov 29, 2024 |
 | [[My first ever raspberry pi!!!]]                                                   | semiconductors and chips   | Nov 29, 2024 |
-| [[Quartz Snippets]]                                                                                                        |                            | Nov 28, 2024 |
-| [[Upgrading to quartz 4.4]]                                                                                    | tbd                        | Nov 19, 2024 |
 | [[Quartz Cheatsheet]]                                                                                                    |                            | Nov 16, 2024 |
-| [[Quartz customization log]]                                                                                      |                            | Nov 16, 2024 |
-| [[Various areas or fields or categories or]]                             | semiconductors and chips   | Nov 16, 2024 |
-| [[Canon 5D mk iii]]                                                                                                | hobbies                    | Nov 16, 2024 |
-| [[Crocheting]]                                                                                                          | hobbies                    | Nov 15, 2024 |
-| [[Civilization 6]]                                                                                                  | hobbies                    | Nov 15, 2024 |
-| [[Squad Busters by Supercell]]                                                                          | hobbies                    | Nov 11, 2024 |
-| [[blog ideas]]                                                                                                              | tbd                        | Sep 17, 2024 |
-| [[Infinite boredom]]                                                                                                      |                            | Sep 17, 2024 |
 | [[Genshin Impact by miHoYo]]                                                                              | hobbies                    | Sep 17, 2024 |
 | [[Ollama and WSL]]                                                                                                 | rgb tech                   | Sep 17, 2024 |
 | [[Obsidian plugin list]]                                                                                         | meta                       | Sep 15, 2024 |
@@ -63,15 +66,14 @@ Some hidden tags: anything with "exclude" basically
 | [[Tesla's AI slash inference chips]]                                             | semiconductors and chips   | Sep 4, 2024  |
 | [[Cool other websites]]                                                                                                |                            | Sep 4, 2024  |
 | [[To plan a fish tank]]                                                                                        | hobbies                    | Sep 4, 2024  |
-| [[Misc trip planning tips]]                                                                                    | tbd                        | Aug 27, 2024 |
+| [[Misc trip planning tips]]                                                                               | thoughts                   | Aug 27, 2024 |
 | [[Map]]                                                                                                                           | meta                       | Aug 27, 2024 |
 | [[About robots.txt and crawlers]]                                                                            |                            | Aug 27, 2024 |
 | [[Permalinks tracker]]                                                                                             | meta                       | Aug 27, 2024 |
 | [[Dataview reference]]                                                                                              | tbd                        | Aug 27, 2024 |
 | [[index.md\|index]]                                                                                                                            |                            | Aug 26, 2024 |
-| [[Avoiding getting doxxed]]                                                                               | thoughts                   | Aug 26, 2024 |
 | [[Mac setup notes]]                                                                                               | mac tech                   | Aug 21, 2024 |
-| [[how I use gpt to help with programming]]                                                      | tbd                        | Aug 21, 2024 |
+| [[how I use gpt to help with programming]]                                                 | thoughts                   | Aug 21, 2024 |
 | [[Setting up a second computer to contribute to the quartz thing]] | rgb tech                   | Aug 6, 2024  |
 | [[Kicad setup]]                                                                                                       | rgb tech                   | Aug 6, 2024  |
 | [[SMBus, the Smart battery system, and more]]                           | semiconductors and chips   | Aug 5, 2024  |
@@ -83,11 +85,9 @@ Some hidden tags: anything with "exclude" basically
 | [[mac tech/index.md\|index]]                                                                                                                   | mac tech                   | Aug 1, 2024  |
 | [[create cname for subdomain]]                                                                         | mac tech                   | Aug 1, 2024  |
 | [[tbd/index.md\|index]]                                                                                                                        | tbd                        | Aug 1, 2024  |
-| [[Scrollbars and styling]]                                                                                      | tbd                        | Aug 1, 2024  |
 | [[How to work on each site]]                                                                                 | meta                       | Jul 31, 2024 |
 | [[Old sites]]                                                                                                                | tbd                        | Jul 31, 2024 |
 | [[Setting up bratify aka Svelte apps]]                                                              | tbd                        | Jul 23, 2024 |
-| [[Download raw source from Github idea]]                                                          | tbd                        | Jul 23, 2024 |
 | [[How do virtual environments compare to conda environments]]           | rgb tech                   | Jul 23, 2024 |
 | [[Hiding tags from various components]]                                                           | meta                       | Jul 23, 2024 |
 | [[GitHub secrets]]                                                                                                      | tbd                        | Jul 21, 2024 |
@@ -99,7 +99,7 @@ Some hidden tags: anything with "exclude" basically
 | [[Setting up Github]]                                                                                           | rgb tech                   | Jun 25, 2024 |
 | [[Setting up WSL]]                                                                                                 | rgb tech                   | Jun 25, 2024 |
 | [[House of Leaves 🍂]]                                                                                        | book club                  | Jun 25, 2024 |
-| [[Obsidian Plugin Wishlist]]                                                                                  | tbd                        | Jun 25, 2024 |
+| [[Obsidian Plugin Wishlist]]                                                                             | thoughts                   | Jun 25, 2024 |
 | [[semiconductors and chips/index.md\|index]]                                                                                                   | semiconductors and chips   | Jun 25, 2024 |
 | [[BIST - built-in self test]]                                                           | semiconductors and chips   | Jun 8, 2024  |
 | [[adguard home]]                                                                                                     | mac tech                   | Jun 8, 2024  |

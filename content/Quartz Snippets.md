@@ -1,6 +1,6 @@
 ---
 date created: 2024-07-09T02:02
-date modified: 2024-11-28T23:29
+date modified: 2024-12-15T16:27
 ---
 
 Misc ideas: to be loosely kept up-to-date with my quartz to-do list %% [[Todo]] %%
@@ -41,7 +41,7 @@ Kirby — 02/22/2024 8:36 AM
 > 
 > if my PR gets merged, search for .quartz on any source hosting service (that's the optional naming guideline, name your repo plugin.quartz)
 
-Giscus is the same as utterances but better bc newer and discussions. 
+Giscus is the same as utterances but better bc newer and discussions rather than github issues. 
 
 ## Plugin to change an image's color theme based on the site color theme
 
@@ -396,62 +396,6 @@ hr {
 }
 ```
 
-## Hide the horizontal scroll bars on code blocks
-
-```scss title="base.scss"
-pre {
-...
-  &:has(>code.mermaid) {...}
-  & > code {
-    ...
-+    overflow-x: hidden;
-etc etc
-```
-
-Although apparently it's better to just do a custom styling of the scroll bar, for accessibility. Don't know if hiding overflow-x would then prevent horizontal scroll... hmm... [[Scrollbars and styling]]
-
-### (not really) Hide the popover-hint on certain pages
-
-Classic "slug manipulation in the render page emitter". Thinking: in theory could do this tag-based by doing like frontmatter.tags.includes?
-
-```html title="renderPage.tsx"
-<div class="popover-hint">
-  { slug.includes("writings") && beforeBody.map((BodyComponent) =>
-    (<BodyComponent {...componentData} />))
-  }
-</div>
-```
-
-2024-08-05 - actually I tried this a while back and I don't think it worked. 
-
-### Possible improvement to GiscusComments - the weird refreshing thing
-
-[Giscus comments are not loaded except when you refresh the page multiple times · Issue #1418 · giscus/giscus · GitHub](https://github.com/giscus/giscus/issues/1418)
-
-```html
-    <script>
-        let giscusTheme = localStorage.theme;
-        let giscusAttributes = {
-            "src": "https://giscus.app/client.js",
-            "data-repo": "[ENTER REPO HERE]",
-            "data-repo-id": "[ENTER REPO ID HERE]",
-            "data-category": "[ENTER CATEGORY NAME HERE]",
-            "data-category-id": "[ENTER CATEGORY ID HERE]",
-            "data-mapping": "pathname",
-            "data-strict": "1",
-            "data-reactions-enabled": "1",
-            "data-emit-metadata": "0",
-            "data-input-position": "bottom",
-            "data-theme": giscusTheme,
-            "data-lang": "en",
-            "data-loading": "lazy",
-            "crossorigin": "anonymous",
-            "async": ""};
-        let giscusScript = document.createElement("script");
-        Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
-        document.getElementById("comments").appendChild(giscusScript);
-    </script>
-```
 ### Removing the fade!! omg
 
 [quartz/quartz/styles/base.scss at b37c408985878b04f6474c473e2b98c0fec728ab · jackyzha0/quartz · GitHub](https://github.com/jackyzha0/quartz/blob/b37c408985878b04f6474c473e2b98c0fec728ab/quartz/styles/base.scss#L530)
@@ -540,22 +484,6 @@ const fund = opts?.funding ?? []
 </p>
 ```
 
-### Simpler option for conditional elements - for not rendering on certain slugs
-
-Simen _—_ 03/16/2024 4:34 AM
-
-> Hi there! Sorry for the late reply. Actually I didn't, and then I kinda gave up, but I tried it again now, and got it to work! I just put this code snippet:
-> 
-> `// if the page slug is "index", don't render anything   if (fileData.slug === "index") {     return <></>   }`
-> 
-> in `backlinks.tsx`, on line 14: as you can see the image here (edited)
-
-![[Quartz Snippets_image_1.png]]
-
-### Adding an ID to components? to allow conditional filtering
-
-[Staging by ransurf · Pull Request #9 · ransurf/lyt-quartz · GitHub](https://github.com/ransurf/lyt-quartz/pull/9/commits/1f2b4f6bfe97f7c7fab0c2314141087761532539) 
-
 ### Pseudocode
 
 Lasym — 04/04/2024 7:57 AM
@@ -596,24 +524,6 @@ From nara on discord.
 
 [How to include a font .ttf using CSS ? - GeeksforGeeks](https://www.geeksforgeeks.org/how-to-include-a-font-ttf-using-css/)
 
-### Navbar
-
-Não é o Merrei _—_ 07/06/2024 1:39 PM
-
-> - Following [https://quartz.jzhao.xyz/advanced/creating-components#using-a-component](https://quartz.jzhao.xyz/advanced/creating-components#using-a-component "https://quartz.jzhao.xyz/advanced/creating-components#using-a-component"), I added the newly-created "LinksHeader" component (i.e. the `LinksHeader.tsx` file) inside the `quartz/components/index.ts` file to the import **and** the export
-> - Called the LinksHeader component in `quartz.layout.ts` (in Quartz's root folder) as camargomau's [https://github.com/camargomau/notkesto-site/blob/v4/quartz.layout.ts](https://github.com/camargomau/notkesto-site/blob/v4/quartz.layout.ts "https://github.com/camargomau/notkesto-site/blob/v4/quartz.layout.ts")
-Add in some CSS from the Morrowmind wiki (creds MassiveJuice)
-```css
-@media screen and (max-width: $mobileBreakpoint) {
-  #links-header {
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    overflow: scroll;
-    white-space: nowrap;
-  }
-}
-```
-
 ### Push a custom frontmatter property
 
 MCMBen _—_ 03/26/2024 4:13 AM
@@ -631,3 +541,12 @@ MCMBen _—_ 03/26/2024 4:13 AM
       }
 ```
 
+## Get rid of other tags on tag pages
+
+![[Quartz Snippets_image_1.png]]
+
+## Plugin to check for broken internal links
+
+Uses a github action js thing
+
+[feat: 内部坏链检测 · CatCodeMe/catcodeme.github.io@39c0c76 · GitHub](https://github.com/CatCodeMe/catcodeme.github.io/commit/39c0c7601e6aeb0e9bf7b9097136b54ce03be901#diff-423163b8d1e151b7ace8c88fc02201131fb663a5d05480aa95d793903dcf349c) 
