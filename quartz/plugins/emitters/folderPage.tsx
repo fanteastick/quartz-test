@@ -91,7 +91,7 @@ export const FolderPage: QuartzEmitterPlugin<Partial<FolderPageOptions>> = (user
             slug: joinSegments(folder, "index") as FullSlug,
             frontmatter: {
               // title: `${i18n(cfg.locale).pages.folderContent.folder}: ${folder}`, 8-5-24 removed by ez
-              title: `${folder}`, 
+              title: `📂 ${folder}`, 
               tags: [],
             },
           }),

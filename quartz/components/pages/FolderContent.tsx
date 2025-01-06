@@ -61,7 +61,9 @@ export default ((opts?: Partial<FolderContentOptions>) => {
       )
       if (!hasIndex) {
         const subfolderDates = files.sort(byDateAndAlphabetical(cfg))[0].dates
-        const subfolderTitle = subfolderSlug.split(path.posix.sep).at(-1)!
+        // const subfolderTitle = subfolderSlug.split(path.posix.sep).at(-1)!
+        // Adding the 📂 emoji to the subfolder title (thanks gpt! 12/27/24)
+        const subfolderTitle = `📂 ${subfolderSlug.split(path.posix.sep).at(-1)!}`
         allPagesInFolder.push({
           slug: subfolderSlug,
           dates: subfolderDates,
