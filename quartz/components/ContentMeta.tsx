@@ -1,4 +1,4 @@
-import { formatDate, getDate } from "./Date"
+import { Date, getDate } from "./Date"
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import readingTime from "reading-time"
 import { classNames } from "../util/lang"
@@ -39,11 +39,14 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
       const permalinks: (string | JSX.Element)[] = []
       const subtitles: (string | JSX.Element)[] = []
 
-      if (fileData.dates && fileData.slug !== "index") {
-        // segments.push(formatDate(getDate(cfg, fileData)!, cfg.locale))
-        segments.push("Created " + formatDate(fileData.dates.created))
-        segments.push("modified " + formatDate(fileData.dates.modified))
+      // if (fileData.dates && fileData.slug !== "index") {
+      //   // segments.push(formatDate(getDate(cfg, fileData)!, cfg.locale))
+      //   segments.push("Created " + formatDate(fileData.dates.created))
+      //   segments.push("modified " + formatDate(fileData.dates.modified))
+      // }
 
+      if (fileData.dates && fileData.slug !== "index") {
+        segments.push(<Date date={getDate(cfg, fileData)!} locale={cfg.locale} />)
       }
 
       // Display reading time if enabled
@@ -52,55 +55,58 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
         const displayedTime = i18n(cfg.locale).components.contentMeta.readingTime({
           minutes: Math.ceil(minutes),
         })
-        segments.push(displayedTime)
+        segments.push(<span>{displayedTime}</span>)
       }
 
-      if (fileData.frontmatter?.permalink) {
-        permalinks.push(
-            <a key="permalink" class="internal permalink" id="permalink" >
-              {cfg.baseUrl}/{fileData.frontmatter.permalink}
-            </a>
-        )
-      }
+      // if (fileData.frontmatter?.permalink) {
+      //   permalinks.push(
+      //       <a key="permalink" class="internal permalink" id="permalink" >
+      //         {cfg.baseUrl}/{fileData.frontmatter.permalink}
+      //       </a>
+      //   )
+      // }
     
-      if (fileData.frontmatter?.subtitle) {
-        // const uppercaseSubtitle = fileData.frontmatter.subtitle.toUpperCase();
-        subtitles.push(
-          // `${uppercaseSubtitle}`
-          `${fileData.frontmatter.subtitle}`
-        )
-      }
-      const segmentsElements = segments.map((segment) => <span>{segment}</span>)
+      // if (fileData.frontmatter?.subtitle) {
+      //   // const uppercaseSubtitle = fileData.frontmatter.subtitle.toUpperCase();
+      //   subtitles.push(
+      //     // `${uppercaseSubtitle}`
+      //     `${fileData.frontmatter.subtitle}`
+      //   )
+      // }
+      // const segmentsElements = segments.map((segment) => <span>{segment}</span>)
 
+      // return (
+      //   <div class={classNames(displayClass, "content-meta")}>
+      //   <p style={{ margin: '0', padding: '0'}}>
+      //     <a href={`${options?.repoLink}/blob/${options?.branch}/${fileData.filePath!}`}>
+      //     ᨒ Source ᨒ 
+      //       </a>  
+      //     <a href={`${options?.repoLink}/blame/${options?.branch}/${fileData.filePath!}`}>
+      //     ↟ Blame ᨒ 
+      //     </a>
+      //     <a href={`${options?.repoLink.replace('github.com', 'github.githistory.xyz')}/commits/${options?.branch}/${fileData.filePath!}`}>
+      //     ↟ GitHistory ↟
+      //     </a>
+      //   </p>
+        
+      //   {subtitles.length > 0 && (
+      //     <p style={{ margin: '0', padding: '0', fontStyle:'italic' }}  class={classNames(displayClass, "content-meta")}>
+      //       Alternatively: {subtitles}
+      //     </p>
+      //   )}
+      //   {permalinks.length > 0 && (
+      //     <p style={{ margin: '0', padding: '0' }}  class={classNames(displayClass, "content-meta")}>
+      //       Semi-permalink: {permalinks}
+      //     </p>
+      //   )}
+      //   <p style={{ margin: '0', padding: '0' }} show-comma={options.showComma} class={classNames(displayClass, "content-meta")}>
+      //     {segmentsElements}
+      //   </p>
+      //   </div>
       return (
-        <div class={classNames(displayClass, "content-meta")}>
-        <p style={{ margin: '0', padding: '0'}}>
-          <a href={`${options?.repoLink}/blob/${options?.branch}/${fileData.filePath!}`}>
-          ᨒ Source ᨒ 
-            </a>  
-          <a href={`${options?.repoLink}/blame/${options?.branch}/${fileData.filePath!}`}>
-          ↟ Blame ᨒ 
-          </a>
-          <a href={`${options?.repoLink.replace('github.com', 'github.githistory.xyz')}/commits/${options?.branch}/${fileData.filePath!}`}>
-          ↟ GitHistory ↟
-          </a>
+        <p show-comma={options.showComma} class={classNames(displayClass, "content-meta")}>
+          {segments}
         </p>
-        
-        {subtitles.length > 0 && (
-          <p style={{ margin: '0', padding: '0', fontStyle:'italic' }}  class={classNames(displayClass, "content-meta")}>
-            Alternatively: {subtitles}
-          </p>
-        )}
-        {permalinks.length > 0 && (
-          <p style={{ margin: '0', padding: '0' }}  class={classNames(displayClass, "content-meta")}>
-            Semi-permalink: {permalinks}
-          </p>
-        )}
-        <p style={{ margin: '0', padding: '0' }} show-comma={options.showComma} class={classNames(displayClass, "content-meta")}>
-          {segmentsElements}
-        </p>
-        
-        </div>
       )
     } else {
       return null

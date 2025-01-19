@@ -5,14 +5,19 @@ import { i18n } from "../i18n"
 import { classNames } from "../util/lang"
 import { GlobalConfiguration } from "../cfg"
 
-interface Options {
+interface BacklinksOptions {
+  hideWhenEmpty: boolean,
   excludeTags: string[]
 }
 
-const defaultOptions = (cfg: GlobalConfiguration): Options => ({
+const defaultOptions: BacklinksOptions = {
+  hideWhenEmpty: true,
   excludeTags: []
-})
-export default ((userOpts?: Partial<Options>) => {
+}
+
+export default ((opts?: Partial<BacklinksOptions>) => {
+  const options: BacklinksOptions = { ...defaultOptions, ...opts }
+
   const Backlinks: QuartzComponent = ({
     fileData,
     allFiles,
@@ -20,10 +25,8 @@ export default ((userOpts?: Partial<Options>) => {
     cfg,
   }: QuartzComponentProps) => {
     const slug = simplifySlug(fileData.slug!)
-    // Parse config
-    const opts = { ...defaultOptions(cfg), ...userOpts }
-    const _excludeTags = opts.excludeTags
-    // check if the file has the link, and then remove the file if it has the tags
+    // const backlinkFiles = allFiles.filter((file) => file.links?.includes(slug))
+    const _excludeTags = options.excludeTags
     const unfilteredBacklinkFiles = allFiles.filter((file) => file.links?.includes(slug))
     const backlinkFiles = unfilteredBacklinkFiles.filter((file) => {
       const hasExcludeTag = _excludeTags.some((tag: string) => // todo: check if the SOME filter works
@@ -31,6 +34,9 @@ export default ((userOpts?: Partial<Options>) => {
       );
       return !hasExcludeTag;
     });
+    if (options.hideWhenEmpty && backlinkFiles.length == 0) {
+      return null
+    }
     return (
       <div class={classNames(displayClass, "backlinks")}>
         <h3>{i18n(cfg.locale).components.backlinks.title}</h3>
@@ -50,10 +56,8 @@ export default ((userOpts?: Partial<Options>) => {
       </div>
     )
   }
-    
+
   Backlinks.css = style
+
   return Backlinks
 }) satisfies QuartzComponentConstructor
-
-
-// export default (() => Backlinks) satisfies QuartzComponentConstructor

@@ -1,5 +1,6 @@
 import { computePosition, flip, inline, shift } from "@floating-ui/dom"
 import { normalizeRelativeURLs } from "../../util/path"
+import { fetchCanonical } from "./util"
 
 const p = new DOMParser()
 async function mouseEnterHandler(
@@ -42,7 +43,7 @@ async function mouseEnterHandler(
   targetUrl.hash = ""
   targetUrl.search = ""
 
-  const response = await fetch(`${targetUrl}`).catch((err) => {
+  const response = await fetchCanonical(targetUrl).catch((err) => {
     console.error(err)
   })
 

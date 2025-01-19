@@ -165,6 +165,7 @@ export default (() => {
             <link rel="stylesheet" href={googleFontHref(cfg.theme)} />
           </>
         )}
+        <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossOrigin={"anonymous"} />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         {/* OG/Twitter meta tags */}
         <meta name="og:site_name" content={cfg.pageTitle}></meta>
@@ -181,8 +182,6 @@ export default (() => {
           <>
             <meta property="og:image:width" content={fullOptions.width.toString()} />
             <meta property="og:image:height" content={fullOptions.height.toString()} />
-            <meta property="og:width" content={fullOptions.width.toString()} />
-            <meta property="og:height" content={fullOptions.height.toString()} />
           </>
         )}
         <meta property="og:image:url" content={ogImagePath} />
