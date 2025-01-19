@@ -4,46 +4,50 @@
 @use "./callouts.scss";
 // put your custom CSS here!
 
+ // remove other tags on the tag listing
+.page-listing .tag-link {
+  display: none;
+}
 
 .forced-row {
-    // flex: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    // gap: 2rem;
-    top: 0;
-    // width: initial;
-    // margin-top: 2rem;
-    box-sizing: border-box;
-    padding: 0;
-    // padding-top: 50%;     /* Set padding-top to same percentage as width */
-    position: relative;
-    // position: initial;
-    & .map, .darkmode, .minibutton {
-        margin: 0.4rem;
-    }
-    // @media all and (min-width: $tablet) {
-    @media all and ($mobile) {
-        justify-content: flex-end;
-    }
+  // flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  // gap: 2rem;
+  top: 0;
+  // width: initial;
+  // margin-top: 2rem;
+  box-sizing: border-box;
+  padding: 0;
+  // padding-top: 50%;     /* Set padding-top to same percentage as width */
+  position: relative;
+  // position: initial;
+  & .map, .darkmode, .minibutton {
+      margin: 0.4rem;
+  }
+  // @media all and (min-width: $tablet) {
+  @media all and ($mobile) {
+      justify-content: flex-end;
+  }
 }
 
 .forced-column{
-    // flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    top: 0;
-    box-sizing: border-box;
-    padding: 0;
-    position: initial;
-    & .map, .darkmode {
-        margin: 0.4rem;
-    }
-    @media all and ($mobile) {
-    // @media all{
-        justify-content: flex-end;
-    }
+  // flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  top: 0;
+  box-sizing: border-box;
+  padding: 0;
+  position: initial;
+  & .map, .darkmode {
+      margin: 0.4rem;
+  }
+  @media all and ($mobile) {
+  // @media all{
+      justify-content: flex-end;
+  }
 }
 
 
@@ -305,4 +309,3 @@
       background-color: goldenrod;
     }
   }
-  

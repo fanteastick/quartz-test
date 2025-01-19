@@ -106,9 +106,10 @@ export const TagPage: QuartzEmitterPlugin<Partial<TagPageOptions>> = (userOpts) 
           const tag = slug.slice("tags/".length)
           if (tags.has(tag)) {
             tagDescriptions[tag] = [tree, file]
-            if (file.data.frontmatter?.title === tag) {
-              file.data.frontmatter.title = `${i18n(cfg.locale).pages.tagContent.tag}: ${tag}`
-            }
+            // if (file.data.frontmatter?.title === tag) {
+            //   // file.data.frontmatter.title = `${i18n(cfg.locale).pages.tagContent.tag}: ${tag}`
+            //   file.data.frontmatter.title = `${tag}`
+            // }
           }
         }
       }
@@ -117,6 +118,7 @@ export const TagPage: QuartzEmitterPlugin<Partial<TagPageOptions>> = (userOpts) 
         const slug = joinSegments("tags", tag) as FullSlug
         const [tree, file] = tagDescriptions[tag]
         const externalResources = pageResources(pathToRoot(slug), file.data, resources)
+        // const externalResources = pageResources(pathToRoot(slug), resources)
         const componentData: QuartzComponentProps = {
           ctx,
           fileData: file.data,

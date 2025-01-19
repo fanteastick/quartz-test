@@ -127,7 +127,7 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
         {crumbs.map((crumb, index) => (
           <div class="breadcrumb-element">
             {/* <a href={crumb.path}>{crumb.displayName}</a> removed 8-5-24 ez*/}
-            <a href={crumb.path}>{crumb.displayName === "tags" ? "🔖 tags" : crumb.displayName}</a>
+            <a href={crumb.path}>{crumb.displayName === "tags" ? "tags" : crumb.displayName}</a>
             {index !== crumbs.length - 1 && <p>{` ${options.spacerSymbol} `}</p>}
           </div>
         ))}
