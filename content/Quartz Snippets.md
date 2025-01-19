@@ -1,6 +1,6 @@
 ---
 date created: 2024-07-09T02:02
-date modified: 2024-12-15T16:27
+date modified: 2025-01-09T19:31
 ---
 
 Misc ideas: to be loosely kept up-to-date with my quartz to-do list %% [[Todo]] %%
@@ -10,7 +10,7 @@ Misc ideas: to be loosely kept up-to-date with my quartz to-do list %% [[Todo]] 
 - [x] transformer: add some subtitle stuff based on lastmod transformer and adding to createdmodifieddate
 - [x] feature: copy current URL to clipboard
 	- ended up being a "copy permalink to clipboard"
-- [ ] auto unsubscribe from giscus discussion
+- [-] auto unsubscribe from giscus discussion
 	- temporary solution: a note in the first comment with some info about how to unsubscribe
 - [-] Folder page - consistency for subfolder pages, also show an icon if something is a subfolder?
 	- no index.md in a subfolder --> subfolder name doesn't show in parent folder listing
@@ -18,10 +18,15 @@ Misc ideas: to be loosely kept up-to-date with my quartz to-do list %% [[Todo]] 
 	- my weird fix: had to put in some code that makes it only title the folders after the last "/"
 	- There's no way to indicate in the main folder listing that the link is to a subfolder
 		- maybe detect for "/" in the slug and put a little folder icon if so?
-	- **This got addressed as part of quartz 4.4**
+	- **This got addressed as part of quartz 4.4** [feat(folder): add intermediate folders pages by tha00 · Pull Request #1295 · jackyzha0/quartz · GitHub](https://github.com/jackyzha0/quartz/pull/1295) 
+
 - [ ] Footnotes are still super jank
 	- if you have a footnote, and you transclude the last heading of a file, the transclude will include the footnotes. 
 	- If you have a transclude that has a footnote, like to another header or something, it only has the `#headername` so it'll just try to go to current page's `#headername` which is incorrect.
+- [ ] make the click to copy permalink thing stop being sticky
+- [ ] make subfolders in the folder listing visually distinct
+- [ ] make strikethrough's [-] look like how they're intended
+- [ ] copy/pull in the telescoping text just because it looks fun af
 
 Also: [[Cool other websites]]
 
@@ -550,3 +555,11 @@ MCMBen _—_ 03/26/2024 4:13 AM
 Uses a github action js thing
 
 [feat: 内部坏链检测 · CatCodeMe/catcodeme.github.io@39c0c76 · GitHub](https://github.com/CatCodeMe/catcodeme.github.io/commit/39c0c7601e6aeb0e9bf7b9097136b54ce03be901#diff-423163b8d1e151b7ace8c88fc02201131fb663a5d05480aa95d793903dcf349c) 
+
+## Copy raw markdown 
+
+[Quartz copy raw markdown component · GitHub](https://gist.github.com/MaxWolf-01/354de940ad7ed80a9f2fe9884f5c99bc) 
+
+## Chess
+
+[GitHub - MihailKovachev/shaahmaat-quartz](https://github.com/MihailKovachev/shaahmaat-quartz) 

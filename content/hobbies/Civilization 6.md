@@ -1,6 +1,6 @@
 ---
 date created: 2024-11-10T20:58
-date modified: 2024-12-17T01:07
+date modified: 2025-01-03T01:35
 tags:
   - gaming
 ---
@@ -29,7 +29,7 @@ Thank you Sid Meier! Thank you POTATO MCWHISKEY! 🥔
 
 ## Victory types
 - Culture - win a total # of tourists OVER other civilizations
-- Religion - convert every city to your civ's founded religion
+- Religion - make all other civs' majority religion become your civ's founded religion
 - Domination - destroy all the other civs?
 - Science - complete all the space race projects
 - Diplomatic - only in the expansions. Win 20 victory points in a [variety of ways](https://civilization.fandom.com/wiki/Victory_(Civ6)#Diplomacy) 
@@ -45,3 +45,7 @@ Pay attention to the Suzerain special bonus! Some of them are actually quite coo
 ## Barbarians
 
 They have spotted you if you see a little red exclamation mark over the head, especially scouts. Then they go back to their encampment, and then send a horde of barbarians. Apparently they can't take capital cities but they can be super annoying. 
+
+## Wonders
+
+Are a distraction!

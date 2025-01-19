@@ -1,6 +1,6 @@
 ---
 date created: 2024-12-17T01:16
-date modified: 2024-12-17T19:47
+date modified: 2025-01-16T11:29
 tags:
   - guide
 ---
@@ -18,6 +18,11 @@ Of course it all starts with a desire to change. Through willpower and resisting
 
 - uninstall the app on your phone, only access through computer
 - log out after every time you use it (logging in again = extra effort = deters repeated use)
-- disable notifications
+- disable notifications, especially for certain apps
 - Use alternatives that are less addictive or attention grabbing than the original. For example, watching the same creator on YouTube shorts vs TikTok, where the recommendation algorithm is really good.
 
+## Other good tips
+
+- Grayscale your phone: less color, less exciting, less addicting. 
+- Put your phone in another room
+- You can get this app or shortcut where it'll make you pause for 30 seconds to really think about whether you want to scroll or not. Or do 10 push ups before scrolling. 

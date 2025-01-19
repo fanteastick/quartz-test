@@ -1,6 +1,6 @@
 ---
 date created: 2024-07-09T17:41
-date modified: 2024-12-17T01:16
+date modified: 2025-01-09T19:32
 title: Blog Ideas
 ---
 - [[How to get over a social media addiction]]
@@ -19,4 +19,5 @@ title: Blog Ideas
 	- programming vs coding vs promptin 💀
 	- basically paste in code --> "what does this do" --> "make it do this other thing" --> be happy
 - [[OSINT]]
-- [Perplexity search: is it true that people who stay fit in their 20s live longer](https://www.perplexity.ai/search/is-it-true-that-people-who-sta-vnzfmYtoTwC1fe5vfqElRg#0) 
+- A very serious and legit blog
+- 

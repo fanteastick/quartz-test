@@ -1,6 +1,6 @@
 ---
 date created: 2024-11-16T14:02
-date modified: 2024-12-17T01:07
+date modified: 2025-01-18T18:54
 subtitle: a whole new world
 ---
 
@@ -8,9 +8,10 @@ Digital Design
 
 Analog Design
 
-CPU
-
-GPU
+- CPU
+- GPU 
+- Modems
+- SSD
 
 Custom compute
 

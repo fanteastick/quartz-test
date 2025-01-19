@@ -12,5 +12,5 @@ The query
 ```dataview
 TABLE file.folder as "Folder", dateformat(date-created, "yyyy-MM-dd") as "Date Created"
 WHERE typeof(draft) = "string" AND file.name != this.file.name
-SORT date-created ASC
+SORT date-created DESC
 ```

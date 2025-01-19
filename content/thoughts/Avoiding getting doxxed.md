@@ -1,9 +1,10 @@
 ---
 date created: 2024-08-05T18:12
-date modified: 2024-12-17T00:59
+date modified: 2025-01-03T01:40
 tags:
   - guide
 permalink: perma/9266641
+subtitle: i'm the most paranoid person i know
 ---
 
 I saw a twitter thread where people datamined out some dude (JiaT75 of the [XZ Utils backdoor](https://en.wikipedia.org/wiki/XZ_Utils_backdoor))'s identity based on git commit location + emails connecting across accounts + data breach content... data is definitely being sold so I don't really agree with things like "I'm not an important person or doing anything weird, so I don't care about data privacy or online anonymity". To some degree it would be nice to be anonymous online but lowkey it might be too late for me. I can't think of any more good usernames to start fresh with XDDD. A few years back I tried to set up a whole new email, fake name, separate out content between accounts, but it's easy to make mistakes, and I soon gave up a fully anonymous account. Stay diligent out there!

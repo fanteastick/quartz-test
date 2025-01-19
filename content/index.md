@@ -1,7 +1,7 @@
 ---
 title: Eilleen's (online!) Everything Notebook
 date created: 2024-05-06T22:24
-date modified: 2024-08-26T23:01
+date modified: 2025-01-16T11:23
 subtitle: info dump website
 tags:
   - recents-exclude
@@ -15,7 +15,7 @@ Throughout high school, bullet journaling was a huge trend (still is, maybe not 
 
 I spent too long changing things on the site, which is all written out in the [[Quartz customization log]], and I also have some more ideas for changing things ([[Quartz Snippets]]), but I still need a [[Quartz Cheatsheet|cheatsheet]] to remember what I'm doing.
 
-I have some [[blog ideas]] too! And I've [[Infinite boredom|been up to]] various things lately. If you're lost here, try checking out the 🌎 [[Map|map]]? 
+I have some [[blog ideas]] too! And [[Goals and progress in 2025|this]] is what I'm up to this year. If you're lost here, try checking out the 🗺 [[Map|map]]? Or, a list of [[All files chronologically modified]]. 
 
 > [!info]+ I am desperately in need of friends
 > I think it's generally good for personal growth to meet new and interesting people. Please reach out if you think it'd be fun to talk. 👥

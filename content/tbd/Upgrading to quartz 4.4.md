@@ -1,11 +1,11 @@
 ---
 date created: 2024-11-16T10:47
-date modified: 2024-11-30T11:12
+date modified: 2025-01-18T18:53
 ---
 
 Was worried about the many layout changes etc. 
 
-- [x] eh??? where did my comments go???? (solved)
+- [x] eh??? where did my comments go???? (solved) (it was something with the frontmatter filters that the maintainers fixed)
 
 ## Merge from upstream
 

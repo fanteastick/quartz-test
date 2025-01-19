@@ -6,7 +6,7 @@ draft: "true"
 
 Dictionary
 
-Definitions from Oxford Languages · Learn more
+Definitions from Oxford Languages
 
 **col·o·phon**
 

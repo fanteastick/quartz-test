@@ -1,6 +1,6 @@
 ---
 date created: 2024-08-01T12:35
-date modified: 2024-08-01T12:47
+date modified: 2025-01-03T01:11
 ---
 
 Vercel: [Adding & Configuring a Custom Domain](https://vercel.com/docs/projects/domains/add-a-domain#subdomains) 
@@ -15,6 +15,8 @@ Github: [Managing a custom domain for your GitHub Pages site - GitHub Docs](http
 Public repo --> settings --> pages --> deploy from branch or actions depends on the setup --> set custom domain
 
 In the DNS, go to advanced --> CNAME record --> put in the prefix for subdomain you want it to have --> point it to github.io
+
+[[create cname for subdomain]] 
 
 ## Vercel instructions
 

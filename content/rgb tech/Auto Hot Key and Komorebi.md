@@ -7,8 +7,6 @@ draft: "true"
 
 Mostly wanted to use this to have a shortcut for opening the Messenger app... I hate navigating to Messenger... speed is the best...
 
-Wanted to use this to open komorebi
-
 ## Auto hot key
 
 Homepage: [AutoHotkey](https://www.autohotkey.com/) 
