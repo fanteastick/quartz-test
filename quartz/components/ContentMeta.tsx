@@ -88,7 +88,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
           `${fileData.frontmatter.subtitle}`
         )
       }
-      const segmentsElements = segments.map((segment) => <span>{segment}</span>)
+      // const segmentsElements = segments.map((segment) => <span>{segment}</span>)
 
       // return (
       //   <div class={classNames(displayClass, "content-meta")}>
@@ -120,6 +120,17 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
       //   </div>
       return (
         <div>
+          <p style={{ margin: '0', padding: '0'}} class="content-meta">
+           <a class="light-a" href={`${options?.repoLink}/blob/${options?.branch}/${fileData.filePath!}`}>
+           ᨒ Source ᨒ 
+             </a>  
+           <a class="light-a" href={`${options?.repoLink}/blame/${options?.branch}/${fileData.filePath!}`}>
+           ↟ Blame ᨒ 
+           </a>
+           <a class="light-a" href={`${options?.repoLink.replace('github.com', 'github.githistory.xyz')}/commits/${options?.branch}/${fileData.filePath!}`}>
+           ↟ GitHistory ↟
+           </a>
+         </p>
         <p show-comma={options.showComma} style={{ margin: '0', padding: '0'}} class={classNames(displayClass, "content-meta")}>
           {segments}
         </p>

@@ -9,6 +9,10 @@
   display: none;
 }
 
+a.light-a {
+  color: var(--gray)
+}
+
 .forced-row {
   // flex: 1;
   display: flex;

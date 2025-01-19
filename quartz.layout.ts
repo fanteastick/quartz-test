@@ -34,7 +34,8 @@ const recentNotesConfig = {
   filter: (f: QuartzPluginData) => !f.slug!.startsWith("tags/")
 }
 const backlinksConfig = {
-  excludeTags: ["backlinks-exclude"]
+  excludeTags: ["backlinks-exclude"],
+  hideWhenEmpty: false
 }
 const giscusConfig = {
   provider: 'giscus',
@@ -137,6 +138,7 @@ export const defaultListPageLayout: PageLayout = {
       Component.Darkmode(),
       Component.Search(),
     ]),
+    Component.DesktopOnly(Component.Graph(graphConfig)),
   ],
   right: [],
 }
