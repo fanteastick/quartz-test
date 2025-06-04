@@ -1,6 +1,6 @@
 ---
 date created: 2025-02-03T22:03
-date modified: 2025-05-01T22:46
+date modified: 2025-06-04T13:20
 tags:
   - recents-exclude
   - external
@@ -10,6 +10,36 @@ draft: "true"
 In reverse chronological order, so the most recent will be at the top. 
 
 ## 2025
+
+[DELTARUNE GAMEPLAY REMINDER CHEAT SHEET](https://deltarune.com/cheatsheet/) deltarune which is the undertale follow-up
+
+[Coursetexts is open sourcing the frontiers of knowledge.](https://coursetexts.org/why) 
+
+[rosalewis.co.uk/wp-content/uploads/2025/05/Things-I-Have-Learned-From-Being-in-Unhealthy-Connection.pdf](https://rosalewis.co.uk/wp-content/uploads/2025/05/Things-I-Have-Learned-From-Being-in-Unhealthy-Connection.pdf)
+
+![[coolness backlog_pdf_1.pdf]]
+
+[MicroZed Chronicles: Proportional Integral Derivative (PID) Controller](https://www.adiuvoengineering.com/post/microzed-chronicles-proportional-integral-derivative-pid-controller)
+
+[Rogo | vanity\_ibex](https://vanity-ibex.xyz/rogo/) [Globs Designer](https://www.globs.design/) [Kinopio](https://kinopio.club/) 
+
+[Bags & Purses – Maobabie](https://maobabie.com/collections/bags-purses) [Shaped Moth Bags – carmico](https://carmico.ca/collections/shaped-moth-bags) 
+
+[Protect My Public Media](https://protectmypublicmedia.org/) [The niche zine: Exploring where design flourishes](https://nichedesign.press/) 
+
+[you can just do things (ft. anson & hudzah)](https://jasmi.news/p/anson-hudzah) 
+
+[facebook/UMA · Hugging Face](https://huggingface.co/facebook/UMA) [facebook/OMol25 · Hugging Face](https://huggingface.co/facebook/OMol25) [GitHub - facebookresearch/adjoint\_sampling: code for "Adjoint Sampling: Highly Scalable Diffusion Samplers via Adjoint Matching"](https://github.com/facebookresearch/adjoint_sampling) [Emergence of Language in the Developing Brain | Research - AI at Meta](https://ai.meta.com/research/publications/emergence-of-language-in-the-developing-brain/) 
+
+[HUNI Design – Huni Design](https://hunidesign.com/)
+
+[mono](https://mono-cam.vercel.app/) camera
+
+self-hosted: [Cup - The easiest way to manage your container updates](https://cup.sergi0g.dev/)  [GitHub - vgel/logitloom: explore token trajectory trees on instruct and base models](https://github.com/vgel/logitloom) [Rybbit Analytics](https://www.rybbit.io/) [ImmichFrame | ImmichFrame](https://immichframe.online/) [Quick Start | Arcane - Documentation](https://arcane.ofkm.dev/docs/getting-started/quickstart) 
+
+[About | Yggdrasil Network](https://yggdrasil-network.github.io/about.html) 
+
+[fromthetransistor.com](https://www.fromthetransistor.com/) kind of not kino but i'll add it bc everybody glazes [GitHub - geohot/fromthetransistor: From the Transistor to the Web Browser, a rough outline for a 12 week course](https://github.com/geohot/fromthetransistor) 
 
 [Explaining → FAIR Questions](https://twisty-secure-740.notion.site/Explaining-FAIR-Questions-1e5f40cd122b8060b064ec413eb91b69) 
 

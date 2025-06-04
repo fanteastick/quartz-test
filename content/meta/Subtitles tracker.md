@@ -32,6 +32,7 @@ Also, make sure the subtitle property type is a string, not a list.
 | [[chips/Every type of flip flop.md\|Every type of flip flop]]                                                | 👟 but shoes? shoes, i know                                  | chips             |
 | [[thoughts/How to cram for the GRE (2023).md\|How to cram for the GRE (2023)]]                               | the pros n cons of standardized testing                      | thoughts          |
 | [[linux tech/Ideas for what one can do with a home server.md\|Ideas for what one can do with a home server]] | and now, they can collect dust in my home instead            | linux tech        |
+| [[tbd/Immich setup.md\|Immich setup]]                                                                        | we have google photos at home                                | tbd               |
 | [[index.md\|index]]                                                                                          | info dump website                                            |                   |
 | [[tbd/Making a zine.md\|Making a zine]]                                                                      | everyone and their mom has made one                          | tbd               |
 | [[tbd/Minecraft server resources.md\|Minecraft server resources]]                                            | i don't even like gaming, anyway                             | tbd               |

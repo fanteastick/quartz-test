@@ -1,6 +1,6 @@
 ---
 date created: 2024-11-10T17:42
-date modified: 2025-04-11T17:57
+date modified: 2025-05-08T15:34
 ---
 
 I learned how to crochet! Thank you to my friend whose name starts with a J. Me and my friend whose name starts with a K learned at the same time, although I borrowed J-friend's yarn and hook. The thing I'm best at making right now is a headphone sprout, although I also learned from youtube videos to make a granny square and a simple flower. I got some brown yarn for myself too. Thank you Joann's the fabric store!
@@ -77,9 +77,33 @@ Down the middle of leaf 1
 
 Done!
 
+### Heart
+
+[How to Crochet a Heart in just 2 MINUTES! ❤ - YouTube](https://www.youtube.com/watch?v=w9CXXsu6YSA&t=1s) 
+
+
+> [!web] From the web
+> - magic ring
+> - chain 2 
+> - 3 trebble stitches into ring
+> - 3 double crochet into ring
+> - chain 1
+> - 1 treble into ring
+> - chain 1 
+> - 3 double crochet stitches into ring
+> - 3 trebles into ring 
+> - chain 2
+> - slip stitch into ring
+> - chain 1
+> 
+> cut working yarn, close magic ring and finally pull the tail you cut off 
+> 
+> :) thank you so much for the tutorial! I made little earrings out of my hearts!
+
+
 ## Video patterns
 
 ### Best i-cord tutorial ever
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CSDtR_Kv_oA?si=YCB_bu02brrCYBGu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+<iframe width="400em" height="400em" src="https://www.youtube.com/embed/CSDtR_Kv_oA?si=YCB_bu02brrCYBGu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
 

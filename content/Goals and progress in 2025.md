@@ -1,6 +1,6 @@
 ---
 date created: 2025-01-16T11:01
-date modified: 2025-04-28T10:10
+date modified: 2025-06-03T00:31
 ---
 ## Subset of the goals
 - Do a side hustle
@@ -53,3 +53,15 @@ What I'm using this year: [[Uses]]
 	- Market manipulation 😡😡😡 my 401(k)!?!?!?!
 - World news: the pope passed away
 - World news: there was a random power outage in Portugal/Spain [Spain, Portugal hit with massive power outage, causing cities to standstill](https://nypost.com/2025/04/28/world-news/spain-portugal-hit-with-massive-power-outage-causing-cities-to-standstill/) 
+
+## May
+
+- big travel month again. record high rates of entertainment and hanging out. 
+- in many ways, this month flew by! at the end i was really tired. This is my second time skipping the first.
+- new slang lately/all year:
+	- chat, is this rizz?
+	- tralalero tralala, and capuccini ballerini
+	- i'm crashing out!
+	- holy f---- airball
+- costco acai juice.. i miss you... please go back on sale...
+- spring is nice. when I go outside, I take pictures of the flowers. 

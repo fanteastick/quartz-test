@@ -1,11 +1,13 @@
 ---
 date created: 2024-07-31T17:27
-date modified: 2025-02-01T22:04
+date modified: 2025-06-04T11:38
 tags:
   - gaming
 ---
 
 > Busted! 💬 Announcer, Squad Busters
+
+# Season 1
 ## Recommended gameplay strategies
 
 - If given a supplier ({mavis, greg}) in the beginning of a non-supplies battle mod, get it and go for the supply asap
@@ -71,3 +73,49 @@ I prefer to skip:
 - Dynamike - too squishy, not enough damage output
 - Chicken - I'll get boots elsewhere
 - Dr. T - the minion he spawns is so useless I'm sorry
+
+## Pre- update 2
+
+There's this monster invasion in the whole world. new music, a community update by paula, and an animatic with paula as the wizard. they took out barbarian king/queen from the game for a week or so. they also took out mortis. 
+
+New game modes:
+
+- Ice spirit invasion - my favorite, especially when you drop a bomb
+- Whack a mole
+- Wild forest
+- giant versions of the evil zombie king and dinosaur
+
+New game modes, pt2:
+
+- gem dash - rings and goblins
+- gem something else: pot of gems and another thing (I did not like this one)
+
+# Season 2
+
+The video is premiering soon - looks like something about "Heroes"?
+
+## Mid 2025 update - season 2 squad busters
+
+Huge gameplay update hit squad busters in May 2025. Pre-update, gameplay was getting pretty stale. I had my lineup pretty solid, each game was approximately the same, not much progression left.
+
+![[Squad Busters by Supercell_image_1.png]]
+
+Upgrade progress pre-update:
+
+![[Squad Busters by Supercell_image_2.png]] ![[Squad Busters by Supercell_image_3.png]] ![[Squad Busters by Supercell_image_4.png]]
+
+  New update: your squad centers around having a hero. At update time, you choose either archer queen or barbarian king. The squad now has 3 abilities: 1 from the hero, and 2 from the squad and squaddie upgrades. Hero points upgrade the hero and buy extra squaddies, e.g. 500 Colt. Upgrade paths for squaddies are slower, instead of 10 10 10 it goes 30, 15, 6, 3. Earning gold is also a lot slower, and you can buy Barbarian King and Royale King with gold (150,000). I got Mortis from a pinata duo event. I think there needs to be a bit of balancing - all the people I've seen on Mortis are a lot stronger. Maybe it's inherently part of the ability Mortis has? It's like extra meat shields. 
+
+  Your squad is only 9 units now, and when you buy all the squad members, you can't open chests anymore. I find that in the late game, it's hard to have money to open the chests (50 is a lot!) so I've been taking Greg into battle. If a squaddie dies, you can buy it again at the same upgrade level that you already had. So when you open a chest, the squaddie starts at 1, then the next chest you can choose between 2 squaddies, and the squaddie would upgrade to 2. Then if it dies in between, you can buy it again at level 2. Capiche? Confusing, I know. 
+
+Each squaddie has a new ability. I'll list them out later as before <> after.
+
+| Name         | Before                                                                                  | After                                               |
+| ------------ | --------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| Archer       | Attacks a bit faster in general                                                         | Increases squad attack range                        |
+| Archer Queen | Makes every ranged character in the squad attack faster                                 | Hero unit                                           |
+| Bo           | Deals more damage to monsters. Attacks a bit slower. Drops a mine when he stops moving. | Approximately the same. The mine is now an ability. |
+| Colt         | 4 shots in a row damage                                                                 | Just double the damage                              |
+| Dynamike     | Throws AOE bombs                                                                        | same                                                |
+| Elita-1      | Just a strong unit from transformers, very tanky                                        | Starts with an upgrade 2/3.                         |
+[Squaddies | Squad Busters Wiki | Fandom](https://squad-busters.fandom.com/wiki/Squaddies#By_Class)
