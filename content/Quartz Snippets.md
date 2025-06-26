@@ -1,6 +1,6 @@
 ---
 date created: 2024-07-09T02:02
-date modified: 2025-03-25T22:39
+date modified: 2025-06-25T22:48
 ---
 
 Misc ideas, code, and plugins for quartz that I've collected across the web. %% [[Todo]] %%
@@ -632,3 +632,26 @@ div[data-callout="multi-column"].callout > .callout-content > div[data-callout-m
 
 ```
 
+## Carousel??
+
+[quartz/quartz\_edit\_log.md at 96625516a5be9cecf4a623afcba3f5808213b58d · hintzd/quartz · GitHub](https://github.com/hintzd/quartz/blob/96625516a5be9cecf4a623afcba3f5808213b58d/quartz_edit_log.md)
+
+Alternatively Pinei on discord 2025-06-06
+
+It doesn't really work
+
+## Link cards
+
+[feat(linkcard): add rich Link Card transformer & component by Tsuuuuuuun · Pull Request #2015 · jackyzha0/quartz · GitHub](https://github.com/jackyzha0/quartz/pull/2015/files) 
+
+## Code runner
+
+[GitHub - Gassandrid/Quartz\_CodeRunner\_Plugin: a python code runner for Quartz static site generator](https://github.com/Gassandrid/Quartz_CodeRunner_Plugin?tab=readme-ov-file)
+
+## Jupyter notebook embed
+
+[GitHub - vazome/quartz-jupyter-embed-plugin: A minimal Quartz plugin for embedding and displaying Jupyter notebooks, with setup instructions and required dependencies.](https://github.com/vazome/quartz-jupyter-embed-plugin)
+
+## Clickable images/zoom (lightbox)
+
+[GitHub - vazome/quartz-clickable-images-zoom-plugin: Enabled Lightbox zoom for Quartz built websites](https://github.com/vazome/quartz-clickable-images-zoom-plugin) 

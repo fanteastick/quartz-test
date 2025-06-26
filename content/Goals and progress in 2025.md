@@ -1,6 +1,6 @@
 ---
 date created: 2025-01-16T11:01
-date modified: 2025-06-03T00:31
+date modified: 2025-06-25T22:50
 ---
 ## Subset of the goals
 - Do a side hustle
@@ -65,3 +65,11 @@ What I'm using this year: [[Uses]]
 	- holy f---- airball
 - costco acai juice.. i miss you... please go back on sale...
 - spring is nice. when I go outside, I take pictures of the flowers. 
+
+## June
+
+- The month of many graduations! Congratulations, everyone! 
+- Global war 💀 & ICE raids
+- Pop culture: kpop demon hunters movie, ALLDAYPROJECT (Bailey!), Gabriela by Katseye
+	- Justin Bieber: "It's not clocking to you that I'm standing on business, is it"
+- Every influencer and their mom has a "welcome to my series on --maxxing"

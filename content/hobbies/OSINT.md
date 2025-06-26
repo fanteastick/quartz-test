@@ -1,6 +1,6 @@
 ---
 date created: 2024-09-04T21:05
-date modified: 2024-12-15T16:36
+date modified: 2025-06-16T22:50
 subtitle: stayin' anonymous online
 tags:
   - external
@@ -8,7 +8,7 @@ tags:
 
 This is like the opposite of [[Avoiding getting doxxed]] - it's basically how to dox someone. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nzh727t944k?si=QSV5t4KcomtoTBfo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+![Detectives - SNL - YouTube](https://www.youtube.com/embed/nzh727t944k)
 
 ## Definition
 

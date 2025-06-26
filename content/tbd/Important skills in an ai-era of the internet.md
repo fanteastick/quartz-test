@@ -8,6 +8,9 @@ date modified: 2025-06-03T00:24
 
 Look for inconsistent sizing, glitching, incoherent text in the background. There's a yellowish gpt filter on images apparently? Inconsistent blur
 
+> [!NOTE]
+> ![[Real or AI]]
+
 ## Good writing skills that demonstrate critical thinking ability
 
 AI slop writing usually is a lot of grammatically correct sentences with little substance behind them. Also a weirdly cheerful, agreeable vibe. To differentiate yourself, write in a condensed manner with true substance.

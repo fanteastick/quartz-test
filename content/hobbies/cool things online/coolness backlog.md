@@ -1,6 +1,6 @@
 ---
 date created: 2025-02-03T22:03
-date modified: 2025-06-04T13:20
+date modified: 2025-06-25T23:18
 tags:
   - recents-exclude
   - external
@@ -10,6 +10,48 @@ draft: "true"
 In reverse chronological order, so the most recent will be at the top. 
 
 ## 2025
+
+[Not a Number](https://www.nan.fyi/)
+
+[Gridfinity : Unofficial wiki | Gridfinity](https://gridfinity.xyz/) [Rocket Brackets](https://www.rocketbrackets.com/) 
+
+[Mona Lisa Smile (2003) Official Trailer 1 - Julia Stiles Movie - YouTube](https://www.youtube.com/watch?v=VqexVyd_ybI) 
+
+[A collaborative shell in your browser | Michael Rommel](https://michaelrommel.com/create/2025-06-10-remote-shell) 
+
+[Strudel REPL](https://strudel.cc/) 
+
+[How to modify Starlink Mini to run without the built-in WiFi router – Oleg Kutkov personal blog](https://olegkutkov.me/2025/06/15/how-to-modify-starlink-mini-to-run-without-the-built-in-wifi-router/)
+
+[Screen Studio — Professional screen recorder for macOS](https://screen.studio/) 
+
+[GitHub - piccolomo/plotext: plotting on terminal](https://github.com/piccolomo/plotext) 
+
+[GitHub - guandeh17/Self-Forcing](https://github.com/guandeh17/Self-Forcing) (this is a paper)
+
+[Home | nand2tetris](https://www.nand2tetris.org/)
+
+[Bebop to the Boolean Boogie, Third Edition: Maxfield, Clive: 9781856175074: Amazon.com: Books](https://www.amazon.com/Bebop-Boolean-Boogie-Unconventional-Electronics/dp/1856175073) 
+
+[Build a 6502 computer | Ben Eater](https://eater.net/6502) 
+
+[DIITHER - free dithering tool](https://andregorayeb.gumroad.com/l/diither) 
+
+[Syllabus & Course Policies | CS 61A Spring 2025](https://cs61a.org/articles/about-61a/)
+
+[HyperCard - The Whole Code Catalog](https://futureofcoding.org/catalog/hypercard.html)
+
+[Nightshade: Protecting Copyright](https://nightshade.cs.uchicago.edu/) 
+
+[GitHub - microsoft/InvisMark: code share for paper InvisMark: Invisible and Robust Watermarking for AI-generated Image Provenance](https://github.com/microsoft/InvisMark)
+
+cutesy app [one year: countdown widget on the App Store](https://apps.apple.com/us/app/one-year-countdown-widget/id6740510762)
+
+![[coolness backlog_image_1.png|400]]
+
+Best youtube downloader: cobalt [about / what's cobalt? \~ cobalt](https://cobalt.tools/about/general) 
+
+Two cool hackaday guides, idk why it says unreachable [hackaday podcast hidden message](https://hackaday.com/2022/07/01/unraveling-the-hackaday-podcast-hidden-message/)  [hackaday youtube as file storage](https://hackaday.com/2023/02/21/youtube-as-infinite-file-storage/) 
 
 [DELTARUNE GAMEPLAY REMINDER CHEAT SHEET](https://deltarune.com/cheatsheet/) deltarune which is the undertale follow-up
 

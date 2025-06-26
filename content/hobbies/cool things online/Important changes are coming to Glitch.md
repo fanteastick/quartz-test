@@ -6,7 +6,9 @@ byline: |-
 slurped: 2025-06-03T00:20
 title: Important changes are coming to Glitch
 date created: 2025-06-03T00:20
-date modified: 2025-06-03T00:24
+date modified: 2025-06-06T22:03
+tags:
+  - slurp
 ---
 
 Today, I sent out an email to the Glitch community, and I wanted to include it here for everyone to reference, because it’s an important milestone for the community. This is a big change, but it’s not an “Our Incredible Journey” post about how our corporate overlords made us shut down the app hosting infrastructure for Glitch. It’s a story about recognizing when an ecosystem has changed, and evolving to reflect reality, and to respect our users and community by making the right choices when it’s time. As bittersweet as it is, this is a choice I stand behind, and I also am thinking deeply about what the Glitch community becomes, and what it means, going forward.

@@ -1,6 +1,6 @@
 ---
 date created: 2024-06-06T22:54
-date modified: 2025-05-01T21:38
+date modified: 2025-06-16T22:10
 tags:
   - recents-exclude
 ---
@@ -42,6 +42,27 @@ Misc things to remember:
 > - [Credits and Readmes](https://morrowind-modding.github.io/credits-and-readmes/#eilleens-online-everything-notebook) on the Morrowind Modding Wiki
 > - [Quartz Cheatsheet](https://abi-is-here.github.io/niwa/software/quartz/quartz-cheatsheet) by abi-is-here
 
+## Image carousel
+
+[feat: Add Carousel plugin for interactive image galleries by pinei · Pull Request #2011 · jackyzha0/quartz · GitHub](https://github.com/jackyzha0/quartz/pull/2011) -- alternatively explained here: [A Carousel component for Quartz v4.5 · GitHub](https://gist.github.com/pinei/14545e81e8629eed72b55fce1cbd7822) 
+
+Photos from unsplash
+
+![[Quartz customization log_image_1.png]]
+
+![[Quartz customization log_image_2.png]]
+
+![[Quartz customization log_image_3.png]]
+
+```
+<Carousel>
+<img src="attachments/Quartz customization log_image_3.png" alt="Description of image 1"/>
+<img src="attachments/Quartz customization log_image_2.png" alt="Description of image 2"/>
+<img src="attachments/Quartz customization log_image_1.png" alt="Description of image 3"/>
+</Carousel>
+```
+
+Bruh ts didn't work 💔
 ## Cards and such
 
 [[list cards proof of concept]] with [[Quartz Cheatsheet#CSSClasses]]
@@ -267,7 +288,7 @@ The commit:
 
 Example: [[tags/]]
 
-![[Quartz customization log_image_1.png|400]]
+![[Quartz customization log_image_2.png|400]]
 
 ```tsx title="TagContent.tsx"
 <PageList limit={options.numPages} {...listProps} sort={options?.sort} isTagPage={"true"} />
@@ -383,7 +404,7 @@ pre {
 
 After: 
 
-![[Quartz customization log_image_3.png|400]]
+![[Quartz customization log_image_2.png|400]]
 
 ## Telescoping text
 
@@ -434,7 +455,6 @@ It's already committed into the world because it took me a while to understand h
 I took out the keyboard shortcuts and translated some stuff to English. I also went into the scss and made the hover text the same as `var(--bodyFont)`. Also I changed the "bottom" document query-er into `.footer` and had to add a `footer` class to the footer to make that work. 
 
 [catcodeme.github.io/quartz/components/styles/floatingButtons.scss](https://github.com/CatCodeMe/catcodeme.github.io/blob/770f3f8d1f6849ef40bc06b4300a52b3aecfb551/quartz/components/styles/floatingButtons.scss), and also the `.tsx` and the `.inline.ts` file.
-
 
 ## Differentiate broken internal links
 

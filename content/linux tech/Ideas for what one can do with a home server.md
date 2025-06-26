@@ -1,6 +1,6 @@
 ---
 date created: 2025-01-02T17:31
-date modified: 2025-05-01T20:00
+date modified: 2025-06-17T00:03
 subtitle: and now, they can collect dust in my home instead
 tags:
   - idea
@@ -55,6 +55,21 @@ journalctl -b -1 | grep -i overheat
 - [FireHOL - FireHOL Welcome Guide](https://firehol.org/guides/firehol-welcome/)
 - CIS benchmarks: [Center for Internet Security (CIS) Benchmarks - Microsoft Compliance | Microsoft Learn](https://learn.microsoft.com/en-us/compliance/regulatory/offering-cis-benchmark)
 - Mail server: [Home - Docker Mailserver](https://docker-mailserver.github.io/docker-mailserver/latest/) 
+
+> [!web] From the web
+> Thanks perplexity
+> 
+> | Use Case              | Power Consumption | Value for Home Use         |
+> | --------------------- | ----------------- | -------------------------- |
+> | NAS                   | Moderate          | High (storage, backups)    |
+> | Home Lab              | Moderate          | High (learning, testing)   |
+> | Web/App Server        | Moderate          | Medium (personal projects) |
+> | Backup Server         | Moderate          | High (data safety)         |
+> | Media Server          | Moderate          | High (media streaming)     |
+> | Test/Dev Environment  | Moderate          | Medium (development)       |
+> | Distributed Computing | High              | Low (unless cause-driven)  |
+> 
+
 ## Tabled
 
 - Similar project to pangolin: [GitHub - hintjen/selfhosted-gateway: Self-hosted Docker native tunneling to localhost. Expose local docker containers to the public Internet via a simple docker compose interface.](https://github.com/hintjen/selfhosted-gateway?tab=readme-ov-file#getting-started) apparently this uses traefik tho, a Reddit comment said traefik is slow

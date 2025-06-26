@@ -4,16 +4,16 @@ site: Coursetexts
 slurped: 2025-06-03T00:26
 title: Coursetexts is open sourcing the frontiers of knowledge.
 date created: 2025-06-03T00:26
-date modified: 2025-06-03T00:26
+date modified: 2025-06-06T22:04
+tags:
+  - slurp
 ---
 
----
-
-## [](https://coursetexts.org/why#20519a13312a80759060cd3625dbdf10 "23")23
+23
 
 Harvard courses open sourced
 
-## [](https://coursetexts.org/why#20519a13312a8091b3f6dd37c03d28d5 "350x")350x
+350x
 
 More cost effective than traditional platforms
 
@@ -23,7 +23,7 @@ We grew up teaching ourselves online. When school didn’t satisfy us, we turned
 
 We’re building the library we wish we had — we’re excited for the next generation of learners to do more than we could have imagined.
 
-### [](https://coursetexts.org/why#15319a13312a80219516c01d2bff16c2 "What is Coursetexts?")What is Coursetexts?
+### What is Coursetexts?
 
 **Coursetexts builds open source software that makes high-quality, accessible OER financially sustainable for universities to publish.** Since MIT and Harvard came into compliance with disability law in 2015, the cost of closed captioning and detecting copyrighted material has tripled the cost of open sourcing course material. By building state-of-the-art AI pipelines for lecture transcription, privacy-preserving video editing, and copyright material detection, the Coursetexts platform enables professors to publish accessible course material at 1/300 the cost of traditional opencourseware. We’re in progress of bringing video and transcription support across courses.
 

@@ -1,9 +1,11 @@
 ---
 date created: 2025-01-05T18:04
-date modified: 2025-04-28T21:40
+date modified: 2025-06-08T21:54
 ---
 
 There's a big backlog of potential hobbies. If only I had infinite time... unfortunately, I need to prioritize!
+
+> I'll never be bored. 💬 Me
 
 - [ ] raspberry pi
 - [ ] pickleball
@@ -22,3 +24,4 @@ There's a big backlog of potential hobbies. If only I had infinite time... unfor
 - [ ] neovim/lazyvim and vim bindings
 - [ ] first aid training
 - [ ] amateur radio certifications
+- [ ] plants!! [Good to Know: How to Propagate a Monstera (and other care tips) — CARMEON HAMILTON](https://carmeonhamilton.com/blog/2019/03/good-to-know-how-to-propagate-monstera.html) 

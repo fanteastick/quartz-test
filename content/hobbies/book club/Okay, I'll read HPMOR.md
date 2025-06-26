@@ -4,7 +4,7 @@ date modified: 2025-05-01T21:26
 subtitle: mostly an excuse to try out the new quartz citations feature
 ---
 
-Inspired by Turntrout's [You Should Read “Harry Potter and the Methods of Rationality”](https://turntrout.com/read-hpmor)  (full disclosure I only skimmed about 1/3 of it).
+Inspired by Turntrout's [You Should Read “Harry Potter and the Methods of Rationality”](https://turntrout.com/read-hpmor)  (full disclosure I only skimmed about 1/3 of the blog post).
 
 [Harry Potter and the Methods of Rationality | Petunia married a professor, and Harry grew up reading science and science fiction.](https://hpmor.com/) This is the citation dun dun dun. [@yudkowsky2016hpmor]
 
