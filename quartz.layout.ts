@@ -30,7 +30,12 @@ const tagListConfig = {
   excludeTags: tagsToRemove
 }
 const explorerConfig = {
-  filterFn: (node: FileTrieNode) => !(node.data?.tags.includes("explorer-exclude") === true),
+  filterFn: (node: FileTrieNode) => {
+    const omit = new Set(["tags"]);
+    const hasExcludedTag = node.data?.tags?.includes("explorer-exclude") === true;
+    const isOmitted = omit.has(node.displayName?.toLowerCase());
+    return !hasExcludedTag && !isOmitted;
+  },
   mapFn: (node: FileTrieNode) => {
     // dont change name of root node
     if (!node.isFolder) {
@@ -199,9 +204,9 @@ export const defaultContentPageLayout: PageLayout = {
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(breadcrumbsConfig), Component.ArticleTitle()],
   left: [
+    Component.MobileOnly(Component.OverlayExplorer()),
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.MobileOnly(Component.OverlayExplorer()),
     Component.Row([
       Component.Map(),
       Component.Darkmode(),
