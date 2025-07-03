@@ -1,6 +1,6 @@
 ---
 date created: 2024-06-06T22:54
-date modified: 2025-06-16T22:10
+date modified: 2025-07-03T00:35
 tags:
   - recents-exclude
 ---
@@ -41,6 +41,13 @@ Misc things to remember:
 > - [👋 Welcome \| sidbin](https://sidb.in/)
 > - [Credits and Readmes](https://morrowind-modding.github.io/credits-and-readmes/#eilleens-online-everything-notebook) on the Morrowind Modding Wiki
 > - [Quartz Cheatsheet](https://abi-is-here.github.io/niwa/software/quartz/quartz-cheatsheet) by abi-is-here
+> - [Ben's Garden](https://garden.bencuan.me/about/Inspiration) 
+
+## Clickable images
+
+[GitHub - vazome/quartz-clickable-images-zoom-plugin: Enabled Lightbox zoom for Quartz built websites](https://github.com/vazome/quartz-clickable-images-zoom-plugin)
+
+Lightbox effect. Works completely fine with the image carousel. pretty good! I could write up/merge some other plugins to also follow this format; I only skimmed, but it should be a great reference.
 
 ## Image carousel
 
@@ -48,21 +55,14 @@ Misc things to remember:
 
 Photos from unsplash
 
-![[Quartz customization log_image_1.png]]
-
-![[Quartz customization log_image_2.png]]
-
-![[Quartz customization log_image_3.png]]
-
-```
 <Carousel>
 <img src="attachments/Quartz customization log_image_3.png" alt="Description of image 1"/>
 <img src="attachments/Quartz customization log_image_2.png" alt="Description of image 2"/>
 <img src="attachments/Quartz customization log_image_1.png" alt="Description of image 3"/>
 </Carousel>
-```
 
-Bruh ts didn't work 💔
+You need to ensure that the Carousel plugin is at the very bottom... I guess... Not sure why, also makes it not super compatible with other plugins. Maybe I'll get in there and figure out something. 
+
 ## Cards and such
 
 [[list cards proof of concept]] with [[Quartz Cheatsheet#CSSClasses]]
@@ -288,7 +288,7 @@ The commit:
 
 Example: [[tags/]]
 
-![[Quartz customization log_image_2.png|400]]
+![[Quartz customization log_image_1.png|400]]
 
 ```tsx title="TagContent.tsx"
 <PageList limit={options.numPages} {...listProps} sort={options?.sort} isTagPage={"true"} />
@@ -395,7 +395,7 @@ To make links inside unclickable when spoiler'd:
 
 To stop the weird scrollbar on 1-line code that doesn't have a language defined. When there IS a language, it gets wrapped around a `<figure>` that has a line height of 1.6em, and the `<pre>` has a height of 1.3em. But it's not added to the basic `<pre>` by default. 
 
-![[Quartz customization log_image_2.png|400]]
+![[Quartz customization log_image_1.png|400]]
 
 ```scss title="base.scss"
 pre {
@@ -404,7 +404,7 @@ pre {
 
 After: 
 
-![[Quartz customization log_image_2.png|400]]
+![[Quartz customization log_image_1.png|400]]
 
 ## Telescoping text
 

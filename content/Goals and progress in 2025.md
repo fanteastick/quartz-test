@@ -1,6 +1,6 @@
 ---
 date created: 2025-01-16T11:01
-date modified: 2025-06-25T22:50
+date modified: 2025-07-02T23:17
 ---
 ## Subset of the goals
 - Do a side hustle
@@ -73,3 +73,14 @@ What I'm using this year: [[Uses]]
 - Pop culture: kpop demon hunters movie, ALLDAYPROJECT (Bailey!), Gabriela by Katseye
 	- Justin Bieber: "It's not clocking to you that I'm standing on business, is it"
 - Every influencer and their mom has a "welcome to my series on --maxxing"
+
+## July
+
+Random lighthearted news:
+
+- BTS is back and an album in 2026
+- Big Beautiful Bill
+- Meta is poaching AI researchers for 100M each
+- Soham Parekh, Cluely marketing, r/overemployed
+
+So tired and burnt out lately.

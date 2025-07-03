@@ -1,6 +1,6 @@
 ---
 date created: 2025-03-05T17:20
-date modified: 2025-04-30T13:33
+date modified: 2025-07-02T23:33
 ---
 
 FAQ, Frequently Asked (by me) Questions
@@ -116,4 +116,12 @@ docker compose -f /path/to/fred.yml up -d
 ```
 docker ps
 docker container ls --format "table {{.ID}}\t{{.Names}}\t{{.Ports}}" -a
+```
+
+## Enter the shell for a container
+
+```
+ docker ps
+ docker exec -it <container id> sh
+ ls -lrt /*
 ```
