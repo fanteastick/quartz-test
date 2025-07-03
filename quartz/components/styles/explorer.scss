@@ -239,7 +239,7 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
       margin-top: 0;
       background-color: var(--light);
       max-width: 100vw;
-      width: 100%;
+      width: 100vw;
       transform: translateX(-100vw);
       transition:
         transform 200ms ease,
@@ -263,22 +263,8 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
   }
 }
 
-.no-scroll {
-  opacity: 0;
-  overflow: hidden;
-}
-
-html:has(.no-scroll) {
-  overflow: hidden;
-}
-
-@media all and not ($mobile) {
-  .no-scroll {
-    opacity: 1 !important;
-    overflow: auto !important;
-  }
-
-  html:has(.no-scroll) {
-    overflow: auto !important;
+.mobile-no-scroll {
+  @media all and ($mobile) {
+    overscroll-behavior: none;
   }
 }

@@ -14,7 +14,12 @@ export const ClickableImages: QuartzTransformerPlugin = () => {
         () => {
           return (tree: Root, _file) => {
             visit(tree, "element", (node: any, index, parent) => {
-              if (node.tagName === "img" && parent && index !== undefined) {
+              if (node.tagName === "img" && parent && index !== undefined &&
+                !(
+                  node.properties &&
+                  node.properties.className &&
+                  node.properties.className.includes("inline-icons")
+                )) {
                 // Get the current img src which should already be resolved
                 const originalSrc = node.properties?.src
                 const originalAlt = node.properties?.alt || ""

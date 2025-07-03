@@ -3,6 +3,7 @@ import { normalizeRelativeURLs } from "../../util/path"
 import { fetchCanonical } from "./util"
 
 const p = new DOMParser()
+let activeAnchor: HTMLAnchorElement | null = null
 
 function isFootnoteLink(link: HTMLAnchorElement): boolean {
   return link.id.startsWith("user-content-fnref-");
@@ -12,7 +13,7 @@ async function mouseEnterHandler(
   this: HTMLAnchorElement,
   { clientX, clientY }: { clientX: number; clientY: number },
 ) {
-  const link = this
+  const link = (activeAnchor = this)
   if (link.dataset.noPopover === "true" || 
       link.id.includes("permalink") || 
       link.classList.contains('broken-link')) {
@@ -50,10 +51,9 @@ async function mouseEnterHandler(
   targetUrl.search = ""
   const popoverId = `popover-${link.pathname}`
   const prevPopoverElement = document.getElementById(popoverId)
-  const hasAlreadyBeenFetched = () => !!document.getElementById(popoverId)
 
-  // Don't refetch if there's already a popover
-  if (hasAlreadyBeenFetched()) {
+  // dont refetch if there's already a popover
+  if (!!document.getElementById(popoverId)) {
     showPopover(prevPopoverElement as HTMLElement)
     return
   }
@@ -61,11 +61,6 @@ async function mouseEnterHandler(
   const response = await fetchCanonical(targetUrl).catch((err) => {
     console.error(err)
   })
-
-  // Bailout if another popover exists
-  if (hasAlreadyBeenFetched()) {
-    return
-  }
 
   if (!response) return
   const [contentType] = response.headers.get("Content-Type")!.split(";")
@@ -128,11 +123,20 @@ async function mouseEnterHandler(
       })
   }
 
+  if (!!document.getElementById(popoverId)) {
+    return
+  }
+
   document.body.appendChild(popoverElement)
+  if (activeAnchor !== this) {
+    return
+  }
+
   showPopover(popoverElement)
 }
 
 function clearActivePopover() {
+  activeAnchor = null
   const allPopoverElements = document.querySelectorAll(".popover")
   allPopoverElements.forEach((popoverElement) => popoverElement.classList.remove("active-popover"))
 }
