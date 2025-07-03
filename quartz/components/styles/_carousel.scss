@@ -1,0 +1,237 @@
+// from https://gist.github.com/pinei/14545e81e8629eed72b55fce1cbd7822
+// 07/03/2025
+
+
+$carousel-control-bg: #fac1c1;
+$carousel-control-color: #333;
+$carousel-control-hover-bg: #ddd;
+$carousel-control-size: 40px;
+
+article .quartz-carousel {
+  position: relative;
+  width: 100%;
+  margin: 2rem 0;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+  .quartz-carousel-slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+
+    .quartz-carousel-slide {
+      flex: 0 0 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        max-width: 100%;
+        max-height: 400px;
+        object-fit: contain;
+        display: block;
+        transition: opacity 0.2s ease;
+
+        &:hover {
+          opacity: 0.9;
+        }
+      }
+    }
+  }
+
+  .quartz-carousel-dots {
+    text-align: center;
+    margin-top: 1rem;
+    padding: 0.5rem 0;
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      margin: 0 5px;
+      background-color: #ddd;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.3s ease;
+      cursor: pointer;
+
+      &.active {
+        background-color: #555;
+      }
+    }
+  }
+
+  .quartz-carousel-prev,
+  .quartz-carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: $carousel-control-bg;
+    border: none;
+    border-radius: 50%;
+    width: $carousel-control-size;
+    height: $carousel-control-size;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+
+    svg {
+      width: 24px;
+      height: 24px;
+      fill: $carousel-control-color;
+    }
+
+    &:hover {
+      background-color: $carousel-control-hover-bg;
+    }
+  }
+
+  .quartz-carousel-prev {
+    left: 10px;
+  }
+
+  .quartz-carousel-next {
+    right: 10px;
+  }
+}
+
+// Image Modal Styles
+.carousel-image-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+
+  .carousel-modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+
+  .carousel-modal-content {
+    position: relative;
+    max-width: 90vw;
+    max-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .carousel-modal-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  }
+
+  .carousel-modal-close {
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    z-index: 10001;
+
+    svg {
+      width: 24px;
+      height: 24px;
+      fill: #333;
+    }
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 1);
+    }
+  }
+}
+
+// Dark mode adjustments
+html[saved-theme="dark"] article .quartz-carousel,
+html[saved-theme="dark"] .carousel-image-modal {
+  .quartz-carousel-prev,
+  .quartz-carousel-next {
+    background-color: rgba(50, 50, 50, 0.8);
+
+    svg {
+      fill: #eee;
+    }
+
+    &:hover {
+      background-color: rgba(70, 70, 70, 0.95);
+    }
+  }
+
+  .dot {
+    background-color: #555;
+
+    &.active {
+      background-color: #ddd;
+    }
+  }
+
+  .carousel-modal-close {
+    background-color: rgba(50, 50, 50, 0.9);
+
+    svg {
+      fill: #eee;
+    }
+
+    &:hover {
+      background-color: rgba(70, 70, 70, 1);
+    }
+  }
+}
+
+// Mobile responsiveness
+@media (max-width: 768px) {
+  article .quartz-carousel {
+    .quartz-carousel-prev,
+    .quartz-carousel-next {
+      width: 35px;
+      height: 35px;
+
+      svg {
+        width: 18px;
+        height: 18px;
+      }
+    }
+  }
+
+  .carousel-image-modal {
+    .carousel-modal-overlay {
+      padding: 1rem;
+    }
+
+    .carousel-modal-close {
+      top: -35px;
+      right: -35px;
+      width: 35px;
+      height: 35px;
+
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}

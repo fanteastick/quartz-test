@@ -136,6 +136,7 @@ const config: QuartzConfig = {
   plugins: {
     transformers: [
       Plugin.Staticrypt(),
+
       Plugin.FrontMatter(),
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "git", "filesystem"],
@@ -161,6 +162,7 @@ const config: QuartzConfig = {
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }), // this is links.tsx
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
+      Plugin.Carousel({showDots: true}),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
