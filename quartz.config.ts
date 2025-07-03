@@ -162,6 +162,7 @@ const config: QuartzConfig = {
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }), // this is links.tsx
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
+      Plugin.ClickableImages(),
       Plugin.Carousel({showDots: true}),
     ],
     filters: [Plugin.RemoveDrafts()],
