@@ -2,13 +2,15 @@
 tags:
   - guide
 date created: 2025-06-19T18:25
-date modified: 2025-06-25T23:20
+date modified: 2025-07-07T22:23
 subtitle: I hate to impose, but...
 ---
 
 [Bookbinder](https://momijizukamori.github.io/bookbinder-js) 
 
 For later: [Tutorial: imposing for signatures using Montax Imposer - YouTube](https://www.youtube.com/watch?v=u4416NLfmSQ) 
+
+[What Are Book Signatures, and What Does Imposition Mean? | Advantage Book Binding & Post Press Services](https://www.advantagebookbinding.com/book-printing/book-signatures-imposition-mean/)
 
 ## Vocabulary
 

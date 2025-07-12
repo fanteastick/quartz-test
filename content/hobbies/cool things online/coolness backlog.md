@@ -1,6 +1,6 @@
 ---
 date created: 2025-02-03T22:03
-date modified: 2025-06-25T23:18
+date modified: 2025-07-07T22:16
 tags:
   - recents-exclude
   - external
@@ -10,6 +10,25 @@ draft: "true"
 In reverse chronological order, so the most recent will be at the top. 
 
 ## 2025
+
+
+[A rising danger in the Arctic: Microbes unleashed by climate change - Bulletin of the Atomic Scientists](https://thebulletin.org/2024/11/a-rising-danger-in-the-arctic-microbes-unleashed-by-climate-change/#post-heading) 
+
+[The Interactive Handbook on Data Structures and Algorithms](https://cartesian.app/#download-section) 
+
+[Ben Eater](https://eater.net/shop) 
+
+[Virtual Cards That Protect Your Payments | Online Payment Security](https://www.privacy.com/)
+
+[tinyAgent – AI Tool Framework](https://tinyagent.xyz/)
+
+[Welcome to Linux From Scratch!](https://www.linuxfromscratch.org/)
+
+[Curiosity Cards](https://channel.jaryddiamond.com/curiosity-cards)
+
+[Content Signals](https://contentsignals.org/)
+
+[Fundamentals of Vector Network Analysis primer | Rohde & Schwarz](https://www.rohde-schwarz.com/nl/products/test-and-measurement/analyzers/network-analyzers/fundamentals-of-vector-network-analysis_253352.html)
 
 [Not a Number](https://www.nan.fyi/)
 

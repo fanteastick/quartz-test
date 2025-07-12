@@ -1,6 +1,6 @@
 ---
 date created: 2025-06-09T23:39
-date modified: 2025-06-09T23:47
+date modified: 2025-07-07T22:26
 ---
 
 Laptop battery
@@ -60,3 +60,5 @@ EV batteries
 > - **Risk of Reignition:** Even after the fire appears to be out, the battery can reignite hours or days later.
 > 
 > In summary, Waymo batteries—like most large lithium-ion batteries in modern EVs—are dangerous when on fire, presenting unique and heightened risks to safety compared to traditional vehicle fires.
+
+Puffed up batteries are bad and dangerous - don't electrocute yourself!!! [spicypillows](https://www.reddit.com/r/spicypillows/) 

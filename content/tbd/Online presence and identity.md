@@ -6,6 +6,7 @@ subtitle: what it would take for me to become an influencer
 
 Related ideas:  [[OSINT]] [[Avoiding getting doxxed]]
 
+[Virtual Cards That Protect Your Payments | Online Payment Security](https://www.privacy.com/) 
 ## Physical traits
 
 - Face

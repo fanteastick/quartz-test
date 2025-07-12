@@ -1,6 +1,6 @@
 ---
 date created: 2024-11-10T17:42
-date modified: 2025-06-17T10:07
+date modified: 2025-07-07T22:30
 ---
 
 I learned how to crochet! Thank you to my friend whose name starts with a J. Me and my friend whose name starts with a K learned at the same time, although I borrowed J-friend's yarn and hook. The thing I'm best at making right now is a headphone sprout, although I also learned from youtube videos to make a granny square and a simple flower. I got some brown yarn for myself too. Thank you Joann's the fabric store!
@@ -11,19 +11,15 @@ It was NOT easy to try following a diagram pattern - I kept forgetting where I w
 
 ## Crochet terms glossary
 
-sc - single crochet
+American terms are what I'm used to, I think. 
 
-dc - double crochet
-
-tc - triple 
-
-hdc - half double crochet
-
-sl st - slip stitch
-
-sk 3 - skip 3
-
-ch st - chain stitch
+- sc - single crochet
+- dc - double crochet --> loop twice and bring the yarn through each 
+- tc - triple 
+- hdc - half double crochet --> loop twice and bring the yarn through both at the same time
+- sl st - slip stitch (also used for foundation chains)
+- sk 3 - skip 3
+- ch st - chain stitch
 
 ## Things I've made
 
@@ -38,6 +34,7 @@ ch st - chain stitch
 - flower coasters and flowerpot (kinda messed up tho) - there's a million patterns of these
 	- [Flower Bouquet Coaster | Free Crochet Pattern & Video Tutorial](https://vivcrochets.com/flower-bouquet-coaster-crochet-pattern-tutorial/#r4) 
 - a leafy/laurel headband, although I can't find the pattern anymore
+- Just a regular circular coaster!
 
 ## Written patterns
 

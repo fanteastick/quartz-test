@@ -1,6 +1,6 @@
 ---
 date created: 2025-01-02T17:31
-date modified: 2025-06-17T00:03
+date modified: 2025-07-07T23:50
 subtitle: and now, they can collect dust in my home instead
 tags:
   - idea
@@ -8,7 +8,7 @@ tags:
 
 It's so sad to see a powerful machine becoming demoted to a glorified external hard drive. Even worse, collecting dust!
 
-- [ ] blog post detailing the evolution, and then summarizing the final result
+- [x] blog post detailing the evolution, and then summarizing the final result --> [2025-04-29 | Eilleen's Blog](https://blog.eilleeenz.com/2025/2025-04-29) 
 ## Done
 - expose services to the internet with [[Cloudflare tunnels with Docker]]
 - web server [GitHub - http-party/http-server: a simple zero-configuration command-line http server](https://github.com/http-party/http-server) [Use HTTPS and Custom Domains for Local Development with Docker Nginx | Dave Kerr Software](https://hackerrdave.com/https-local-docker-nginx/) 
@@ -37,6 +37,9 @@ journalctl -b -1 | grep -i overheat
 - backup solution
 	- Immich: [Remotely access and share your self-hosted services - YouTube](https://www.youtube.com/watch?v=Vt4PDUXB_fg) 
 	- Files or something, and do it over Tailscale only
+- Kanban 2025-07-07
+	- Planka - kind of annoying to set up. works though. Doesn't have JSON/CSV export
+	- Wekan - need to rebuild the image. 
 ## Not done
 - UFW docker [GitHub - chaifeng/ufw-docker: To fix the Docker and UFW security flaw without disabling iptables](https://github.com/chaifeng/ufw-docker)
 - sysadmin and devops, like [DevOps BootCamp](https://devopsbootcamp.osuosl.org/) (h/t to CW in 2021!)
@@ -55,6 +58,7 @@ journalctl -b -1 | grep -i overheat
 - [FireHOL - FireHOL Welcome Guide](https://firehol.org/guides/firehol-welcome/)
 - CIS benchmarks: [Center for Internet Security (CIS) Benchmarks - Microsoft Compliance | Microsoft Learn](https://learn.microsoft.com/en-us/compliance/regulatory/offering-cis-benchmark)
 - Mail server: [Home - Docker Mailserver](https://docker-mailserver.github.io/docker-mailserver/latest/) 
+- zotero + swag: [GitHub - linuxserver/docker-zotero: Web accessible Zotero inside a Debian Container](https://github.com/linuxserver/docker-zotero?tab=readme-ov-file) [docker-swag/Dockerfile at master · linuxserver/docker-swag · GitHub](https://github.com/linuxserver/docker-swag/blob/master/Dockerfile) 
 
 > [!web] From the web
 > Thanks perplexity
