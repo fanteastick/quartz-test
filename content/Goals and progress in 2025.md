@@ -1,6 +1,6 @@
 ---
 date created: 2025-01-16T11:01
-date modified: 2025-07-02T23:17
+date modified: 2025-07-29T10:15
 ---
 ## Subset of the goals
 - Do a side hustle
@@ -84,3 +84,7 @@ Random lighthearted news:
 - Soham Parekh, Cluely marketing, r/overemployed
 
 So tired and burnt out lately.
+
+- more rocks
+- finally e-wasted a PC
+- facebook marketplace

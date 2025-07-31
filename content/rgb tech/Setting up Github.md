@@ -1,10 +1,30 @@
 ---
 date created: 2024-05-09T14:44
-date modified: 2025-02-02T22:50
+date modified: 2025-07-14T22:43
 tags:
   - wsl
   - git
 ---
+# Quick guide to login properly
+
+Set your Git config to use the email associated with your GitHub account, **or your GitHub noreply email if you have email privacy enabled**:
+
+```
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+```
+
+part 2 logging in: 
+
+```
+sudo apt install gh
+gh auth login
+# then you need to do it in a web browser. although once i accidentally "opened" the webpage in the terminal. 
+```
+
+Unfinished (2025-07-14), but with https you need to make a personal access token (apparently less secure), or with SSH you can choose to use an existing ssh key. Something about keygen. and then adding it in your GitHub settings. 
+
+# Miscellaneous 
 
 > [!warning] Actual steps to follow...
 > ...are in the second half, there's a link to the Microsoft learn page for setting up git on WSL
@@ -52,4 +72,12 @@ Download it for windows and then run this command, and then open the web browser
 
 ```bash
 gh auth login
+```
+
+---
+
+Seeing the info about your commit
+
+```
+https://github.com/username/repo/commit/abcdef123456.patch
 ```

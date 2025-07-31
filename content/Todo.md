@@ -17,6 +17,7 @@ draft: "true"
 
 ## Quartz
 
+- [ ] there's something funny going on with the search function on mobile
 ## Non-quartz
 
 - [x] analytics site --> goatcounter

@@ -1,6 +1,6 @@
 ---
 date created: 2025-04-08T14:51
-date modified: 2025-04-08T17:41
+date modified: 2025-07-15T00:20
 tags:
   - external
 ---
@@ -16,3 +16,7 @@ tags:
 > Some sites may not be included because the automated crawlers were unaware of their existence at the time of the crawl. It’s also possible that some sites were not archived because they were password protected, blocked by robots.txt, or otherwise inaccessible to our automated systems. Site owners might have also requested that their sites be excluded from the Wayback Machine.
 
 [How Much Of The Internet Does The Wayback Machine Really Archive?](https://www.forbes.com/sites/kalevleetaru/2015/11/16/how-much-of-the-internet-does-the-wayback-machine-really-archive/)
+
+## How to take stuff off the archive
+
+[How do I request to remove something from archive.org? – Internet Archive Help Center](https://help.archive.org/help/how-do-i-request-to-remove-something-from-archive-org/)

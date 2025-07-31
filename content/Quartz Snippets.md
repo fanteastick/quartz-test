@@ -1,6 +1,6 @@
 ---
 date created: 2024-07-09T02:02
-date modified: 2025-06-25T22:48
+date modified: 2025-07-30T00:31
 ---
 
 Misc ideas, code, and plugins for quartz that I've collected across the web. %% [[Todo]] %%
@@ -390,7 +390,7 @@ Basically the index.md in the main content folder is blank except for title, and
 
 [Discord](https://discordapp.com/channels/927628110009098281/1211952698673602580) --> the forum thread
 
-## Conditional footer elements - 
+## Conditional footer elements
 
 sjgknight — 05/19/2024 5:31 PM
 
@@ -655,3 +655,19 @@ It doesn't really work
 ## Clickable images/zoom (lightbox)
 
 [GitHub - vazome/quartz-clickable-images-zoom-plugin: Enabled Lightbox zoom for Quartz built websites](https://github.com/vazome/quartz-clickable-images-zoom-plugin) 
+
+## Sidenotes (2 implementations)
+
+aarnphm: [chore: update latest · jackyzha0/quartz@ea6424f · GitHub](https://github.com/jackyzha0/quartz/commit/ea6424fed021f3daa6f25e89fe2e86b93d61dec1) 
+
+Hsterts: [Respirology, Fundamentals, Sidenotes · NoNotNotes/Mneme@f2915bd · GitHub](https://github.com/NoNotNotes/Mneme/commit/f2915bdab6af92af86d02cb696e7bfd363d221eb#diff-93aab2f7a8ada0a9294ac8b5546963b65f4b9d7686449731e6158752ea670ba8) 
+
+## Similar articles listing
+
+[Comparing jackyzha0:v4...ketsapiwiq:similar-articles-plugin · jackyzha0/quartz · GitHub](https://github.com/jackyzha0/quartz/compare/v4...ketsapiwiq:quartz:similar-articles-plugin) 
+
+## Self-hosting isso comments
+
+[Self-hosting isso-comments](https://garden.bencuan.me/homelabbing/Self-hosting-isso-comments) by bencuan
+
+Relevant commit: [add subpage comments · 64bitpandas/garden@8225f95 · GitHub](https://github.com/64bitpandas/garden/commit/8225f9571e635981638c7b2539599608f0d50639) 

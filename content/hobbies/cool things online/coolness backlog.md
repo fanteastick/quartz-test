@@ -1,6 +1,6 @@
 ---
 date created: 2025-02-03T22:03
-date modified: 2025-07-07T22:16
+date modified: 2025-07-29T23:46
 tags:
   - recents-exclude
   - external
@@ -11,6 +11,21 @@ In reverse chronological order, so the most recent will be at the top.
 
 ## 2025
 
+[The Summer Hikaru Died - Wikipedia](https://en.wikipedia.org/wiki/The_Summer_Hikaru_Died) 
+
+Amazon glacier storage [Amazon S3 Glacier storage classes](https://aws.amazon.com/s3/storage-classes/glacier/?ams%23interactive-card-vertical%23pattern-data--1564707496.filter=%257B%2522filters%2522%253A%255B%255D%257D)
+
+[Maze Heart: Code. Design. Wisdom.](https://remvze.com/) this is actually prolific in july 2025
+
+[GitHub - Grayvox/obsidian-character-sheets: Create character sheets for your very own traumatized little guys with Obsidian.](https://github.com/Grayvox/obsidian-character-sheets) 
+
+[Installation - Sherlock Project](https://sherlockproject.xyz/installation#docker) 
+
+[TAO: The power of the graph - Engineering at Meta](https://engineering.fb.com/2013/06/25/core-infra/tao-the-power-of-the-graph/)
+
+[AT Protocol](https://atproto.com/)
+
+[Camera Setup (Backends) - Photobooth App](https://photobooth-app.org/setup/configuration/camera_setup/) 
 
 [A rising danger in the Arctic: Microbes unleashed by climate change - Bulletin of the Atomic Scientists](https://thebulletin.org/2024/11/a-rising-danger-in-the-arctic-microbes-unleashed-by-climate-change/#post-heading) 
 

@@ -1,31 +1,30 @@
 ---
 date created: 2024-06-06T22:54
-date modified: 2025-04-01T16:30
+date modified: 2025-07-30T00:06
 ---
-## For copy-pasting
+## Git commands to update content
+
 ```
 git add content*; git status
 git commit -m "Content update"; git push
 ```
 
-## Syntax quirks specific to me to remember
+## Syntax quirks to remember
 
-Footnotes: put a `#` at the bottom of the page if you use one, to avoid footnotes being included in transcludes of the last heading. Also instead of doing something numerical, use some uniquified text, like "oceans are beautiful"
+Footnotes: put a `#` at the bottom of the page if you use one, to avoid footnotes being included in a transclude of the last heading. Also instead of doing something numerical, use some uniquified text, like "oceans are beautiful"
 
-Titles: in files, folders, etc. Don't use hyphens because I have a lot of replacement logic in folder pages. 
+Titles: in files, folders, etc. Don't use hyphens because I have a lot of simple text replacement logic in folder pages/deslugging. 
 
-## Sync content changes
+## Sync changes to git
 
-%% ### TLDR %%
-
-Been doing this via VS Code GitHub extension. Very convenient but I just need to pull upstream changes every once in a while. 
-
-%% ### Recommended way
+The tutorial-provided way is to do `npx quartz sync`. Since I have made a bunch of changes to misc components, and I like having better control of what's being changed, I update my changes via VS Code GitHub extension. Very convenient because I just need to pull upstream changes every once in a while, and I can see the merge conflicts better.
 
 ```
 git pull
 npx quartz sync
 ```
+
+ %%
 
 ### Alternative: with git reset
 
@@ -242,5 +241,8 @@ Easy flow:
 > [!example]+ Default unfolded callout
 > I am an open book 📔
 ```
+
+![[About rsync#Example rsync for quartz]]
+
 #
 
