@@ -77,9 +77,9 @@ export const ClickableImages: QuartzTransformerPlugin = () => {
   transition: box-shadow 0.2s ease;
 }
 
-.lightbox-image:hover {
+/*.lightbox-image:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
+}*/
 
 /* Modal/Lightbox Overlay */
 .lightbox-modal {
@@ -88,7 +88,7 @@ export const ClickableImages: QuartzTransformerPlugin = () => {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.7);
   z-index: 1000;
   display: flex;
   justify-content: center;
@@ -109,7 +109,7 @@ export const ClickableImages: QuartzTransformerPlugin = () => {
   max-height: 90vh;
   object-fit: contain;
   border-radius: 8px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
   transform: scale(0.8);
   transition: transform 0.3s ease;
 }
@@ -126,7 +126,7 @@ export const ClickableImages: QuartzTransformerPlugin = () => {
   color: white;
   cursor: pointer;
   z-index: 1001;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.4);
   border: none;
   border-radius: 50%;
   width: 40px;
@@ -138,7 +138,7 @@ export const ClickableImages: QuartzTransformerPlugin = () => {
 }
 
 .lightbox-close:hover {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 /* Prevent body scroll when modal is open */
