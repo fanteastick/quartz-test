@@ -150,6 +150,24 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       for (const tag of localTags) {
         links.push({ source: source, target: tag })
       }
+
+      // Add hierarchical tag links
+      for (const tag of localTags) {
+        const parts = tag.split("/");
+        if (parts.length > 2) {
+          const parentTag = parts.slice(0, -1).join("/") as SimpleSlug;
+          if (!tags.includes(parentTag)) {
+            tags.push(parentTag);
+          }
+          if (!links.some(l => l.source === tag && l.target === parentTag)) {
+            links.push({ source: tag, target: parentTag });
+          }
+          // Draw link from parentTag to the node tagged with the subtag
+          if (!links.some(l => l.source === parentTag && l.target === source)) {
+            links.push({ source: parentTag, target: source });
+          }
+        }
+      }
     }
   }
 
