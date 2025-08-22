@@ -2,7 +2,6 @@
 date created: 2025-07-23T15:08
 date modified: 2025-07-29T21:47
 tags:
-  - gaming
   - gaming/switch
 ---
 

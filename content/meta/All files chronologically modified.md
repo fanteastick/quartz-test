@@ -36,15 +36,27 @@ Some hidden tags: anything with "exclude" basically
 
 | File                                                                                                                                           | Folder                     | Modified     |
 | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- | ------------ |
+| [[tbd/Disclaimers, License, Legalese.md\|Disclaimers, License, Legalese]]                                                                      | tbd                        | Aug 14, 2025 |
+| [[tbd/Not Financial Advice.md\|Not Financial Advice]]                                                                                          | tbd                        | Aug 13, 2025 |
+| [[tbd/Useful punctuation.md\|Useful punctuation]]                                                                                              | tbd                        | Aug 11, 2025 |
+| [[thoughts/Shopping Accounts.md\|Shopping Accounts]]                                                                                           | thoughts                   | Aug 11, 2025 |
+| [[tbd/mkcert.md\|mkcert]]                                                                                                                      | tbd                        | Aug 5, 2025  |
+| [[tbd/Kanban board dump.md\|Kanban board dump]]                                                                                                | tbd                        | Jul 31, 2025 |
+| [[Goals and progress in 2025.md\|Goals and progress in 2025]]                                                                                  |                            | Jul 31, 2025 |
+| [[hobbies/Battle of Koeshin.md\|Battle of Koeshin]]                                                                                            | hobbies                    | Jul 30, 2025 |
+| [[tbd/Zelda BOTW.md\|Zelda BOTW]]                                                                                                              | tbd                        | Jul 30, 2025 |
+| [[hobbies/book club/My Year of Rest and Relaxation.md\|My Year of Rest and Relaxation]]                                                        | hobbies/book club          | Jul 30, 2025 |
+| [[hobbies/book club/The Bandit Queens.md\|The Bandit Queens]]                                                                                  | hobbies/book club          | Jul 30, 2025 |
+| [[tbd/Email through a custom domain.md\|Email through a custom domain]]                                                                        | tbd                        | Jul 30, 2025 |
+| [[chips/GPUs/Comparing GPUs.md\|Comparing GPUs]]                                                                                               | chips/GPUs                 | Jul 30, 2025 |
+| [[tbd/Real or AI.md\|Real or AI]]                                                                                                              | tbd                        | Jul 30, 2025 |
 | [[Quartz Snippets.md\|Quartz Snippets]]                                                                                                        |                            | Jul 30, 2025 |
 | [[Quartz Cheatsheet.md\|Quartz Cheatsheet]]                                                                                                    |                            | Jul 30, 2025 |
 | [[tbd/About rsync.md\|About rsync]]                                                                                                            | tbd                        | Jul 30, 2025 |
 | [[hobbies/Pokemon Scarlet.md\|Pokemon Scarlet]]                                                                                                | hobbies                    | Jul 29, 2025 |
 | [[hobbies/Super Mario Bros Wonder.md\|Super Mario Bros Wonder]]                                                                                | hobbies                    | Jul 29, 2025 |
 | [[tbd/Webrings.md\|Webrings]]                                                                                                                  | tbd                        | Jul 29, 2025 |
-| [[Goals and progress in 2025.md\|Goals and progress in 2025]]                                                                                  |                            | Jul 29, 2025 |
 | [[tbd/Twitter engagement farming.md\|Twitter engagement farming]]                                                                              | tbd                        | Jul 29, 2025 |
-| [[rgb tech/New SSD on Windows.md\|New SSD on Windows]]                                                                                         | rgb tech                   | Jul 24, 2025 |
 | [[tbd/AutoHotkey widget.md\|AutoHotkey widget]]                                                                                                | tbd                        | Jul 18, 2025 |
 | [[rgb tech/Uninstalling OneDrive.md\|Uninstalling OneDrive]]                                                                                   | rgb tech                   | Jul 18, 2025 |
 | [[linux tech/Samba and Tailscale.md\|Samba and Tailscale]]                                                                                     | linux tech                 | Jul 15, 2025 |
@@ -55,7 +67,6 @@ Some hidden tags: anything with "exclude" basically
 | [[linux tech/Ideas for what one can do with a home server.md\|Ideas for what one can do with a home server]]                                   | linux tech                 | Jul 7, 2025  |
 | [[hobbies/Crocheting.md\|Crocheting]]                                                                                                          | hobbies                    | Jul 7, 2025  |
 | [[tbd/Good habits around electronics.md\|Good habits around electronics]]                                                                      | tbd                        | Jul 7, 2025  |
-| [[tbd/Real or AI.md\|Real or AI]]                                                                                                              | tbd                        | Jul 7, 2025  |
 | [[tbd/Bookbinder usage.md\|Bookbinder usage]]                                                                                                  | tbd                        | Jul 7, 2025  |
 | [[Quartz customization log.md\|Quartz customization log]]                                                                                      |                            | Jul 3, 2025  |
 | [[linux tech/Docker and Portainer FAQs.md\|Docker and Portainer FAQs]]                                                                         | linux tech                 | Jul 2, 2025  |
@@ -106,8 +117,8 @@ Some hidden tags: anything with "exclude" basically
 | [[meta/Code tester.md\|Code tester]]                                                                                                           | meta                       | Mar 26, 2025 |
 | [[linux tech/Cloudflare.md\|Cloudflare]]                                                                                                       | linux tech                 | Mar 26, 2025 |
 | [[linux tech/Setting up SSH the way I wanted.md\|Setting up SSH the way I wanted]]                                                             | linux tech                 | Mar 23, 2025 |
-| [[hobbies/Civ notepad mod brainstorm.md\|Civ notepad mod brainstorm]]                                                                          | hobbies                    | Mar 20, 2025 |
 | [[hobbies/Civilization 7.md\|Civilization 7]]                                                                                                  | hobbies                    | Mar 20, 2025 |
+| [[hobbies/Civ notepad mod brainstorm.md\|Civ notepad mod brainstorm]]                                                                          | hobbies                    | Mar 20, 2025 |
 | [[meta/Hiding tags from various components.md\|Hiding tags from various components]]                                                           | meta                       | Mar 20, 2025 |
 | [[hobbies/Genshin Impact by miHoYo.md\|Genshin Impact by miHoYo]]                                                                              | hobbies                    | Mar 19, 2025 |
 | [[meta/Upgrading to quartz 4.5.md\|Upgrading to quartz 4.5]]                                                                                   | meta                       | Mar 18, 2025 |

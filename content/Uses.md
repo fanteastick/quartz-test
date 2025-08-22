@@ -37,7 +37,7 @@ Comparison: [Apple M3 Max 14 vs Intel i9-7900X vs i7-7700K](https://www.cpubench
 
 ## Software
 
-- [Obsidian](https://obsidian.md/) with [[Obsidian plugin list|these plugins]] ([[obsidian is the best]])
+- [Obsidian](https://obsidian.md/) with [[Obsidian plugin list|these plugins]] ([[Obsidian is the best]])
 - [Visual Studio Code](https://code.visualstudio.com/)
 - AI tools: [ChatGPT](https://chatgpt.com/) and [Perplexity](https://www.perplexity.ai/) 
 	- [[how I use GPTs]]

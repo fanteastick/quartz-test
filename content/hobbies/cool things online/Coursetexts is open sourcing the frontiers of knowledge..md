@@ -7,13 +7,12 @@ date created: 2025-06-03T00:26
 date modified: 2025-06-06T22:04
 tags:
   - slurp
+draft: "true"
 ---
 
-23
 
 Harvard courses open sourced
 
-350x
 
 More cost effective than traditional platforms
 
@@ -41,7 +40,7 @@ By making closed captioning and copyright detection cheaper and faster, Coursete
 
 - To date, we’ve open sourced **23 classes** at Harvard.
 
-- Each class we publish **costs ~300x less** to open source than MIT OpenCourseWare (OCW) would spend without our software. We open sourced our first 23 classes for less than $10K (for comparison, OCW spent [$3.9M](https://web.mit.edu/annualreports/pres14/2014.16.00.pdf#:~:text=3%2C931%2C918) to publish [18 new courses](https://dspace.mit.edu/bitstream/handle/1721.1/156522/OpenLearning-annualreport-2023.pdf?sequence=1&isAllowed=y) without our software).
+- Each class we publish **costs ~300x less** to open source than MIT OpenCourseWare (OCW) would spend without our software. We open sourced our first 23 classes for less than \$10K (for comparison, OCW spent [$3.9M](https://web.mit.edu/annualreports/pres14/2014.16.00.pdf#:~:text=3%2C931%2C918) to publish [18 new courses](https://dspace.mit.edu/bitstream/handle/1721.1/156522/OpenLearning-annualreport-2023.pdf?sequence=1&isAllowed=y) without our software).
 
 - Open courses exist at the generosity of professors creating these classes. Coursetexts can publish classes within **24 hours** of professor approval, with less than one minute of a professor’s time. With professor review, our median time to publication is 1 week. Traditional platforms require a multi-person team and months of effort.
 

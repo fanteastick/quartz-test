@@ -11,6 +11,14 @@ In reverse chronological order, so the most recent will be at the top.
 
 ## 2025
 
+[Internal Rybbit dashboard with external tracking via Traefik \| FoxxMD Blog](https://blog.foxxmd.dev/posts/rybbit-traefik-private-dashboard) 
+
+[Docker Compose - Postiz Docs](https://docs.postiz.com/installation/docker-compose) 
+
+[Building a fast all-SSD NAS (on a budget) \| Jeff Geerling](https://www.jeffgeerling.com/blog/2022/building-fast-all-ssd-nas-on-budget) 
+
+[Making Software](https://www.makingsoftware.com/) 
+
 [The Summer Hikaru Died - Wikipedia](https://en.wikipedia.org/wiki/The_Summer_Hikaru_Died) 
 
 Amazon glacier storage [Amazon S3 Glacier storage classes](https://aws.amazon.com/s3/storage-classes/glacier/?ams%23interactive-card-vertical%23pattern-data--1564707496.filter=%257B%2522filters%2522%253A%255B%255D%257D)

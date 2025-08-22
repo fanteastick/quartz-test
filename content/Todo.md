@@ -1,9 +1,8 @@
 ---
 date created: 2024-05-09T14:44
-date modified: 2025-02-02T22:55
+date modified: 2025-08-01T00:19
 draft: "true"
 ---
-
 
 ## ALL (other) TASKS:
 
@@ -18,11 +17,15 @@ draft: "true"
 ## Quartz
 
 - [ ] there's something funny going on with the search function on mobile
+- [ ] fix the lightbox - apparently it's bad html to have a div inside a p
+- [ ] carousel - change the code from html-y to markdown-y. It must be possible, i'm sure
+- [ ] image grid - also should be very possible. i think the lightbox is messing w the css selectors [obsidian-minimal/src/scss/features/image-grid.scss at 10b663fba981df877b8da18d8d12cbaa79bed217 · kepano/obsidian-minimal · GitHub](https://github.com/kepano/obsidian-minimal/blob/10b663fba981df877b8da18d8d12cbaa79bed217/src/scss/features/image-grid.scss#L17) 
 ## Non-quartz
 
 - [x] analytics site --> goatcounter
 - [ ] neovim setup
 - [ ] stow dotfiles
+- [ ] email forwarding and etc --> need to migrate over my first domain to cloudflare? but DNS only? I have a Perplexity query going for this
 
 ## Done
 - [x] Custom landing page - maybe for the first one, no source, backlinks, graph and explorer to left

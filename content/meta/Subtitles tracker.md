@@ -42,6 +42,8 @@ Also, make sure the subtitle property type is a string, not a list.
 | [[tbd/Online presence and identity.md\|Online presence and identity]]                                        | what it would take for me to become an influencer            | tbd               |
 | [[hobbies/OSINT.md\|OSINT]]                                                                                  | stayin' anonymous online                                     | hobbies           |
 | [[hobbies/Rawtherapee.md\|Rawtherapee]]                                                                      | hehe 💦                                                      | hobbies           |
+| [[thoughts/Shopping Accounts.md\|Shopping Accounts]]                                                         | thinly veiled effort to harvest your data                    | thoughts          |
 | [[hobbies/To plan a fish tank.md\|To plan a fish tank]]                                                      | Fish for beginners!                                          | hobbies           |
 | [[chips/Various areas or fields or categories or.md\|Various areas or fields or categories or]]              | a whole new world                                            | chips             |
+| [[tbd/Zelda BOTW.md\|Zelda BOTW]]                                                                            | breath of the wild                                           | tbd               |
 <!-- SerializedQuery END -->

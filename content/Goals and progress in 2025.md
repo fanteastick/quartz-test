@@ -1,6 +1,6 @@
 ---
 date created: 2025-01-16T11:01
-date modified: 2025-07-29T10:15
+date modified: 2025-07-31T17:51
 ---
 ## Subset of the goals
 - Do a side hustle
@@ -86,5 +86,13 @@ Random lighthearted news:
 So tired and burnt out lately.
 
 - more rocks
-- finally e-wasted a PC
-- facebook marketplace
+- finally e-wasted a PC and got a network switch
+- facebook marketplace surfing
+- Random rabbithole on kanban boards: [[Kanban board dump]]
+
+## August
+
+- Slipped away like a bottle of wine!
+
+![Taylor Swift – august (Official Lyric Video) - YouTube](https://youtu.be/nn_0zPAfyo8)
+

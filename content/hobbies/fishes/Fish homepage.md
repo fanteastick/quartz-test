@@ -28,8 +28,8 @@ WHERE file.name != "Fish homepage"
 
 | File                                                     | Life Expectancy           | Photo                                                             | scientific-name     |
 | -------------------------------------------------------- | ------------------------- | ----------------------------------------------------------------- | ------------------- |
-| [[hobbies/fishes/dwarf pufferfish.md\|dwarf pufferfish]] | Life expectancy: 10 years | ![[hobbies/fishes/attachments/dwarf pufferfish_image_1.png\|100]] | Tetraodontidae      |
 | [[hobbies/fishes/guppies.md\|guppies]]                   | Life expectancy: 3 years  | ![[hobbies/fishes/attachments/guppies_image_1.png\|100]]          | Poecilia reticulata |
+| [[hobbies/fishes/dwarf pufferfish.md\|dwarf pufferfish]] | Life expectancy: 10 years | ![[hobbies/fishes/attachments/dwarf pufferfish_image_1.png\|100]] | Tetraodontidae      |
 <!-- SerializedQuery END -->
 
 ## Or literally just a list
@@ -42,3 +42,13 @@ WHERE file.name != "Fish homepage"
 	- life expectancy: 3yrs
 	- scientific name: buh
 	- ![[guppies_image_1.png]]
+
+
+
+## Carousel time
+
+
+CAROUSELSTART🗣️
+![[guppies_image_1.png]]
+![[guppies_image_1.png]]
+CAROUSELEND🗣️

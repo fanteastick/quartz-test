@@ -29,6 +29,7 @@ SORT file.name ASC
 | [[tbd/ACTUAL guide to a now playing widget.md\|ACTUAL guide to a now playing widget]]                                          | perma/7447693     | tbd      |
 | [[thoughts/Avoiding getting doxxed.md\|Avoiding getting doxxed]]                                                               | perma/9266641     | thoughts |
 | [[meta/Code tester.md\|Code tester]]                                                                                           | perma/code-tester | meta     |
+| [[tbd/Disclaimers, License, Legalese.md\|Disclaimers, License, Legalese]]                                                      | perma/2328577     | tbd      |
 | [[meta/Hiding tags from various components.md\|Hiding tags from various components]]                                           | perma/7794692     | meta     |
 | [[meta/Password on Quartz via client encryption with Staticrypt.md\|Password on Quartz via client encryption with Staticrypt]] | perma/5910204     | meta     |
 | [[meta/Permalinks tracker.md\|Permalinks tracker]]                                                                             | perma             | meta     |

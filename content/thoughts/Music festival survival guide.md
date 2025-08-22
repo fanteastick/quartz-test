@@ -1,6 +1,6 @@
 ---
 date created: 2025-02-25T13:22
-date modified: 2025-02-27T20:50
+date modified: 2025-08-14T23:40
 tags:
   - guide
 draft: "true"
@@ -23,8 +23,16 @@ My resume:
 
 ## Medical services
 
+- Narcan training
+
 ## Security
 
 - Avoid bringing anything sharp
 - Or anything too big
 - Carrying less is better anyway
+
+## Lockers
+
+## Transportation
+
+You'll probably have to walk some distance to enter the festival. Sometimes there are shuttles. Depending on the geography, this may or may not be worth. e.g. Coachella, it's daytime, if you arrive before 3pm you'll be able to find some parking. Vs EDC, it's suboptimal because someone has to be the designated driver, and also **other** drivers are going to be tired, maybe slightly inebriated, so it's actually really dangerous. 
