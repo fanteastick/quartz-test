@@ -1,6 +1,6 @@
 ---
 date created: 2024-07-09T02:02
-date modified: 2025-07-30T00:31
+date modified: 2025-08-28T21:54
 ---
 
 Misc ideas, code, and plugins for quartz that I've collected across the web. %% [[Todo]] %%
@@ -671,3 +671,59 @@ Hsterts: [Respirology, Fundamentals, Sidenotes · NoNotNotes/Mneme@f2915bd · Gi
 [Self-hosting isso-comments](https://garden.bencuan.me/homelabbing/Self-hosting-isso-comments) by bencuan
 
 Relevant commit: [add subpage comments · 64bitpandas/garden@8225f95 · GitHub](https://github.com/64bitpandas/garden/commit/8225f9571e635981638c7b2539599608f0d50639) 
+
+## Another view image transformer
+
+[Comments](https://xlenco-v4.quartz-1h4.pages.dev/features/comments)
+
+[Comparing jackyzha0:v4...xlenco:v4 · jackyzha0/quartz · GitHub](https://github.com/jackyzha0/quartz/compare/v4...xlenco:quartz-1:v4) 
+
+```
+import { QuartzTransformerPlugin } from "../types"
+
+// ViewImage.js灯箱插件
+// 简化版实现
+export const ViewImage: QuartzTransformerPlugin = () => {
+  return {
+    name: "ViewImage",
+    externalResources() {
+      return {
+        js: [
+          {
+            src: "https://cdn.jsdelivr.net/gh/Tokinx/ViewImage/view-image.min.js",
+            loadTime: "afterDOMReady",
+            contentType: "external",
+          },
+          {
+            script: `
+              // 简单的初始化代码
+              document.addEventListener('DOMContentLoaded', function() {
+                if (window.ViewImage) {
+                  // 使用更通用的选择器
+                  ViewImage.init('article img, .content img');
+                  // 添加视觉反馈
+                  const style = document.createElement('style');
+                  style.textContent = 'article img, .content img { cursor: zoom-in; border: 2px dashed #284b63; }';
+                  document.head.appendChild(style);
+                  console.log('ViewImage灯箱插件已初始化');
+                } else {
+                  console.error('ViewImage库未加载成功');
+                }
+              });
+            `,
+            loadTime: "afterDOMReady",
+            contentType: "inline",
+          },
+        ],
+      }
+    },
+  }
+}
+
+// 告诉TypeScript我们添加的内容
+declare module "vfile" {
+  interface DataMap {
+    viewImage?: boolean
+  }
+}
+```

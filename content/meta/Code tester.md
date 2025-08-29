@@ -1,6 +1,6 @@
 ---
 date created: 2024-08-02T09:44
-date modified: 2025-03-26T00:17
+date modified: 2025-08-28T23:33
 tags:
   - explorer-exclude
   - graph-exclude
@@ -79,6 +79,25 @@ graph TD
     D -->|No| F[Output 2]
     E --> G[End]
     F --> G
+```
+
+[GitGraph Diagrams | Mermaid](https://mermaid.js.org/syntax/gitgraph.html)
+
+```mermaid
+---
+title: Example Git diagram
+---
+gitGraph
+   commit
+   commit
+   branch develop
+   checkout develop
+   commit
+   commit
+   checkout main
+   merge develop
+   commit
+   commit
 ```
 
 ## Spotify thing 
@@ -162,6 +181,8 @@ Lorem ipsum dolor sit amet, shadows weave through the twilight, whispers of the 
 </iframe>
 
 skee yee
+
+![halloween\_notifications\_duolingo.pdf](https://files.fanteastick.org/pdfs/halloween_notifications_duolingo.pdf)
 
 [^waterbottle]: wee woooooo
 [^1]: sksksksksks lol

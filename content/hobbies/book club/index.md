@@ -15,6 +15,7 @@ On my list to-read:
 - [17-20: a Retrospective on Four Years in College - Alexey Guzey](https://guzey.com/personal/college/) 
 - [LilyPond – Music notation for everyone](https://lilypond.org/) 
 - [The Worlds I See: Curiosity, Exploration, and Discovery at the Dawn of AI by Fei-Fei Li | Goodreads](https://www.goodreads.com/book/show/144405196-the-worlds-i-see) 
+- [My Name Is Red - Wikipedia](https://en.wikipedia.org/wiki/My_Name_Is_Red) 
 
 Done reading:
 

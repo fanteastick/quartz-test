@@ -1,8 +1,9 @@
 ---
 date created: 2025-04-08T14:51
-date modified: 2025-07-15T00:20
+date modified: 2025-08-27T16:28
 tags:
   - external
+  - slurp
 ---
 > [!web] From the web
 > [Internet Archive: Digital Library of Free & Borrowable Texts, Movies, Music & Wayback Machine](https://archive.org/) 

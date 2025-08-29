@@ -5,14 +5,14 @@ draft: "true"
 ---
 
 TLDR ended up doing the ubuntu setup and ran away with it from there. WSL... so confusing...
-See more with setting up [[Custom domains|custom domains]].
-## Random Instructions idk
+See more with setting up [[custom domains]].
+## Random Instructions
 
 Installed ruby from [RubyInstaller for Windows](https://rubyinstaller.org/) (run anyway...) - install for me
 
 - Was going to install Bundler too but it says modern ruby installs come with bundler: [Bundler: The best way to manage a Ruby application's gems](https://bundler.io/) 
 
-But getting ruby specifically w jekyll: ([Jekyll on Windows](https://jekyllrb.com/docs/installation/windows/))
+But getting ruby specifically w Jekyll: ([Jekyll on Windows](https://jekyllrb.com/docs/installation/windows/))
 
 1. Rubyinstaller
 2. Run ridk install at the end of the above step

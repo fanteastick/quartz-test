@@ -1,6 +1,6 @@
 ---
 date created: 2024-11-10T17:42
-date modified: 2025-07-07T22:30
+date modified: 2025-08-27T21:55
 ---
 
 I learned how to crochet! Thank you to my friend whose name starts with a J. Me and my friend whose name starts with a K learned at the same time, although I borrowed J-friend's yarn and hook. The thing I'm best at making right now is a headphone sprout, although I also learned from youtube videos to make a granny square and a simple flower. I got some brown yarn for myself too. Thank you Joann's the fabric store!
@@ -8,6 +8,8 @@ I learned how to crochet! Thank you to my friend whose name starts with a J. Me 
 I think it's reasonably easy to learn how to follow a written pattern. It helps a lot more if you follow the YouTube tutorial too. 
 
 It was NOT easy to try following a diagram pattern - I kept forgetting where I was... lol...
+
+Related:  [[Crochet guides]]
 
 ## Crochet terms glossary
 
@@ -106,9 +108,6 @@ American terms are what I'm used to, I think.
 
 ## Video patterns
 
-### Best i-cord tutorial ever
-
-![Quickest Crochet I-cord Ever! Easy & Fast - YouTube](https://www.youtube.com/embed/CSDtR_Kv_oA)
 
 ### Crochet flower bouquet
 
@@ -116,8 +115,3 @@ American terms are what I'm used to, I think.
 
 ![Crochet Flower Bouquet Coaster Tutorial - YouTube](https://www.youtube.com/watch?v=mVRBxiLlWyA)
 
-## Granny Squares
-
-[Craftsy - 11 amazing granny square patterns](https://www.craftsy.com/post/granny-square-patterns/) 
-
-[30+ Free Granny Square Patterns | Gathered](https://www.gathered.how/knitting-and-crochet/crochet/free-granny-square-patterns)

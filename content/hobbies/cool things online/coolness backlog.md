@@ -1,6 +1,6 @@
 ---
 date created: 2025-02-03T22:03
-date modified: 2025-07-29T23:46
+date modified: 2025-08-28T22:40
 tags:
   - recents-exclude
   - external
@@ -9,7 +9,245 @@ draft: "true"
 
 In reverse chronological order, so the most recent will be at the top. 
 
+## Cleaning my tabs on my phone
+
+[How Not to Suck at Money – Sponsored by Invesco QQQ](https://hntsam.com/) 
+
+[Home \| Bowlcut Plant-based Asian American sauces](https://thebowlcut.com/)
+
+[Motion From Shape Change](https://olligross.github.io/projects/MotionFromShapeChange/MotionFromShapeChange_project.html)
+
+[Train of Thought Collective – trainofthoughtcollective](https://trainofthoughtcollective.com/) - clothing
+
+2 labs: [Purdue Radio Navigation Laboratory](https://engineering.purdue.edu/RNL/) [Harvard Architecture, Circuits and Compilers \| Harvard Architecture, Circuits and Compilers](https://vlsiarch.eecs.harvard.edu/) 
+
+[IEEE paper on a wheelchair controlled by jaw](https://ieeexplore.ieee.org/document/8914544/authors)
+
+[Integrated injection logic - Wikipedia](https://en.m.wikipedia.org/wiki/Integrated_injection_logic) [Ground bounce - Wikipedia](https://en.m.wikipedia.org/wiki/Ground_bounce) [Buridan's ass - Wikipedia](https://en.m.wikipedia.org/wiki/Buridan%27s_ass#Application_to_digital_logic:_metastability) [Metastability (electronics) - Wikipedia](https://en.m.wikipedia.org/wiki/Metastability_(electronics)) [Double data rate - Wikipedia](https://en.m.wikipedia.org/wiki/Double_data_rate) 
+
+Tractor/finding friends??? [Zhao Pengyou \| Board Game \| BoardGameGeek](https://boardgamegeek.com/boardgame/82098/zhao-pengyou) 
+
+[The Micropedia of Microaggressions - the first encyclopedia of microaggressions.](https://www.themicropedia.org/) 
+
+IBM qiskit [IBM Quantum Computing \| Qiskit](https://www.ibm.com/quantum/qiskit) 
+
+Zero-shot learning: [romera-paredes15.pdf](https://proceedings.mlr.press/v37/romera-paredes15.pdf) 
+
+[tower - Rust](https://docs.rs/tower/latest/tower/index.html) 
+
+[history.yale.edu/sites/default/files/files/V Hansen%2C Kitan-Liao and Jurchen-Jin  2019.pdf](https://history.yale.edu/sites/default/files/files/V%20Hansen%2C%20Kitan-Liao%20and%20Jurchen-Jin%20%202019.pdf) 
+
+[SageMath - Why use SageMath](https://www.sagemath.org/library-why.html)
+
+[Cherish Thick Communities \| The Christian Rationalist](https://thechristianrationalist.com/2017/06/16/cherish-thick-communities/) 
+
+[Jim Keller (engineer) - Wikipedia](https://en.wikipedia.org/wiki/Jim_Keller_(engineer)) 
+
+[ASIC Design: A Step-by-Step Guide from Specification to Silicon](https://www.wevolver.com/article/the-ultimate-guide-to-asic-design-from-concept-to-production#) --> slurp candidate
+
+Attention is all you need paper --> put it into Research by unms [ASIC Design: A Step-by-Step Guide from Specification to Silicon](https://www.wevolver.com/article/the-ultimate-guide-to-asic-design-from-concept-to-production#) 
+
+[Welcome to the MyHDL documentation — MyHDL 0.11 documentation](https://docs.myhdl.org/en/stable/) [Introduction - NYU Processor Design Documentation](https://nyu-processor-design.github.io/) 
+
+[Splinternet - Wikipedia](https://en.m.wikipedia.org/wiki/Splinternet)
+
+[A High Frequency Trader's Apology, Pt 1 - Chris Stucchio](https://www.chrisstucchio.com/blog/2012/hft_apology.html)
+
+[Ensō—write now, edit later.](https://enso.sonnet.io/) [New Ensō - first public beta · Untested](https://untested.sonnet.io/notes/new-enso-first-public-beta/) [Important Meeting Notes](https://www.potato.horse/) 
+
+[About Pattern Kitchen](https://pattern.kitchen/about)
+
+[DAE ever get a random overwhelming feeling of deep sadness/loneliness for a brief moment, even if you're perfectly content at the time? : r/DoesAnybodyElse](https://www.reddit.com/r/DoesAnybodyElse/comments/1k0yyw/dae_ever_get_a_random_overwhelming_feeling_of/) 
+
+![【English Lyric Version】Just alive, almost successful - YouTube](https://youtu.be/7rwdRrA9Ca4)
+
+[Professor Skye's Record Review - YouTube](https://www.youtube.com/@professorskye/featured) 
+
+[0ducks.wordpress.com/wp-content/uploads/2014/12/simulacra-and-simulation-by-jean-baudrillard.pdf](https://0ducks.wordpress.com/wp-content/uploads/2014/12/simulacra-and-simulation-by-jean-baudrillard.pdf) simulacra and simulation 1981
+
+[x.com/henrikruscon](https://x.com/henrikruscon) [henrikruscon (Henrik) · GitHub](https://github.com/henrikruscon) [Reddit - The heart of the internet](https://www.reddit.com/r/macapps/comments/1jyadpj/what_happened_to_henrik_ruscon/) 
+
+[2407.13924](https://arxiv.org/pdf/2407.13924)Preparing Fermilab to Carry Out the P5 Plan 
+
+[Create beautiful images of your code](https://ray.so/) 
+
+[Code on slides – Chapeau](https://chapeau.freevariable.com/2023/03/code-on-slides.html)
+
+[Golden Kamuy - Wikipedia](https://en.wikipedia.org/wiki/Golden_Kamuy)
+
+[Michelada - Wikipedia](https://en.wikipedia.org/wiki/Michelada) 
+
+[LA PALOMA - Los Panchos - LETRAS.COM](https://www.letras.com/trio-los-panchos/1475605/)
+
+[Bon Jovi – The More Things Change Lyrics \| Genius Lyrics](https://genius.com/Bon-jovi-the-more-things-change-lyrics) 
+
+[Richard Neptune](https://www.me.utexas.edu/people/faculty-directory/neptune)
+
+[Intel layoff rumor \| Layoffs - Blind](https://www.teamblind.com/post/intel-layoff-rumor-c9jdbcm8) murthy
+
+[2025 VW ID. Buzz: The Electric Bus \| Volkswagen](https://www.vw.com/en/models/id-buzz.html)
+
+[Open Heart Protocol](https://openheart.fyi/#pretzel)
+
+[Maxjourney: Pushing Discord’s Limits with a Million+ Online Users in a Single Server](https://discord.com/blog/maxjourney-pushing-discords-limits-with-a-million-plus-online-users-in-a-single-server#2)
+
+[Feynman's Nobel Ambition](https://www.asc.ohio-state.edu/kilcup.1//262/feynman.html)
+
+[How to Exchange Critique • Infinite Caesura](https://oikos-garden.vercel.app/essays/critique-guide)
+
+Slurp this probably: [lysator.liu.se/mit-guide/MITLockGuide.pdf](https://www.lysator.liu.se/mit-guide/MITLockGuide.pdf) 
+
+Slurp this too: [koasas.kaist.ac.kr/bitstream/10203/559/1/000224975400003.pdf](https://koasas.kaist.ac.kr/bitstream/10203/559/1/000224975400003.pdf) 
+
+[Nomadic Tribe — makemepulse](https://2019.makemepulse.com/)
+
+[Quickstart: How to use this guide – AI Alignment Guide](https://alignment.guide/quickstart) same guy made [depression handbook \| writing](https://masonjwang.com/writing/handbook) 
+
+Another content rec:  [Twilight of the Gods (TV series) - Wikipedia](https://en.m.wikipedia.org/wiki/Twilight_of_the_Gods_(TV_series))
+
+[player.style - Video & audio player themes for every web player & framework](https://player.style/?media=audio)
+
+[MLOps guide](https://huyenchip.com/mlops/)
+
+[Jadran Lazić \| 10 December 2021 - 31 January 2022 \| Galerija Fotografija](https://galerijafotografija.si/exhibitions/128-jadran-lazic-50-let-fotografije/)
+
+[SoCal Region ICPC](http://socalcontest.org/current/index.shtml)
+
+[2R1B-HP-Edition/PDF/Basic Cards.pdf at master · 2R1B-PnP/2R1B-HP-Edition · GitHub](https://github.com/2R1B-PnP/2R1B-HP-Edition/blob/master/PDF/Basic%20Cards.pdf)
+
+[RoughNotation](https://roughnotation.com/)
+
+Another show: [The Great (TV series) - Wikipedia](https://en.m.wikipedia.org/wiki/The_Great_(TV_series)) 
+
+[Notion Faces](https://faces.notion.com/)
+
+[Caltech’s Core Problem - The California Tech](https://tech.caltech.edu/2024/02/06/caltech-core-problem/)
+
+[Donald J. Trump - CivicTracker](https://civictracker.us/executive/member/?uuid=3094abf7-4a95-4b8d-8c8d-af7d1c3747a1)
+
+[Detective Chinatown 1900 - MyDramaList](https://mydramalist.com/770955-tang-tan-1900) another show rec
+
+Civ modding magazine: [CMM Master Reference List](https://docs.google.com/document/u/0/d/1_r6xRncuUP-FVjH9rWkXiJb5McpVlIjnGxj9WVOOm-Q/mobilebasic?pli=1) 
+
+[Benchoff Design Portfolio](https://bbenchoff.github.io/system7/?page=BusTideDisplay)
+
+[GitHub - platima/Board-Taxonomies: Definitions and examples for different categories of embedded computing boards](https://github.com/platima/board-taxonomies)
+
+[RESIZE.THATSH.IT](https://resize.thatsh.it/) [Masonry](https://masonry.desandro.com/) [Can't Unsee](https://cantunsee.space/) [Curve Fitting - Polynomials \| Error Analysis \| Data - PhET Interactive Simulations](https://phet.colorado.edu/en/simulations/curve-fitting) [Guess the Correlation](https://www.guessthecorrelation.com/) [eieio.games](https://eieio.games/) neural games [Joseph Suarez](https://jsuarez5341.github.io/) 
+
+[Books and Essays - Edward Tufte](https://www.edwardtufte.com/books/) 
+
+cool quartz things: [GitHub - dvdmtw98/tracker: Repository to store books, shows & movies related information](https://github.com/dvdmtw98/tracker) 
+
+bay area ham radio [SPECS Outreach Homepage](https://www.qsl.net/k9stv/) [Southern Peninsula Emergency Communications System \| Meetup](https://www.meetup.com/southern-peninsula-emergency-communications-system/) [Contact the ISS - ARISS](https://www.ariss.org/contact-the-iss.html)
+
+just another guy on twitter [Hong's Electronics](https://www.jhongelectronics.org/?m=1)
+
+[Beautiful themes for shadcn/ui — tweakcn \| Theme Editor & Generator](https://tweakcn.com/) 
+
+[GitHub - jnsahaj/lumen: Instant AI Git Commit message, Git changes summary from the CLI (no API key required)](https://github.com/jnsahaj/lumen) 
+
+[Conversational Cultures: Combat vs Nurture (V2) — LessWrong](https://www.lesswrong.com/posts/ExssKjAaXEEYcnzPd/conversational-cultures-combat-vs-nurture)
+
+[musicforprogramming.net/latest/](https://musicforprogramming.net/latest/)
+
+[NormalComputing](https://www.normalcomputing.com/) 
+
+[dash.deno.com/login?redirect=%2F](https://dash.deno.com/login?redirect=%2F)
+
+[GitHub - sqshq/sampler: Tool for shell commands execution, visualization and alerting. Configured with a simple YAML file.](https://github.com/sqshq/sampler)
+
+[GitHub - Arman19941113/dnd-resume: 🚀 Resume Builder 在线简历生成工具](https://github.com/Arman19941113/dnd-resume)
+
+[Expertium’s Blog \| Spaced repetition stuff](https://expertium.github.io/)
+
+[ipcz bug can allow renderer duplicate browser process handle to escape sandbox 412578726 - Chromium](https://issues.chromium.org/issues/412578726) 
+
+n0 computer distributed computing [number zero · GitHub](https://github.com/n0-computer) 
+
+[Understanding fees - Jira Service Management](https://support.exchange.bullish.com/servicedesk/customer/portal/1/article/9373547)
+
+[kalshi.com/regulatory/rulebook](https://kalshi.com/regulatory/rulebook)
+
+[Life360 Terms of Service – Life360 Legal](https://life360-legal.zendesk.com/hc/en-us/articles/16124856472471-Life360-Terms-of-Service?abExternalOpen=true)
+
+[NYSRG](https://notes.ekzhang.com/events/nysrg)
+
+Figma filing [Figma-S-1/A](https://www.sec.gov/Archives/edgar/data/1579878/000162828025035381/figma-sx1a.htm)
+
+Web rendery things:  [Astro spaceship Introduction](https://aitorllamas.com/astro-theme-spaceship/introduction/introduction) [Hosting Outline](https://docs.getoutline.com/s/hosting/) [BookStack](https://www.bookstackapp.com/) https://tandoor.dev/ https://www.olivetin.app/ [How We Self-Hosted An App for $2/Month Using an M1 Mac Mini](https://lab.workhub.so/running-your-app-on-pocket-change/)  [good-karma-kit \| 😇 A Docker Compose bundle to run on servers with spare CPU, RAM, disk, and bandwidth to help the world. Includes Tor, ArchiveWarrior, BOINC, and more…](https://archivebox.github.io/good-karma-kit/) [Smallweb – Your Internet Folder \| Smallweb](https://www.smallweb.run/) 
+
+[Google’s best AI tools for college students for free](https://blog.google/products/gemini/google-ai-pro-students-learning/?utm_source=google&utm_medium=institutions&utm_campaign=sou--google__med--blog__cam--2025-ai-for-students__geo--US__con--hpp__ai-for-students-blog)
+
+Maui: https://www.dukesmaui.com/ https://www.mauireefs.org/Snorkel/
+
+Track everything [Intervals.icu Sports Analytics and Planning](https://intervals.icu/) 
+
+[Home \| H-Group Conventions](https://hanabi.github.io/) another game
+
+[Databricks on AWS](https://docs.databricks.com/aws/en/notebooks)
+
+Something to buy: [Find Grog](https://grog.shop/pages/find-grog) ; also see sentinels haikyuu drop. 
+
+https://www.calbar.ca.gov/Portals/0/documents/admissions/Examinations/February2020CBX_Questions.pdf
+
+[Soylent Green 50 years later : r/movies](https://www.reddit.com/r/movies/comments/17yo9fh/soylent_green_50_years_later/)
+
+[Uno by Unofficial – Official Unofficial, Inc.](https://officialunofficial.com/uno) [Trek Playground - Web Content Tool](https://officialunofficial.github.io/trek/playground/) 
+
+[DIY Electric Skateboard Tutorial - faster than a Boosted Board - SmartBuilds.io](https://smartbuilds.io/diy-electric-skateboard-tutorial/) skateboard description
+
+This paper has been making the rounds lately [See through walls with WiFi!](https://dspace.mit.edu/handle/1721.1/87086) 
+
+[Sioyek](https://sioyek.info/) 
+
+[Thymer - A smart new editor for thoughts, notes, tasks and planning](https://thymer.com/) 
+
+[Adding Kudos to Your Pages \| Tinylytics](https://tinylytics.app/docs/showing_kudos)  and similarly [Open Heart Protocol](https://openheart.fyi/) 
+
+[The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity - Apple Machine Learning Research](https://machinelearning.apple.com/research/illusion-of-thinking) 
+
+[WebVM - Linux virtualization in WebAssembly](https://webvm.io/) 
+
 ## 2025
+
+[Unsure Calculator](https://filiph.github.io/unsure/) 
+
+[Inkscape - Draw Freely. | Inkscape](https://inkscape.org/) 
+
+[Liseré](https://lisere.ankur.design/docs)
+
+[Fashion History Timeline | A hub for fashion research](https://fashionhistory.fitnyc.edu/) 
+
+[GitHub - m1k1o/neko-rooms: Selfhosted collaborative browser - room management for n.eko](https://github.com/m1k1o/neko-rooms/?tab=readme-ov-file) [Quick Start | n.eko](https://neko.m1k1o.net/docs/v3/quick-start) 
+
+[alex pankratov](https://swapped.cc/#!/hamachi) 
+
+[Building a fast all-SSD NAS (on a budget) \| Jeff Geerling](https://www.jeffgeerling.com/blog/2022/building-fast-all-ssd-nas-on-budget) 
+
+[Matrix Multiplication in Quadratic Time and Energy? Towards a Fine-Grained Energy-Centric Church-Turing Thesis](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2024.96)
+
+[How to Think About GPUs \| How To Scale Your Model](https://jax-ml.github.io/scaling-book/gpus/#quiz-1-gpu-hardware)
+
+[GitHub - mark-when/obsidian-plugin: Markwhen obsidian plugin](https://github.com/mark-when/obsidian-plugin) 
+
+[GitHub - dominikmayer/obsidian-yesterday: Obsidian plugin providing Yesterday journaling support](https://github.com/dominikmayer/obsidian-yesterday) 
+
+[CS229: Machine Learning](https://cs229.stanford.edu/) 
+
+[retronav/lilac: A humble micropub server to use with static site generators (primarily Eleventy). - Codeberg.org](https://codeberg.org/retronav/lilac) 
+
+[GitGraph Diagrams | Mermaid](https://mermaid.js.org/syntax/gitgraph.html) 
+
+[Modern Microprocessors - A 90-Minute Guide!](https://www.lighterra.com/papers/modernmicroprocessors/) 
+
+[Introducing Headless Terminal | Andy Konwinski](https://andykonwinski.com/2024/05/31/introducing-headless-terminal.html) 
+
+[Methods for random gradients](https://justinjay.wang/methods-for-random-gradients/)
+
+[Reddit - BG3 modding tool by siegfre](https://www.reddit.com/r/pcgaming/comments/1fc2gdp/baldurs_gate_3_modder_siegfre_releases_a_tool/) 
+
+[Introduction - Just Programmer's Manual](https://just.systems/man/en/) 
 
 [Internal Rybbit dashboard with external tracking via Traefik \| FoxxMD Blog](https://blog.foxxmd.dev/posts/rybbit-traefik-private-dashboard) 
 

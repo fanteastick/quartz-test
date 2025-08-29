@@ -125,9 +125,9 @@ TABLE embed(link(Cover-img, "100")) as Cover, "**Date Modified: **" + dateformat
 <!-- QueryToSerialize: TABLE embed(link(Cover-img)) as Cover, "Date Modified: " + dateformat(date-modified,"MMM d, yyyy") as "Modified" WHERE Cover-img -->
 <!-- SerializedQuery: TABLE embed(link(Cover-img)) as Cover, "Date Modified: " + dateformat(date-modified,"MMM d, yyyy") as "Modified" WHERE Cover-img -->
 
-| File                                                                     | Cover                                                                                      | Modified                    |
-| ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | --------------------------- |
-| [[meta/Code tester.md\|Code tester]]                                     | ![[linux tech/attachments/Cloudflare tunnels_image_3.png\|Cloudflare tunnels_image_3.png]] | Date Modified: Mar 26, 2025 |
-| [[meta/card with an image as a thing.md\|card with an image as a thing]] | ![[rgb tech/attachments/Ollama_image_1.png\|Ollama_image_1.png]]                           | Date Modified: Apr 10, 2025 |
+| File                                                                     | Cover                                                                                 | Modified                    |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------- | --------------------------- |
+| [[meta/card with an image as a thing.md\|card with an image as a thing]] | ![[rgb/attachments/Ollama_image_1.png\|Ollama_image_1.png]]                           | Date Modified: Apr 10, 2025 |
+| [[meta/Code tester.md\|Code tester]]                                     | ![[linux/attachments/Cloudflare tunnels_image_3.png\|Cloudflare tunnels_image_3.png]] | Date Modified: Mar 26, 2025 |
 <!-- SerializedQuery END -->
 

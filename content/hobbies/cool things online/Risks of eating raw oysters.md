@@ -1,6 +1,8 @@
 ---
 date created: 2025-04-08T17:30
-date modified: 2025-04-08T17:33
+date modified: 2025-08-27T17:08
+tags:
+  - slurp
 ---
 
 [Risks of Eating Raw Oysters and Clams – Epidemiology](https://www.vdh.virginia.gov/epidemiology/epidemiology-fact-sheets/risks-of-eating-raw-oysters-and-clams/)

@@ -1,10 +1,8 @@
 ---
 date created: 2025-01-21T22:09
-date modified: 2025-05-01T10:40
-draft: "true"
+date modified: 2025-08-27T16:39
 tags:
   - pi
-  - graph-exclude
 ---
 # Pi-hole
 
@@ -12,9 +10,13 @@ tags:
 
 ## IPv4 and IPv6
 
+[[Wake on Lan]]
+
 ### and when it's dynamically assigned
 
 ## DNS
+
+[[Custom domains]]
 
 ### DDNS
 
@@ -28,10 +30,24 @@ tags:
 
 ## Nginx and reverse proxy
 
+[[nginx workflow]]
+
+[[Perplexity on installing nginx, obtaining ssl, etc]]
+
+[[Deploying Isso Commenting System Under Nginx With Docker]]
+
 ## Docker and portainer
 
 > [!NOTE]- Note on docker and portainer
 > ![[Docker and Portainer FAQs]]
+
+[[Docker best practices]]
+
+[[Minecraft mega docker image]]
+
+[[If you have two dockers on your server]]
+
+[[How racknerd recommends installing docker and compose]]
 
 ## SSL certificates
 
