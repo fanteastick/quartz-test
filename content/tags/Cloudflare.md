@@ -1,6 +1,9 @@
 ---
 date created: 2025-03-20T20:35
 date modified: 2025-03-26T00:03
+tags:
+  - cloudflare
+  - external
 ---
 
 # Misc Links

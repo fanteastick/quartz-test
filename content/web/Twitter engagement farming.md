@@ -17,3 +17,6 @@ date modified: 2025-07-29T10:09
 > 4. Be in a supported country
 > 5. Be compliant with the X User Agreement
 
+## Algorithm
+
+[GitHub - twitter/the-algorithm: Source code for the X Recommendation Algorithm](https://github.com/twitter/the-algorithm) 

@@ -1,7 +1,11 @@
 ---
 date created: 2025-04-22T22:20
-date modified: 2025-05-03T15:29
+date modified: 2025-09-07T00:25
+tags:
+  - minecraft
 ---
+
+See "final approach directions" here: [[Minecraft CraftyController]] 
 
 ## thank you itzg
 
@@ -64,17 +68,3 @@ Get UUIDs:
 https://api.mojang.com/users/profiles/minecraft/<username>
 ```
 
-## Method 1
-
-[Self-host a Public Minecraft Server Without Opening Ports Using Crafty and Pangolin - YouTube](https://www.youtube.com/watch?v=acWB5wQQoOE)
-
-Crafty, pangolin, connect with pangolin.url.com:25565
-
-Pros: better ui (GUI!). cons: no vanity domain. Fix: make an SRV record anyway. 
-
-## Method 2
-
-1) docker compose as a local server
-2) bore.pub it to a port on the vps (remember your secret!)
-3) VPS umm nginx or something to redirect diff domains like vanilla.domain.com vs paper.domain.com
-4) Cloudflare: make an A record, an SRV record. Make sure to disable proxying. 

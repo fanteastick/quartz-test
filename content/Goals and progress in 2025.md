@@ -43,7 +43,7 @@ What I'm using this year: [[Uses]]
 
 ## April
 
-- bashing my head in on Docker, Traefik, Caddy, Portainer, nginx proxy manager, port forwarding, CGNATs (for my [[tags/pi]] and also [[New server! Wahoo!]])
+- bashing my head in on Docker, Traefik, Caddy, Portainer, nginx proxy manager, port forwarding, CGNATs (for my [[tags/pi]] and also [[Fumbling around a new server]])
 	- Finally caved and spent some money on a VPS. it's pretty nice but I'm starting to juggle a lot of machines...
 	- Minecraft server is setup! wow!
 - I'm going back to school maybe! And I'm getting VERY SERIOUS about my fitness goals 💪

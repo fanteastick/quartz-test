@@ -3,6 +3,7 @@ date created: 2025-03-20T23:35
 date modified: 2025-04-25T22:48
 tags:
   - external
+  - cloudflare
 draft: "true"
 ---
 # how do i host my own api endpoint for an ollama llm? I have docker and a cloudflare domain

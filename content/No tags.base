@@ -1,0 +1,14 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.tags.isEmpty()
+        - file.ext == "md"
+    order:
+      - file.name
+      - file.mtime
+      - file.path
+      - file.size
+    columnSize:
+      file.mtime: 208

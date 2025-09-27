@@ -2,6 +2,8 @@
 date created: 2025-04-08T10:24
 date modified: 2025-04-19T22:48
 subtitle: i don't even like gaming, anyway
+tags:
+  - minecraft
 ---
 ## The stuff I actually used
 

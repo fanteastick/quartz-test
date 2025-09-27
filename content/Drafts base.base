@@ -1,0 +1,13 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.hasProperty("draft")
+        - draft == "true"
+    order:
+      - file.name
+      - draft
+      - file.backlinks
+    columnSize:
+      file.name: 473

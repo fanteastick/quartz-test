@@ -1,6 +1,6 @@
 ---
 date created: 2025-03-21T17:38
-date modified: 2025-05-01T15:46
+date modified: 2025-09-07T12:28
 tags:
   - guide
 subtitle: the server room is very warm and loud
@@ -33,6 +33,7 @@ That stupid thing
 | View readings          | `sensors`                     |
 | Real-time monitoring   | `watch sensors`               |
 | Optional GUI (Psensor) | `sudo apt install psensor`    |
+
 ## Upgrading the kernel because wireguard default on 5
 
 ```

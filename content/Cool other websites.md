@@ -1,6 +1,6 @@
 ---
 date created: 2024-07-23T01:10
-date modified: 2025-08-28T22:02
+date modified: 2025-09-09T13:04
 tags:
   - external
 ---
@@ -51,11 +51,15 @@ Very impressive, guys!
 
 [Webtrotion vs Notion Sites v2 • Nerdy Momo Cat](https://nerdymomocat.github.io/posts/webtrotion-vs-notion-sites-v2/) [Bluesky comments now work on Webtrotion • Nerdy Momo Cat](https://nerdymomocat.github.io/posts/bluesky-comments-now-work-on-webtrotion/) 
 
-- This is epic!
+- This is epic! Notion -> web was something I was looking for, (a long time ago), but I've sinced moved away from Notion. 
 
-[Staring into the abyss as a core life skill | benkuhn.net](https://www.benkuhn.net/abyss/#fn:1)
+A list where I have less to say
 
-[Ben James](https://www.benjames.io/) - energy guy with some great visualizations
+- [Staring into the abyss as a core life skill | benkuhn.net](https://www.benkuhn.net/abyss/#fn:1)
+- [A collaborative shell in your browser \| Michael Rommel](https://michaelrommel.com/create/2025-06-10-remote-shell)
+- [Ben James](https://www.benjames.io/) - energy guy with some great visualizations
+- [hihayk (Hayk An) · GitHub](https://github.com/hihayk) design engineer
+- [Xe Iaso](https://xeiaso.net/) blogs
 
 ## Just cool sites
 
@@ -77,9 +81,13 @@ Very impressive, guys!
 
 [GT Maru exclusively at Grilli Type — Download Free Trial Fonts](https://gt-maru.com/) 
 
+![[Cool other websites_image_1.png]]
+
 - Similarly silly and cute wow, it's for a font
 
 [Convo](https://www.convo.design/) 
+
+![[Cool other websites_image_2.png]]
 
 - Another font! good job Ivan!
 
@@ -89,14 +97,16 @@ Very impressive, guys!
 
 [National Park Typeface](https://nationalparktypeface.com/) 
 
-Three pixely-looking fonts: [Twenty-Seven Font | dafont.com](https://www.dafont.com/twenty-seven.font)  [GitHub - nubDotDev/Transit105: A font based on the 105-segment displays found on NJ Transit trains](https://github.com/nubDotDev/Transit105)   [Segmented type appreciation corner](https://aresluna.org/segmented-type/)  ![[Cool other websites_image_1.png]]
+Three pixely-looking fonts: [Twenty-Seven Font | dafont.com](https://www.dafont.com/twenty-seven.font)  [GitHub - nubDotDev/Transit105: A font based on the 105-segment displays found on NJ Transit trains](https://github.com/nubDotDev/Transit105)   [Segmented type appreciation corner](https://aresluna.org/segmented-type/)  
 
 [GitHub - dakotafelder/open-gorton: Open source font for the keycap designer community](https://github.com/dakotafelder/open-gorton)
 
 [MonoLisa - Playground](https://www.monolisa.dev/playground) 
 
-![[Cool other websites_image_2.png]]
+![[Cool other websites_image_3.png]]
 
 [JetBrains Mono: A free and open source typeface for developers \| JetBrains: Developer Tools for Professionals and Teams](https://www.jetbrains.com/lp/mono/) 
 
-[Departure Mono](https://departuremono.com/) 
+[Departure Mono](https://departuremono.com/)  - pixely
+
+[Free Fonts - Awwwards](https://www.awwwards.com/awwwards/collections/free-fonts/) 

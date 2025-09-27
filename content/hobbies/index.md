@@ -11,7 +11,7 @@ There's a big backlog of potential hobbies. If only I had infinite time... unfor
 - [ ] pickleball
 - [ ] [[Ollama]]
 - [ ] sysadmin [[Ideas for what one can do with a home server]]
-	- [ ] PC's for days [[New server! Wahoo!]]
+	- [ ] PC's for days [[Fumbling around a new server]]
 - [ ] hello vlog
 - [ ] Chess
 - [ ] Poker

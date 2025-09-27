@@ -1,6 +1,6 @@
 ---
 date created: 2025-08-28T22:27
-date modified: 2025-08-28T23:32
+date modified: 2025-08-29T11:33
 subtitle: for FREE?!
 tags:
   - resourceland
@@ -45,3 +45,5 @@ tags:
 [A Programmer's Introduction to Mathematics](https://pimbook.org/) by Jeremy Kun
 
 [Class Notes 2025 — CME 302 Numerical Linear Algebra](https://ericdarve.github.io/NLA/content/intro.html) by Eric Darve
+
+[CS229: Machine Learning](https://cs229.stanford.edu/)  stanford again
