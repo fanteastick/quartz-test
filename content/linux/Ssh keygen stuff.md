@@ -1,9 +1,34 @@
 ---
 date created: 2025-04-30T23:36
-date modified: 2025-04-30T23:37
+date modified: 2025-09-09T11:23
+---
+## Just adding another ssh key login device
+
+```
+ssh-keygen -t ed25519 -C "your_email@example.com"
+ssh-copy-id user@target_host # only works if you don't yet have ssh-based-login enabled
+echo "paste-your-public-key-here" >> ~/.ssh/authorized_keys
+```
+
+To disable password login: 
+
+```
+sudo nano /etc/ssh/sshd_config
+# in the file::
+PasswordAuthentication no
+ChallengeResponseAuthentication no
+UsePAM no
+PermitRootLogin no  # Optional: disables root login for extra security
+PubkeyAuthentication yes
+# back to regular shell: 
+sudo systemctl restart sshd
+```
+
 ---
 
 Thanks perplexity
+
+## New user + keygen
 
 To create a new user on your remote server and set up SSH key authentication (with password login already disabled), follow these steps:
 

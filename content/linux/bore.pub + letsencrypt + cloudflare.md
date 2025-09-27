@@ -1,6 +1,8 @@
 ---
 date created: 2025-04-22T15:12
 date modified: 2025-04-22T22:09
+tags:
+  - cloudflare
 ---
 
 step 0: Do this: [[bore pub as a service server]] 

@@ -5,9 +5,10 @@ site: GitHub
 slurped: 2025-06-06T22:00
 title: "GitHub - DvorakDwarf/Infinite-Storage-Glitch: ISG lets you use YouTube as cloud storage for ANY files, not just video"
 date created: 2025-06-06T22:00
-date modified: 2025-06-06T22:03
+date modified: 2025-09-01T18:21
 tags:
   - slurp
+  - infinite-blank
 ---
 #### I was working on this instead of my finals, hope you appreciate it.
 

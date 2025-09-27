@@ -31,20 +31,22 @@ Also, make sure the subtitle property type is a string, not a list.
 | [[tbd/Bases.md\|Bases]]                                                                                 | based on what?                                               | tbd               |
 | [[tbd/Bookbinder usage.md\|Bookbinder usage]]                                                           | I hate to impose, but...                                     | tbd               |
 | [[meta/Code tester.md\|Code tester]]                                                                    | Trying out some markdown and code changes                    | meta              |
+| [[chips/Electronics wizards.md\|Electronics wizards]]                                                   | there's a whole other world out there                        | chips             |
 | [[chips/Every type of flip flop.md\|Every type of flip flop]]                                           | 👟 but shoes? shoes, i know                                  | chips             |
+| [[linux/Fumbling around a new server.md\|Fumbling around a new server]]                                 | the server room is very warm and loud                        | linux             |
 | [[thoughts/How to cram for the GRE (2023).md\|How to cram for the GRE (2023)]]                          | the pros n cons of standardized testing                      | thoughts          |
 | [[linux/Ideas for what one can do with a home server.md\|Ideas for what one can do with a home server]] | and now, they can collect dust in my home instead            | linux             |
 | [[tbd/Immich setup.md\|Immich setup]]                                                                   | we have google photos at home                                | tbd               |
 | [[index.md\|index]]                                                                                     | info dump website                                            |                   |
 | [[tbd/Making a zine.md\|Making a zine]]                                                                 | everyone and their mom has made one                          | tbd               |
-| [[tbd/Minecraft server resources.md\|Minecraft server resources]]                                       | i don't even like gaming, anyway                             | tbd               |
-| [[tbd/New server! Wahoo!.md\|New server! Wahoo!]]                                                       | the server room is very warm and loud                        | tbd               |
+| [[linux/Minecraft server resources.md\|Minecraft server resources]]                                     | i don't even like gaming, anyway                             | linux             |
 | [[hobbies/book club/Okay, I'll read HPMOR.md\|Okay, I'll read HPMOR]]                                   | mostly an excuse to try out the new quartz citations feature | hobbies/book club |
 | [[thoughts/Online presence and identity.md\|Online presence and identity]]                              | what it would take for me to become an influencer            | thoughts          |
 | [[hobbies/OSINT.md\|OSINT]]                                                                             | stayin' anonymous online                                     | hobbies           |
 | [[hobbies/Rawtherapee.md\|Rawtherapee]]                                                                 | hehe 💦                                                      | hobbies           |
 | [[thoughts/Shopping Accounts.md\|Shopping Accounts]]                                                    | thinly veiled effort to harvest your data                    | thoughts          |
 | [[hobbies/To plan a fish tank.md\|To plan a fish tank]]                                                 | Fish for beginners!                                          | hobbies           |
+| [[Tutorials.md\|Tutorials]]                                                                             | for FREE?!                                                   |                   |
 | [[chips/Various areas or fields or categories or.md\|Various areas or fields or categories or]]         | a whole new world                                            | chips             |
 | [[hobbies/Zelda BOTW.md\|Zelda BOTW]]                                                                   | breath of the wild                                           | hobbies           |
 <!-- SerializedQuery END -->

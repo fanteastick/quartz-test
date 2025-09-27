@@ -27,7 +27,7 @@ date modified: 2025-03-06T13:32
 
 [Introducing Webtrotion • Nerdy Momo Cat](https://nerdymomocat.github.io/posts/introducing-webtrotion/)  -- [Webtrotion Configuration Generator • Nerdy Momo Cat](https://nerdymomocat.github.io/posts/webtrotion-configuration-generator/) 
 
-[[Bunch of links about bluesky comments]]
+[[Bluesky comments links]]
 
 ## Jekyll digital garden by maxime vaillancourt
 

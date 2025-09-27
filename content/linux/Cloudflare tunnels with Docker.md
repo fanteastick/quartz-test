@@ -3,6 +3,7 @@ date created: 2025-03-20T22:32
 date modified: 2025-04-08T14:50
 tags:
   - pi
+  - cloudflare
 ---
 
 I love you Let's Talk Dev... my savior frfr: [Cloudflare Tunnels for Docker: A Step-by-Step Guide to Securely Exposing Your Self Hosted Apps](https://www.youtube.com/watch?v=SivE_EfUNd8)  

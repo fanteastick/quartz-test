@@ -2,6 +2,8 @@
 date created: 2025-03-25T17:03
 date modified: 2025-03-25T23:10
 draft: "true"
+tags:
+  - cloudflare
 ---
 ## Update the root url in the app.ini
 

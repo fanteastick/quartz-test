@@ -1,8 +1,16 @@
 ---
 date created: 2025-04-03T23:13
-date modified: 2025-04-04T00:09
+date modified: 2025-08-29T11:43
 tags:
   - external
+---
+
+[Nightshade: Protecting Copyright](https://nightshade.cs.uchicago.edu/)
+
+[GitHub - microsoft/InvisMark: code share for paper InvisMark: Invisible and Robust Watermarking for AI-generated Image Provenance](https://github.com/microsoft/InvisMark)
+
+Basically the go-to approach is to put some sort of mask on it that confuses the AI model trying to "learn" your style. 
+
 ---
 
 Thank you perplexity. 

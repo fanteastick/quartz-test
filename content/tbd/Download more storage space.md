@@ -1,6 +1,6 @@
 ---
 date created: 2025-05-02T18:05
-date modified: 2025-05-02T18:07
+date modified: 2025-09-07T14:57
 draft: "true"
 ---
 # Q1
@@ -40,15 +40,10 @@ There is no ??TB partition listed as mounted. This means:
 
 Run:
 
-text
-
-`lsblk -o NAME,SIZE,MOUNTPOINT`
-
-or
-
-text
-
-`sudo fdisk -l`
+```
+lsblk -o NAME,SIZE,MOUNTPOINT
+sudo fdisk -l
+```
 
 This will show all disks and partitions, including those not currently mounted.
 
@@ -60,8 +55,6 @@ Find the device (e.g., `/dev/sdb`, `/dev/nvme1n1`, etc.) that matches ~??TB.
 
 If it’s not mounted, you can mount it. For example:
 
-text
-
 `sudo mkdir /mnt/bigdisk sudo mount /dev/sdX1 /mnt/bigdisk`
 
 Replace `/dev/sdX1` with the correct device name/partition.
@@ -69,8 +62,6 @@ Replace `/dev/sdX1` with the correct device name/partition.
 ## 4. (Optional) Format If Needed
 
 If the disk is unformatted, you’ll need to format it first (be careful, this erases all data on it):
-
-text
 
 `sudo mkfs.ext4 /dev/sdX1`
 
@@ -113,8 +104,6 @@ Answer from Perplexity: [pplx.ai/share](https://www.perplexity.ai/search/pplx.ai
 
 Run:
 
-text
-
 `sudo vgdisplay`
 
 Look for "Free PE / Size"-this is your unallocated space.
@@ -123,9 +112,7 @@ Look for "Free PE / Size"-this is your unallocated space.
 
 To make more space available to Immich (and your system), you need to extend your logical volume and filesystem. For example, to add 1TB:
 
-text
-
-`sudo lvextend -L +1T /dev/ubuntu-vg/ubuntu-lv sudo resize2fs /dev/ubuntu-vg/ubuntu-lv`
+`sudo lvextend -L +1T /dev/ubuntu-vg/ubuntu-lv; sudo resize2fs /dev/ubuntu-vg/ubuntu-lv`
 
 - Adjust the names if your volume group or logical volume have different names (use `lsblk` or `lvs` to confirm).
 - If you want to use all available space, you can use `-l +100%FREE` instead of `-L +1T`.

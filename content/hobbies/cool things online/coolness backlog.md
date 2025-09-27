@@ -1,6 +1,6 @@
 ---
 date created: 2025-02-03T22:03
-date modified: 2025-08-28T22:40
+date modified: 2025-09-14T22:49
 tags:
   - recents-exclude
   - external
@@ -8,6 +8,32 @@ draft: "true"
 ---
 
 In reverse chronological order, so the most recent will be at the top. 
+
+## Other stuff
+
+Notetaking software: [NotesHub - Cross-platform, Markdown-based note-taking app](https://about.noteshub.app/) [Noteshelf on Windows | Note-taking app | PDF markups](https://www.noteshelf.net/noteshelf-windows.html) 
+
+[GitHub Pages \| is-a.dev Docs](https://docs.is-a.dev/guides/github-pages/)
+
+[Claude can now create and use files \\ Anthropic](https://www.anthropic.com/news/create-files) 
+
+[NASA finds Titan’s alien lakes may be creating primitive cells \| ScienceDaily](https://www.sciencedaily.com/releases/2025/08/250831112449.htm)
+
+[E-Paper Display Refresh Rate Reaches New Heights - IEEE Spectrum](https://spectrum.ieee.org/e-paper-display-modos)
+
+[I Replaced Animal Crossing's Dialogue with a Live LLM by Hacking GameCube Memory](https://joshfonseca.com/blogs/animal-crossing-llm)
+
+[Behind The Scenes of Bun Install \| Bun Blog](https://bun.com/blog/behind-the-scenes-of-bun-install) 
+
+Easy markdown slides and CLI: [GitHub - yhatt/marp-cli-example: The good starter for using Marp via Marp CLI, by the author of Marp](https://github.com/yhatt/marp-cli-example?tab=readme-ov-file) 
+
+[GitHub - proseplay/proseplay: A tool for creating interactive sliding poems.](https://github.com/proseplay/proseplay)
+
+[Binder](https://mybinder.org/)
+
+[BeatPrints v1.1.5 documentation](https://beatprints.readthedocs.io/en/latest/index.html#)
+
+[Welcome to ISPmail – a free guide to your own mail server \| ISPmail Guide](https://workaround.org/) 
 
 ## Cleaning my tabs on my phone
 
@@ -18,12 +44,6 @@ In reverse chronological order, so the most recent will be at the top.
 [Motion From Shape Change](https://olligross.github.io/projects/MotionFromShapeChange/MotionFromShapeChange_project.html)
 
 [Train of Thought Collective – trainofthoughtcollective](https://trainofthoughtcollective.com/) - clothing
-
-2 labs: [Purdue Radio Navigation Laboratory](https://engineering.purdue.edu/RNL/) [Harvard Architecture, Circuits and Compilers \| Harvard Architecture, Circuits and Compilers](https://vlsiarch.eecs.harvard.edu/) 
-
-[IEEE paper on a wheelchair controlled by jaw](https://ieeexplore.ieee.org/document/8914544/authors)
-
-[Integrated injection logic - Wikipedia](https://en.m.wikipedia.org/wiki/Integrated_injection_logic) [Ground bounce - Wikipedia](https://en.m.wikipedia.org/wiki/Ground_bounce) [Buridan's ass - Wikipedia](https://en.m.wikipedia.org/wiki/Buridan%27s_ass#Application_to_digital_logic:_metastability) [Metastability (electronics) - Wikipedia](https://en.m.wikipedia.org/wiki/Metastability_(electronics)) [Double data rate - Wikipedia](https://en.m.wikipedia.org/wiki/Double_data_rate) 
 
 Tractor/finding friends??? [Zhao Pengyou \| Board Game \| BoardGameGeek](https://boardgamegeek.com/boardgame/82098/zhao-pengyou) 
 
@@ -47,8 +67,6 @@ Zero-shot learning: [romera-paredes15.pdf](https://proceedings.mlr.press/v37/rom
 
 Attention is all you need paper --> put it into Research by unms [ASIC Design: A Step-by-Step Guide from Specification to Silicon](https://www.wevolver.com/article/the-ultimate-guide-to-asic-design-from-concept-to-production#) 
 
-[Welcome to the MyHDL documentation — MyHDL 0.11 documentation](https://docs.myhdl.org/en/stable/) [Introduction - NYU Processor Design Documentation](https://nyu-processor-design.github.io/) 
-
 [Splinternet - Wikipedia](https://en.m.wikipedia.org/wiki/Splinternet)
 
 [A High Frequency Trader's Apology, Pt 1 - Chris Stucchio](https://www.chrisstucchio.com/blog/2012/hft_apology.html)
@@ -66,8 +84,6 @@ Attention is all you need paper --> put it into Research by unms [ASIC Design: A
 [0ducks.wordpress.com/wp-content/uploads/2014/12/simulacra-and-simulation-by-jean-baudrillard.pdf](https://0ducks.wordpress.com/wp-content/uploads/2014/12/simulacra-and-simulation-by-jean-baudrillard.pdf) simulacra and simulation 1981
 
 [x.com/henrikruscon](https://x.com/henrikruscon) [henrikruscon (Henrik) · GitHub](https://github.com/henrikruscon) [Reddit - The heart of the internet](https://www.reddit.com/r/macapps/comments/1jyadpj/what_happened_to_henrik_ruscon/) 
-
-[2407.13924](https://arxiv.org/pdf/2407.13924)Preparing Fermilab to Carry Out the P5 Plan 
 
 [Create beautiful images of your code](https://ray.so/) 
 
@@ -113,7 +129,7 @@ Another content rec:  [Twilight of the Gods (TV series) - Wikipedia](https://en.
 
 [SoCal Region ICPC](http://socalcontest.org/current/index.shtml)
 
-[2R1B-HP-Edition/PDF/Basic Cards.pdf at master · 2R1B-PnP/2R1B-HP-Edition · GitHub](https://github.com/2R1B-PnP/2R1B-HP-Edition/blob/master/PDF/Basic%20Cards.pdf)
+secret hitler but with harry potter version [2R1B-HP-Edition/PDF/Basic Cards.pdf at master · 2R1B-PnP/2R1B-HP-Edition · GitHub](https://github.com/2R1B-PnP/2R1B-HP-Edition/blob/master/PDF/Basic%20Cards.pdf)
 
 [RoughNotation](https://roughnotation.com/)
 
@@ -129,19 +145,11 @@ Another show: [The Great (TV series) - Wikipedia](https://en.m.wikipedia.org/wik
 
 Civ modding magazine: [CMM Master Reference List](https://docs.google.com/document/u/0/d/1_r6xRncuUP-FVjH9rWkXiJb5McpVlIjnGxj9WVOOm-Q/mobilebasic?pli=1) 
 
-[Benchoff Design Portfolio](https://bbenchoff.github.io/system7/?page=BusTideDisplay)
-
-[GitHub - platima/Board-Taxonomies: Definitions and examples for different categories of embedded computing boards](https://github.com/platima/board-taxonomies)
-
 [RESIZE.THATSH.IT](https://resize.thatsh.it/) [Masonry](https://masonry.desandro.com/) [Can't Unsee](https://cantunsee.space/) [Curve Fitting - Polynomials \| Error Analysis \| Data - PhET Interactive Simulations](https://phet.colorado.edu/en/simulations/curve-fitting) [Guess the Correlation](https://www.guessthecorrelation.com/) [eieio.games](https://eieio.games/) neural games [Joseph Suarez](https://jsuarez5341.github.io/) 
 
 [Books and Essays - Edward Tufte](https://www.edwardtufte.com/books/) 
 
 cool quartz things: [GitHub - dvdmtw98/tracker: Repository to store books, shows & movies related information](https://github.com/dvdmtw98/tracker) 
-
-bay area ham radio [SPECS Outreach Homepage](https://www.qsl.net/k9stv/) [Southern Peninsula Emergency Communications System \| Meetup](https://www.meetup.com/southern-peninsula-emergency-communications-system/) [Contact the ISS - ARISS](https://www.ariss.org/contact-the-iss.html)
-
-just another guy on twitter [Hong's Electronics](https://www.jhongelectronics.org/?m=1)
 
 [Beautiful themes for shadcn/ui — tweakcn \| Theme Editor & Generator](https://tweakcn.com/) 
 
@@ -150,8 +158,6 @@ just another guy on twitter [Hong's Electronics](https://www.jhongelectronics.or
 [Conversational Cultures: Combat vs Nurture (V2) — LessWrong](https://www.lesswrong.com/posts/ExssKjAaXEEYcnzPd/conversational-cultures-combat-vs-nurture)
 
 [musicforprogramming.net/latest/](https://musicforprogramming.net/latest/)
-
-[NormalComputing](https://www.normalcomputing.com/) 
 
 [dash.deno.com/login?redirect=%2F](https://dash.deno.com/login?redirect=%2F)
 
@@ -195,11 +201,7 @@ https://www.calbar.ca.gov/Portals/0/documents/admissions/Examinations/February20
 
 [Uno by Unofficial – Official Unofficial, Inc.](https://officialunofficial.com/uno) [Trek Playground - Web Content Tool](https://officialunofficial.github.io/trek/playground/) 
 
-[DIY Electric Skateboard Tutorial - faster than a Boosted Board - SmartBuilds.io](https://smartbuilds.io/diy-electric-skateboard-tutorial/) skateboard description
-
-This paper has been making the rounds lately [See through walls with WiFi!](https://dspace.mit.edu/handle/1721.1/87086) 
-
-[Sioyek](https://sioyek.info/) 
+[Sioyek](https://sioyek.info/) PDF reader
 
 [Thymer - A smart new editor for thoughts, notes, tasks and planning](https://thymer.com/) 
 
@@ -221,19 +223,11 @@ This paper has been making the rounds lately [See through walls with WiFi!](http
 
 [GitHub - m1k1o/neko-rooms: Selfhosted collaborative browser - room management for n.eko](https://github.com/m1k1o/neko-rooms/?tab=readme-ov-file) [Quick Start | n.eko](https://neko.m1k1o.net/docs/v3/quick-start) 
 
-[alex pankratov](https://swapped.cc/#!/hamachi) 
+[alex pankratov](https://swapped.cc/#!/hamachi) hamachi, lan over internet
 
 [Building a fast all-SSD NAS (on a budget) \| Jeff Geerling](https://www.jeffgeerling.com/blog/2022/building-fast-all-ssd-nas-on-budget) 
 
 [Matrix Multiplication in Quadratic Time and Energy? Towards a Fine-Grained Energy-Centric Church-Turing Thesis](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2024.96)
-
-[How to Think About GPUs \| How To Scale Your Model](https://jax-ml.github.io/scaling-book/gpus/#quiz-1-gpu-hardware)
-
-[GitHub - mark-when/obsidian-plugin: Markwhen obsidian plugin](https://github.com/mark-when/obsidian-plugin) 
-
-[GitHub - dominikmayer/obsidian-yesterday: Obsidian plugin providing Yesterday journaling support](https://github.com/dominikmayer/obsidian-yesterday) 
-
-[CS229: Machine Learning](https://cs229.stanford.edu/) 
 
 [retronav/lilac: A humble micropub server to use with static site generators (primarily Eleventy). - Codeberg.org](https://codeberg.org/retronav/lilac) 
 
@@ -253,8 +247,6 @@ This paper has been making the rounds lately [See through walls with WiFi!](http
 
 [Docker Compose - Postiz Docs](https://docs.postiz.com/installation/docker-compose) 
 
-[Building a fast all-SSD NAS (on a budget) \| Jeff Geerling](https://www.jeffgeerling.com/blog/2022/building-fast-all-ssd-nas-on-budget) 
-
 [Making Software](https://www.makingsoftware.com/) 
 
 [The Summer Hikaru Died - Wikipedia](https://en.wikipedia.org/wiki/The_Summer_Hikaru_Died) 
@@ -262,8 +254,6 @@ This paper has been making the rounds lately [See through walls with WiFi!](http
 Amazon glacier storage [Amazon S3 Glacier storage classes](https://aws.amazon.com/s3/storage-classes/glacier/?ams%23interactive-card-vertical%23pattern-data--1564707496.filter=%257B%2522filters%2522%253A%255B%255D%257D)
 
 [Maze Heart: Code. Design. Wisdom.](https://remvze.com/) this is actually prolific in july 2025
-
-[GitHub - Grayvox/obsidian-character-sheets: Create character sheets for your very own traumatized little guys with Obsidian.](https://github.com/Grayvox/obsidian-character-sheets) 
 
 [Installation - Sherlock Project](https://sherlockproject.xyz/installation#docker) 
 
@@ -309,11 +299,7 @@ Amazon glacier storage [Amazon S3 Glacier storage classes](https://aws.amazon.co
 
 [GitHub - guandeh17/Self-Forcing](https://github.com/guandeh17/Self-Forcing) (this is a paper)
 
-[Home | nand2tetris](https://www.nand2tetris.org/)
-
 [Bebop to the Boolean Boogie, Third Edition: Maxfield, Clive: 9781856175074: Amazon.com: Books](https://www.amazon.com/Bebop-Boolean-Boogie-Unconventional-Electronics/dp/1856175073) 
-
-[Build a 6502 computer | Ben Eater](https://eater.net/6502) 
 
 [DIITHER - free dithering tool](https://andregorayeb.gumroad.com/l/diither) 
 
@@ -321,17 +307,11 @@ Amazon glacier storage [Amazon S3 Glacier storage classes](https://aws.amazon.co
 
 [HyperCard - The Whole Code Catalog](https://futureofcoding.org/catalog/hypercard.html)
 
-[Nightshade: Protecting Copyright](https://nightshade.cs.uchicago.edu/) 
-
-[GitHub - microsoft/InvisMark: code share for paper InvisMark: Invisible and Robust Watermarking for AI-generated Image Provenance](https://github.com/microsoft/InvisMark)
-
 cutesy app [one year: countdown widget on the App Store](https://apps.apple.com/us/app/one-year-countdown-widget/id6740510762)
 
 ![[coolness backlog_image_1.png|400]]
 
 Best youtube downloader: cobalt [about / what's cobalt? \~ cobalt](https://cobalt.tools/about/general) 
-
-Two cool hackaday guides, idk why it says unreachable [hackaday podcast hidden message](https://hackaday.com/2022/07/01/unraveling-the-hackaday-podcast-hidden-message/)  [hackaday youtube as file storage](https://hackaday.com/2023/02/21/youtube-as-infinite-file-storage/) 
 
 [DELTARUNE GAMEPLAY REMINDER CHEAT SHEET](https://deltarune.com/cheatsheet/) deltarune which is the undertale follow-up
 
@@ -340,8 +320,6 @@ Two cool hackaday guides, idk why it says unreachable [hackaday podcast hidden m
 [rosalewis.co.uk/wp-content/uploads/2025/05/Things-I-Have-Learned-From-Being-in-Unhealthy-Connection.pdf](https://rosalewis.co.uk/wp-content/uploads/2025/05/Things-I-Have-Learned-From-Being-in-Unhealthy-Connection.pdf)
 
 ![[coolness backlog_pdf_1.pdf]]
-
-[MicroZed Chronicles: Proportional Integral Derivative (PID) Controller](https://www.adiuvoengineering.com/post/microzed-chronicles-proportional-integral-derivative-pid-controller)
 
 [Rogo | vanity\_ibex](https://vanity-ibex.xyz/rogo/) [Globs Designer](https://www.globs.design/) [Kinopio](https://kinopio.club/) 
 
@@ -360,8 +338,6 @@ Two cool hackaday guides, idk why it says unreachable [hackaday podcast hidden m
 self-hosted: [Cup - The easiest way to manage your container updates](https://cup.sergi0g.dev/)  [GitHub - vgel/logitloom: explore token trajectory trees on instruct and base models](https://github.com/vgel/logitloom) [Rybbit Analytics](https://www.rybbit.io/) [ImmichFrame | ImmichFrame](https://immichframe.online/) [Quick Start | Arcane - Documentation](https://arcane.ofkm.dev/docs/getting-started/quickstart) 
 
 [About | Yggdrasil Network](https://yggdrasil-network.github.io/about.html) 
-
-[fromthetransistor.com](https://www.fromthetransistor.com/) kind of not kino but i'll add it bc everybody glazes [GitHub - geohot/fromthetransistor: From the Transistor to the Web Browser, a rough outline for a 12 week course](https://github.com/geohot/fromthetransistor) 
 
 [Explaining → FAIR Questions](https://twisty-secure-740.notion.site/Explaining-FAIR-Questions-1e5f40cd122b8060b064ec413eb91b69) 
 
@@ -385,14 +361,6 @@ self-hosted: [Cup - The easiest way to manage your container updates](https://cu
 
 [Knowledge-based society, my ass](https://mihaiolteanu.me/knowledge-based-society-my-ass)
 
-[PyXL - GPIO Benchmark](https://www.runpyxl.com/gpio) 
-
-[ARTIQ | M-Labs](https://m-labs.hk/experiment-control/artiq/) 
-
-[Simon Oz - YouTube](https://www.youtube.com/@szymonozog7862/videos) GPU programming resources
-
-[NaN boxing or how to make the world dynamic - Blog by Piotr Duperas](https://piotrduperas.com/posts/nan-boxing)
-
 [| OpenSecurityTraining2](https://p.ost2.fyi/)
 
 [Cats - house rules](https://nonstopsystems.com/cats/cats-rules.htm#top-of-page)
@@ -410,8 +378,6 @@ A bunch of scrolly websites: [Website loading strategies](https://scroll-animati
 [How To Build An Agent | Amp](https://ampcode.com/how-to-build-an-agent) 
 
 [What is Codeberg? | Codeberg Documentation](https://docs.codeberg.org/getting-started/what-is-codeberg/#what-is-codeberg-e.v.%3F) self hosted git that is a hard fork from Gitea (2024)
-
-[ICP-RIE: Dielectric Etcher – The KNI Lab at Caltech](https://lab.kni.caltech.edu/ICP-RIE:_Dielectric_Etcher) 
 
 [Navigate](https://nvg8.io/) very smooth design, something about collecting data to sell
 
@@ -458,8 +424,6 @@ Apps: [MIST - A Little Speech Toy ](https://apps.apple.com/us/app/mist-a-little-
 [Polyvia](https://dadaewqq.github.io/fun/21/) low poly pics generator
 
 [Download GitHub directory](https://download-directory.github.io/) Download any git repo subdirectory
-
-[Ben Eater](https://eater.net/) and people building CPUs from scratch with [r/beneater](https://www.reddit.com/r/beneater/) 
 
 [Redact - Mass Delete Messages, Posts, Likes and More from 30+ Services](https://redact.dev/) 
 

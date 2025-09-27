@@ -182,7 +182,8 @@ Lorem ipsum dolor sit amet, shadows weave through the twilight, whispers of the 
 
 skee yee
 
-![halloween\_notifications\_duolingo.pdf](https://files.fanteastick.org/pdfs/halloween_notifications_duolingo.pdf)
+[halloween\_notifications\_duolingo.pdf](https://files.fanteastick.org/pdfs/halloween_notifications_duolingo.pdf)
+TODO: In order to use the fileserver, I need to fix the ofm or something to properly detect the file type and make the html element around that. 
 
 [^waterbottle]: wee woooooo
 [^1]: sksksksksks lol

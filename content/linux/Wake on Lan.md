@@ -1,6 +1,6 @@
 ---
 date created: 2025-08-22T20:39
-date modified: 2025-08-27T17:10
+date modified: 2025-08-30T00:22
 ---
 
 It uses port 9. Relevant for windows setup.
@@ -103,3 +103,23 @@ If you want, I can provide PowerShell commands to automate these firewall rules 
 - wireguard filter - udp.port = 9 or something
 - firewall to open port 9
 - wakeonlan on the rpi to send a ping
+
+## Random additional things I had to do
+
+Half of this was from Perplexity. Just dumping out text right now before I forget. 2025-08-30
+
+### Passwordless sudo for shutdown
+
+Configure passwordless sudo for the shutdown command on the target machine. This avoids needing to input a password at all. You can edit the sudoers file with `visudo` and add a line such as:
+
+```
+ez ALL=(ALL) NOPASSWD: /sbin/shutdown
+```
+
+### Shut off wifi
+
+```
+sudo ip link set wlp6s0 down
+```
+
+![[Pasted image 20250830002238.png|300]]
