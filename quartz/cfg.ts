@@ -42,6 +42,14 @@ export type Analytics =
       provider: "clarity"
       projectId?: string
     }
+  | {
+      provider: "matomo"
+      host: string
+      siteId: string
+    }
+  | {
+      provider: "vercel"
+    }
 
 export type PassProtected = {
   /** Whether to enable password protected page rendering */
