@@ -1,6 +1,7 @@
 ---
 date created: 2025-09-14T22:48
 date modified: 2025-09-14T22:48
+draft: "true"
 ---
 
 [Reddit - All Poketch Apps w/ Locations](https://www.reddit.com/r/PokemonBDSP/comments/r6yi38/all_poketch_apps_w_locations/)

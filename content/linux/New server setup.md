@@ -1,7 +1,7 @@
 ---
-title: cold, calculated, precise.
+subtitle: cold, calculated, precise.
 date created: 2025-09-07T12:28
-date modified: 2025-09-07T16:14
+date modified: 2025-09-26T19:52
 ---
 
 In comparison to [[Fumbling around a new server]]

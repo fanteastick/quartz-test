@@ -1,6 +1,6 @@
 ---
 date created: 2025-02-03T22:03
-date modified: 2025-09-14T22:49
+date modified: 2025-09-28T23:11
 tags:
   - recents-exclude
   - external
@@ -10,6 +10,14 @@ draft: "true"
 In reverse chronological order, so the most recent will be at the top. 
 
 ## Other stuff
+
+[Polymarket Historical Accuracy and Bias](https://dune.com/alexmccullough/how-accurate-is-polymarket) 
+
+[Beginners Guide to Piracy](https://web.archive.org/web/20250913215426/https://rentry.org/Piracy-BG) 
+
+[matduggan.com/greenland-is-a-beautiful-nightmare/](https://matduggan.com/greenland-is-a-beautiful-nightmare/) 
+
+[Open Social — overreacted](https://overreacted.io/open-social/) did someone get paid to write this?
 
 Notetaking software: [NotesHub - Cross-platform, Markdown-based note-taking app](https://about.noteshub.app/) [Noteshelf on Windows | Note-taking app | PDF markups](https://www.noteshelf.net/noteshelf-windows.html) 
 

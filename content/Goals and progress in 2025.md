@@ -1,6 +1,6 @@
 ---
 date created: 2025-01-16T11:01
-date modified: 2025-07-31T17:51
+date modified: 2025-10-19T02:08
 ---
 ## Subset of the goals
 - Do a side hustle
@@ -97,3 +97,11 @@ So tired and burnt out lately.
 ![Taylor Swift – august (Official Lyric Video) - YouTube](https://youtu.be/nn_0zPAfyo8)
 
 - Back to school season
+
+## October
+
+Goals for the rest of the year
+
+- speak with more certainty, and substance
+- perseverance with fitness
+- academic weapon

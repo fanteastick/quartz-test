@@ -1,6 +1,6 @@
 ---
 date created: 2025-02-04T15:24
-date modified: 2025-02-05T00:17
+date modified: 2025-10-19T01:17
 draft: "true"
 subtitle: i wish i knew BEFORE 10b
 ---
@@ -17,3 +17,5 @@ ARM, MIPS, and PowerPC24
 Single-Pass Assemblers
 
 Multi-Pass Assemblers
+
+RISC-V

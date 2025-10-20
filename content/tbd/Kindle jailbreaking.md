@@ -1,6 +1,6 @@
 ---
 date created: 2025-09-04T23:24
-date modified: 2025-09-04T23:34
+date modified: 2025-10-19T22:22
 ---
 ## Winterbreak
 
@@ -34,3 +34,7 @@ Alternatively go to this webpage ([Send to Kindle](https://www.amazon.com/sendto
 ![Ultimate 2025 Guide to Jailbreaking ANY Kindle + How to Install Koreader - YouTube](https://www.youtube.com/watch?v=IRW_EYDcW1o)
 
 ![It's Time to Jailbreak Your Kindle. - YouTube](https://www.youtube.com/watch?v=Qtk7ERwlIAk)
+
+## Misc help links
+
+[Reddit - The heart of the internet](https://www.reddit.com/r/kindlejailbreak/comments/1l3j5ky/hotfix_causes_a_kppmainappv2_core_dump_to_appear/) 

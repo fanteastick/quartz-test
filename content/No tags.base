@@ -5,6 +5,7 @@ views:
       and:
         - file.tags.isEmpty()
         - file.ext == "md"
+        - '!file.inFolder("tags")'
     order:
       - file.name
       - file.mtime
