@@ -1,6 +1,6 @@
 ---
 date created: 2025-04-02T12:19
-date modified: 2025-08-30T00:11
+date modified: 2025-10-26T17:45
 tags:
   - photography
 ---
@@ -17,6 +17,10 @@ Shoutout Perplexity for helping me figure out how to use the software.
 There's a little settings wheel on the top of the center bar. 
 
 ![[darktable_image_1.png|200]]
+
+## Navigating the filmstrip in darkroom mode
+
+Spacebar to go forward, Backspace to go backwards. Make sure your mouse is not over another photo when you press "r" to reject an image. Then you can go back to lightroom mode 
 
 ## Shortcuts
 
@@ -50,7 +54,7 @@ This is the list of the available lenses by default in darktable when you go to 
 
 ## Manage the hotbar or quick access panel
 
-![[Pasted image 20250829205247.png]]
+![[darktable_image_5.png]]
 
 > [!web] From the web
 > How to Set Up Your Hotbar
@@ -95,7 +99,7 @@ Mask --> draw mask --> oval --> edit as you please
 
 ### Making new instances
 
-![[Pasted image 20250829224056.png]]
+![[darktable_image_6.png]]
 
 ## How it works
 

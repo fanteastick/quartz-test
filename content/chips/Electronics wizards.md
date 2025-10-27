@@ -1,6 +1,6 @@
 ---
 date created: 2025-08-29T11:25
-date modified: 2025-08-29T13:21
+date modified: 2025-10-23T00:20
 subtitle: there's a whole other world out there
 tags:
   - resourceland
@@ -54,3 +54,7 @@ Two cool hackaday guides, idk why it says unreachable [hackaday podcast hidden m
 [NaN boxing or how to make the world dynamic - Blog by Piotr Duperas](https://piotrduperas.com/posts/nan-boxing)
 
 [ICP-RIE: Dielectric Etcher – The KNI Lab at Caltech](https://lab.kni.caltech.edu/ICP-RIE:_Dielectric_Etcher) 
+
+[Why do CPUs have multiple cache levels? \| The ryg blog](https://fgiesen.wordpress.com/2016/08/07/why-do-cpus-have-multiple-cache-levels/) 
+
+Google XPUs: [GitHub - google-coral/coralnpu: A machine learning accelerator core designed for energy-efficient AI at the edge.](https://github.com/google-coral/coralnpu) and also [Tensor Processing Units (TPUs) \| Google Cloud](https://cloud.google.com/tpu) 

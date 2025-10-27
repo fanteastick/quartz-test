@@ -1,6 +1,6 @@
 ---
 date created: 2025-09-12T01:33
-date modified: 2025-09-15T23:58
+date modified: 2025-10-25T23:46
 ---
 
 Best app for [[spaced repetition]] and trusted by aspiring doctors everywhere. 
@@ -65,3 +65,15 @@ Best app for [[spaced repetition]] and trusted by aspiring doctors everywhere.
 Misc japanese thing: [ichi.moe - Japanese transliteration and dictionary service](https://ichi.moe/) --> [Monarobot.com](https://monarobot.com/) 
 
 [Fuzzy-Anki](https://fasiha.github.io/fuzzy-anki/)
+
+![[Kindle jailbreaking#Misc help links]]
+
+## Kanki, and anki-to-json
+
+[GitHub - exo-enrico/automated-apkg-creation: Create automated Anki decks (apkg files) from datas in json files!](https://github.com/exo-enrico/automated-apkg-creation)
+
+[Python script to convert an Anki .apkg Collection file to raw text in a format that can be read by the Obsidian plugin "Spaced Repetition" · GitHub](https://gist.github.com/stefandanzl/61c7d19cad05371435f10fa9ae442bb7)
+
+[GitHub - CraigglesO/anki-to-json: Convert anki file to a folder containing all media and a JSON for each note.](https://github.com/CraigglesO/anki-to-json)
+
+[Releases · crizmo/KAnki](https://github.com/crizmo/KAnki/releases) [GitHub - crizmo/KankiToAnki: A web-based tool to export KAnki vocabulary to Anki format (.apkg files).](https://github.com/crizmo/KankiToAnki) 

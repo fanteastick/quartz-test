@@ -1,6 +1,6 @@
 ---
 date created: 2025-09-04T23:24
-date modified: 2025-10-19T22:22
+date modified: 2025-10-24T20:13
 ---
 ## Winterbreak
 
@@ -37,4 +37,17 @@ Alternatively go to this webpage ([Send to Kindle](https://www.amazon.com/sendto
 
 ## Misc help links
 
-[Reddit - The heart of the internet](https://www.reddit.com/r/kindlejailbreak/comments/1l3j5ky/hotfix_causes_a_kppmainappv2_core_dump_to_appear/) 
+[Hotfix causes a core dump to appear](https://www.reddit.com/r/kindlejailbreak/comments/1l3j5ky/hotfix_causes_a_kppmainappv2_core_dump_to_appear/)  - my solution - restart the kindle AGAIN after the hotfix setup, then do the ;log mrpi thing, and wait; it;ll say "hush little baby". 
+
+[Finally, custom screensavers on my Kindle after all these years :) : r/kindle](https://www.reddit.com/r/kindle/comments/1k38796/finally_custom_screensavers_on_my_kindle_after/) 
+
+[Enable custom screensaver in KOReader on SO Kindle](https://www.reddit.com/r/kindle/comments/1ivclap/enable_custom_screensaver_in_koreader_on_so_kindle/)
+
+[A helpful list of Extensions for KUAL - MobileRead Forums](https://www.mobileread.com/forums/showthread.php?t=205064) 
+
+- minesweepr [gtkMines for kindle touch (minesweeper) - MobileRead Forums](https://www.mobileread.com/forums/showthread.php?p=2198434) 
+- kindle chess [Eboard chess for Kindle Touch](https://www.fabiszewski.net/kindle-chess/) 
+
+KOReader user guide [KOReader User Guide](https://koreader.rocks/user_guide/) 
+
+Anki related: [anki/docs/syncserver at main · ankitects/anki · GitHub](https://github.com/ankitects/anki/tree/main/docs/syncserver) [Sync Server - Anki Manual](https://docs.ankiweb.net/sync-server.html) [KAnki Editor (Static, No Backend)](https://kindlemodshelf.me/editor.html) [kanki\_editor/editor.html at main · NemesisHubris/kanki\_editor · GitHub](https://github.com/NemesisHubris/kanki_editor/blob/main/editor.html) 

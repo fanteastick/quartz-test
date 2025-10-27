@@ -1,7 +1,7 @@
 ---
 subtitle: cold, calculated, precise.
 date created: 2025-09-07T12:28
-date modified: 2025-09-26T19:52
+date modified: 2025-10-19T23:52
 ---
 
 In comparison to [[Fumbling around a new server]]
@@ -41,7 +41,7 @@ Tailscale --> add new linux server --> paste in the script --> `sudo tailscale u
 
 Do `sudo tailscale status` to check if it worked. 
 
-And then add the easy tunneling scripts: [[Tailscale tunnels]]
+And then add the easy tunneling scripts: [[Tailscale serve]]
 
 ## Monitoring
 

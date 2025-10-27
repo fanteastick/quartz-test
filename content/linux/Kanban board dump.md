@@ -1,6 +1,6 @@
 ---
 date created: 2025-07-31T17:42
-date modified: 2025-08-27T22:26
+date modified: 2025-10-25T23:54
 ---
 
 Planka, Plane, Vikunja, [GitHub - RARgames/4gaBoards: Straightforward realtime kanban boards management for intuitive task tracking. 4ga Boards features an elegant dark mode, collapsible todo lists, and multitasking tools to supercharge your team's productivity.](https://github.com/RARgames/4gaBoards) 
@@ -10,6 +10,8 @@ Planka, Plane, Vikunja, [GitHub - RARgames/4gaBoards: Straightforward realtime k
 [GitHub - kanbn/kan: The open source Trello alternative.](https://github.com/kanbn/kan) 
 
 [GitHub - smallhadroncollider/taskell: Command-line Kanban board/task manager with support for Trello boards and GitHub projects](https://github.com/smallhadroncollider/taskell)
+
+[WeKan - Privacy Policy](https://wekan.fi/app/) [wekan/docker-compose.yml at main · wekan/wekan · GitHub](https://github.com/wekan/wekan/blob/main/docker-compose.yml) 
 
 --- 
 

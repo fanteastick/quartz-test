@@ -7,7 +7,7 @@ tags:
   - "#tracker"
 title: All files chronologically modified
 date created: 2024-07-20T22:16
-date modified: 2025-10-19T22:26
+date modified: 2025-10-26T17:49
 ---
 
 Table below made with the help of [Dataview](https://blacksmithgu.github.io/obsidian-dataview/) and [Obsidian Dataview Serializer](https://github.com/dsebastien/obsidian-dataview-serializer). The query:
@@ -37,7 +37,15 @@ Some hidden tags: anything with "exclude" basically
 
 | File                                                                                                                                      | Folder                     | Modified     |
 | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- | ------------ |
-| [[tbd/Kindle jailbreaking.md\|Kindle jailbreaking]]                                                                                       | tbd                        | Oct 19, 2025 |
+| [[hobbies/darktable.md\|darktable]]                                                                                                       | hobbies                    | Oct 26, 2025 |
+| [[linux/Kanban board dump.md\|Kanban board dump]]                                                                                         | linux                      | Oct 25, 2025 |
+| [[tbd/Anki everything.md\|Anki everything]]                                                                                               | tbd                        | Oct 25, 2025 |
+| [[tbd/Kindle jailbreaking.md\|Kindle jailbreaking]]                                                                                       | tbd                        | Oct 24, 2025 |
+| [[linux/Wake on Lan.md\|Wake on Lan]]                                                                                                     | linux                      | Oct 24, 2025 |
+| [[chips/Electronics wizards.md\|Electronics wizards]]                                                                                     | chips                      | Oct 23, 2025 |
+| [[tbd/Financial literacy.md\|Financial literacy]]                                                                                         | tbd                        | Oct 21, 2025 |
+| [[linux/New server setup.md\|New server setup]]                                                                                           | linux                      | Oct 19, 2025 |
+| [[meta/Subtitles tracker.md\|Subtitles tracker]]                                                                                          | meta                       | Oct 19, 2025 |
 | [[Goals and progress in 2025.md\|Goals and progress in 2025]]                                                                             |                            | Oct 19, 2025 |
 | [[hobbies/Tailoring and Sewing.md\|Tailoring and Sewing]]                                                                                 | hobbies                    | Oct 19, 2025 |
 | [[rgb/Memory debugging.md\|Memory debugging]]                                                                                             | rgb                        | Oct 19, 2025 |
@@ -46,8 +54,6 @@ Some hidden tags: anything with "exclude" basically
 | [[rgb/Disk wiping.md\|Disk wiping]]                                                                                                       | rgb                        | Oct 17, 2025 |
 | [[chips/CMOS VLSI Design.md\|CMOS VLSI Design]]                                                                                           | chips                      | Sep 28, 2025 |
 | [[meta/Permalinks tracker.md\|Permalinks tracker]]                                                                                        | meta                       | Sep 26, 2025 |
-| [[linux/New server setup.md\|New server setup]]                                                                                           | linux                      | Sep 26, 2025 |
-| [[tbd/Anki everything.md\|Anki everything]]                                                                                               | tbd                        | Sep 15, 2025 |
 | [[tbd/Dockerize anything.md\|Dockerize anything]]                                                                                         | tbd                        | Sep 12, 2025 |
 | [[linux/Minecraft CraftyController.md\|Minecraft CraftyController]]                                                                       | linux                      | Sep 10, 2025 |
 | [[linux/bore pub as a service server.md\|bore pub as a service server]]                                                                   | linux                      | Sep 10, 2025 |
@@ -59,9 +65,6 @@ Some hidden tags: anything with "exclude" basically
 | [[linux/Minecraft mega docker image.md\|Minecraft mega docker image]]                                                                     | linux                      | Sep 7, 2025  |
 | [[linux/What 2 do if logged out of racknerd.md\|What 2 do if logged out of racknerd]]                                                     | linux                      | Sep 3, 2025  |
 | [[linux/Copyparty.md\|Copyparty]]                                                                                                         | linux                      | Aug 30, 2025 |
-| [[linux/Wake on Lan.md\|Wake on Lan]]                                                                                                     | linux                      | Aug 30, 2025 |
-| [[hobbies/darktable.md\|darktable]]                                                                                                       | hobbies                    | Aug 30, 2025 |
-| [[chips/Electronics wizards.md\|Electronics wizards]]                                                                                     | chips                      | Aug 29, 2025 |
 | [[tbd/Filters to put on your images so that AI can't gen-ai them.md\|Filters to put on your images so that AI can't gen-ai them]]         | tbd                        | Aug 29, 2025 |
 | [[thoughts/Obsidian Plugin Wishlist.md\|Obsidian Plugin Wishlist]]                                                                        | thoughts                   | Aug 29, 2025 |
 | [[Tutorials.md\|Tutorials]]                                                                                                               |                            | Aug 29, 2025 |
@@ -72,9 +75,7 @@ Some hidden tags: anything with "exclude" basically
 | [[hobbies/Crochet guides.md\|Crochet guides]]                                                                                             | hobbies                    | Aug 28, 2025 |
 | [[rgb/Password encrypted file.md\|Password encrypted file]]                                                                               | rgb                        | Aug 28, 2025 |
 | [[hobbies/cool things online/PySkyWiFi - Robert Heaton.md\|PySkyWiFi - Robert Heaton]]                                                    | hobbies/cool things online | Aug 28, 2025 |
-| [[linux/Kanban board dump.md\|Kanban board dump]]                                                                                         | linux                      | Aug 27, 2025 |
 | [[hobbies/Crocheting.md\|Crocheting]]                                                                                                     | hobbies                    | Aug 27, 2025 |
-| [[meta/Subtitles tracker.md\|Subtitles tracker]]                                                                                          | meta                       | Aug 27, 2025 |
 | [[linux/Home networking concepts learned through Pi.md\|Home networking concepts learned through Pi]]                                     | linux                      | Aug 27, 2025 |
 | [[tbd/Bases.md\|Bases]]                                                                                                                   | tbd                        | Aug 27, 2025 |
 | [[rgb/Parsec.md\|Parsec]]                                                                                                                 | rgb                        | Aug 27, 2025 |
@@ -139,8 +140,8 @@ Some hidden tags: anything with "exclude" basically
 | [[hobbies/fishes/dwarf pufferfish.md\|dwarf pufferfish]]                                                                                  | hobbies/fishes             | Apr 4, 2025  |
 | [[hobbies/Rawtherapee.md\|Rawtherapee]]                                                                                                   | hobbies                    | Apr 2, 2025  |
 | [[linux/Setting up SSH the way I wanted.md\|Setting up SSH the way I wanted]]                                                             | linux                      | Mar 23, 2025 |
-| [[hobbies/Civilization 7.md\|Civilization 7]]                                                                                             | hobbies                    | Mar 20, 2025 |
 | [[hobbies/Civ notepad mod brainstorm.md\|Civ notepad mod brainstorm]]                                                                     | hobbies                    | Mar 20, 2025 |
+| [[hobbies/Civilization 7.md\|Civilization 7]]                                                                                             | hobbies                    | Mar 20, 2025 |
 | [[meta/Hiding tags from various components.md\|Hiding tags from various components]]                                                      | meta                       | Mar 20, 2025 |
 | [[hobbies/Genshin Impact by miHoYo.md\|Genshin Impact by miHoYo]]                                                                         | hobbies                    | Mar 19, 2025 |
 | [[meta/Upgrading to quartz 4.5.md\|Upgrading to quartz 4.5]]                                                                              | meta                       | Mar 18, 2025 |
