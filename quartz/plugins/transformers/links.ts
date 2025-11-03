@@ -309,7 +309,7 @@ export const CrawlLinks: QuartzTransformerPlugin<Partial<Options>> = (userOpts) 
                 }
 
                 // don't process external links or intra-document anchors
-                const isInternal = !(isAbsoluteUrl(dest) || dest.startsWith("#"))
+                const isInternal = !(isAbsoluteUrl(dest) || dest.startsWith("#") || dest.startsWith("javascript:window.location.reload();"))
                 if (isInternal) {
                   if (ext.includes("pdf")) {
                     // we use CF middleware for fetch from Git LFS, for now

@@ -430,3 +430,16 @@ a.light-a {
       background-color: goldenrod;
     }
   }
+
+  // Callouts fix???
+
+  .callout {
+  &.is-collapsed .callout-content > * {
+    transition:
+      height 0.1s cubic-bezier(0.02, 0.01, 0.47, 1),
+      margin 0.1s cubic-bezier(0.02, 0.01, 0.47, 1);
+    overflow-y: clip;
+    height: 0;
+    margin-top: -1rem;
+  }
+}
