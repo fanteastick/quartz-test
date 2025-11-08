@@ -1,10 +1,25 @@
 ---
 date created: 2025-04-11T18:02
-date modified: 2025-04-11T18:04
+date modified: 2025-10-29T22:48
 draft: "true"
 ---
 
-Example microarchitecture: Nehalem in 2008
+[Microarchitecture - Wikipedia](https://en.wikipedia.org/wiki/Microarchitecture) 
+
+## Examples
+
+All Intel Xeon microarchitectures: [Xeon - Wikipedia](https://en.wikipedia.org/wiki/Xeon) 
+
+All Nvidia microarchitectures: [Category:Nvidia microarchitectures - Wikipedia](https://en.wikipedia.org/wiki/Category:Nvidia_microarchitectures) 
+
+### Nehalem - 2008, Intel
+
+[Nehalem (microarchitecture) - Wikipedia](https://en.wikipedia.org/wiki/Nehalem_(microarchitecture)) 
+
+- [List of Intel Xeon processors (Nehalem-based) - Wikipedia](https://en.wikipedia.org/wiki/List_of_Intel_Xeon_processors_(Nehalem-based)) 
+- [whitepaper\_Nehalem.pdf](https://www.intel.com/pressroom/archive/reference/whitepaper_Nehalem.pdf) 
+- [cs.uml.edu/\~bill/cs515/Intel\_Nehalem\_Processor.pdf](https://www.cs.uml.edu/~bill/cs515/Intel_Nehalem_Processor.pdf) 
+- [courses.cs.washington.edu/courses/cse470/19sp/nehalem.pdf](https://courses.cs.washington.edu/courses/cse470/19sp/nehalem.pdf) 
 
 > [!web]- Perplexity
 > Key Features of Nehalem Microarchitecture
@@ -49,3 +64,23 @@ Example microarchitecture: Nehalem in 2008
 > 
 > Its modular design allowed it to scale from dual-core laptop processors to high-core-count server processors (e.g., Nehalem-EX).
 > 
+
+### Vera Rubin - 2026, Nvidia
+
+[Rubin (microarchitecture) - Wikipedia](https://en.wikipedia.org/wiki/Rubin_(microarchitecture))
+
+[NVIDIA Unveils Rubin CPX: A New Class of GPU Designed for Massive-Context Inference \| NVIDIA Newsroom](https://nvidianews.nvidia.com/news/nvidia-unveils-rubin-cpx-a-new-class-of-gpu-designed-for-massive-context-inference) 
+
+[Nvidia reveals Vera Rubin Superchip for the first time — incredibly compact board features 88-core Vera CPU, two Rubin GPUs, and 8 SOCAMM modules](https://www.tomshardware.com/pc-components/gpus/nvidia-reveals-vera-rubin-superchip-for-the-first-time-incredibly-compact-board-features-88-core-vera-cpu-two-rubin-gpus-and-8-socamm-modules)
+
+## MOOCs
+
+[Computer Architecture \| Princeton Online](https://online.princeton.edu/computer-architecture) 
+
+[High-Performance Computer Architecture \| UCSC Silicon Valley Extension](https://www.ucsc-extension.edu/courses/high-performance-computer-architecture) 
+
+[Computer System Architecture \| Electrical Engineering and Computer Science \| MIT OpenCourseWare](https://ocw.mit.edu/courses/6-823-computer-system-architecture-fall-2005/) 
+
+[CS 146: Computer Architecture](https://www.eecs.harvard.edu/cs146-246/) 
+
+[Computer Systems Architecture Course I Stanford Online](https://online.stanford.edu/courses/ee282-computer-systems-architecture)

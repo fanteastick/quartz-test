@@ -1,6 +1,8 @@
 ---
 date created: 2025-05-08T13:25
 date modified: 2025-05-08T13:41
+tags:
+  - pi
 ---
 
 Thanks perplexity

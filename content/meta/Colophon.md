@@ -13,7 +13,7 @@ draft: "true"
 > - a publisher's emblem or imprint, especially one on the title page or spine of a book.
 > - historical: a statement at the end of a book, typically with a printer's emblem, giving information about its authorship and printing.
 
-## Fonts:
+## Fonts
 
 header: "Schibsted Grotesk",
 

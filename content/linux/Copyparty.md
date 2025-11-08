@@ -1,6 +1,8 @@
 ---
 date created: 2025-08-30T09:50
 date modified: 2025-08-30T09:52
+tags:
+  - self-hosted
 ---
 ```
 [/]            # create a volume at "/" (the webroot), which will

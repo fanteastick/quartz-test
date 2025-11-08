@@ -1,12 +1,12 @@
 ---
 date created: 2024-05-09T14:44
-date modified: 2025-08-01T00:19
+date modified: 2025-10-27T22:53
 draft: "true"
 ---
 
 ## ALL (other) TASKS:
 
- > [!TODO] All tasks
+ > [!TODO]- All tasks
 > ```dataview
 > TASK
 > WHERE !completed AND file.name != this.file.name
@@ -20,6 +20,8 @@ draft: "true"
 - [ ] fix the lightbox - apparently it's bad html to have a div inside a p
 - [ ] carousel - change the code from html-y to markdown-y. It must be possible, i'm sure
 - [ ] image grid - also should be very possible. i think the lightbox is messing w the css selectors [obsidian-minimal/src/scss/features/image-grid.scss at 10b663fba981df877b8da18d8d12cbaa79bed217 · kepano/obsidian-minimal · GitHub](https://github.com/kepano/obsidian-minimal/blob/10b663fba981df877b8da18d8d12cbaa79bed217/src/scss/features/image-grid.scss#L17) 
+- [ ] Callouts causing issues like not fully collapsing: https://github.com/jackyzha0/quartz/commit/4923affa7722dfc751f1074348e6dad214fe0c08#diff-675ca1385a10894da9cc01b31207ec58adce5a15d61ef8fc373b09e24d6d97be 
+- [ ] Paths causing issues like the "Click here to refresh the page" https://github.com/jackyzha0/quartz/commit/ecb3d92941b7cae7ce222e2247c18918366207e4#diff-6a4a7529a465eca0d1e1a6a62e78fbb533b87ac4c520049c2740721af4f25562
 ## Non-quartz
 
 - [x] analytics site --> goatcounter

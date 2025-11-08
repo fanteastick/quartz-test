@@ -1,11 +1,14 @@
 ---
 date created: 2024-07-31T17:27
-date modified: 2025-06-04T11:38
+date modified: 2025-11-05T20:41
 tags:
   - gaming
 ---
 
 > Busted! 💬 Announcer, Squad Busters
+
+> [!bug] Squad Busters EOL
+> Unfortunately, Squad Busters was shut down at the end of 2025. Announcement: [[Squad Busters Development is Ending, Final Update in December 2025]]
 
 # Season 1
 ## Recommended gameplay strategies

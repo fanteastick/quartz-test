@@ -53,5 +53,6 @@ Also, make sure the subtitle property type is a string, not a list.
 | [[hobbies/To plan a fish tank.md\|To plan a fish tank]]                                                                | Fish for beginners!                                          | hobbies                    |
 | [[Tutorials.md\|Tutorials]]                                                                                            | for FREE?!                                                   |                            |
 | [[chips/Various areas or fields or categories or.md\|Various areas or fields or categories or]]                        | a whole new world                                            | chips                      |
+| [[Wishlist.md\|Wishlist]]                                                                                              | if money was invisible                                       |                            |
 | [[hobbies/Zelda BOTW.md\|Zelda BOTW]]                                                                                  | breath of the wild                                           | hobbies                    |
 <!-- SerializedQuery END -->

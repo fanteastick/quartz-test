@@ -1,8 +1,9 @@
 ---
 date created: 2025-02-06T12:35
-date modified: 2025-02-06T13:44
+date modified: 2025-11-07T13:21
 draft: "true"
 ---
+## Video tutorial
 
 [VTUBER SETUP 100% FREE IN 10 MINUTES - YouTube](https://www.youtube.com/watch?v=m_jAMoGBe90) 
 

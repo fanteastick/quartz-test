@@ -1,6 +1,6 @@
 ---
 date created: 2025-08-22T20:39
-date modified: 2025-10-24T15:26
+date modified: 2025-11-07T18:22
 ---
 
 It uses port 9. Relevant for windows setup.
@@ -26,15 +26,16 @@ Sending magic packet to 255.255.255.255:9 with <MAC address>
 echo "blacklist wil6210" | sudo tee /etc/modprobe.d/blacklist-wil6210.conf
 wlp3s0 got disabled
 ```
-## utilities
+## Utilities
 
-Upsnap (my shayla)
+**Upsnap** (my shayla) which I have #self-hosted 
 
 Tailscale blog link dump
 
 - [Making a Wake-on-LAN server using Tailscale, UpSnap, and Raspberry Pi](https://tailscale.com/blog/wake-on-lan-tailscale-upsnap)
-- [Four increasingly sophisticated ways to put a service on your tailnet](https://tailscale.com/blog/four-ways-tailscale-service#3-install-the-service-in-a-container-and-use-a-tailscale-sidecar) 
-- [Contain your excitement: A deep dive into using Tailscale with Docker](https://tailscale.com/blog/docker-tailscale-guide) 
+
+---
+
 ## BIOS settings
 
 Thanks Perplexity
@@ -93,13 +94,8 @@ To allow Wake-on-LAN (WOL) packets and UpSnap pings to go through the Windows fi
 
 This will allow UpSnap to ping your Windows device and send WOL magic packets successfully from your Raspberry Pi.
 
-If you want, I can provide PowerShell commands to automate these firewall rules setup.
-
 ## Windows
 
-[Get started with OpenSSH Server for Windows \| Microsoft Learn](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui&pivots=windows-11) 
-
-- openssh
 - wireguard filter - udp.port = 9 or something
 - firewall to open port 9
 - wakeonlan on the rpi to send a ping
@@ -122,13 +118,22 @@ ez ALL=(ALL) NOPASSWD: /sbin/shutdown
 sudo ip link set wlp6s0 down
 ```
 
-![[Wake on Lan_image_1.png|300]]
+Edit netplan: /etc/netplan/* - check if ethernet enp2s0 is enabled. Add or modify ethernet settings for DHCP or static IP.
+
+```yaml
+network:
+	version: 2
+	renderer: networkd
+	ethernets:
+		enp2s0:
+			dhcp4: true
+```
+
+Apply changes with `sudo netplan apply`
 
 ## WOL on windows laptop
 
 If your Dell laptop’s Ethernet port light turns off in sleep mode and it doesn’t respond to Wake-on-LAN (WOL), it means the network adapter is losing power during sleep — so it can’t listen for the magic packet. This behavior is common on many laptops because Windows or BIOS power-saving features disable the NIC when sleeping or on battery power.
-
-Here’s how to fix it:
 
 ### 1. Keep the NIC powered during sleep
 - Open **Device Manager** → **Network Adapters** → right-click your Ethernet device → **Properties**.
@@ -142,15 +147,15 @@ Here’s how to fix it:
 
 ### 2. Adjust BIOS/UEFI settings
 
-Reboot and enter BIOS (usually F2 or Del):
+Reboot and enter BIOS (usually F2 or Dell):
 
 - Enable **Wake on LAN/WLAN** or **Wake on AC** under Power Management.
-- Disable **Deep Sleep Control** or **ErP Mode**, since these cut power to the Ethernet controller entirely during sleep/off states.[4][5][6]
+- Disable **Deep Sleep Control** or **ErP Mode**, since these cut power to the Ethernet controller entirely during sleep/off states.
 - Save and exit BIOS, then retest.
 
 ### 3. Plug in AC Power
 
-Many laptops disable WOL when running only on battery. Ensure the charger is connected; otherwise the NIC will power down even if settings are correct.[2][7]
+Many laptops disable WOL when running only on battery. Ensure the charger is connected; otherwise the NIC will power down even if settings are correct.
 
 ### 4. Verify Link LED behavior
 
@@ -158,9 +163,9 @@ When configured correctly, the Ethernet port LEDs should stay on or blink faintl
 
 ### Summary
 
-Your laptop’s NIC LEDs going dark in sleep means it’s not receiving standby power, so WOL can’t function. Turn off “Deep Sleep” in BIOS, disable all power-saving Ethernet features in Windows, and keep the AC adapter plugged in. After that, the port light should remain on and WOL over Ethernet will start working reliably.[6][3][1][2]
+Your laptop’s NIC LEDs going dark in sleep means it’s not receiving standby power, so WOL can’t function. Turn off “Deep Sleep” in BIOS, disable all power-saving Ethernet features in Windows, and keep the AC adapter plugged in. After that, the port light should remain on and WOL over Ethernet will start working reliably.
 
-> [!note] souorces
+> [!note]- Sources
 > [1](https://www.anyviewer.com/how-to/wol-not-working-2578.html)
 > [2](https://learn.microsoft.com/en-us/answers/questions/4213518/how-to-keep-ethernet-port-powered-when-computer-is)
 > [3](https://h30434.www3.hp.com/t5/Desktop-Wireless-and-Networking/Trying-Wake-On-LAN-but-the-ethernet-port-switches-off-on/td-p/8470582)
@@ -192,10 +197,9 @@ Because Dell integrates most of its low-power logic under “USB Wake Support”
     - “Only allow a magic packet to wake the computer.”
 - This combined setup makes your Latitude 7450 capable of waking from **sleep (S3)** using WOL, but not from full shutdown.
 
-> [!bug]- even more pplx info
+> [!bug]- even more pplx info, which is basically a good summary of the steps
 > If your Dell Latitude 7450 still won’t respond to Wake-on-LAN (WOL) after verifying BIOS, driver, and Windows settings, the remaining culprits are almost always related to **driver power handling**, **link state management**, or **hardware power gating**.  
 > 
-> Here’s a comprehensive checklist of additional steps — targeted to the Latitude 7450’s Intel/Realtek Ethernet controller setup:
 > 
 > ***
 > 

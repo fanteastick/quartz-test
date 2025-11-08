@@ -1,6 +1,6 @@
 ---
 date created: 2024-07-09T02:02
-date modified: 2025-08-28T21:54
+date modified: 2025-10-29T23:55
 ---
 
 Misc ideas, code, and plugins for quartz that I've collected across the web. %% [[Todo]] %%
@@ -508,6 +508,10 @@ Alternatively: [Lighter color for broken internal link · LesleyLai/digital-gard
 
 [Visible properties · LesleyLai/digital-garden@fc2e513 · GitHub](https://github.com/LesleyLai/digital-garden/commit/fc2e513565c46b6b0d67a4eaa921a144c6a23f00)
 
+## Properties with links
+
+[Working Properties with Obsidian Links · natashayasi/quartz@d42e0bc · GitHub](https://github.com/natashayasi/quartz/commit/d42e0bcab0b234498a5e746b38dd6f903486babc) 
+
 ## Copy raw markdown 
 
 [Quartz copy raw markdown component · GitHub](https://gist.github.com/MaxWolf-01/354de940ad7ed80a9f2fe9884f5c99bc) 
@@ -727,3 +731,48 @@ declare module "vfile" {
   }
 }
 ```
+
+## Line age 
+
+Based on github. 
+
+[GitHub - tomoyanonymous/quartz-line-age](https://github.com/tomoyanonymous/quartz-line-age) [Matsuura Tomoya Research Note](https://garden.matsuuratomoya.com/) 
+
+## The callout thing
+
+Kem on discord
+
+> If someone has a problem with column callout not properly collapse being a part of other callout (as for example on screenshots), add this in custom.scss
+
+```
+.callout {
+  &.is-collapsed .callout-content > * {
+    transition:
+      height 0.1s cubic-bezier(0.02, 0.01, 0.47, 1),
+      margin 0.1s cubic-bezier(0.02, 0.01, 0.47, 1);
+    overflow-y: clip;
+    height: 0;
+    margin-top: -1rem;
+  }
+}
+```
+
+## Strava aka GPX maps
+
+From Adam via discord
+
+> Hey all, I thought I'd showcase a site that I built using Quartz, along with some of the plugin work I did.
+> 
+> I forked Quartz-Syncer to render bases to a table. It's a pretty janky implementation, but it allows me to have table views that keep themselves up to date.
+> Here's an example page with a base: https://adamlaycock.ca/Lists/Kane-Scrambles
+> I can't recommend anyone using my fork, it has a lot of pitfalls. Eg, caching can't be used.
+> 
+> I created an "activityMap" component which uses Mapbox to render a static map image to a page. It renders pins and a GPX track pulled from Strava
+> Here's an example page with the map: https://adamlaycock.ca/Notes/2025-09-17
+> 
+> I added automatic resizing for image assets, so I don't have to worry about publishing monster images that are slow to load.
+> https://github.com/alaycock/quartz/blob/v4/quartz/plugins/emitters/assets.ts
+> 
+> I've also spent a bunch of time on the visuals, making it my own.
+> 
+> Unfortunately, none of my changes have been submitted as a PR to Quartz yet, I didn't really build them with general-use in mind, but other software developers might be interested in building off of my solutions. If someone did want to submit some of these changes to the base Quartz repo, I'd totally encourage that

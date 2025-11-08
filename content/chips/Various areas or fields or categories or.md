@@ -1,6 +1,6 @@
 ---
 date created: 2024-11-16T14:02
-date modified: 2025-01-18T18:54
+date modified: 2025-10-27T22:41
 subtitle: a whole new world
 ---
 
@@ -55,3 +55,9 @@ ASIC
 IC
 
 Floorplan
+
+Nanofabrication
+
+Quantum
+
+CPU, GPU, NPU, XPU, etc

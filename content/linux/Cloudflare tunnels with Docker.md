@@ -101,7 +101,7 @@ Let's say I have another service that I have at port 80 internally, but external
 
 ## Last step
 
-![[Cloudflare#HTTPs]]
+![[cloudflare#HTTPs]]
 
 ## Final words
 

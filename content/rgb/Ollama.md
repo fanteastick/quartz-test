@@ -1,7 +1,6 @@
 ---
 date created: 2024-09-17T09:08
 date modified: 2025-04-25T22:49
-draft: "true"
 ---
 ## The documentation
 

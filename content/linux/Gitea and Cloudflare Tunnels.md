@@ -4,6 +4,7 @@ date modified: 2025-03-25T23:10
 draft: "true"
 tags:
   - cloudflare
+  - self-hosted
 ---
 ## Update the root url in the app.ini
 

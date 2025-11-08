@@ -5,8 +5,7 @@ site: Linux Handbook
 date created: 2021-08-25T03:45
 slurped: 2025-04-08T14:46
 title: Deploying Isso Commenting System Under Nginx With Docker
-date modified: 2025-04-08T14:47
-draft: "true"
+date modified: 2025-11-07T13:19
 tags:
   - slurp
 ---
@@ -19,17 +18,9 @@ You can use it for adding a [commenting system to your blog or website](https://
 
 It works with WordPress, Ghost and many other frameworks thanks to a JavaScript embed. Here, I've used [Ghost](https://ghost.org/) as a demonstrative example.
 
-[
-
 Best Comment Systems You Can Self Host
 
 Here are some ad-free, private commenting systems that you can self-host and own the user data.
-
-![](https://linuxhandbook.com/favicon.png)Abhishek Prakash
-
-![](https://linuxhandbook.com/content/images/2021/08/comments.png)
-
-](https://linuxhandbook.com/self-host-comment-system/)
 
 ## Installing Isso with Docker with hybrid containerization
 
@@ -117,16 +108,6 @@ networks:
 Create an external network using `docker create network net` and deploy it using `docker-compose up -d` from the corresponding directory. Please check the Nginx Docker article linked above for complete details.
 
 [
-
-How to Use Nginx Reverse Proxy With Multiple Docker Apps
-
-Learn how you can deploy multiple web services on the same server using Nginx reverse proxy and docker containers.
-
-![](https://linuxhandbook.com/favicon.png)Linux HandbookDebdut Chakraborty
-
-![](https://linuxhandbook.com/content/images/2020/09/deploy-multiple-services-with-nginx-reverse-proxy-container-1.png)
-
-](https://linuxhandbook.com/nginx-reverse-proxy-docker/)
 
 ### Step 1: Change the DNS settings
 
@@ -383,18 +364,6 @@ Scale down to single container mode:
 docker-compose up -d --scale ghost=1 --no-recreate
 ```
 
-[
-
-Updating Docker Containers With Zero Downtime
-
-A step by step methodology that can be very helpful in your day to day DevOps activities without sacrificing invaluable uptime.
-
-![](https://linuxhandbook.com/assets/icon-192x192.png?v=f288a28921)Linux HandbookAvimanyu Bandyopadhyay
-
-![](https://linuxhandbook.com/content/images/2020/12/Updating-containers-without-downtime.png)
-
-](https://linuxhandbook.com/update-docker-container-zero-downtime/)
-
 At this point, you have completed setting up Isso on your blog successfully!
 
 Wait for a few minutes and point a browser to the Ghost domain where you just configured Isso.
@@ -494,17 +463,5 @@ I was able to successfully test upvoting/downvoting only after accessing the com
 ## Final notes
 
 For a complete reference on the Isso application and all its features, you can refer to the [official Isso documentation](https://posativ.org/isso/docs/), particularly, the server and client subsections to make use of it extensively and maximize from its productivity.
-
-[
-
-Deployment from Scratch
-
-An introductory book to web application deployment
-
-![](https://gumroad.com/img/android-icon-192x192.png)A complete guide to web application deployment
-
-![](https://deploymentfromscratch.com/vpsformakerscat.png)
-
-](https://gumroad.com/a/298436531/ZUeWNF)
 
 Hope you find this guide useful in self-hosting your own commenting system on your site. If you have any suggestions, feedback, or queries, you can share them in the comment section below.

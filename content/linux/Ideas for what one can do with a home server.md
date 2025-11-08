@@ -1,6 +1,6 @@
 ---
 date created: 2025-01-02T17:31
-date modified: 2025-07-07T23:50
+date modified: 2025-11-07T18:15
 subtitle: and now, they can collect dust in my home instead
 tags:
   - idea
@@ -24,6 +24,7 @@ It's so sad to see a powerful machine becoming demoted to a glorified external h
 - self hosted comments system [[Isso link dump]] ; and managing multiple sites!
 - self-hosted website analytics: umami --> pangolin but with authentication disabled [umami/docker-compose.yml · GitHub](https://github.com/umami-software/umami/blob/master/docker-compose.yml) 
 - Secure the vps with ssh, maybe a honeypot, figure out how to restrict access to certain web ports [Securing the SSH service | Hetzner Community](https://community.hetzner.com/tutorials/securing-ssh#step-1---securing-the-ssh-service) and a cuter guide [Preparing Your Ubuntu Server for First Use](https://ivansalloum.com/preparing-your-ubuntu-server-for-first-use/) , also [[IPtables and such for exposed docker ports]] 
+- Kanban [[Kanban board dump]] - I ended up going with Kanboard, with some plugins. 
 ## In progress
 
 - Figure out wtf is wrong with my server - it might be temperature
@@ -37,9 +38,7 @@ journalctl -b -1 | grep -i overheat
 - backup solution
 	- Immich: [Remotely access and share your self-hosted services - YouTube](https://www.youtube.com/watch?v=Vt4PDUXB_fg) 
 	- Files or something, and do it over Tailscale only
-- Kanban 2025-07-07
-	- Planka - kind of annoying to set up. works though. Doesn't have JSON/CSV export
-	- Wekan - need to rebuild the image. 
+
 ## Not done
 - UFW docker [GitHub - chaifeng/ufw-docker: To fix the Docker and UFW security flaw without disabling iptables](https://github.com/chaifeng/ufw-docker)
 - sysadmin and devops, like [DevOps BootCamp](https://devopsbootcamp.osuosl.org/) (h/t to CW in 2021!)

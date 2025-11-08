@@ -3,6 +3,7 @@ date created: 2025-09-07T00:25
 date modified: 2025-09-10T16:20
 tags:
   - minecraft
+  - self-hosted
 ---
 ## Method 1
 

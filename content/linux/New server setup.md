@@ -12,7 +12,6 @@ In comparison to [[Fumbling around a new server]]
 
 Installation: [[How racknerd recommends installing docker and compose]] 
 
-+
 
 ```
 sudo docker run hello-world
