@@ -122,6 +122,7 @@ a {
   
   &.external { // this whole section was added
     text-decoration: underline wavy;
+    text-decoration-color: var(--gray);
     opacity: 0.9;
   }
 }
