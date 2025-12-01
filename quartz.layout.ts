@@ -23,7 +23,7 @@ const graphConfig = {
   },
   globalGraph: {
     removeTags: tagsToRemove,
-    excludeTags: ["graph-exclude"]
+    excludeTags: ["graph-exclude", "slurp"]
   }
 };
 const tagListConfig = { 
