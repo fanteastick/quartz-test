@@ -3,6 +3,8 @@ subtitle: it's time to eat the frog!
 date created: 2025-08-25T20:54
 date modified: 2025-08-26T01:12
 draft: "true"
+tags:
+  - tailscale
 ---
 
 Option 1: [GitHub - lucaslorentz/caddy-docker-proxy: Caddy as a reverse proxy for Docker](https://github.com/lucaslorentz/caddy-docker-proxy)

@@ -2,7 +2,7 @@
 tags:
   - guide
 date created: 2025-06-19T18:25
-date modified: 2025-07-07T22:23
+date modified: 2025-12-01T17:45
 subtitle: I hate to impose, but...
 ---
 
@@ -32,3 +32,9 @@ I think I would prefer no flyleafs.
 > [Bookbinding Instructions - Starter Kit - Learn Bookbinding](https://www.learnbookbinding.co.uk/guide/starter/) 
 >
 > ![[Bookbinder usage_image_1.png]]
+
+---
+
+## Misc
+
+Btw to reconnect hardback covers to the pages, you can use Archival PVA glue, or you can just use some white school glue. 

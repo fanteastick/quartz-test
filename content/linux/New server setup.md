@@ -1,7 +1,7 @@
 ---
 subtitle: cold, calculated, precise.
 date created: 2025-09-07T12:28
-date modified: 2025-10-19T23:52
+date modified: 2025-11-30T23:23
 ---
 
 In comparison to [[Fumbling around a new server]]
@@ -11,7 +11,6 @@ In comparison to [[Fumbling around a new server]]
 ### Docker and Dockge
 
 Installation: [[How racknerd recommends installing docker and compose]] 
-
 
 ```
 sudo docker run hello-world
