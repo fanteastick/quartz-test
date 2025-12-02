@@ -6,7 +6,7 @@ draft: "true"
 
 Thanks perplexity
 
-The message "sleep-monitor-systemd system is about to suspend" indicates that the system is preparing to enter a low-power state, likely triggered by systemd's power management settings. Here’s how you can investigate and resolve this issue:
+The message "sleep-monitor-systemd system is about to suspend" indicates that the system is preparing to enter a low-power state, likely triggered by systemd's power management settings. Here's how you can investigate and resolve this issue:
 
 ---
 

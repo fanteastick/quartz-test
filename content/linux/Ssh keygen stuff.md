@@ -56,7 +56,7 @@ sudo chown newusername:newusername /home/newusername/.ssh
 sudo chmod 700 /home/newusername/.ssh
 ```
 
-## 3. Add the User’s Public Key
+## 3. Add the User's Public Key
 
 - If the user already has an SSH public key, copy it to `/home/newusername/.ssh/authorized_keys`.
 - If you are generating a key for them (for example, as an admin), you can do so with:

@@ -1,6 +1,6 @@
 ---
 date created: 2025-04-02T12:26
-date modified: 2025-04-02T12:26
+date modified: 2025-11-25T18:20
 ---
 ## Reach goals to do photography at:
 
@@ -29,3 +29,7 @@ Free and open source alternatives:
 
 - [darktable](https://www.darktable.org/) [[darktable]]
 - [RawTherapee](https://www.rawtherapee.com/) [[Rawtherapee]]
+
+Editing videos: 
+
+[Edit Pastel Colours Like Teresa Freitas \| Lightroom Classic Tutorial FreePreset - YouTube](https://www.youtube.com/watch?app=desktop&v=DXfzvcI03Lg) 

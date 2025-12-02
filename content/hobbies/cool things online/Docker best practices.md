@@ -54,7 +54,7 @@ The image defined by your Dockerfile should generate containers that are as ephe
 
 Refer to [Processes](https://12factor.net/processes) under _The Twelve-factor App_ methodology to get a feel for the motivations of running containers in such a stateless fashion.
 
-Avoid installing extra or unnecessary packages just because they might be nice to have. For example, you don’t need to include a text editor in a database image.
+Avoid installing extra or unnecessary packages just because they might be nice to have. For example, you don't need to include a text editor in a database image.
 
 When you avoid installing extra or unnecessary packages, your images have reduced complexity, reduced dependencies, reduced file sizes, and reduced build times.
 
@@ -66,7 +66,7 @@ Use your best judgment to keep containers as clean and modular as possible. If c
 
 Whenever possible, sort multi-line arguments alphanumerically to make maintenance easier. This helps to avoid duplication of packages and make the list much easier to update. This also makes PRs a lot easier to read and review. Adding a space before a backslash (`\`) helps as well.
 
-Here’s an example from the [buildpack-deps image](https://github.com/docker-library/buildpack-deps):
+Here's an example from the [buildpack-deps image](https://github.com/docker-library/buildpack-deps):
 
 When building an image, Docker steps through the instructions in your Dockerfile, executing each in the order specified. For each instruction, Docker checks whether it can reuse the instruction from the build cache.
 
@@ -144,7 +144,7 @@ Docker sees the initial and modified instructions as identical and reuses the ca
 
 Using `RUN apt-get update && apt-get install -y --no-install-recommends` ensures your Dockerfile installs the latest package versions with no further coding or manual intervention. This technique is known as cache busting. You can also achieve cache busting by specifying a package version. This is known as version pinning. For example:
 
-Version pinning forces the build to retrieve a particular version regardless of what’s in the cache. This technique can also reduce failures due to unanticipated changes in required packages.
+Version pinning forces the build to retrieve a particular version regardless of what's in the cache. This technique can also reduce failures due to unanticipated changes in required packages.
 
 Below is a well-formed `RUN` instruction that demonstrates all the `apt-get` recommendations.
 
@@ -172,7 +172,7 @@ If you want the command to fail due to an error at any stage in the pipe, prepen
 
 The `CMD` instruction should be used to run the software contained in your image, along with any arguments. `CMD` should almost always be used in the form of `CMD ["executable", "param1", "param2"]`. Thus, if the image is for a service, such as Apache and Rails, you would run something like `CMD ["apache2","-DFOREGROUND"]`. Indeed, this form of the instruction is recommended for any service-based image.
 
-In most other cases, `CMD` should be given an interactive shell, such as bash, python and perl. For example, `CMD ["perl", "-de0"]`, `CMD ["python"]`, or `CMD ["php", "-a"]`. Using this form means that when you execute something like `docker run -it python`, you’ll get dropped into a usable shell, ready to go. `CMD` should rarely be used in the manner of `CMD ["param", "param"]` in conjunction with [`ENTRYPOINT`](https://docs.docker.com/reference/dockerfile/#entrypoint), unless you and your expected users are already quite familiar with how `ENTRYPOINT` works.
+In most other cases, `CMD` should be given an interactive shell, such as bash, python and perl. For example, `CMD ["perl", "-de0"]`, `CMD ["python"]`, or `CMD ["php", "-a"]`. Using this form means that when you execute something like `docker run -it python`, you'll get dropped into a usable shell, ready to go. `CMD` should rarely be used in the manner of `CMD ["param", "param"]` in conjunction with [`ENTRYPOINT`](https://docs.docker.com/reference/dockerfile/#entrypoint), unless you and your expected users are already quite familiar with how `ENTRYPOINT` works.
 
 For more information about `CMD`, see [Dockerfile reference for the CMD instruction](https://docs.docker.com/reference/dockerfile/#cmd).
 
@@ -188,7 +188,7 @@ For more information about `EXPOSE`, see [Dockerfile reference for the EXPOSE in
 
 To make new software easier to run, you can use `ENV` to update the `PATH` environment variable for the software your container installs. For example, `ENV PATH=/usr/local/nginx/bin:$PATH` ensures that `CMD ["nginx"]` just works.
 
-The `ENV` instruction is also useful for providing the required environment variables specific to services you want to containerize, such as Postgres’s `PGDATA`.
+The `ENV` instruction is also useful for providing the required environment variables specific to services you want to containerize, such as Postgres's `PGDATA`.
 
 Lastly, `ENV` can also be used to set commonly used version numbers so that version bumps are easier to maintain, as seen in the following example:
 
@@ -261,7 +261,7 @@ If a service can run without privileges, use `USER` to change to a non-root user
 > 
 > Consider an explicit UID/GID.
 > 
-> Users and groups in an image are assigned a non-deterministic UID/GID in that the "next" UID/GID is assigned regardless of image rebuilds. So, if it’s critical, you should assign an explicit UID/GID.
+> Users and groups in an image are assigned a non-deterministic UID/GID in that the "next" UID/GID is assigned regardless of image rebuilds. So, if it's critical, you should assign an explicit UID/GID.
 
 > **Note**
 > 
@@ -285,7 +285,7 @@ An `ONBUILD` command executes after the current Dockerfile build completes. `ONB
 
 A Docker build executes `ONBUILD` commands before any command in a child Dockerfile.
 
-`ONBUILD` is useful for images that are going to be built `FROM` a given image. For example, you would use `ONBUILD` for a language stack image that builds arbitrary user software written in that language within the Dockerfile, as you can see in [Ruby’s `ONBUILD` variants](https://github.com/docker-library/ruby/blob/c43fef8a60cea31eb9e7d960a076d633cb62ba8d/2.4/jessie/onbuild/Dockerfile).
+`ONBUILD` is useful for images that are going to be built `FROM` a given image. For example, you would use `ONBUILD` for a language stack image that builds arbitrary user software written in that language within the Dockerfile, as you can see in [Ruby's `ONBUILD` variants](https://github.com/docker-library/ruby/blob/c43fef8a60cea31eb9e7d960a076d633cb62ba8d/2.4/jessie/onbuild/Dockerfile).
 
 Images built with `ONBUILD` should get a separate tag. For example, `ruby:1.9-onbuild` or `ruby:2.0-onbuild`.
 

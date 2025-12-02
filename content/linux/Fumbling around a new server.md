@@ -163,7 +163,7 @@ Is a VPN.
 
 > When creating your DDNS entry for FreeDNS the only fields required are Service Type, Hostname, and Password.
 > 
-> The password is your authentication token from FreeDNS, it’s not your FreeDNS account password.
+> The password is your authentication token from FreeDNS, it's not your FreeDNS account password.
 > 
 > Login to http://freedns.afraid.org/dynamic/ and copy the “Direct URL” link for the hostname you want to update.  
 > [![2015-03-10 23_25_31](https://www.legoclan.com/wp-content/uploads/2014/10/2015-03-10-23_25_31-1024x82.png)](https://www.legoclan.com/wp-content/uploads/2014/10/2015-03-10-23_25_31.png)

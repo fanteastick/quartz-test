@@ -18,7 +18,7 @@ Immich reports available/used storage based on the storage location it is confi
 
 # Q2
 
-Correct-your current `df` output does not show a ??TB partition or filesystem mounted. Here’s what your `df` output reveals:
+Correct-your current `df` output does not show a ??TB partition or filesystem mounted. Here's what your `df` output reveals:
 
 ## What Your `df` Output Shows
 
@@ -53,7 +53,7 @@ Find the device (e.g., `/dev/sdb`, `/dev/nvme1n1`, etc.) that matches ~??TB.
 
 ## 3. Mount the Disk
 
-If it’s not mounted, you can mount it. For example:
+If it's not mounted, you can mount it. For example:
 
 `sudo mkdir /mnt/bigdisk sudo mount /dev/sdX1 /mnt/bigdisk`
 
@@ -61,7 +61,7 @@ Replace `/dev/sdX1` with the correct device name/partition.
 
 ## 4. (Optional) Format If Needed
 
-If the disk is unformatted, you’ll need to format it first (be careful, this erases all data on it):
+If the disk is unformatted, you'll need to format it first (be careful, this erases all data on it):
 
 `sudo mkfs.ext4 /dev/sdX1`
 
@@ -78,9 +78,9 @@ Update Immich's storage path to use a directory on this mounted disk (e.g., `/mn
 |No ??TB partition|Not mounted/recognized|
 |98GB partition|Where Immich is storing|
 
-If you want Immich to use the ??TB disk, you must mount it and point Immich’s storage there.
+If you want Immich to use the ??TB disk, you must mount it and point Immich's storage there.
 
-If you need step-by-step help with mounting or reconfiguring Immich, just provide the output of `lsblk` and I’ll guide you!
+If you need step-by-step help with mounting or reconfiguring Immich, just provide the output of `lsblk` and I'll guide you!
 
 Add to follow-up
 
@@ -96,7 +96,7 @@ Answer from Perplexity: [pplx.ai/share](https://www.perplexity.ai/search/pplx.ai
 
 - You have allocated only 100GB out of the ??TB to your root filesystem.
     
-- The rest of the space (about ??TB) is unallocated within LVM-it’s not assigned to any logical volume or filesystem, so it’s invisible to both the OS and Immich.
+- The rest of the space (about ??TB) is unallocated within LVM-it's not assigned to any logical volume or filesystem, so it's invisible to both the OS and Immich.
 
 ## What To Do Next
 
@@ -119,4 +119,4 @@ To make more space available to Immich (and your system), you need to extend yo
 
 ## 3. Verify
 
-After expanding, run `df -h` again. You should see your root filesystem (and thus Immich’s storage) with much more available space.
+After expanding, run `df -h` again. You should see your root filesystem (and thus Immich's storage) with much more available space.

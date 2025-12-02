@@ -23,7 +23,7 @@ pipx uninstall <pkg name>
 > [!warning] What Perplexity says about pipx
 > > **Benefits of Using pipx**
 > > 
-> > **Simplicity**: You don’t have to worry about managing multiple virtual environments manually.
+> > **Simplicity**: You don't have to worry about managing multiple virtual environments manually.
 > > 
 > > **Clean Environment**: Each application runs in its own space, reducing the risk of dependency conflicts.
 > > 

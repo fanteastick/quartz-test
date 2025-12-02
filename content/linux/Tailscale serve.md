@@ -1,11 +1,13 @@
 ---
 date created: 2025-08-26T09:48
-date modified: 2025-09-09T20:58
+date modified: 2025-11-14T16:10
+tags:
+  - tailscale
 ---
 ## Basic serve commands
 
 ```
-sudo tailscale serve --https=3420 --bg localhost:3420
+sudo tailscale serve --https=80 --bg localhost:8002
 sudo tailscale serve --https=3420 off
 
 sudo tailscale serve --bg 8002
@@ -27,6 +29,7 @@ sudo tailscale serve status
 ```
 sudo tailscale serve status | grep https | awk -F':' '{print $3}' | awk -F" \(tail" '{print $1}' | sort > serves.txt
 IFS=$'\n'; for line in $(cat serves.txt); do source te "$line"; done
+sleep 15
 IFS=$'\n'; for line in $(cat serves.txt); do source ts "$line"; done
 ```
 

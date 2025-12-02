@@ -9,7 +9,7 @@ tags:
   - slurp
 ---
 
-I've been building data systems for long enough to be skeptical of “revolutionary” claims, and I’m uncomfortable with grandiose statements like “Built for the AI Era”. Nevertheless, AI workloads have tipped us into what I'll call the Third Age of data systems, and legacy platforms can't meet the moment.
+I've been building data systems for long enough to be skeptical of “revolutionary” claims, and I'm uncomfortable with grandiose statements like “Built for the AI Era”. Nevertheless, AI workloads have tipped us into what I'll call the Third Age of data systems, and legacy platforms can't meet the moment.
 
 ## Three Eras of Data Systems
 
@@ -29,19 +29,19 @@ This is fundamentally different from the Second Age, when we optimized for human
 
 ## Symptoms of the Same Disease
 
-This architectural mismatch between Third Age needs and Second Age tools manifests in two ways that are destroying teams’ ability to ship:
+This architectural mismatch between Third Age needs and Second Age tools manifests in two ways that are destroying teams' ability to ship:
 
 First, price-performance. Your AI engineers are stuck in a Sisyphean loop: Read Parquet → Explode to Arrow (10x memory) → Convert to tensors → Cache intermediate results → (Finally) train -> Repeat. Five steps to do what should be simple: feed data to a GPU. Meanwhile, that H100 capable of consuming 4 million images per second sits idle ~70% of the time. Your even-more-expensive AI Engineer is manually shepherding each iteration (and possibly hoping for Zuck to show up with $1B).
 
 Second, security. Raw performance is only half the problem. The other half should terrify your security team. Simon Willison recently noted that [](https://simonwillison.net/2025/Jul/6/supabase-mcp-lethal-trifecta/)[Supabase's MCP connector can leak your entire database](https://simonwillison.net/2025/Jul/6/supabase-mcp-lethal-trifecta/) to anyone who can manipulate prompts.
 
-Teams need to move fast. They need to experiment, iterate, and ship. But when their foundational needs aren’t met, they duct-tape solutions together. Database credentials get passed to AI agents. S3 bucket permissions get opened too wide. Audit logs are a fiction.
+Teams need to move fast. They need to experiment, iterate, and ship. But when their foundational needs aren't met, they duct-tape solutions together. Database credentials get passed to AI agents. S3 bucket permissions get opened too wide. Audit logs are a fiction.
 
 Here's the kicker: security isn't just a compliance checkbox. It's a performance multiplier. Every hack you ship today is technical debt you'll pay 10x to fix later. Every permissions model you bypass is a multitenant feature you can't build. The same missing primitives that force performance workarounds make security nearly impossible to bolt on later.
 
 Both problems stem from the same root cause: cobbling together Second Age tools to solve Third Age problems. The tragedy isn't that teams are choosing between speed and security—it's that our infrastructure forces this false choice.
 
-## We’re Not the First to Notice
+## We're Not the First to Notice
 
 Of course, we're not the first to recognize these problems. Smart people have been trying to bridge this gap.
 
@@ -63,7 +63,7 @@ We started Spiral to take that next evolutionary step. Adapting legacy systems w
 
 First, we created [](https://vortex.dev/)[Vortex](https://vortex.dev/)—a state-of-the-art columnar file format—and donated it to the Linux Foundation. The technical validation has been overwhelmingly positive: Microsoft, Snowflake, Palantir, and other leading data companies are backing it. TUM's fabled database group just released their latest paper [](https://gienieczko.com/anyblox-paper)["Anyblox"](https://gienieczko.com/anyblox-paper), independently calling Vortex the "cutting edge" in file formats.
 
-Vortex achieves Parquet's compression ratios with 10-20x faster scans, 5-10x faster writes, and [100-200x faster random access reads (](https://bench.vortex.dev/#Random_Access)[1.5 milliseconds vs Parquet’s 200 milliseconds](https://bench.vortex.dev/#Random_Access)). Depending on the query and the engine, it is no slower, and often dramatically faster. But the real, long-term breakthrough? Vortex is designed to support decoding data directly from S3 to GPU, skipping the CPU bottleneck entirely.
+Vortex achieves Parquet's compression ratios with 10-20x faster scans, 5-10x faster writes, and [100-200x faster random access reads (](https://bench.vortex.dev/#Random_Access)[1.5 milliseconds vs Parquet's 200 milliseconds](https://bench.vortex.dev/#Random_Access)). Depending on the query and the engine, it is no slower, and often dramatically faster. But the real, long-term breakthrough? Vortex is designed to support decoding data directly from S3 to GPU, skipping the CPU bottleneck entirely.
 
 Spiral is our database built on Vortex: object store native from day one; unified governance across all data types; machine-scale throughput that actually saturates your GPUs; and one API that handles everything from tiny embeddings to massive video files. All with what we call "fearless permissioning"—move as fast as you want without compromising security, because the right primitives are built in from the ground up.[4]
 
@@ -95,7 +95,7 @@ The gap between AI leaders and laggards is widening. While some teams cobble tog
 
 We're working with design partners across computer vision, robotics, and multimodal AI. If you're spending more than 10% of your time on data infrastructure instead of model development, we should talk.
 
-I started by saying I'm skeptical of revolutionary claims. But when the revolution is already here—when your GPUs are starving and you’re drowning in data—skepticism becomes denial. The question isn't whether your infrastructure will need to evolve—it's whether you'll lead that evolution or be left behind.
+I started by saying I'm skeptical of revolutionary claims. But when the revolution is already here—when your GPUs are starving and you're drowning in data—skepticism becomes denial. The question isn't whether your infrastructure will need to evolve—it's whether you'll lead that evolution or be left behind.
 
 The future doesn't care if you're ready. But we do.
 

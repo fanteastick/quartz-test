@@ -1,6 +1,6 @@
 ---
 date created: 2024-07-23T01:10
-date modified: 2025-09-09T13:04
+date modified: 2025-11-30T18:36
 tags:
   - external
 ---
@@ -60,6 +60,8 @@ A list where I have less to say
 - [Ben James](https://www.benjames.io/) - energy guy with some great visualizations
 - [hihayk (Hayk An) · GitHub](https://github.com/hihayk) design engineer
 - [Xe Iaso](https://xeiaso.net/) blogs
+- [Dirona Around the World – Adventures on Land and Sea](https://mvdirona.com/) guy that travels
+- [GitHub → Codeberg: my experience — ISSOtm's warehouse](https://eldred.fr/blog/forge-migration/) --> how'd they get their isso to look so good?
 
 ## Just cool sites
 
@@ -70,6 +72,8 @@ A list where I have less to say
 [GitHub - mcy/mcy.github.io](https://github.com/mcy/mcy.github.io) This site has a minimap like an IDE. 
 
 [francisco san grants](https://franciscosan.org/) Grants for silly things around the city
+
+[mitxela.com](https://mitxela.com/) electronics wizard if I've ever seen one [[Electronics wizards]]
 
 ### Programming Languages
 
@@ -112,3 +116,7 @@ Three pixely-looking fonts: [Twenty-Seven Font | dafont.com](https://www.dafont.
 [Free Fonts - Awwwards](https://www.awwwards.com/awwwards/collections/free-fonts/) 
 
 Kind of like fonts - this is a TUI-styled webpage: [GitHub - internet-development/www-sacred: SRCL is an open-source React component and style repository that helps you build web applications, desktop applications, and static websites with terminal aesthetics.](https://github.com/internet-development/www-sacred) [srcl](https://www.sacred.computer/) 
+
+[Google Sans Flex - Google Fonts](https://fonts.google.com/specimen/Google+Sans+Flex) 
+
+[MD Thermochrome · Mass-Driver™](https://mass-driver.com/typefaces/md-thermochrome/)

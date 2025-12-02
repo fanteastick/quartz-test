@@ -88,7 +88,7 @@ To allow Wake-on-LAN (WOL) packets and UpSnap pings to go through the Windows fi
 
 ## 4. Additional Tips
 
-- Disable "Fast Startup" in Windows Power Options if WOL still doesn’t work after firewall configuration.
+- Disable "Fast Startup" in Windows Power Options if WOL still doesn't work after firewall configuration.
 - Confirm BIOS/UEFI WOL settings are enabled.
 - Restart your PC after applying these firewall changes.
 
@@ -133,7 +133,7 @@ Apply changes with `sudo netplan apply`
 
 ## WOL on windows laptop
 
-If your Dell laptop’s Ethernet port light turns off in sleep mode and it doesn’t respond to Wake-on-LAN (WOL), it means the network adapter is losing power during sleep — so it can’t listen for the magic packet. This behavior is common on many laptops because Windows or BIOS power-saving features disable the NIC when sleeping or on battery power.
+If your Dell laptop's Ethernet port light turns off in sleep mode and it doesn't respond to Wake-on-LAN (WOL), it means the network adapter is losing power during sleep — so it can't listen for the magic packet. This behavior is common on many laptops because Windows or BIOS power-saving features disable the NIC when sleeping or on battery power.
 
 ### 1. Keep the NIC powered during sleep
 - Open **Device Manager** → **Network Adapters** → right-click your Ethernet device → **Properties**.
@@ -163,7 +163,7 @@ When configured correctly, the Ethernet port LEDs should stay on or blink faintl
 
 ### Summary
 
-Your laptop’s NIC LEDs going dark in sleep means it’s not receiving standby power, so WOL can’t function. Turn off “Deep Sleep” in BIOS, disable all power-saving Ethernet features in Windows, and keep the AC adapter plugged in. After that, the port light should remain on and WOL over Ethernet will start working reliably.
+Your laptop's NIC LEDs going dark in sleep means it's not receiving standby power, so WOL can't function. Turn off “Deep Sleep” in BIOS, disable all power-saving Ethernet features in Windows, and keep the AC adapter plugged in. After that, the port light should remain on and WOL over Ethernet will start working reliably.
 
 > [!note]- Sources
 > [1](https://www.anyviewer.com/how-to/wol-not-working-2578.html)
@@ -198,7 +198,7 @@ Because Dell integrates most of its low-power logic under “USB Wake Support”
 - This combined setup makes your Latitude 7450 capable of waking from **sleep (S3)** using WOL, but not from full shutdown.
 
 > [!bug]- even more pplx info, which is basically a good summary of the steps
-> If your Dell Latitude 7450 still won’t respond to Wake-on-LAN (WOL) after verifying BIOS, driver, and Windows settings, the remaining culprits are almost always related to **driver power handling**, **link state management**, or **hardware power gating**.  
+> If your Dell Latitude 7450 still won't respond to Wake-on-LAN (WOL) after verifying BIOS, driver, and Windows settings, the remaining culprits are almost always related to **driver power handling**, **link state management**, or **hardware power gating**.  
 > 
 > 
 > ***
@@ -212,7 +212,7 @@ Because Dell integrates most of its low-power logic under “USB Wake Support”
 > ***
 > 
 > ### 2. Disable PCI Express Link State Power Management
-> Windows’ “Link State Power Management” can suspend PCIe buses that carry the NIC during sleep.
+> Windows' “Link State Power Management” can suspend PCIe buses that carry the NIC during sleep.
 > - Open Control Panel → Power Options → *Change plan settings* → *Change advanced power settings* → *PCI Express → Link State Power Management*.  
 > - Set **Plugged in = Off**.[3][4]
 > - Restart the laptop.
@@ -232,7 +232,7 @@ Because Dell integrates most of its low-power logic under “USB Wake Support”
 >   - “Allow this device to wake the computer” = *checked*  
 >   - “Only allow a magic packet to wake the computer” = *checked*  
 > 
-> If these don’t show, reinstall Dell’s custom NIC driver package.
+> If these don't show, reinstall Dell's custom NIC driver package.
 > 
 > ***
 > 
@@ -247,12 +247,12 @@ Because Dell integrates most of its low-power logic under “USB Wake Support”
 > ***
 > 
 > ### 5. Avoid Dell monitor RJ45 adapters or docks
-> If you’re testing through a **Dell dock or monitor’s RJ45 port**, such as a Dell U3425WE or WD19, the embedded network controller may not forward WOL packets when the system sleeps. Connect the Ethernet cable directly to the laptop’s NIC instead. Dell confirmed this as a known cause in Windows 11.[1]
+> If you're testing through a **Dell dock or monitor's RJ45 port**, such as a Dell U3425WE or WD19, the embedded network controller may not forward WOL packets when the system sleeps. Connect the Ethernet cable directly to the laptop's NIC instead. Dell confirmed this as a known cause in Windows 11.[1]
 > 
 > ***
 > 
 > ### 6. Test wake while laptop is in S3 vs Hibernate
-> Windows 11 and some Dell firmware don’t permit WOL from hibernate (S4) or Modern Standby (S0ix).  
+> Windows 11 and some Dell firmware don't permit WOL from hibernate (S4) or Modern Standby (S0ix).  
 > Try explicitly putting the laptop into **S3 Sleep** with:
 > ```bash
 > powercfg /hibernate off

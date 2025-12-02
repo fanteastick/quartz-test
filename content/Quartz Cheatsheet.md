@@ -1,6 +1,6 @@
 ---
 date created: 2024-06-06T22:54
-date modified: 2025-07-30T00:06
+date modified: 2025-11-11T20:47
 ---
 ## Git commands to update content
 
@@ -244,5 +244,11 @@ Easy flow:
 
 ![[About rsync#Example rsync for quartz]]
 
-#
+## Removing special apostrophes
 
+Reasoning - the latex engine throws a warning because that apostrophe is kind of unsupported.
+
+```bash
+find . -type f -name "*.md" -exec sed -i "s/’/'/g" {} +
+```
+#

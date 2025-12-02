@@ -7,8 +7,9 @@ tags:
   - "#tracker"
 title: All files chronologically modified
 date created: 2024-07-20T22:16
-date modified: 2025-10-26T17:49
+date modified: 2025-11-30T23:18
 ---
+## Instructions
 
 Table below made with the help of [Dataview](https://blacksmithgu.github.io/obsidian-dataview/) and [Obsidian Dataview Serializer](https://github.com/dsebastien/obsidian-dataview-serializer). The query:
 
@@ -37,39 +38,68 @@ Some hidden tags: anything with "exclude" basically
 
 | File                                                                                                                                      | Folder                     | Modified     |
 | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- | ------------ |
-| [[tbd/Timetagger hacking.md\|Timetagger hacking]]                                                                                         | tbd                        | Nov 7, 2025  |
+| [[tbd/Bookbinder usage.md\|Bookbinder usage]]                                                                                             | tbd                        | Dec 1, 2025  |
+| [[tbd/Enable 2 sided printing on windows.md\|Enable 2 sided printing on windows]]                                                         | tbd                        | Dec 1, 2025  |
+| [[linux/New server setup.md\|New server setup]]                                                                                           | linux                      | Nov 30, 2025 |
+| [[tbd/academic portfolio website templates.md\|academic portfolio website templates]]                                                     | tbd                        | Nov 30, 2025 |
+| [[hobbies/Really good webtoons.md\|Really good webtoons]]                                                                                 | hobbies                    | Nov 30, 2025 |
+| [[chips/Electronics wizards.md\|Electronics wizards]]                                                                                     | chips                      | Nov 30, 2025 |
+| [[Misc Tutorials.md\|Misc Tutorials]]                                                                                                     |                            | Nov 30, 2025 |
+| [[Cool other websites.md\|Cool other websites]]                                                                                           |                            | Nov 30, 2025 |
+| [[tbd/Mind workouts.md\|Mind workouts]]                                                                                                   | tbd                        | Nov 30, 2025 |
+| [[thoughts/Questions worth remembering.md\|Questions worth remembering]]                                                                  | thoughts                   | Nov 28, 2025 |
+| [[chips/GPUs/GPU resources.md\|GPU resources]]                                                                                            | chips/GPUs                 | Nov 26, 2025 |
+| [[chips/Virtuoso shortcuts.md\|Virtuoso shortcuts]]                                                                                       | chips                      | Nov 25, 2025 |
+| [[linux/My first ever raspberry pi!!!.md\|My first ever raspberry pi!!!]]                                                                 | linux                      | Nov 25, 2025 |
+| [[linux/Ideas for what one can do with a home server.md\|Ideas for what one can do with a home server]]                                   | linux                      | Nov 25, 2025 |
+| [[thoughts/Arguing for local AI.md\|Arguing for local AI]]                                                                                | thoughts                   | Nov 23, 2025 |
+| [[tbd/Blender tutorials.md\|Blender tutorials]]                                                                                           | tbd                        | Nov 23, 2025 |
+| [[thoughts/Lifetime regrets.md\|Lifetime regrets]]                                                                                        | thoughts                   | Nov 23, 2025 |
+| [[tbd/Ads culture.md\|Ads culture]]                                                                                                       | tbd                        | Nov 23, 2025 |
+| [[linux/Home networking concepts learned through Pi.md\|Home networking concepts learned through Pi]]                                     | linux                      | Nov 22, 2025 |
+| [[tbd/NFL combine.md\|NFL combine]]                                                                                                       | tbd                        | Nov 22, 2025 |
+| [[thoughts/Dr Bronner's 18 in 1 soap.md\|Dr Bronner's 18 in 1 soap]]                                                                      | thoughts                   | Nov 22, 2025 |
+| [[tbd/Math XP.md\|Math XP]]                                                                                                               | tbd                        | Nov 20, 2025 |
+| [[chips/CMOS VLSI Design Resources.md\|CMOS VLSI Design Resources]]                                                                       | chips                      | Nov 20, 2025 |
+| [[linux/Tailscale serve.md\|Tailscale serve]]                                                                                             | linux                      | Nov 14, 2025 |
+| [[tbd/Timetagger hacking.md\|Timetagger hacking]]                                                                                         | tbd                        | Nov 14, 2025 |
+| [[Uses.md\|Uses]]                                                                                                                         |                            | Nov 14, 2025 |
+| [[rgb/Force windows to prefer ipv4.md\|Force windows to prefer ipv4]]                                                                     | rgb                        | Nov 13, 2025 |
+| [[Quartz Cheatsheet.md\|Quartz Cheatsheet]]                                                                                               |                            | Nov 11, 2025 |
+| [[web/Paper-displaying website.md\|Paper-displaying website]]                                                                             | web                        | Nov 11, 2025 |
+| [[chips/Robotics Resources.md\|Robotics Resources]]                                                                                       | chips                      | Nov 11, 2025 |
+| [[hobbies/Beautiful buildings.md\|Beautiful buildings]]                                                                                   | hobbies                    | Nov 10, 2025 |
+| [[tbd/Dockerize anything.md\|Dockerize anything]]                                                                                         | tbd                        | Nov 10, 2025 |
+| [[tbd/Inventory management dump.md\|Inventory management dump]]                                                                           | tbd                        | Nov 10, 2025 |
+| [[mac/Mac setup notes.md\|Mac setup notes]]                                                                                               | mac                        | Nov 10, 2025 |
+| [[Goals and progress in 2025.md\|Goals and progress in 2025]]                                                                             |                            | Nov 9, 2025  |
+| [[mac/Safari export all pages.md\|Safari export all pages]]                                                                               | mac                        | Nov 9, 2025  |
+| [[linux/Kanban board dump.md\|Kanban board dump]]                                                                                         | linux                      | Nov 8, 2025  |
+| [[web/Collecting MIT OCW.md\|Collecting MIT OCW]]                                                                                         | web                        | Nov 8, 2025  |
+| [[chips/RTOS Resources.md\|RTOS Resources]]                                                                                               | chips                      | Nov 8, 2025  |
+| [[linux/About rsync.md\|About rsync]]                                                                                                     | linux                      | Nov 7, 2025  |
 | [[linux/Wake on Lan.md\|Wake on Lan]]                                                                                                     | linux                      | Nov 7, 2025  |
 | [[linux/Self-hosting on a Pi.md\|Self-hosting on a Pi]]                                                                                   | linux                      | Nov 7, 2025  |
 | [[tbd/Time tracking services.md\|Time tracking services]]                                                                                 | tbd                        | Nov 7, 2025  |
-| [[linux/Ideas for what one can do with a home server.md\|Ideas for what one can do with a home server]]                                   | linux                      | Nov 7, 2025  |
-| [[linux/Kanban board dump.md\|Kanban board dump]]                                                                                         | linux                      | Nov 7, 2025  |
 | [[tbd/tmux reference.md\|tmux reference]]                                                                                                 | tbd                        | Nov 6, 2025  |
 | [[hobbies/Squad Busters by Supercell.md\|Squad Busters by Supercell]]                                                                     | hobbies                    | Nov 5, 2025  |
 | [[rgb/Parsec.md\|Parsec]]                                                                                                                 | rgb                        | Nov 2, 2025  |
 | [[Quartz Snippets.md\|Quartz Snippets]]                                                                                                   |                            | Oct 29, 2025 |
 | [[chips/Various areas or fields or categories or.md\|Various areas or fields or categories or]]                                           | chips                      | Oct 27, 2025 |
-| [[chips/CMOS VLSI Design Resources.md\|CMOS VLSI Design Resources]]                                                                       | chips                      | Oct 27, 2025 |
-| [[Wishlist.md\|Wishlist]]                                                                                                                 |                            | Oct 27, 2025 |
 | [[hobbies/darktable.md\|darktable]]                                                                                                       | hobbies                    | Oct 26, 2025 |
 | [[tbd/Anki everything.md\|Anki everything]]                                                                                               | tbd                        | Oct 25, 2025 |
 | [[tbd/Kindle jailbreaking.md\|Kindle jailbreaking]]                                                                                       | tbd                        | Oct 24, 2025 |
-| [[chips/Electronics wizards.md\|Electronics wizards]]                                                                                     | chips                      | Oct 23, 2025 |
 | [[tbd/Financial literacy.md\|Financial literacy]]                                                                                         | tbd                        | Oct 21, 2025 |
-| [[linux/New server setup.md\|New server setup]]                                                                                           | linux                      | Oct 19, 2025 |
 | [[meta/Subtitles tracker.md\|Subtitles tracker]]                                                                                          | meta                       | Oct 19, 2025 |
-| [[Goals and progress in 2025.md\|Goals and progress in 2025]]                                                                             |                            | Oct 19, 2025 |
 | [[hobbies/Tailoring and Sewing.md\|Tailoring and Sewing]]                                                                                 | hobbies                    | Oct 19, 2025 |
 | [[rgb/Memory debugging.md\|Memory debugging]]                                                                                             | rgb                        | Oct 19, 2025 |
 | [[thoughts/Party-worthy occasions.md\|Party-worthy occasions]]                                                                            | thoughts                   | Oct 19, 2025 |
 | [[rgb/New windows installation media.md\|New windows installation media]]                                                                 | rgb                        | Oct 19, 2025 |
 | [[rgb/Disk wiping.md\|Disk wiping]]                                                                                                       | rgb                        | Oct 17, 2025 |
 | [[meta/Permalinks tracker.md\|Permalinks tracker]]                                                                                        | meta                       | Sep 26, 2025 |
-| [[tbd/Dockerize anything.md\|Dockerize anything]]                                                                                         | tbd                        | Sep 12, 2025 |
 | [[linux/Minecraft CraftyController.md\|Minecraft CraftyController]]                                                                       | linux                      | Sep 10, 2025 |
 | [[linux/bore pub as a service server.md\|bore pub as a service server]]                                                                   | linux                      | Sep 10, 2025 |
 | [[tbd/Changedetection.md\|Changedetection]]                                                                                               | tbd                        | Sep 9, 2025  |
-| [[linux/Tailscale serve.md\|Tailscale serve]]                                                                                             | linux                      | Sep 9, 2025  |
-| [[Cool other websites.md\|Cool other websites]]                                                                                           |                            | Sep 9, 2025  |
 | [[linux/Ssh keygen stuff.md\|Ssh keygen stuff]]                                                                                           | linux                      | Sep 9, 2025  |
 | [[linux/Fumbling around a new server.md\|Fumbling around a new server]]                                                                   | linux                      | Sep 7, 2025  |
 | [[linux/Minecraft mega docker image.md\|Minecraft mega docker image]]                                                                     | linux                      | Sep 7, 2025  |
@@ -77,7 +107,6 @@ Some hidden tags: anything with "exclude" basically
 | [[linux/Copyparty.md\|Copyparty]]                                                                                                         | linux                      | Aug 30, 2025 |
 | [[tbd/Filters to put on your images so that AI can't gen-ai them.md\|Filters to put on your images so that AI can't gen-ai them]]         | tbd                        | Aug 29, 2025 |
 | [[thoughts/Obsidian Plugin Wishlist.md\|Obsidian Plugin Wishlist]]                                                                        | thoughts                   | Aug 29, 2025 |
-| [[Tutorials.md\|Tutorials]]                                                                                                               |                            | Aug 29, 2025 |
 | [[tbd/Email through a custom domain.md\|Email through a custom domain]]                                                                   | tbd                        | Aug 29, 2025 |
 | [[meta/Code tester.md\|Code tester]]                                                                                                      | meta                       | Aug 28, 2025 |
 | [[tbd/Git mirrors.md\|Git mirrors]]                                                                                                       | tbd                        | Aug 28, 2025 |
@@ -85,22 +114,18 @@ Some hidden tags: anything with "exclude" basically
 | [[rgb/Password encrypted file.md\|Password encrypted file]]                                                                               | rgb                        | Aug 28, 2025 |
 | [[hobbies/cool things online/PySkyWiFi - Robert Heaton.md\|PySkyWiFi - Robert Heaton]]                                                    | hobbies/cool things online | Aug 28, 2025 |
 | [[hobbies/Crocheting.md\|Crocheting]]                                                                                                     | hobbies                    | Aug 27, 2025 |
-| [[linux/Home networking concepts learned through Pi.md\|Home networking concepts learned through Pi]]                                     | linux                      | Aug 27, 2025 |
 | [[tbd/Bases.md\|Bases]]                                                                                                                   | tbd                        | Aug 27, 2025 |
 | [[rgb/Enable hibernate in Windows 11.md\|Enable hibernate in Windows 11]]                                                                 | rgb                        | Aug 25, 2025 |
 | [[thoughts/Disclaimers, License, Legalese.md\|Disclaimers, License, Legalese]]                                                            | thoughts                   | Aug 14, 2025 |
 | [[thoughts/Not Financial Advice.md\|Not Financial Advice]]                                                                                | thoughts                   | Aug 13, 2025 |
 | [[tbd/Useful punctuation.md\|Useful punctuation]]                                                                                         | tbd                        | Aug 11, 2025 |
 | [[thoughts/Shopping Accounts.md\|Shopping Accounts]]                                                                                      | thoughts                   | Aug 11, 2025 |
-| [[linux/mkcert.md\|mkcert]]                                                                                                               | linux                      | Aug 5, 2025  |
 | [[hobbies/Battle of Koeshin.md\|Battle of Koeshin]]                                                                                       | hobbies                    | Jul 30, 2025 |
 | [[hobbies/Zelda BOTW.md\|Zelda BOTW]]                                                                                                     | hobbies                    | Jul 30, 2025 |
 | [[hobbies/book club/My Year of Rest and Relaxation.md\|My Year of Rest and Relaxation]]                                                   | hobbies/book club          | Jul 30, 2025 |
 | [[hobbies/book club/The Bandit Queens.md\|The Bandit Queens]]                                                                             | hobbies/book club          | Jul 30, 2025 |
 | [[chips/GPUs/Comparing GPUs.md\|Comparing GPUs]]                                                                                          | chips/GPUs                 | Jul 30, 2025 |
 | [[thoughts/Real or AI.md\|Real or AI]]                                                                                                    | thoughts                   | Jul 30, 2025 |
-| [[Quartz Cheatsheet.md\|Quartz Cheatsheet]]                                                                                               |                            | Jul 30, 2025 |
-| [[linux/About rsync.md\|About rsync]]                                                                                                     | linux                      | Jul 30, 2025 |
 | [[hobbies/Pokemon Scarlet.md\|Pokemon Scarlet]]                                                                                           | hobbies                    | Jul 29, 2025 |
 | [[hobbies/Super Mario Bros Wonder.md\|Super Mario Bros Wonder]]                                                                           | hobbies                    | Jul 29, 2025 |
 | [[web/Webrings.md\|Webrings]]                                                                                                             | web                        | Jul 29, 2025 |
@@ -111,7 +136,6 @@ Some hidden tags: anything with "exclude" basically
 | [[rgb/Setting up Github.md\|Setting up Github]]                                                                                           | rgb                        | Jul 14, 2025 |
 | [[hobbies/Canon 5D mk iii.md\|Canon 5D mk iii]]                                                                                           | hobbies                    | Jul 11, 2025 |
 | [[thoughts/Good habits around electronics.md\|Good habits around electronics]]                                                            | thoughts                   | Jul 7, 2025  |
-| [[tbd/Bookbinder usage.md\|Bookbinder usage]]                                                                                             | tbd                        | Jul 7, 2025  |
 | [[Quartz customization log.md\|Quartz customization log]]                                                                                 |                            | Jul 3, 2025  |
 | [[linux/Docker and Portainer FAQs.md\|Docker and Portainer FAQs]]                                                                         | linux                      | Jul 2, 2025  |
 | [[thoughts/Online presence and identity.md\|Online presence and identity]]                                                                | thoughts                   | Jun 25, 2025 |
@@ -125,7 +149,6 @@ Some hidden tags: anything with "exclude" basically
 | [[linux/VPS ufw config.md\|VPS ufw config]]                                                                                               | linux                      | May 1, 2025  |
 | [[linux/Isso link dump.md\|Isso link dump]]                                                                                               | linux                      | May 1, 2025  |
 | [[linux/IPtables and such for exposed docker ports.md\|IPtables and such for exposed docker ports]]                                       | linux                      | Apr 30, 2025 |
-| [[Uses.md\|Uses]]                                                                                                                         |                            | Apr 28, 2025 |
 | [[rgb/Ollama.md\|Ollama]]                                                                                                                 | rgb                        | Apr 25, 2025 |
 | [[linux/nginx workflow.md\|nginx workflow]]                                                                                               | linux                      | Apr 24, 2025 |
 | [[thoughts/how I use GPTs.md\|how I use GPTs]]                                                                                            | thoughts                   | Apr 23, 2025 |
@@ -153,7 +176,6 @@ Some hidden tags: anything with "exclude" basically
 | [[meta/Upgrading to quartz 4.5.md\|Upgrading to quartz 4.5]]                                                                              | meta                       | Mar 18, 2025 |
 | [[meta/passphrase encrypted page.md\|passphrase encrypted page]]                                                                          | meta                       | Mar 18, 2025 |
 | [[tbd/ACTUAL guide to a now playing widget.md\|ACTUAL guide to a now playing widget]]                                                     | tbd                        | Mar 18, 2025 |
-| [[linux/My first ever raspberry pi!!!.md\|My first ever raspberry pi!!!]]                                                                 | linux                      | Mar 18, 2025 |
 | [[meta/Dataview reference.md\|Dataview reference]]                                                                                        | meta                       | Mar 13, 2025 |
 | [[meta/password locked page.md\|password locked page]]                                                                                    | meta                       | Mar 6, 2025  |
 | [[hobbies/cool things online/Other digital garden platforms.md\|Other digital garden platforms]]                                          | hobbies/cool things online | Mar 6, 2025  |
@@ -183,7 +205,6 @@ Some hidden tags: anything with "exclude" basically
 | [[thoughts/Avoiding getting doxxed.md\|Avoiding getting doxxed]]                                                                          | thoughts                   | Jan 3, 2025  |
 | [[rgb/Custom domains.md\|Custom domains]]                                                                                                 | rgb                        | Jan 3, 2025  |
 | [[web/create cname for subdomain.md\|create cname for subdomain]]                                                                         | web                        | Jan 2, 2025  |
-| [[mac/Mac setup notes.md\|Mac setup notes]]                                                                                               | mac                        | Jan 2, 2025  |
 | [[mac/colima.md\|colima]]                                                                                                                 | mac                        | Jan 2, 2025  |
 | [[thoughts/Reasons why I do not like OneNote (2020-2021).md\|Reasons why I do not like OneNote (2020-2021)]]                              | thoughts                   | Dec 17, 2024 |
 | [[thoughts/Log - how 2024 went.md\|Log - how 2024 went]]                                                                                  | thoughts                   | Dec 17, 2024 |

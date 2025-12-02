@@ -56,7 +56,7 @@ Here are detailed steps to set up sending email from your domain using Gmail SMT
 2. **Create a Gmail App Password for Mail**
     - Go to your Google Account > Security > App passwords.
     - Select "Mail" as the app and your device/computer as the device.
-    - Click Generate and copy the generated password (you’ll use this instead of your regular Google password later).
+    - Click Generate and copy the generated password (you'll use this instead of your regular Google password later).
 3. **Add Your Domain Email Address to Gmail as a 'Send mail as' Address**
     - In Gmail, click the Settings gear icon > See all settings > Accounts and Import tab.
     - Find "Send mail as," then click "Add another email address."
@@ -79,7 +79,7 @@ Here are detailed steps to set up sending email from your domain using Gmail SMT
 **Important Notes:**
 - Cloudflare Email Routing only receives and forwards incoming mail to your Gmail or other destination inbox.
 - Sending is handled via Gmail SMTP using the steps above.
-- This method avoids self-hosting mail servers and leverages Gmail’s reliable SMTP.
+- This method avoids self-hosting mail servers and leverages Gmail's reliable SMTP.
 - Your origin email (the Gmail account receiving mail) is technically known because forwarded emails come there.
 - DNS MX and TXT records for your domain must be properly set in Cloudflare for Email Routing functionality.
 This is a secure and convenient setup commonly used to send and receive mail using a custom domain without hosting email servers.

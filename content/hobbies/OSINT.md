@@ -22,7 +22,7 @@ Information versus Intelligence
 
 It's important to note that information does not equal intelligence. Without giving meaning to the data we collect, open-source findings are considered raw data. It is only once this information is looked at from a critical thinking mindset and analyzed that it becomes intelligence.
 
-For instance, conducting OSINT is not simply saving someone’s Facebook friends list. It’s about finding meaningful information that is applicable to the intelligence question and being able to provide actionable intelligence in support of an investigation. Another way to look at it is to answer, “why does this data matter” and provide meaningful intelligence about the data collected.
+For instance, conducting OSINT is not simply saving someone's Facebook friends list. It's about finding meaningful information that is applicable to the intelligence question and being able to provide actionable intelligence in support of an investigation. Another way to look at it is to answer, “why does this data matter” and provide meaningful intelligence about the data collected.
 
 Open-source information is content that can be found from various sources such as:
 

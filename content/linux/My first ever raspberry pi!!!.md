@@ -1,6 +1,6 @@
 ---
 date created: 2024-11-19T20:48
-date modified: 2025-03-18T11:25
+date modified: 2025-11-25T18:08
 tags:
   - pi
 ---
@@ -37,6 +37,10 @@ If it errors out, you can just keep trying again. Re-downloading the OS on the S
 ## Did you know that you should probably switch your pi from SD to an SSD?
 
 Apparently an SD card is bad at frequent read-writes. I got a SATA SSD hat and plugged it into one of my many  SSDs on hand. Anyone want one, by the way?
+
+[Radxa's SATA HAT makes compact Pi 5 NAS \| Jeff Geerling](https://www.jeffgeerling.com/blog/2024/radxas-sata-hat-makes-compact-pi-5-nas) 
+
+- SATA HATs for a Pi NAS: [Radxa Penta SATA HAT](https://radxa.com/products/accessories/penta-sata-hat/)
 
 ## Related
 

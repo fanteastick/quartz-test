@@ -1,6 +1,6 @@
 ---
 date created: 2025-11-03T23:22
-date modified: 2025-11-07T18:25
+date modified: 2025-11-14T14:37
 ---
 
 First time vibe coding! understanding a codebase is too hard.
@@ -39,3 +39,7 @@ Records are accessed through window.store.records (get_records, get_running_reco
 Visuals (FONT, COLORS, SMALLER) are centralized and the AnalyticsWidget aggregates stats into animated bars, keeping intermediate state to animate changes and limit work to what is visible.
 
 Sorry, the license says I need to share under the same license;... I swear I'll fork it and make it public soon. 
+
+## Misc - preferred pdfextend params
+
+`pdfextend in.pdf out.pdf --right=160 --bottom=100 --spacing=6 --line-width=0.5 --unit=mm --grid=dots --color=#7a9ed4`

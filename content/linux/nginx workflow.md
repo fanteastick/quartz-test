@@ -43,7 +43,7 @@ sudo ln -s /etc/nginx/sites-available/newsite.example.com /etc/nginx/sites-enabl
 
 Instructions: Using Certbot to Secure Nginx with SSL
 
-Follow these steps to obtain and install a free SSL certificate from Let’s Encrypt for your Nginx site using Certbot. This workflow will automatically configure your Nginx server blocks for HTTPS and set up automatic renewals.
+Follow these steps to obtain and install a free SSL certificate from Let's Encrypt for your Nginx site using Certbot. This workflow will automatically configure your Nginx server blocks for HTTPS and set up automatic renewals.
 
 1. Install Certbot and the Nginx Plugin
 

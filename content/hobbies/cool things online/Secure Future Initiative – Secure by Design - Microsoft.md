@@ -8,7 +8,7 @@ tags:
   - slurp
 ---
 
-Three principles anchor our approach to the SFI. We’re continuously applying what we’ve learned from incidents to improve our methods and practices, ensuring that security is paramount in everything we create and provide.
+Three principles anchor our approach to the SFI. We're continuously applying what we've learned from incidents to improve our methods and practices, ensuring that security is paramount in everything we create and provide.
 
 ### Secure by design
 
@@ -16,7 +16,7 @@ Security comes first when designing any product or service.
 
 ### Secure by default
 
-Security protections are enabled and enforced by default, require no extra effort, and aren’t optional.
+Security protections are enabled and enforced by default, require no extra effort, and aren't optional.
 
 ### Secure operations
 

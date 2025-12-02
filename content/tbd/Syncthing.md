@@ -4,7 +4,7 @@ date modified: 2025-08-29T11:23
 draft: "true"
 ---
 
-Documentation: [Welcome to Syncthing’s documentation! — Syncthing documentation](https://docs.syncthing.net/) 
+Documentation: [Welcome to Syncthing's documentation! — Syncthing documentation](https://docs.syncthing.net/) 
 
 [Best practices for git repositories within a Syncthing folder? : r/Syncthing](https://www.reddit.com/r/Syncthing/comments/a3nn4n/best_practices_for_git_repositories_within_a/)
 

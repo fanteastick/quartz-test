@@ -12,18 +12,18 @@ Best app for [[spaced repetition]] and trusted by aspiring doctors everywhere.
 ## Thanks perplexity
 > [!web]- From the web
 > 
-> In the **Anki Windows app**, there is currently no option in the main user interface to set a custom sync server. To sync with a self-hosted server, a small code change is needed: place a Python file (addon) in the Anki add-ons folder to specify the address of the self-hosted server. Here’s how:
+> In the **Anki Windows app**, there is currently no option in the main user interface to set a custom sync server. To sync with a self-hosted server, a small code change is needed: place a Python file (addon) in the Anki add-ons folder to specify the address of the self-hosted server. Here's how:
 > 
 > ## Steps to Use a Custom Sync Server
 > 
 > - Create a file named `mysyncserver.py` in the `Anki/addons` folder.
-> - Add the following code to the file, replacing the address with your server’s actual URL:
+> - Add the following code to the file, replacing the address with your server's actual URL:
 >   ```python
 >   import anki.sync
 >   anki.sync.SYNC_BASE = 'http://your.server.address:port/'
 >   anki.sync.SYNC_MEDIA_BASE = 'http://your.server.address:port/msync/'
 >   ```
-> - Restart Anki, then use your server’s local credentials when syncing. The Windows client will now communicate with your own server, not AnkiWeb.[2]
+> - Restart Anki, then use your server's local credentials when syncing. The Windows client will now communicate with your own server, not AnkiWeb.[2]
 > - If using TLS, additional lines for certificate paths are required.[2]
 > 
 > ## Notes

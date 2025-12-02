@@ -11,7 +11,7 @@ I saw a twitter thread where people datamined out some dude (JiaT75 of the [XZ U
 
 Related: [[OSINT]] and personal opsec
 
-Useful: [Hitchhiker’s Guide](https://anonymousplanet.org/) [Practical Privacy: Find privacy tools and options, make a plan, contain yourself.](https://disint.org/main.html) [Surveillance Self-Defense](https://ssd.eff.org/) 
+Useful: [Hitchhiker's Guide](https://anonymousplanet.org/) [Practical Privacy: Find privacy tools and options, make a plan, contain yourself.](https://disint.org/main.html) [Surveillance Self-Defense](https://ssd.eff.org/) 
 
 ## Avoid giving these things when browsing online
 

@@ -1,6 +1,6 @@
 ---
 date created: 2025-09-28T23:15
-date modified: 2025-10-27T21:52
+date modified: 2025-11-20T00:03
 tags:
   - resourceland
 ---
@@ -30,3 +30,11 @@ Stuff by Dr. Rajeev Pandey [Home](https://rajeev2007.github.io/)
 [Digital VLSI System Design - 525.658 \| Hopkins EP Online](https://ep.jhu.edu/courses/525658-digital-vlsi-system-design/) 
 
 [ECE 546 VLSI Design Systems \| Engineering Online](https://engineeringonline.ncsu.edu/online-courses/spring-2023/ece-546-vlsi-design-systems/)
+
+--- 
+
+## Reference
+
+[princeton.edu/\~nverma/cadenceSetup\_6.1.7/gpdk090\_v4.4/docs/gpdk090\_DRM.pdf](https://www.princeton.edu/~nverma/cadenceSetup_6.1.7/gpdk090_v4.4/docs/gpdk090_DRM.pdf)
+
+[EE4321-VLSI CIRCUITS : Cadence' Virtuoso Layout Information](https://www.bioee.ee.columbia.edu/courses/cad/html/layout.html) 

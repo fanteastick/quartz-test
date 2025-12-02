@@ -1,6 +1,6 @@
 ---
 date created: 2025-02-03T22:03
-date modified: 2025-09-28T23:11
+date modified: 2025-11-25T18:30
 tags:
   - recents-exclude
   - external
@@ -10,6 +10,18 @@ draft: "true"
 In reverse chronological order, so the most recent will be at the top. 
 
 ## Other stuff
+
+[Read Something Wonderful (about Biology)](https://read.asimov.com/)
+
+[OSINT newsletter](https://osintnewsletter.com/)
+
+[Introduction - mux docs](https://cmux.io/) [GitHub - coder/mux: A desktop app for isolated, parallel agentic development](https://github.com/coder/mux) 
+
+[Introduction \| Wails](https://wails.io/docs/introduction) Write desktop app with Go
+
+[The Moment (2026 film) - Wikipedia](https://en.wikipedia.org/wiki/The_Moment_(2026_film)) 
+
+[Baudrillard's Obscenity on JSTOR](https://www.jstor.org/stable/4240087)
 
 [Polymarket Historical Accuracy and Bias](https://dune.com/alexmccullough/how-accurate-is-polymarket) 
 
@@ -25,7 +37,7 @@ Notetaking software: [NotesHub - Cross-platform, Markdown-based note-taking app]
 
 [Claude can now create and use files \\ Anthropic](https://www.anthropic.com/news/create-files) 
 
-[NASA finds Titan’s alien lakes may be creating primitive cells \| ScienceDaily](https://www.sciencedaily.com/releases/2025/08/250831112449.htm)
+[NASA finds Titan's alien lakes may be creating primitive cells \| ScienceDaily](https://www.sciencedaily.com/releases/2025/08/250831112449.htm)
 
 [E-Paper Display Refresh Rate Reaches New Heights - IEEE Spectrum](https://spectrum.ieee.org/e-paper-display-modos)
 
@@ -113,7 +125,7 @@ Attention is all you need paper --> put it into Research by unms [ASIC Design: A
 
 [Open Heart Protocol](https://openheart.fyi/#pretzel)
 
-[Maxjourney: Pushing Discord’s Limits with a Million+ Online Users in a Single Server](https://discord.com/blog/maxjourney-pushing-discords-limits-with-a-million-plus-online-users-in-a-single-server#2)
+[Maxjourney: Pushing Discord's Limits with a Million+ Online Users in a Single Server](https://discord.com/blog/maxjourney-pushing-discords-limits-with-a-million-plus-online-users-in-a-single-server#2)
 
 [Feynman's Nobel Ambition](https://www.asc.ohio-state.edu/kilcup.1//262/feynman.html)
 
@@ -145,7 +157,7 @@ Another show: [The Great (TV series) - Wikipedia](https://en.m.wikipedia.org/wik
 
 [Notion Faces](https://faces.notion.com/)
 
-[Caltech’s Core Problem - The California Tech](https://tech.caltech.edu/2024/02/06/caltech-core-problem/)
+[Caltech's Core Problem - The California Tech](https://tech.caltech.edu/2024/02/06/caltech-core-problem/)
 
 [Donald J. Trump - CivicTracker](https://civictracker.us/executive/member/?uuid=3094abf7-4a95-4b8d-8c8d-af7d1c3747a1)
 
@@ -173,7 +185,7 @@ cool quartz things: [GitHub - dvdmtw98/tracker: Repository to store books, shows
 
 [GitHub - Arman19941113/dnd-resume: 🚀 Resume Builder 在线简历生成工具](https://github.com/Arman19941113/dnd-resume)
 
-[Expertium’s Blog \| Spaced repetition stuff](https://expertium.github.io/)
+[Expertium's Blog \| Spaced repetition stuff](https://expertium.github.io/)
 
 [ipcz bug can allow renderer duplicate browser process handle to escape sandbox 412578726 - Chromium](https://issues.chromium.org/issues/412578726) 
 
@@ -191,7 +203,7 @@ Figma filing [Figma-S-1/A](https://www.sec.gov/Archives/edgar/data/1579878/00016
 
 Web rendery things:  [Astro spaceship Introduction](https://aitorllamas.com/astro-theme-spaceship/introduction/introduction) [Hosting Outline](https://docs.getoutline.com/s/hosting/) [BookStack](https://www.bookstackapp.com/) https://tandoor.dev/ https://www.olivetin.app/ [How We Self-Hosted An App for $2/Month Using an M1 Mac Mini](https://lab.workhub.so/running-your-app-on-pocket-change/)  [good-karma-kit \| 😇 A Docker Compose bundle to run on servers with spare CPU, RAM, disk, and bandwidth to help the world. Includes Tor, ArchiveWarrior, BOINC, and more…](https://archivebox.github.io/good-karma-kit/) [Smallweb – Your Internet Folder \| Smallweb](https://www.smallweb.run/) 
 
-[Google’s best AI tools for college students for free](https://blog.google/products/gemini/google-ai-pro-students-learning/?utm_source=google&utm_medium=institutions&utm_campaign=sou--google__med--blog__cam--2025-ai-for-students__geo--US__con--hpp__ai-for-students-blog)
+[Google's best AI tools for college students for free](https://blog.google/products/gemini/google-ai-pro-students-learning/?utm_source=google&utm_medium=institutions&utm_campaign=sou--google__med--blog__cam--2025-ai-for-students__geo--US__con--hpp__ai-for-students-blog)
 
 Maui: https://www.dukesmaui.com/ https://www.mauireefs.org/Snorkel/
 
@@ -315,9 +327,7 @@ Amazon glacier storage [Amazon S3 Glacier storage classes](https://aws.amazon.co
 
 [HyperCard - The Whole Code Catalog](https://futureofcoding.org/catalog/hypercard.html)
 
-cutesy app [one year: countdown widget on the App Store](https://apps.apple.com/us/app/one-year-countdown-widget/id6740510762)
-
-![[coolness backlog_image_1.png|400]]
+cutesy app [one year: countdown widget on the App Store](https://apps.apple.com/us/app/one-year-countdown-widget/id6740510762) sdfasdfa
 
 Best youtube downloader: cobalt [about / what's cobalt? \~ cobalt](https://cobalt.tools/about/general) 
 
@@ -454,3 +464,37 @@ Apps: [MIST - A Little Speech Toy ](https://apps.apple.com/us/app/mist-a-little-
 [CSS Trick – Customized Dashed or Dotted Border](https://kovart.github.io/dashed-border-generator/) 
 
 [Visualization: Scatter Chart  |  Charts  |  Google for Developers](https://developers.google.com/chart/interactive/docs/gallery/scatterchart#fullhtml) 
+
+[The Continual Learning Problem](https://jessylin.com/2025/10/20/continual-learning/)
+
+[r2cdn.perplexity.ai/pdf/pplx-at-work.pdf](https://r2cdn.perplexity.ai/pdf/pplx-at-work.pdf) 
+
+[Mindustry](https://mindustrygame.github.io/) 
+
+[\[2501.12948\] DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948) 
+
+[GitHub - LearningCircuit/local-deep-research: Local Deep Research achieves \~95% on SimpleQA benchmark (tested with GPT-4.1-mini). Supports local and cloud LLMs (Ollama, Google, Anthropic, ...). Searches 10+ sources - arXiv, PubMed, web, and your private documents. Everything Local & Encrypted.](https://github.com/LearningCircuit/local-deep-research) 
+
+[E.W.Dijkstra Archive: Home page](https://www.cs.utexas.edu/~EWD/) 
+
+[shader basics](https://bobacupcake.com/shader-basics) 
+
+[Fetching Title#lrgd](https://pikaday.dbushell.com/)
+
+[Mesh2Motion](https://mesh2motion.org/)
+
+[Fumadocs](https://fumadocs.dev/) 
+
+[set.a.light 3D V3 - elixxier Software](https://www.elixxier.com/en/set-a-light-3d/) 
+
+[GitHub - mayanayza/netvisor: Automatically discover and visually document network infrastructure.](https://github.com/mayanayza/netvisor) 
+
+[Tips and Tricks - Homebox](https://hay-kot.github.io/homebox/tips-tricks/) 
+
+[Docker – Documentation for RustDesk](https://rustdesk.com/docs/en/self-host/rustdesk-server-oss/docker/)
+
+[Release v5.3 · danielbrendel/hortusfox-web · GitHub](https://github.com/danielbrendel/hortusfox-web/releases/tag/v5.3) 
+
+[Compass Handheld CNC Router](https://www.compassrouter.com/) 
+
+[Color Palette Pro](https://colorpalette.pro/)

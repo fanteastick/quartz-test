@@ -30,7 +30,7 @@ FAQ, Frequently Asked (by me) Questions
 
 > [!NOTE] bridge
 > 
-> If you don’t specify a driver, this type of network will be created by default. Bridge networks are normally used when your applications run in standalone containers that need to communicate with each other.
+> If you don't specify a driver, this type of network will be created by default. Bridge networks are normally used when your applications run in standalone containers that need to communicate with each other.
 
 ## Rebuilding a docker image based on your system architecture
 
@@ -79,7 +79,7 @@ docker compose -p mc-vanilla down --remove-orphans --volumes
 
 Thanks Perplexity
 
-To link a specific file from your host filesystem (e.g., /home/user/whitelist.yml) to a specific location inside a Docker container (e.g., data/whitelist.yml), you should use a bind mount in your docker-compose.yml file. Here’s how to do it:
+To link a specific file from your host filesystem (e.g., /home/user/whitelist.yml) to a specific location inside a Docker container (e.g., data/whitelist.yml), you should use a bind mount in your docker-compose.yml file. Here's how to do it:
 
 Example docker-compose.yml:
 

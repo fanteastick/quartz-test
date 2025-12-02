@@ -1,9 +1,7 @@
 ---
 date created: 2025-03-20T20:35
-date modified: 2025-03-26T00:03
+date modified: 2025-11-30T20:55
 tags:
-  - cloudflare
-  - external
 ---
 
 # Misc Links
@@ -18,7 +16,7 @@ tags:
 
 # HTTPs and Cloudflare tunnels
 
-[[Cloudflare tunnels with Docker]] : [[Gitea and Cloudflare Tunnels]] [[Ollama and Cloudflare tunnels]]
+ [[Cloudflare tunnels with Docker]] : [[Gitea and Cloudflare Tunnels]] [[Ollama and Cloudflare tunnels]] 
 
 > [!web]+ perplexity
 > > [!question]

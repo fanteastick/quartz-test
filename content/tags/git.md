@@ -11,4 +11,4 @@ Things to learn later:
 
 - [ ] submodules
 - [ ] git workflows, e.g. deploy
-- [ ] proper way to deal with merge conflicts
+- [ ] proper way to deal with merge conflicts 

@@ -1,6 +1,6 @@
 ---
 date created: 2025-01-16T11:01
-date modified: 2025-10-19T02:08
+date modified: 2025-11-09T20:18
 ---
 ## Subset of the goals
 - Do a side hustle
@@ -105,3 +105,17 @@ Goals for the rest of the year
 - speak with more certainty, and substance
 - perseverance with fitness
 - academic weapon
+
+## November
+
+Interesting things I read this month:
+
+- [uv is the best thing to happen to the Python ecosystem in a decade - Blog - Dr. Emily L. Hunt](https://emily.space/posts/251023-uv)
+- [example.fi \| blog \| ircd](https://example.fi/blog/ircd.html) 
+- [ee.usc.edu/\~redekopp/ee101/slides/EE101Lecture12.pdf](https://ee.usc.edu/~redekopp/ee101/slides/EE101Lecture12.pdf) 
+- [How We Self-Hosted An App for $2/Month Using an M1 Mac Mini](https://lab.workhub.so/running-your-app-on-pocket-change/) 
+- [Dithering - Part 1](https://visualrambling.space/dithering-part-1/)
+- [Marble Fountain : Will Morrison — Personal Blog](https://willmorrison.net/posts/marble-fountain/) 
+- [Fully Countering Trusting Trust through Diverse Double-Compiling (DDC) - Countering Trojan Horse attacks on Compilers](https://dwheeler.com/trusting-trust/)
+
+I've been sick! I haTe being sick. How can I improve my immune system? [Expiration Date Information – iHealth Labs Inc](https://ihealthlabs.com/blogs/news/expiration-date-info) 

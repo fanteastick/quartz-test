@@ -1,6 +1,6 @@
 ---
 date created: 2025-07-29T10:12
-date modified: 2025-07-30T00:05
+date modified: 2025-11-07T21:59
 ---
 
 [How Rsync Works](https://rsync.samba.org/how-rsync-works.html) 

@@ -6,7 +6,7 @@ subtitle: Fish for beginners!
 ---
 >  “Our pets are our family.” 💬 Ana Monnar
 
-> “Until one has loved an animal, a part of one’s soul remains unawakened.” 💬 Anatole France
+> “Until one has loved an animal, a part of one's soul remains unawakened.” 💬 Anatole France
 
 ## The backstory
 

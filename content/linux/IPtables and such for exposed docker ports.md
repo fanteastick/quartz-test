@@ -31,12 +31,12 @@ sudo iptables -D DOCKER-USER -i eth0 -p tcp --dport 80 ! -s [YOUR_IP] -j DROP
 ```
 
 > [!web] Perplexity
-> If the service doesn’t need public access, bind the port to 127.0.0.1:
+> If the service doesn't need public access, bind the port to 127.0.0.1:
 > 
 > ```
 > docker run -p 127.0.0.1:80:80 [IMAGE]
 > ```
-> This restricts the port to localhost, but you’ll need SSH tunneling for external access.
+> This restricts the port to localhost, but you'll need SSH tunneling for external access.
 > 
-> It matters that your firewall rule is in the **DOCKER-USER** chain because Docker’s networking is managed with its own set of iptables rules, and the DOCKER-USER chain is specifically designed for user-defined rules that control container traffic **before Docker’s own rules are processed**
+> It matters that your firewall rule is in the **DOCKER-USER** chain because Docker's networking is managed with its own set of iptables rules, and the DOCKER-USER chain is specifically designed for user-defined rules that control container traffic **before Docker's own rules are processed**
 

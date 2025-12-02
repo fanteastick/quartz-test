@@ -34,7 +34,7 @@ bash
 
 **3. Configure DNS**
 
-- In your domain registrar’s DNS panel, create A records for each subdomain:
+- In your domain registrar's DNS panel, create A records for each subdomain:
     
     - `service1.yourdomain.com` → VPS IP
         
@@ -132,7 +132,7 @@ Answer from Perplexity: [pplx.ai/share](https://www.perplexity.ai/search/pplx.ai
 
 ---
 
-If you use bore.pub (or your own Bore instance) to expose **two different Minecraft servers** on your VPS, each server will be mapped to a different public port on the VPS. Here’s how you and others would connect to them:
+If you use bore.pub (or your own Bore instance) to expose **two different Minecraft servers** on your VPS, each server will be mapped to a different public port on the VPS. Here's how you and others would connect to them:
 
 ## How Bore Works in This Scenario
 
@@ -144,7 +144,7 @@ If you use bore.pub (or your own Bore instance) to expose **two different Minecr
 
 ## How Players Connect
 
-- **Players connect using your VPS’s domain/IP and the port assigned to each server:**
+- **Players connect using your VPS's domain/IP and the port assigned to each server:**
     - For Server 1: `yourdomain.com` (or `yourdomain.com:25565`—the default port can be omitted)
     - For Server 2: `yourdomain.com:25566`
 

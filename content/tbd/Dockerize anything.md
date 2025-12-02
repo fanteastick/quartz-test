@@ -1,8 +1,12 @@
 ---
 date created: 2025-09-10T14:42
-date modified: 2025-09-12T12:00
+date modified: 2025-11-10T15:59
 subtitle: takes forever...
 ---
+```
+docker buildx build --platform linux/arm64 -f ./Dockerfile --no-cache -t username/image:version --push .
+```
+
 # Changing architectures cheatsheet
 
 ```
@@ -184,7 +188,7 @@ A Dockerfile is a plain text file that contains a sequence of instructions used 
   https://docs.docker.com/get-started/introduction/build-and-push-first-image/
 - How a Dockerfile works (detailed tutorial)  
   https://kodekloud.com/blog/how-dockerfile-works/
-- Step-by-step beginner’s guide to building Docker images  
+- Step-by-step beginner's guide to building Docker images  
   https://stackify.com/docker-build-a-beginners-guide-to-building-docker-images/
 
 Sources: [1](https://kodekloud.com/blog/how-dockerfile-works/) [2](https://docs.docker.com/get-started/introduction/build-and-push-first-image/) [3](https://spacelift.io/blog/dockerfile) [4](https://stackify.com/docker-build-a-beginners-guide-to-building-docker-images/) [5](https://www.geeksforgeeks.org/cloud-computing/what-is-dockerfile/) [6](https://cloud.google.com/build/docs/build-push-docker-image) [7](https://www.simplilearn.com/tutorials/docker-tutorial/what-is-dockerfile) [8](https://docker-curriculum.com) [9](https://docs.docker.com/build/concepts/dockerfile/) [10](https://docs.cavatica.org/docs/upload-your-docker-image-with-a-dockerfile)

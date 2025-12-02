@@ -16,7 +16,7 @@ When you see "unallocated" space in Windows Disk Management after deleting parti
 - **To deal with undeletable partitions:**
 	- Use **DiskPart** (Command Prompt with admin rights) for more control.
 > [!attention]
-> - Run commands `list disk`, `select disk X`, then `list partition` to see all partitions. Use `select partition Y` and `delete partition override` to forcibly delete, but only do this if you’re sure the partition isn’t critical.
+> - Run commands `list disk`, `select disk X`, then `list partition` to see all partitions. Use `select partition Y` and `delete partition override` to forcibly delete, but only do this if you're sure the partition isn't critical.
 
 - Keep in mind deleting system or recovery partitions can break boot or recovery functionality.
 - **How to use Disk Management for unallocated space:**  
@@ -44,7 +44,7 @@ In summary, unallocated space itself cannot be deleted — you create or extend 
 
 # And then setting it up to be recognized again
 
-If your USB is not recognized anymore after wiping partitions in Windows Disk Management, it’s usually because there is no valid partition or filesystem on it to mount and assign a drive letter.
+If your USB is not recognized anymore after wiping partitions in Windows Disk Management, it's usually because there is no valid partition or filesystem on it to mount and assign a drive letter.
 
 ### How to fix this in Windows:
 
@@ -70,7 +70,7 @@ If your USB is not recognized anymore after wiping partitions in Windows Disk Ma
 
    This wipes all partitions, then creates and formats a fresh partition for use.
 
-4. **If Windows Disk Management or DiskPart can’t access the USB:**  
+4. **If Windows Disk Management or DiskPart can't access the USB:**  
    - Try a third-party tool like **Rufus** or **EaseUS Partition Master** to reinitialize, format, and restore functionality.  
    - Sometimes flashing Linux ISOs or partial wipes can corrupt the partition table or use file systems Windows cannot read.
 
@@ -80,7 +80,7 @@ If your USB is not recognized anymore after wiping partitions in Windows Disk Ma
 6. **Final note:**  
    Persistent failures may indicate the USB drive is physically damaged or its firmware corrupted, which software cannot fix.
 
-Following these steps should restore your USB drive’s functionality after wiping partitions so it can show up in File Explorer and be usable again.[1][2][3][6]
+Following these steps should restore your USB drive's functionality after wiping partitions so it can show up in File Explorer and be usable again.[1][2][3][6]
 
 If you want, guidance on using Rufus or third-party tools for recovery can be provided.
 

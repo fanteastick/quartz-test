@@ -1,6 +1,6 @@
 ---
 date created: 2025-01-31T11:28
-date modified: 2025-04-28T09:27
+date modified: 2025-11-14T10:42
 tags:
 ---
 
@@ -30,8 +30,9 @@ Check out [[How to work on each site]] for more details
 - Raspberry Pi 4B: [[My first ever raspberry pi!!!]]
 - Lenovo Yoga, circa 2020: [Yoga Laptops](https://www.lenovo.com/us/en/yoga) 
 	- with WSL, and I think the tablet feature is not worth. I lost the stylus at some point :(
-- Macbook Pro 13", 2015: [[mac tech/]]
-- Main desktop: Intel i9-7900X, NVIDIA GeForce GTX 1060 6GB [[rgb tech/]]
+	- I have had a variety of issues with this machine, which has turned me off towards buying laptops/Lenovo/Windows...
+- Macbook Pro 13", 2015: [[mac/]]
+- Main desktop: Intel i9-7900X, NVIDIA GeForce GTX 1060 6GB [[rgb/]]
 
 Comparison: [Apple M3 Max 14 vs Intel i9-7900X vs i7-7700K](https://www.cpubenchmark.net/compare/5757vs3035vs2874/Apple-M3-Max-14-Core-vs-Intel-i9-7900X-vs-Intel-i7-7700K) 
 

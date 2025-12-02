@@ -11,9 +11,9 @@ tags:
 
 [Oysters and Vibriosis | FoodSafety.gov](https://www.foodsafety.gov/blog/oysters-and-vibriosis)
 
-> Vibriosis is an illness caused by some kinds of Vibrio bacteria. Vibrio naturally live in coastal waters where oysters live. Because oysters feed by filtering water, Vibrio and other harmful germs can concentrate in an oyster’s tissues. If you eat raw or undercooked oysters, germs that might be in the oyster can make you sick.
+> Vibriosis is an illness caused by some kinds of Vibrio bacteria. Vibrio naturally live in coastal waters where oysters live. Because oysters feed by filtering water, Vibrio and other harmful germs can concentrate in an oyster's tissues. If you eat raw or undercooked oysters, germs that might be in the oyster can make you sick.
 > 
 > CDC estimates that about 80,000 people get vibriosis—and 100 people die from it—in the United States every year. Most of these illnesses happen from May through October when water temperatures are warmer. However, you can get sick from eating raw or undercooked oysters during any month. Raw oysters from typically colder waters also can cause vibriosis.
 > 
-> An oyster that contains Vibrio doesn’t look, smell, or even taste different from any other oyster. You can kill Vibrio in oysters and other shellfish by cooking them properly.
+> An oyster that contains Vibrio doesn't look, smell, or even taste different from any other oyster. You can kill Vibrio in oysters and other shellfish by cooking them properly.
 

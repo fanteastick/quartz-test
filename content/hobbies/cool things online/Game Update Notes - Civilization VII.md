@@ -343,11 +343,11 @@ Update 1.2.2 is rolling out now!
 
 **A note for Switch and Switch 2 players**: Update 1.2.2 is now live on Nintendo Switch and Switch 2. Thank you for your patience!
 
-We’ve been heads-down at Firaxis putting together a hefty update for you this June, packed with long-awaited features like Large and Huge Maps, expanded Advanced Game Options, and a community favorite: Steam Workshop support. This update also brings new Town Specializations, City-State Bonuses, Beliefs, balance changes, UI improvements, and yes – a very pettable Scout dog.
+We've been heads-down at Firaxis putting together a hefty update for you this June, packed with long-awaited features like Large and Huge Maps, expanded Advanced Game Options, and a community favorite: Steam Workshop support. This update also brings new Town Specializations, City-State Bonuses, Beliefs, balance changes, UI improvements, and yes – a very pettable Scout dog.
 
-For more context on what’s in this update, and what’s still being worked on beyond it, check out our recently released [Update Check-In](https://civilization.2k.com/civ-vii/news/civ-vii-update-check-in-jun-10/).
+For more context on what's in this update, and what's still being worked on beyond it, check out our recently released [Update Check-In](https://civilization.2k.com/civ-vii/news/civ-vii-update-check-in-jun-10/).
 
-We’re also trying something new with this update. You’ll notice a [★] icon next to select notes: our way of showing that a feature or change was influenced by the community. If you don’t see this community icon next to something you’ve mentioned, know that it’s not a reflection on your feedback, it’s just a way to highlight some of the broader conversations we’re listening in on. Thanks for being part of the journey, and there’s more to come!
+We're also trying something new with this update. You'll notice a [★] icon next to select notes: our way of showing that a feature or change was influenced by the community. If you don't see this community icon next to something you've mentioned, know that it's not a reflection on your feedback, it's just a way to highlight some of the broader conversations we're listening in on. Thanks for being part of the journey, and there's more to come!
 
 And lastly, a few quick notes before you dive in:
 
@@ -365,11 +365,11 @@ Read on for the full notes below!
 
  ![](app://assets.2k.com/1a6ngf98576c/7e4Ht9B4QvePK6paBaV78H/0f7c8bbada741219fc27e26c1490b90d/large-map-gif-reduced.gif)
 
-We wanted to take some time to get this feature right, and with 1.2.2, we’re happy to add support for Large and Huge map sizes on all of our map types – for when you really want to explore an epic world. 
+We wanted to take some time to get this feature right, and with 1.2.2, we're happy to add support for Large and Huge map sizes on all of our map types – for when you really want to explore an epic world. 
 
-Both map sizes default to 10 players, but multiplayer campaigns still max out at 8 total players, including AI and humans. Though 12 total players is still our goal for Huge maps, we need a bit more time to make sure increased player counts won’t compromise game stability or performance.
+Both map sizes default to 10 players, but multiplayer campaigns still max out at 8 total players, including AI and humans. Though 12 total players is still our goal for Huge maps, we need a bit more time to make sure increased player counts won't compromise game stability or performance.
 
-Because these maps are so large, we’ve added exciting new Pantheons, Religious Beliefs, Discoveries, and City-State bonuses to ensure there’s enough content for all the players in a game. More on those below. 
+Because these maps are so large, we've added exciting new Pantheons, Religious Beliefs, Discoveries, and City-State bonuses to ensure there's enough content for all the players in a game. More on those below. 
 
 A quick heads-up that bigger maps have bigger hardware demands.  On some systems, you might notice slower turn times or performance drops, especially on lower-end hardware. Large and Huge map types are supported on PC, Mac, Linux, PS5, Xbox Series, and Nintendo Switch 2.*  Lastly, Balanced starts on Large and Huge maps might encounter map generation oddities. We are actively working on improvements. On these map sizes, we recommend you stick to Standard starts instead of Balanced for the time being. 
 
@@ -379,16 +379,16 @@ _*The Nintendo Switch version of the game only supports the Tiny, and Small map 
 
  ![](app://assets.2k.com/1a6ngf98576c/76NIafzPB1RG6J1qtYah05/474983b6245e2cc40aac664f91b1ad12/Game_Settings_1920x1080.gif)
 
-One of the best things about _Civilization_ is how many ways there are to play. Some players are happy to peacefully build the biggest, best Cities while others want to ignore all that and go conquer the world ("Yes, your amazing City _does_ look great in my empire"). With 1.2.2, we’ve added several new advanced game setup options to give you even more control over how you play. The below options are currently available only in singleplayer. The new options include:
+One of the best things about _Civilization_ is how many ways there are to play. Some players are happy to peacefully build the biggest, best Cities while others want to ignore all that and go conquer the world ("Yes, your amazing City _does_ look great in my empire"). With 1.2.2, we've added several new advanced game setup options to give you even more control over how you play. The below options are currently available only in singleplayer. The new options include:
 
 - Enable or disable specific Legacy Paths per Age (or turn them all off entirely)
 - Disable Score Victory (unlimited turns in final Age)
 - Enable or disable specific Crises
 - Custom AI Difficulty Options (adjust each AI bonus independently)
-- Bypass Civ Unlocks on Age Transition (you’ll be able to pick ANY civ from the next Age during an Age transition, no matter what you’ve unlocked through your gameplay decisions)
+- Bypass Civ Unlocks on Age Transition (you'll be able to pick ANY civ from the next Age during an Age transition, no matter what you've unlocked through your gameplay decisions)
 - Adjust Independent Power Hostility (all hostile, random, or all friendly)
 
-We’ve had a lot of fun playing with different Legacy Paths on or off in each Age. While Legacy Paths that don’t lead to a Victory are always optional, sometimes it’s nice to just tune them out entirely and focus on playing into the unique strengths of your leader and civ. For a fun sandbox game we’ve been playing in the office, try turning off Legacy Paths for Antiquity and Exploration, and setting the game to Abbreviated Ages. If you want to lean into the sandbox feel even more, try turning off Legacy Paths in Modern and the Score Victory, too. 
+We've had a lot of fun playing with different Legacy Paths on or off in each Age. While Legacy Paths that don't lead to a Victory are always optional, sometimes it's nice to just tune them out entirely and focus on playing into the unique strengths of your leader and civ. For a fun sandbox game we've been playing in the office, try turning off Legacy Paths for Antiquity and Exploration, and setting the game to Abbreviated Ages. If you want to lean into the sandbox feel even more, try turning off Legacy Paths in Modern and the Score Victory, too. 
 
 This is a step toward giving you more flexibility in how you play, and we know Legacy Paths have more room to grow. Stay tuned for future updates!
 
@@ -396,31 +396,31 @@ This is a step toward giving you more flexibility in how you play, and we know L
 
  ![](app://assets.2k.com/1a6ngf98576c/5zyjbF5kukXSneYbqCsCm/679a968495160f50b2dd2b51e1b4c3d3/New_Religion_City_States_Towns_1920x1080.gif)
 
-Pantheons are first come first serve, so to make sure there’s enough to go around, we’ve added two new Pantheons to Antiquity, and these can be selected by more than one player.
+Pantheons are first come first serve, so to make sure there's enough to go around, we've added two new Pantheons to Antiquity, and these can be selected by more than one player.
 
-We’ve heard feedback from players that Religion in _Civ VII_ has room to grow. One consistent piece of feedback we’ve seen is that there’s not enough reason to convert your **own** Settlements, so we’re adding new Beliefs and updating some existing ones that give bonuses for spreading your Religion within your own empire. We’ve got bigger and bolder changes on the horizon for Religion, too, so we’ll keep you updated on how it evolves!
+We've heard feedback from players that Religion in _Civ VII_ has room to grow. One consistent piece of feedback we've seen is that there's not enough reason to convert your **own** Settlements, so we're adding new Beliefs and updating some existing ones that give bonuses for spreading your Religion within your own empire. We've got bigger and bolder changes on the horizon for Religion, too, so we'll keep you updated on how it evolves!
 
-We’re also introducing updates for Town Focus bonuses to help them feel more impactful. Urban Centers in particular have received a glow-up, and now gain access to many of the Buildings that were otherwise only available in Cities (like Libraries and Monuments in Antiquity). Fort Towns gain the ability to purchase multiple walls so they can really lock down strategic chokepoints. We also introduced a new type of Town Focus: the Resort Town. These relaxing scenic retreats gain extra Gold and Happiness on Rural tiles with Happiness and increased Yields on Natural Wonders.
+We're also introducing updates for Town Focus bonuses to help them feel more impactful. Urban Centers in particular have received a glow-up, and now gain access to many of the Buildings that were otherwise only available in Cities (like Libraries and Monuments in Antiquity). Fort Towns gain the ability to purchase multiple walls so they can really lock down strategic chokepoints. We also introduced a new type of Town Focus: the Resort Town. These relaxing scenic retreats gain extra Gold and Happiness on Rural tiles with Happiness and increased Yields on Natural Wonders.
 
-Lastly, we felt massed Hub Towns were overshadowing some of the other options and gave them a slight nerf from +2 Influence per connected Settlement to +1 Influence. We’re going to keep our eye on them to see how they compare against the other newly buffed Towns.
+Lastly, we felt massed Hub Towns were overshadowing some of the other options and gave them a slight nerf from +2 Influence per connected Settlement to +1 Influence. We're going to keep our eye on them to see how they compare against the other newly buffed Towns.
 
 ### **Steam Workshop**
 
  ![](app://assets.2k.com/1a6ngf98576c/69cFooJoMqeMNCWViMqZQw/018c56b14b9e139c32c909076eb154f4/image__21_.png)
 
-We’ve added a lot of options to customize your experience with this update, but nothing beats the level of personalization you can achieve with the help of our amazing modding community. From UI tweaks to ambitious gameplay overhauls, mods provide a way to really make your gameplay experience unique. So with this update, we're also rolling out Steam Workshop support and an initial version of the Modding SDK.
+We've added a lot of options to customize your experience with this update, but nothing beats the level of personalization you can achieve with the help of our amazing modding community. From UI tweaks to ambitious gameplay overhauls, mods provide a way to really make your gameplay experience unique. So with this update, we're also rolling out Steam Workshop support and an initial version of the Modding SDK.
 
 You'll now be able to find and install mods from the Steam Workshop. Just hit the Subscribe button and your mods will be installed the next time you start up the game! For modders, this of course means your mods will be easier for players to find and download, and you'll be better able to keep the mod up-to-date for your users. Please note that the _Civilization VII_ mods you'll find in the Workshop are created by and for the _Civ_ community, and are not officially supported by Firaxis or 2K. Use them at your own risk!
 
-We’ll also be providing a Modding SDK to help our modding community create, debug, and upload mods to the Steam Workshop. While this initial version of the SDK won't feature art tools, it will include a mod uploader and the (glorious) return of FireTuner. Additionally, we've included some guides and documentation within the tools, if you’d like to learn how to make your own mods.
+We'll also be providing a Modding SDK to help our modding community create, debug, and upload mods to the Steam Workshop. While this initial version of the SDK won't feature art tools, it will include a mod uploader and the (glorious) return of FireTuner. Additionally, we've included some guides and documentation within the tools, if you'd like to learn how to make your own mods.
 
-Last thing – we’ve also uploaded three example mods to the Steam Workshop to show off some of the things you can do with mods, but also as references for both new and more experienced modders on the various ways you can make changes to the game (there are a few neat tricks that weren’t available in _Civilization VI_)! 
+Last thing – we've also uploaded three example mods to the Steam Workshop to show off some of the things you can do with mods, but also as references for both new and more experienced modders on the various ways you can make changes to the game (there are a few neat tricks that weren't available in _Civilization VI_)! 
 
 A quick reminder for modders:
 
 When you're creating and sharing mods, please make sure your content follows our User Rules (which you can find in Section 6 of our [Terms of Service](https://www.take2games.com/eula/)), for example:
 
-- Don’t use content based on someone else’s IP (like characters, music, or art from other games, movies, etc.) unless you have the rights to use it.
+- Don't use content based on someone else's IP (like characters, music, or art from other games, movies, etc.) unless you have the rights to use it.
 - Keep content safe and respectful, meaning no harmful, offensive, or inappropriate material.
 - And of course, no malicious code or anything that could negatively impact the experience for other players.
 
@@ -430,7 +430,7 @@ When you're creating and sharing mods, please make sure your content follows our
 
 Did someone say **more** Gwendoline Christie VO? 
 
-One of the first things you’ll notice when you boot up 1.2.2 is a refreshed Loading Screen, a small but important step in a bigger effort to improve _Civilization VII’s_ UI. We’ve rethought how we develop the UI, and the Loading Screen gave us a great chance to try new workflows without disrupting gameplay. Highlights include leader portraits front and center, new info panels, a Tips & Hints section, and fully rewritten and rerecorded intros narrated by Gwendoline Christie. Want to dive deeper? [Check out our latest article](https://civilization.2k.com/civ-vii/from-the-devs/) from Firaxis Lead Producer Tom Shaw on this change and what’s next for the UI.
+One of the first things you'll notice when you boot up 1.2.2 is a refreshed Loading Screen, a small but important step in a bigger effort to improve _Civilization VII's_ UI. We've rethought how we develop the UI, and the Loading Screen gave us a great chance to try new workflows without disrupting gameplay. Highlights include leader portraits front and center, new info panels, a Tips & Hints section, and fully rewritten and rerecorded intros narrated by Gwendoline Christie. Want to dive deeper? [Check out our latest article](https://civilization.2k.com/civ-vii/from-the-devs/) from Firaxis Lead Producer Tom Shaw on this change and what's next for the UI.
 
  ![](app://assets.2k.com/1a6ngf98576c/7hKJ87YMJ7Fjl3x5t2VNfk/fc68dc38f585a1115f1607a98b1f5c5f/1.1.1_Update__Notes_Banner.png)
 
@@ -442,16 +442,16 @@ One of the first things you’ll notice when you boot up 1.2.2 is a refreshed Lo
             - Nuclear Fission Tech is added to the Modern Age, so players can still use nukes without completing the Military Legacy Path. 
     - [★] Added an option to disable the Score Victory.
     - [★] Added a new “Custom” AI Difficulty setting that allows the player to choose difficulty options specific for each value.
-        - **Dev Note**: With this update, you can set any of the AI bonuses to any level you want individually. Don’t like the economic bonuses the AI has on Deity, but enjoy the challenge in combat? Now you can set up a game to do exactly that!
+        - **Dev Note**: With this update, you can set any of the AI bonuses to any level you want individually. Don't like the economic bonuses the AI has on Deity, but enjoy the challenge in combat? Now you can set up a game to do exactly that!
     - [★] Added an option to pick and choose which Crises you want on or off in your game.
-        - **Dev Note:** We’ve always allowed for Crises to be entirely on or off, but wanted to give you the added control to pick and choose which Crises you want to see. If you have more than one Crisis enabled for an Age, then the game will randomly choose one from the pool of enabled Crises.
+        - **Dev Note:** We've always allowed for Crises to be entirely on or off, but wanted to give you the added control to pick and choose which Crises you want to see. If you have more than one Crisis enabled for an Age, then the game will randomly choose one from the pool of enabled Crises.
     - [★] Added an option to Bypass Civilization Unlocks, allowing players to choose any civ for the next Age at Age Transition regardless of any unlock requirements.
     - [★] Added an option to control initial Independent Power hostility. Settling within 5 tiles of an Independent Power will still cause them to become hostile.
         - **Dev Note:** Starting near multiple hostile IPs can make for a challenging early game, but sometimes you just want some space to build out your Capital.
 
 - **Land-Based Treasure Convoys**
-    - [★]  Treasure Fleets are growing legs! These will now be called Treasure Convoys, and you’ll be able to use them over land and not just the sea. Any Distant Lands Settlement with improved Treasure Resources now generates Treasure Convoys and no longer requires Coastal access, a Fishing Quay, or the Shipbuilding Tech.
-        - **Dev Note:** The Treasure Fleet Legacy path, specifically the gameplay around gathering Resources not immediately available to your empire, is a fun collection minigame for players that like to play the map. While we’ve improved Resource placement further, the steps required to progress this Legacy Path were still quite restrictive and often forced linear play patterns instead of asking for interesting decisions when settling. We’ve made some adjustments that should make it much easier to pursue this Legacy Path, while still requiring you to explore and settle Distant Lands. We plan on continuing to observe this Legacy Path as well as the others to find places to inject strategic variety.
+    - [★]  Treasure Fleets are growing legs! These will now be called Treasure Convoys, and you'll be able to use them over land and not just the sea. Any Distant Lands Settlement with improved Treasure Resources now generates Treasure Convoys and no longer requires Coastal access, a Fishing Quay, or the Shipbuilding Tech.
+        - **Dev Note:** The Treasure Fleet Legacy path, specifically the gameplay around gathering Resources not immediately available to your empire, is a fun collection minigame for players that like to play the map. While we've improved Resource placement further, the steps required to progress this Legacy Path were still quite restrictive and often forced linear play patterns instead of asking for interesting decisions when settling. We've made some adjustments that should make it much easier to pursue this Legacy Path, while still requiring you to explore and settle Distant Lands. We plan on continuing to observe this Legacy Path as well as the others to find places to inject strategic variety.
     - Shipbuilding is no longer required to make Treasure Convoys.
         - **Dev Note**: With this change, your Treasure Convoys will start their journey home while the Ocean is still dangerous, and your Units can still be damaged by stormy seas.
     - Fishing Quays are no longer needed to make Treasure Convoys.
@@ -473,7 +473,7 @@ One of the first things you’ll notice when you boot up 1.2.2 is a refreshed Lo
         - **Factory Town**: +100% Gold towards purchasing a Factory in this town. +1 Resource Slots. +5 Trade Range. (From +100% Gold towards purchasing a Factory in this Town. +1 Resource Slots.)
         - **Mining Town**: +2/3/4 Production on all Camps, Woodcutters, Clay Pits, Mines, and Quarries. (Was: +1/2/3 Production on all Camps, Woodcutters, Clay Pits, Mines, and Quarries.)
         - **Hub Town**: +1 Influence for every connected Town (Was: +2 Influence for every connected Town.)
-            - **Dev Note:** The only nerf of the bunch, Hub Town has been tuned down slightly to bring it in line with other Towns. We’ll keep an eye on this Focus for further tweaks that may be needed.
+            - **Dev Note:** The only nerf of the bunch, Hub Town has been tuned down slightly to bring it in line with other Towns. We'll keep an eye on this Focus for further tweaks that may be needed.
         - **Fort Town**: +5 healing to Units and +25 health to Walls in this Town and can purchase additional Walls.
 - **Independent Powers & City-States**
     - [★] Added 24 new City-State bonuses across the Ages.
@@ -481,17 +481,17 @@ One of the first things you’ll notice when you boot up 1.2.2 is a refreshed Lo
         - **New Antiquity City-State Bonuses:** 
             - **Scientific**
                 - **Lingua Franca**: +2 Science on displayed Codices.
-                - **Archimedes’ Screw**: +1 Science on Warehouse Buildings. This bonus can be chosen by multiple civilizations.
+                - **Archimedes' Screw**: +1 Science on Warehouse Buildings. This bonus can be chosen by multiple civilizations.
                 - **Dev Note**: There are a few new bonuses that stack bonuses on Warehouse Buildings. This is part of an approach we're experimenting with to keep infrastructure Buildings like Warehouses relevant and impactful as more of your empire is swallowed up by urban sprawl.
             - **Militaristic**
                 - **Hegemon**: +1 Settlement Limit.
-                - **Dev Note**: Some players have asked for more ways to increase Settlement Limit. We’re pretty comfortable with the current limits and how they rein in overly-wide strategies, but this seemed like an appropriately-costed way to give those players an option.
+                - **Dev Note**: Some players have asked for more ways to increase Settlement Limit. We're pretty comfortable with the current limits and how they rein in overly-wide strategies, but this seemed like an appropriately-costed way to give those players an option.
                 - **Spoils of War**: +1 War Support. This bonus can be chosen by multiple civilizations.
             - **Economic**
                 - **Stockpiles**: +2 Resource Capacity in the Capital.
                 - **Ganzabara**: +1 Gold on Warehouse Buildings. This bonus can be chosen by multiple civilizations.
             - **Cultural**
-                - **Ennigaldi-Nanna’s Museum**: +2 Culture on displayed Codices.
+                - **Ennigaldi-Nanna's Museum**: +2 Culture on displayed Codices.
                 - **Papermaking**: +1 Culture on Warehouse Buildings. This bonus can be chosen by multiple civilizations.
         - **New Exploration City-State Bonuses:** 
             - **Scientific**
@@ -546,7 +546,7 @@ One of the first things you’ll notice when you boot up 1.2.2 is a refreshed Lo
 - **Diplomacy**
     - Reconciliation is now usable with multiple leaders at the same time.
     - Continental System's massive relationship penalty now functions similar to a Denounce sanction.
-    - Hostile military no longer receives War Support combat bonus when using Kispoko Nena’to to attack with Shawnee Civic Telwatiki Mastery unlocked.
+    - Hostile military no longer receives War Support combat bonus when using Kispoko Nena'to to attack with Shawnee Civic Telwatiki Mastery unlocked.
 - **Environment**
     - [★] All map types now guarantee enough traversable Ocean Tiles near the Poles.
     - The water/lake tiles in Homelands no longer appear as Distant Land when using Continents, Terra Incognita, and Pangaea Plus map types.
@@ -566,8 +566,8 @@ One of the first things you’ll notice when you boot up 1.2.2 is a refreshed Lo
     - Fleet Commanders "Barrage Land Target" action is no longer available when the only available Naval Units are Submarines.
     - Naval Units now have the ability to conduct coastal raids when they have the Movement points and Shipbuilding II Tech is completed.
     - The Army Commander ability "Scorched Earth" will no longer display while in friendly territory on the borderline of enemy territory.
-    - French Empire's Unique Unit Garde Imperiale can no longer gain +2 Combat Strength if it’s not within a Command Radius when attacking.
-    - Nepal’s Sherpas can construct Highland Power Stations on owned and unowned Tiles so long as the requirements are met.
+    - French Empire's Unique Unit Garde Imperiale can no longer gain +2 Combat Strength if it's not within a Command Radius when attacking.
+    - Nepal's Sherpas can construct Highland Power Stations on owned and unowned Tiles so long as the requirements are met.
     - Naval Commander Movement now acts accordingly when Shipbuilding Mastery is completed.
     - Coastal Raid no longer disappears when moving a Naval Unit onto another tile that had a Coastal Raid option.
 - **Religion**
@@ -588,7 +588,7 @@ One of the first things you’ll notice when you boot up 1.2.2 is a refreshed Lo
             - **Feed the World**: +6 Food in your Settlements following your Religion.
             - **Tikkun Olam**: +2 Influence for every foreign Settlement following your Religion. +1 Influence for each of your Settlements following your Religion.
             - **Covenant**: +3 Science, Culture, Happiness, Influence, and Gold on the Temple in your Holy City. If you retain this Belief, this bonus transfers to your Palace in Modern. This Belief can be chosen by multiple civilizations.
-                - **Dev Note**: We moved the bonus in Modern to ensure you didn’t lose it if you overbuilt your Temple. We considered starting it on your Palace in Exploration, but wanted to let it count towards the Enlightenment Legacy Path.
+                - **Dev Note**: We moved the bonus in Modern to ensure you didn't lose it if you overbuilt your Temple. We considered starting it on your Palace in Exploration, but wanted to let it count towards the Enlightenment Legacy Path.
             - **Pushkaram**: +1 Influence for every Navigable River tile in foreign Settlements following your Religion.
         - New Enhancer Beliefs:
             - **Divine Inspiration**: Gain 2 Missionaries when you build a Wonder. This belief can be chosen by multiple civilizations.
@@ -599,7 +599,7 @@ One of the first things you’ll notice when you boot up 1.2.2 is a refreshed Lo
     - [★] When a Missionary Unit is selected, Settlements that qualify for your Reliquary Belief are now highlighted. 
         - **Dev Note**: No more searching tile-by-tile for Settlements that are producing Treasure Convoys or have Wonders!
     - Founder Beliefs that provided Yield for each foreign Settlement following your Religion now grant some Yield for domestic Settlements following your Religion.
-        - **Dev Note**: Many of the changes to Religious gameplay in this patch are aimed at providing a benefit for keeping your empire converted to your own Religion. As we continue to look at Religion as a whole, we’ve made some changes to Beliefs to better support having a Religious empire, and not just converting until you have enough Relics.
+        - **Dev Note**: Many of the changes to Religious gameplay in this patch are aimed at providing a benefit for keeping your empire converted to your own Religion. As we continue to look at Religion as a whole, we've made some changes to Beliefs to better support having a Religious empire, and not just converting until you have enough Relics.
     - Various Founders Beliefs now track and refresh correctly.
         - Desert Faith
         - Reincarnation
@@ -613,7 +613,7 @@ One of the first things you’ll notice when you boot up 1.2.2 is a refreshed Lo
 - **Leaders**
     - **Isabella**
         - Seven Cities of Gold Unique Ability updated to +100 Gold per Age when discovering a Wonder (Was: +300 in all Ages) and her extra Yields on Natural Wonders to a stacking +50% per improved Natural Wonder in her empire (Was: a fixed +100%).
-            - **Dev Note:** A strong start is a powerful advantage, and Isabella has been one of the strongest leaders in the game since launch. We didn’t want to remove her power entirely, but instead wanted to spread it out a bit more over the course of a campaign and really give her a reason to seek out and secure as many Natural Wonders as she can.
+            - **Dev Note:** A strong start is a powerful advantage, and Isabella has been one of the strongest leaders in the game since launch. We didn't want to remove her power entirely, but instead wanted to spread it out a bit more over the course of a campaign and really give her a reason to seek out and secure as many Natural Wonders as she can.
 - **Civs**
     - **Inca**
         - Qhapaq Ñan Tradition now allows players to create Homeland Treasure Convoys worth 2 points in Cities with at least 3 Mountains.
@@ -634,7 +634,7 @@ One of the first things you’ll notice when you boot up 1.2.2 is a refreshed Lo
     - The "Embark" entry is no longer missing details when attempting to find information about the embarked Movement point.
     - The incorrect terminology "Clicking" will no longer appear when viewing the "Antiquity: Great Library" Civilopedia entry.
 - **Controller-Specific**
-    - The scroll bar no longer loses functionality when viewing another players’ Religion after unlocking new Beliefs.
+    - The scroll bar no longer loses functionality when viewing another players' Religion after unlocking new Beliefs.
     - Cursor no longer loses focus when placing all Towns with the City cards selected in the Place Effects menu.
     - Placeholder “?” button prompts no longer appear during the Advanced Start settlement placement screen when using an Xbox-layout controller.
     - R-Stick now has scroll functionality in the Archive box in the Great Works menu.
@@ -645,7 +645,7 @@ One of the first things you’ll notice when you boot up 1.2.2 is a refreshed Lo
         - Added option in Settings to allow the City panel to remain open after choosing something to produce.
         - The player can now scroll to view all items in the Production queue.
         - Changed instances of checkboxes to selectors in Advanced Options for UI consistency.
-        - The color of a Memento’s icon now aligns with the color of its effect for easier readability. 
+        - The color of a Memento's icon now aligns with the color of its effect for easier readability. 
         - Project Research Objectives now visually mark as complete when a step is finished while in the Legacy Paths menu.
     - [★] Improved menu behavior and visual feedback across multiple screens: 
         - Global Yields now update immediately when adding a Yield from a select attribute.
@@ -659,8 +659,8 @@ One of the first things you’ll notice when you boot up 1.2.2 is a refreshed Lo
     - Adjusted the name of Inquisition Crisis policy to Schism.
     - Incorrect text “Convert to an urban tile” no longer appears when placing a Unique Improvement.
     - Updated Terrace Farm description and functionality text when playing as Inca.
-    - The Buganda Social Policies Ng’oma and Interlacustrine now display “(Coastal)” text for Kabaka’s Lake, when viewing the Government menu.
-    - Incorrect Treasure Convoy information has been removed from Distant Town’s detail page.
+    - The Buganda Social Policies Ng'oma and Interlacustrine now display “(Coastal)” text for Kabaka's Lake, when viewing the Government menu.
+    - Incorrect Treasure Convoy information has been removed from Distant Town's detail page.
     - Resolved several localization and display issues affecting text clarity:
 - **Tooltips**
     - [★] Production cost description for Buildings and Wonders now appears in the tooltip in the City production panel.
@@ -672,13 +672,13 @@ One of the first things you’ll notice when you boot up 1.2.2 is a refreshed Lo
 - Ada Lovelace and Simón Bolívar now have quotes on their Civilopedia pages.
 - Corrected a historical inaccuracy in the Xerxes Civilopedia page.
 - Golden Age Academy and Golden Age Amphitheater pages now share historic context with their regular versions.
-- Great Britain’s Financial Centre Civilopedia page now has historical context information.
+- Great Britain's Financial Centre Civilopedia page now has historical context information.
 - Improved reward clarity for several Events and Discoveries. 
 - The first step in the Geographic Society Legacy Path can no longer be completed prematurely from being granted a free Explorer Unit.
 - Improved consistency and logic of Event triggers, including: 
 - **An Incorrect Answer:** Event now triggers correctly after answering **Papyrus Problems** incorrectly and then building an Academy.
 - **Exploding Earth:** Event now triggers when a Settlement tile is damaged by a volcanic eruption.
-- **It’s not a Phase, it’s a Lifestyle**: The Event is no longer blocked from triggering if the Social Class Social Policy is active.
+- **It's not a Phase, it's a Lifestyle**: The Event is no longer blocked from triggering if the Social Class Social Policy is active.
 - **Literary Deluge**: Event is no longer blocked from triggering if the Literature Social Policy is active.
 - **The Palapa Oath**: The Capital now counts as a founded Settlement and contributes towards triggering this event.
 - **The Palapa Oath**: Event will now trigger on Advanced Start mode in Exploration.
@@ -690,7 +690,7 @@ One of the first things you’ll notice when you boot up 1.2.2 is a refreshed Lo
 ### **Audio**
 
 - Added new _Civilization VII_ Narrator English voiceover lines for the new Loading Screen.
-    - **Dev note:** We are currently working on recording and adding in new voiceovers for other languages. We’ll keep you in the loop as these roll out! 
+    - **Dev note:** We are currently working on recording and adding in new voiceovers for other languages. We'll keep you in the loop as these roll out! 
 - Added sound effects for new “Pet the Dog” Unit ability. 
 - Various fixes to missing base game sound effects and improvements to audio feedback.
 - Added bespoke UI sound design across multiple interface elements.
@@ -723,24 +723,24 @@ Update 1.2.1 - Patch 1 - Steam Only - June 2, 2025
 
  ![](app://assets.2k.com/1a6ngf98576c/4WenQPJwbT18jq07zlqBjb/fd09bcd3f5a57cc25b5e8684dab3593a/Update_1.2.1_-_Patch_1.jpg)
 
-We’re rolling out a small, Steam-only patch to address player-reported issues. These changes are on the way to other platforms with the upcoming Update 1.2.2.
+We're rolling out a small, Steam-only patch to address player-reported issues. These changes are on the way to other platforms with the upcoming Update 1.2.2.
 
 Patch Notes:
 
 - The Building breakdown will now correctly show Building Yields, and the Yield breakdown will now correctly display Building icons.
 - Resolved a reported issue where players could encounter a corrupted loading screen that prevented them from proceeding into gameplay.
 
-If you’re still running into issues after this patch, please let us know through our [support portal](https://support.civilization.com/hc/requests/new). Update 1.2.1 – May 27, 2025
+If you're still running into issues after this patch, please let us know through our [support portal](https://support.civilization.com/hc/requests/new). Update 1.2.1 – May 27, 2025
 
  ![](app://assets.2k.com/1a6ngf98576c/1SyZ9wYTecsbUn9yoe5BJ7/d9c0952306b535606baa5723d3e0d2f5/Update_1.2.1.png)
 
 Hey, _Civ_ fans!
 
-We’re rolling out a bonus update for you ahead of our next one in June! This update adds the new Pangaea Plus Map Type, several balance passes to leaders and civs, an expanded human player limit in multiplayer, and addresses a number of player-reported issues. We’ve also continued work on improving the UI, refined AI behavior to make opponents more competitive, and tightened up overall game polish.
+We're rolling out a bonus update for you ahead of our next one in June! This update adds the new Pangaea Plus Map Type, several balance passes to leaders and civs, an expanded human player limit in multiplayer, and addresses a number of player-reported issues. We've also continued work on improving the UI, refined AI behavior to make opponents more competitive, and tightened up overall game polish.
 
 **A note for our Switch players**: Update 1.2.1 is now live on Nintendo Switch, including all the improvements in 1.2.0, bringing Switch fully up to date. Scroll down for the full patch details. Thanks for your patience!
 
-Looking ahead, we’ll also be sharing an Update Check-In soon that’ll give you a look into what’s coming next. Until then, here are some things the team is working hard on and planning to include in the June update (subject to change):
+Looking ahead, we'll also be sharing an Update Check-In soon that'll give you a look into what's coming next. Until then, here are some things the team is working hard on and planning to include in the June update (subject to change):
 
 - Large & Huge Map Support
 - Steam Workshop Support
@@ -760,7 +760,7 @@ As always plans can shift, but we want to get these changes in your hands as soo
 - If you encounter any new bugs or issues, try disabling any mods, as some may not yet be compatible with the latest update. 
 - Are you playing on Steam and want to finish your current save under a previous version? You can do so using our Steam beta branches.
 
-Keep on reading for the full Update Notes below, and don’t forget to check out our Developer Update video below to see some of the highlights in action!
+Keep on reading for the full Update Notes below, and don't forget to check out our Developer Update video below to see some of the highlights in action!
 
 ‎
 
@@ -770,17 +770,17 @@ Keep on reading for the full Update Notes below, and don’t forget to check out
 
  ![](app://assets.2k.com/1a6ngf98576c/5kQaIXyiFFy7rwHWQsSoYX/e7a850980ce8c93ccf5e7a809c5527d1/Pangaea_Plus.gif)
 
-Pangea maps have always had a special place in the hearts of _Civ_ players who love a good all-out brawl. Pangaea Plus brings this gameplay to _Civ VII_, with all civs starting on a shared central Homeland landmass surrounded by a scattering of islands. These islands will have Treasure Resources that you’ll want to grab during the Exploration Age.
+Pangea maps have always had a special place in the hearts of _Civ_ players who love a good all-out brawl. Pangaea Plus brings this gameplay to _Civ VII_, with all civs starting on a shared central Homeland landmass surrounded by a scattering of islands. These islands will have Treasure Resources that you'll want to grab during the Exploration Age.
 
-These contested Distant Lands islands make Naval gameplay especially viable, but be warned - you’ll need to invest in a strong army if you find yourself on this map type surrounded by Xerxes, Amina, and Harriet Tubman.
+These contested Distant Lands islands make Naval gameplay especially viable, but be warned - you'll need to invest in a strong army if you find yourself on this map type surrounded by Xerxes, Amina, and Harriet Tubman.
 
 ## **Leader & Civ Balance Pass**
 
  ![](app://assets.2k.com/1a6ngf98576c/3hbbsJSeR4Dfku2ZkjLkAN/71305696ff887c3aa322800168a600eb/HimikoAlt.gif)
 
-We’ve been paying close attention to how players engage with our roster of leaders and civs - both through direct community feedback and in-game data. With recent updates to abilities that affect Combat Strength, the introduction of the new Food Curve with 1.2.0, and growing insights into how the Influence Yield is being used across different strategies, we have a better understanding of where certain leaders and civs stand in the current meta. 
+We've been paying close attention to how players engage with our roster of leaders and civs - both through direct community feedback and in-game data. With recent updates to abilities that affect Combat Strength, the introduction of the new Food Curve with 1.2.0, and growing insights into how the Influence Yield is being used across different strategies, we have a better understanding of where certain leaders and civs stand in the current meta. 
 
-Update 1.2.1 introduces some adjustments to a number of underutilized or underperforming options, with the hope of helping abilities stay relevant throughout the game and making each option feel distinct, competitive, and rewarding from start to finish. We included some extra dev notes in this section to give some insight into why these changes were made. We’ll keep on refining balance in future updates, so let us know how things feel! 
+Update 1.2.1 introduces some adjustments to a number of underutilized or underperforming options, with the hope of helping abilities stay relevant throughout the game and making each option feel distinct, competitive, and rewarding from start to finish. We included some extra dev notes in this section to give some insight into why these changes were made. We'll keep on refining balance in future updates, so let us know how things feel! 
 
  ![](app://assets.2k.com/1a6ngf98576c/2SoAgpqXPKB55VNLXkzx3t/afe12c8e801440e20b90390f21025b10/Update_Notes_Header__1_.png)
 
@@ -808,20 +808,20 @@ Update 1.2.1 introduces some adjustments to a number of underutilized or underpe
     - **Himiko, High Shaman**
         - Added +2 Happiness per Age on Happiness and Influence Buildings.
         - Added +50% Production towards constructing Happiness and Influence Buildings.
-            - **Dev Note**: Himiko’s Happiness bonuses were powerful, but a little narrow. We felt expanding her kit to include bonuses on Influence buildings would be a good boost without losing her identity.
+            - **Dev Note**: Himiko's Happiness bonuses were powerful, but a little narrow. We felt expanding her kit to include bonuses on Influence buildings would be a good boost without losing her identity.
     - **Jose Rizal**
         - When gaining Rewards from a Narrative Event, you now gain an additional 20 Culture, 20 Gold, and 20 Influence per Age.
-            - **Dev Note**: Influence is a powerful Yield, so we’re careful about how available it is. When looking for a buff to this Diplomatic Leader though, it was a good opportunity to grant it directly.
+            - **Dev Note**: Influence is a powerful Yield, so we're careful about how available it is. When looking for a buff to this Diplomatic Leader though, it was a good opportunity to grant it directly.
     - **Pachacuti**
-        - Cities now gain a bonus to Production equal to 10% of that City’s Food.
-            - **Dev Note**: Pachacuti is a good benchmark for what we want a powerful Food-focused leader to be. With the Food Curve changes and general balance tweaks we’ve made, he was falling behind. This adjustment is a big power boost, and we’ll be keeping an eye on Pachacuti in future updates for any tweaks needed.
+        - Cities now gain a bonus to Production equal to 10% of that City's Food.
+            - **Dev Note**: Pachacuti is a good benchmark for what we want a powerful Food-focused leader to be. With the Food Curve changes and general balance tweaks we've made, he was falling behind. This adjustment is a big power boost, and we'll be keeping an eye on Pachacuti in future updates for any tweaks needed.
     - **Xerxes, Achaemenid**
         - Added +10 Trade Range.
-            - **Dev Note**: Xerxes’ focus on Trade works well, but weighing Settlement placement to ensure Trade connections versus good Yields was more often a chore than an interesting choice. The extra range gives Xerxes a little more flexibility to utilize his 'Silk Road' Unique Ability.
+            - **Dev Note**: Xerxes' focus on Trade works well, but weighing Settlement placement to ensure Trade connections versus good Yields was more often a chore than an interesting choice. The extra range gives Xerxes a little more flexibility to utilize his 'Silk Road' Unique Ability.
 - **Civs**
     - **[Crossroads of the World DLC] Bulgaria**
         - The Tarkhan Commander now allows Units to pillage for 1 movement instead of no movement.
-        - Swapped the effects of the Krum’s Dynasty Unique Ability that grants Food on pillaging with the 'False Retreat' Tradition that grants Production on pillaging. When Age Transitioning, you’ll now inherit the new 'False Retreat' Tradition that grants Food.
+        - Swapped the effects of the Krum's Dynasty Unique Ability that grants Food on pillaging with the 'False Retreat' Tradition that grants Production on pillaging. When Age Transitioning, you'll now inherit the new 'False Retreat' Tradition that grants Food.
             - **Dev Note**: While it was fun to see strategic players pull off extremely fast wins with this Tradition in Modern, it was not intended behavior. This change lets Bulgaria shine in Exploration without trivializing Modern.
     - **[Crossroads of the World DLC] Great Britain**
         - Increased the Culture provided by Antiquarian Unique Explorer Unit from +5 to +20 for every tile in your Capital when you use the Excavate Artifact action.
@@ -832,7 +832,7 @@ Update 1.2.1 introduces some adjustments to a number of underutilized or underpe
             - **Dev Note**: We made this change so that the immunity to river damage could remain after Age transition. Make sure to build your Barays! 
     - **Majapahit**
         - The Pura Unique Quarter now gives an empire-wide discount to upgrading Towns into Cities.
-            - **Dev Note**: Majapahit's Unique Quarter was one of the few that didn’t have a passive effect that you retained into the next Age. We added an effect to the Norman Donjon for the same reason.
+            - **Dev Note**: Majapahit's Unique Quarter was one of the few that didn't have a passive effect that you retained into the next Age. We added an effect to the Norman Donjon for the same reason.
     - **Normans**
         - The Donjon Unique Quarter now gives a +10% Production bonus towards training Cavalry Units in that City.
     - **Inca**
@@ -845,10 +845,10 @@ Update 1.2.1 introduces some adjustments to a number of underutilized or underpe
             - **Dev Note**: This was a change made to help usability. Modern Settlements often have limited Rural space and trying to place an Improvement down while considering what Improvements were adjacent to it was sometimes frustrating.
         - Addressed a reported issue with the Obshchina Unique Improvement where the Culture benefit was stacking incorrectly when multiple were built in the same Settlement.
     - **Songhai**
-        - The initial description you see of Songhai’s abilities now highlights that it can produce Treasure Fleets in the Homelands with the Kanta Civic. The value of these Treasure Fleets was increased from 1 point to 2 points.
+        - The initial description you see of Songhai's abilities now highlights that it can produce Treasure Fleets in the Homelands with the Kanta Civic. The value of these Treasure Fleets was increased from 1 point to 2 points.
         - The Tajiro Unique Unit is now cheaper to produce, with slower scaling on their costs.
         - New Unique Ability: Songhai gains +3 Gold for each Active Trade Route.
-            - **Dev Note**: Songhai, like Mongolia, is one of our civs that has an alternate path to Legacy Path completion. We wanted to make sure that was as clear as it is for Mongolia. Additionally, Songhai’s Gold gameplay was powerful when it worked, but could flounder with a bad start. We buffed its Trade gameplay to raise the floor for this civ.
+            - **Dev Note**: Songhai, like Mongolia, is one of our civs that has an alternate path to Legacy Path completion. We wanted to make sure that was as clear as it is for Mongolia. Additionally, Songhai's Gold gameplay was powerful when it worked, but could flounder with a bad start. We buffed its Trade gameplay to raise the floor for this civ.
 
 ## **Gameplay**
 
@@ -857,7 +857,7 @@ Update 1.2.1 introduces some adjustments to a number of underutilized or underpe
     - AI is now more thoughtful when placing Unique Quarters.
     - AI now suffers less damage than the player on deep ocean tiles when playing a high difficulty game.
     - Addressed a reported issue that AI was ignoring enemy Units outside a Settlement when at war and launching an attack on an Enemy Settlement.
-    - Improved AI’s Commander pathing to be more adaptable.
+    - Improved AI's Commander pathing to be more adaptable.
     - AI now only offers peace to human players on a team.
         - **Dev note**: If an AI is on a human team, the AI cannot offer peace to others, but can receive peace deals and accept peace for the human team.
     - AI Leaders will no longer fail to immediately attack targetable enemies when having a Ranged Unit on a Settlement's City Center.
@@ -865,7 +865,7 @@ Update 1.2.1 introduces some adjustments to a number of underutilized or underpe
 - **Diplomacy**
     - The Influence cost of the Levy Unit action now equals its Production cost.
     - Open Borders are now lost after an Alliance is accepted, rejected, or lost.
-    - The player's spent Influence is now properly applied to an AI ally’s War Support amount.
+    - The player's spent Influence is now properly applied to an AI ally's War Support amount.
     - Multiplayer relationships are no longer reset from the previous Age when committing to an Age Transition while playing on a Team.
     - Fortified Districts are now properly damaged or destroyed when the "Open the Gates" Espionage Action is completed during Exploration gameplay.
 
@@ -894,17 +894,17 @@ Update 1.2.1 introduces some adjustments to a number of underutilized or underpe
 
 - **Military**
     - Secondary Unit Combat Strength effects from all Resources have been removed.
-        - Dev Note: Additional bonuses against particular Unit types ended up just making some Unit types like Infantry underpowered in most situations. We’re looking into other ways to differentiate Unit types so that they each have situations where they shine. 
+        - Dev Note: Additional bonuses against particular Unit types ended up just making some Unit types like Infantry underpowered in most situations. We're looking into other ways to differentiate Unit types so that they each have situations where they shine. 
     - Shì Dàfū Unit can now be trained when Cities other than your Capital reach 10 Population during the Antiquity Age.
     - Trade Caravans and Ships no longer receive damage from Plague when a Trade Caravan or Ship passes through a plagued Settlement.
     - Addressed a reported issue where Units failed to gain Combat Strength when the player was adjacent to the Enemy Combat Unit after unlocking Wartime Manufacturing.
     - Hexes surrounded by the target's Commander are no longer revealed when the player activates Military Infiltration action.
     - Army Commander Units no longer gain double XP when using their abilities to attack.
     - Squadron Commander Units now respawn on an Aerodrome when defeated by an enemy Unit.
-    - Several Units can no longer be used on opposing Civilization’s Commanders, including: Jacobin "Louis Antoine de Saint-Just" (French Empire); Shì Dàfū "Huo Qubing" (Han China); Uparat "Senanurak" (Siam); all Revolucionario Units (Mexico).
+    - Several Units can no longer be used on opposing Civilization's Commanders, including: Jacobin "Louis Antoine de Saint-Just" (French Empire); Shì Dàfū "Huo Qubing" (Han China); Uparat "Senanurak" (Siam); all Revolucionario Units (Mexico).
     - Razing penalty no longer grants free War Support against you and instead now just doubles the usual Influence penalty from conquest for the rest of the Age.
     - Naval Units now heal when resting on neutral Coastal tiles in the Modern Age.
-    - Enemy Naval Units on a player’s Navigable River Urban District can now be attacked by Melee Units.
+    - Enemy Naval Units on a player's Navigable River Urban District can now be attacked by Melee Units.
     - An embarked Ranged Unit's Movement points will no longer be consumed when an Army Commander orders the Unit to Focus Fire on a hostile Unit.
 
 - **Religion**
@@ -913,7 +913,7 @@ Update 1.2.1 introduces some adjustments to a number of underutilized or underpe
 ## **UI**
 
 - **Alignment & Spacing**
-    - City View’s next/previous arrows are now properly aligned instead of being pushed down when viewing a Settlement in Unrest.
+    - City View's next/previous arrows are now properly aligned instead of being pushed down when viewing a Settlement in Unrest.
     - The War Support bar no longer overlaps the UI when adding War Support over +28.
     - Removed Settlement District Health UI being present during Wonder Reveal cinematic.
     - The Resume and Restart buttons are now aligned when viewing in the Pause menu with 4K resolution.
@@ -921,14 +921,14 @@ Update 1.2.1 introduces some adjustments to a number of underutilized or underpe
     - The growth meter on the Suzerain city banner now properly aligns with town and city UI banners.
     - Realigned the red 'X' button in the Mementos menu to be more visible. 
     - The button tips no longer fail to display side by side when the tutorial pops up in the Education to Enlightenment window.
-    - The icon for Conquered City is now attached to the city name and doesn’t float in empty space.
+    - The icon for Conquered City is now attached to the city name and doesn't float in empty space.
     - Addressed a reported issue causing missing Yield numbers in the city resources UI.
 
 - **Civilopedia**
     - Added Starvation entry to the Civilopedia.
     - Added Unrest mechanic entry to Civilopedia.
-    - To and From sections for upgrading a Unique Unit now display the Unit’s Tier Level.
-    - Added Shì Dàfū "Laozi" and "Ban Zhao" Units’ missing descriptions of Unique Ability in Civilopedia in the Antiquity Age.
+    - To and From sections for upgrading a Unique Unit now display the Unit's Tier Level.
+    - Added Shì Dàfū "Laozi" and "Ban Zhao" Units' missing descriptions of Unique Ability in Civilopedia in the Antiquity Age.
     - The Civilopedia now includes the proper Civic Tree unlock for Reliquary.
 
 - **Controller-Specific**
@@ -961,12 +961,12 @@ Update 1.2.1 introduces some adjustments to a number of underutilized or underpe
     - Turn Advancer now appears after the player skips turn with their first Unit during the Tutorial.
     - The consumed City/Town Legacy now gets properly removed from the count of City/Town Legacy cards in the Legacy select screen during Advanced Start.
     - The background color for Dark Age Legacy cards now displays properly as black when viewed in the Legacy planning screen.
-    - Auto End Turn now pauses for unallocated Army Commander Promotion points when it’s the last action remaining.
+    - Auto End Turn now pauses for unallocated Army Commander Promotion points when it's the last action remaining.
     - Migrant Units' Resettle ability can now only be used in empty available tiles to become rural tiles.
     - The diplomacy animation now properly plays when interacting with a Diplomacy Event.
 
 - **Multiplayer**
-    - Addressed a reported issue where a player’s Team Chat message appeared as if sent by a player on the Opposing Team.
+    - Addressed a reported issue where a player's Team Chat message appeared as if sent by a player on the Opposing Team.
     - Addressed a reported issue where the Production bonus towards Wonders appeared when viewing the tooltips of the Nepal civilization instead of the Unique Ability in the Multiplayer Lobby.
     - Added missing description for Unique Ability when viewing the tooltips of the Great Britain civilization in the Multiplayer Lobby.
     - For easier navigability, reordered all leaders and civs (base game and DLC) alphabetically when viewing the dropdowns in the Multiplayer Lobby Menu.
@@ -996,7 +996,7 @@ Update 1.2.1 introduces some adjustments to a number of underutilized or underpe
 - **Brother Against Brother**: Rewards have been changed to more accurately match the narrative.
 - **Entitlement**: Event now correctly completes when scoring 2 or more Treasure Fleet Points.
 - **Grace of the Highlands:** Updated the second option reward to give Happiness Yield on Settlements.
-- **Legacy of the Ancients**: Rewarded Gold Bangle Unit will now match the player’s unlocked tier.
+- **Legacy of the Ancients**: Rewarded Gold Bangle Unit will now match the player's unlocked tier.
 - **Stolen Stones**: Now grants the correct rewards.
 - **The Forever Land**: All Factory Resources, regardless of how they were obtained, will now count towards quest completion. Fish no longer count as a Factory Resource for the quest, and Tin now correctly counts as one. And finally, the quest description is now updated to say Factory Resource instead of Luxury Goods.
 - **The Man of Destiny**: Added a progress tracker.
@@ -1044,7 +1044,7 @@ Update 1.2.0 - Patch 1 - April 29, 2025
 
 **A note for Switch players**: Update 1.2.0 – Patch 1 will be incorporated into our June update on Nintendo Switch, coinciding with the release of _Civilization VII_ on Nintendo Switch 2. We appreciate your patience! 
 
-Today’s patch addresses some late-game performance drops, brings some stability improvements, and includes a handful of improvements in response to player feedback. We’re also heads-down on our next update, planned for early June, which will include plenty more improvements and updates across the game. Thanks for continuing to share your feedback, _Civ_ fans!
+Today's patch addresses some late-game performance drops, brings some stability improvements, and includes a handful of improvements in response to player feedback. We're also heads-down on our next update, planned for early June, which will include plenty more improvements and updates across the game. Thanks for continuing to share your feedback, _Civ_ fans!
 
 ## **Patch Notes**
 
@@ -1053,7 +1053,7 @@ Today’s patch addresses some late-game performance drops, brings some stabilit
 - Addressed a reported issue where late-game performance could noticeably drop, usually when opening and closing the Production menu.
 - Improved game stability. 
 - The Map Icon for Wall Improvements will no longer visually appear to take an available slot when placing a Building on Districts during gameplay.
-- War support UI will now update right away when supporting an ally’s war.
+- War support UI will now update right away when supporting an ally's war.
 - Sugar is now treated as a Bonus Resource in the Modern Age.
 - Resolved placeholder text strings seen in the Challenges menu. 
 - Addressed a reported issue where Tech / Civic icons disappeared when research queuing with Tutorials enabled.   
@@ -1071,15 +1071,15 @@ Update 1.2.0 – Apr 22, 2025
 
 Hey _Civ_ fans,
 
-We’ve just rolled out Update 1.2.0! This update brings several highly-requested improvements, balance changes, and new features – many of which were shaped directly by your feedback.  
+We've just rolled out Update 1.2.0! This update brings several highly-requested improvements, balance changes, and new features – many of which were shaped directly by your feedback.  
 
-**A note for our Switch players**: Update 1.2.0 won’t be available on Switch just yet, and will be incorporated into our June update when _Civilization VII_ releases on Nintendo Switch 2. We know that’s frustrating, and we appreciate your patience. This extra time allows us to make sure everything will be working as intended for existing Nintendo Switch players, while laying the groundwork for an upgrade path for the future Nintendo Switch 2 release and support for cross-platform DLC ownership. The console-compatible version remains available with full crossplay support with Steam in the meantime (instructions on how to access [here](https://support.civilization.com/hc/en-us/articles/38491526836243-Civilization-VII-Patch-Mismatch-and-Crossplay-Impact)).
+**A note for our Switch players**: Update 1.2.0 won't be available on Switch just yet, and will be incorporated into our June update when _Civilization VII_ releases on Nintendo Switch 2. We know that's frustrating, and we appreciate your patience. This extra time allows us to make sure everything will be working as intended for existing Nintendo Switch players, while laying the groundwork for an upgrade path for the future Nintendo Switch 2 release and support for cross-platform DLC ownership. The console-compatible version remains available with full crossplay support with Steam in the meantime (instructions on how to access [here](https://support.civilization.com/hc/en-us/articles/38491526836243-Civilization-VII-Patch-Mismatch-and-Crossplay-Impact)).
 
-In this update, you’ll find the return of Multiplayer Teams, a rework to how Food and growth scale over time, significant updates to Resources, and more. We’ve highlighted the biggest changes in the Feature Spotlight section below, and further down you’ll find the full notes covering addressed issues, AI improvements, UI polish, and several more changes under the hood.
+In this update, you'll find the return of Multiplayer Teams, a rework to how Food and growth scale over time, significant updates to Resources, and more. We've highlighted the biggest changes in the Feature Spotlight section below, and further down you'll find the full notes covering addressed issues, AI improvements, UI polish, and several more changes under the hood.
 
-If you read our [April 8 Update Check-In](https://civilization.2k.com/civ-vii/news/civ-vii-update-check-in-apr-8/), you already know this is part of a bigger development roadmap. Update 1.2.0 sets the stage for a lot of what’s coming next – especially as we continue to refine the core systems, improve the UI and pacing, and support the game with more ways to play.
+If you read our [April 8 Update Check-In](https://civilization.2k.com/civ-vii/news/civ-vii-update-check-in-apr-8/), you already know this is part of a bigger development roadmap. Update 1.2.0 sets the stage for a lot of what's coming next – especially as we continue to refine the core systems, improve the UI and pacing, and support the game with more ways to play.
 
-We’ll keep on listening, iterating, and adjusting as we go – so please keep sharing your thoughts, especially as you dig into new features and changes to systems. Hope you enjoy the update, and read on for the full notes! 
+We'll keep on listening, iterating, and adjusting as we go – so please keep sharing your thoughts, especially as you dig into new features and changes to systems. Hope you enjoy the update, and read on for the full notes! 
 
 _**A note on mods:**_ _downloaded mods may not be compatible with this update. Keep an eye out for updates from the mod author!_
 
@@ -1089,23 +1089,23 @@ _**A note on mods:**_ _downloaded mods may not be compatible with this update. K
 
  ![](app://assets.2k.com/1a6ngf98576c/gxU7a262cvqtNBAN2XGSC/df381d4e19a9f338816d3eb6f4060ba7/Mangoes_800x450.gif)
 
-Big updates have been made to resources in _Civ VII_! Let’s start with the ten new resources we’ve added with 1.2.0, including: Mangoes, Clay, Flax, Rubies, Rice, Limestone, Tin, Llamas, Hardwood, and Wild Game. All of these can appear in the Antiquity Age or Exploration Age, and Rice, Limestone, Tin, Llamas, and Hardwood appear in the Modern Age. These new Resources come with their own effects as well as at least one new narrative event for each. 
+Big updates have been made to resources in _Civ VII_! Let's start with the ten new resources we've added with 1.2.0, including: Mangoes, Clay, Flax, Rubies, Rice, Limestone, Tin, Llamas, Hardwood, and Wild Game. All of these can appear in the Antiquity Age or Exploration Age, and Rice, Limestone, Tin, Llamas, and Hardwood appear in the Modern Age. These new Resources come with their own effects as well as at least one new narrative event for each. 
 
-In addition to these new Resources, we’re spicing up Resource distribution with **randomized Resource generation**. New placement logic will help keep each Age unique and strategic (don’t worry – the Resources you still need to complete Legacy Paths will still be available!), and certain Resources are now gated by continent or hemisphere, with a change we’re calling “Hemisphere Identity.” 
+In addition to these new Resources, we're spicing up Resource distribution with **randomized Resource generation**. New placement logic will help keep each Age unique and strategic (don't worry – the Resources you still need to complete Legacy Paths will still be available!), and certain Resources are now gated by continent or hemisphere, with a change we're calling “Hemisphere Identity.” 
 
-This update also reimagines how Treasure Resources work. They’re no longer just for Treasure Fleets, but have passive bonuses to your empire and are more clearly divided between Homelands and Distant Lands, with unique icons and tooltips to make their roles clearer. We’ve expanded the list of Treasure Resources too, including Horses, Furs, and Rubies. 
+This update also reimagines how Treasure Resources work. They're no longer just for Treasure Fleets, but have passive bonuses to your empire and are more clearly divided between Homelands and Distant Lands, with unique icons and tooltips to make their roles clearer. We've expanded the list of Treasure Resources too, including Horses, Furs, and Rubies. 
 
-Finally (whew!) we’ve made **balance changes** to existing Resources, like making Dyes more potent for Happiness, turning Fish into a Bonus Resource, and introducing Tin as a new Factory Resource that improves your Growth Rate. 
+Finally (whew!) we've made **balance changes** to existing Resources, like making Dyes more potent for Happiness, turning Fish into a Bonus Resource, and introducing Tin as a new Factory Resource that improves your Growth Rate. 
 
-We hope these updates bring some more flavor and strategy to Resource management, with more improvements and additions to resources still in the works (including improvements to the Resource screen itself). Also, a little hint from the devs about what’s to come… These updates will lay some needed groundwork aimed at expanding the multiplayer player count in the Antiquity Age and enabling “Distant Land starts” in all Ages in a satisfying way. More on that in the future! 
+We hope these updates bring some more flavor and strategy to Resource management, with more improvements and additions to resources still in the works (including improvements to the Resource screen itself). Also, a little hint from the devs about what's to come… These updates will lay some needed groundwork aimed at expanding the multiplayer player count in the Antiquity Age and enabling “Distant Land starts” in all Ages in a satisfying way. More on that in the future! 
 
 ## **One More Turn**
 
  ![](app://assets.2k.com/1a6ngf98576c/7uJaNRsjjI1jCgDCU5Uud5/fc7a0cfbf8bd1181b08dbc7e729969d4/One_More_Turn_V1.png)
 
-We know you’ve been waiting for this one: endless play is here! Now, players will have the option to play “**Just One More Turn**” during single-player games at the end of the Modern Age. 
+We know you've been waiting for this one: endless play is here! Now, players will have the option to play “**Just One More Turn**” during single-player games at the end of the Modern Age. 
 
-At this point in the game, a victory has already been won, so all other victories will be disabled during this game mode and the Age Progress indicator will turn into an infinity symbol. However, you can still complete the steps for other victories, get the cinematics, and experiment with your empire if you just want to see it play out. You’ll even still be able to grab Legacy Path achievements if you haven’t already. If you do choose to end your endless game, you can do so by selecting “No More Turns” in the game menu!
+At this point in the game, a victory has already been won, so all other victories will be disabled during this game mode and the Age Progress indicator will turn into an infinity symbol. However, you can still complete the steps for other victories, get the cinematics, and experiment with your empire if you just want to see it play out. You'll even still be able to grab Legacy Path achievements if you haven't already. If you do choose to end your endless game, you can do so by selecting “No More Turns” in the game menu!
 
 ## **Food and Growth Rebalance**
 
@@ -1113,9 +1113,9 @@ At this point in the game, a victory has already been won, so all other victorie
 
 We heard you loud and clear on this one, food and population growth needed some dev TLC. The old system for growth had some bottlenecks, making it a much less valuable Yield compared to Science, Production, Culture, etc. 
 
-So, in Update 1.2.0, we’ve reworked the underlying math to make Food a more reliable and rewarding Yield across the entire game. We’ve removed the hard cap that used to block growth when gaining Food, and changed the way growth scales. Instead of following a cubic formula, where costs ramped up fast, we’ve shifted to a quadratic curve, meaning your Settlements will still slow down as they get larger, but the pacing should feel more natural. 
+So, in Update 1.2.0, we've reworked the underlying math to make Food a more reliable and rewarding Yield across the entire game. We've removed the hard cap that used to block growth when gaining Food, and changed the way growth scales. Instead of following a cubic formula, where costs ramped up fast, we've shifted to a quadratic curve, meaning your Settlements will still slow down as they get larger, but the pacing should feel more natural. 
 
-In a few bullets, here’s the impact you’ll see and feel with this update: 
+In a few bullets, here's the impact you'll see and feel with this update: 
 
 - Food-focused strategies are finally viable all game long. 
 - Food-focused civs and leaders like (looking at you, [Pachacuti](https://civilization.2k.com/civ-vii/game-guide/leaders/pachacuti/)) will feel stronger and more fun to play.
@@ -1133,9 +1133,9 @@ Multiplayer teams are officially back! In Multiplayer*, you can now play co-op w
 - When one player wins a victory, the whole team also wins that victory.
 - Teammates can perform Diplomatic Actions with each other, with the exception of Espionage Actions.
 
-A couple important things to note: unlike some past _Civ_ games, teams don’t share Tech or Civic progress. We wanted each leader to still feel unique and fully playable – even when you’re working as a team! The same also applies to Legacy Path progress: it’s still your own personal endeavor. 
+A couple important things to note: unlike some past _Civ_ games, teams don't share Tech or Civic progress. We wanted each leader to still feel unique and fully playable – even when you're working as a team! The same also applies to Legacy Path progress: it's still your own personal endeavor. 
 
-We hope our MP fans enjoy this feature and we’re excited to hear how it feels in practice. Keep the feedback coming in! 
+We hope our MP fans enjoy this feature and we're excited to hear how it feels in practice. Keep the feedback coming in! 
 
  ![](app://assets.2k.com/1a6ngf98576c/6DbZO5WsewIKX7APxzuP7y/01dbfa5af0e56805672fc122c3e37ad4/Update_Notes_Header.png)
 
@@ -1148,10 +1148,10 @@ We hope our MP fans enjoy this feature and we’re excited to hear how it feels 
     - Some Resources in the Exploration Age and Modern Age related to the Economic Legacy Paths (Treasure and Factory Resources) will now appear on only one hemisphere or the other, requiring you to expand overseas or trade to access them. 
 - **Treasure Resources Updates:**
     - Treasure Resources now have passive effects on your empire, in addition to creating Treasure Fleets when improved in Coastal Settlements in Distant Lands.
-        - **Dev Note**: We wanted to make these Resources worth improving and protecting even if they didn’t grant you Treasure Fleets on your Homelands.
+        - **Dev Note**: We wanted to make these Resources worth improving and protecting even if they didn't grant you Treasure Fleets on your Homelands.
     - Horses, Furs, and the new Rubies Resource are Treasure Resources now, and will create Treasure Fleets when improved in Coastal Settlements in Distant Lands. Gold, Silver, Cocoa, Spices, Sugar, and Tea continue to be Treasure Resources. Cocoa, Spices, Sugar, and Tea are divided among the major landmasses and islands of the game, meaning each hemisphere will have some Treasure Resources unique to it. 
     - Homelands and Distant Lands Treasure Resources are distinguished on-map with a Tooltip and new symbol on the Resource Icon. 
-        - **Dev Note**: Homelands and Distant Lands are from each civilization’s perspective, so your Homelands could be Distant Lands to another civilization.
+        - **Dev Note**: Homelands and Distant Lands are from each civilization's perspective, so your Homelands could be Distant Lands to another civilization.
     - The Distant Lands continent in the Antiquity Age no longer spawns placeholder Treasure Resources for Age Transition.
 - **Resource Balance Changes:** 
     - Dyes give +4 Happiness instead of +3.
@@ -1195,7 +1195,7 @@ We hope our MP fans enjoy this feature and we’re excited to hear how it feels 
     - Using a Merchant to connect a City to a Town that already has a Focus will now properly send Food from that Town without needing to reset the Focus.
     - Addressed a reported issue that sometimes caused Merchants to be unable to connect Settlements by building roads within their land trade range.
     - Addressed a reported issue where some Town connections were broken after Age Transition.
-        - **Dev Note**: We’re continuing to make improvements here! We are investigating at least one more known issue where the connections will not always update correctly when loading an autosave from the first turn of an Age.
+        - **Dev Note**: We're continuing to make improvements here! We are investigating at least one more known issue where the connections will not always update correctly when loading an autosave from the first turn of an Age.
     - Buildings that require a full tile can now be built over tiles with only a single obsolete Building.
     - The Expansionist Legend Attribute now correctly reduces the cost of upgrading a Town.
     - Unique Quarters no longer retrigger their effects again after being repaired.
@@ -1213,7 +1213,7 @@ We hope our MP fans enjoy this feature and we’re excited to hear how it feels 
     - The Technology Tutorial now correctly occurs before the Grow City Tutorial.
 
 - **Mementos**
-    - Addressed a reported issue where Confucius’ Brush and Scroll Memento could cause Food needed to the next growth event to become 0 or negative.
+    - Addressed a reported issue where Confucius' Brush and Scroll Memento could cause Food needed to the next growth event to become 0 or negative.
     - The Lantern Memento will no longer grant its effect when not equipped.
 - **Military**
     - Packed Units can now be upgraded simultaneously using the Upgrade All button on the Commander that the Units are packed into.
@@ -1233,7 +1233,7 @@ We hope our MP fans enjoy this feature and we’re excited to hear how it feels 
 - **Inca:**
     - The Quipu Tradition will no longer stack when slotted and unslotted on the same turn.
 - **Mexico:**
-    - Addressed a reported issue where using Mexico’s Great Person José María Morelos on a Commander could result in Units disappearing from the map.
+    - Addressed a reported issue where using Mexico's Great Person José María Morelos on a Commander could result in Units disappearing from the map.
 - **Prussia:** 
     - Settlements now only use Prussian names.
 
@@ -1251,9 +1251,9 @@ We hope our MP fans enjoy this feature and we’re excited to hear how it feels 
 
 - **Civilopedia**
     - Added explanations for default terrain modifiers in gameplay and Civilopedia.
-    - Corrected historical inaccuracy in Harriet Tubman’s Civilopedia biography.
-    - Corrected historical inaccuracy in Hatshepsut’s Civilopedia biography
-    - Corrected historical inaccuracy in Ibn Battuta’s Civilopedia biography.
+    - Corrected historical inaccuracy in Harriet Tubman's Civilopedia biography.
+    - Corrected historical inaccuracy in Hatshepsut's Civilopedia biography
+    - Corrected historical inaccuracy in Ibn Battuta's Civilopedia biography.
     - Corrected historical inaccuracy in Civilopedia entry for Slinger Unit.
 - **Controller-Specific**
     - Resources are no longer highlighted pink when using the D-pad to place a Building during gameplay.
@@ -1275,7 +1275,7 @@ We hope our MP fans enjoy this feature and we’re excited to hear how it feels 
     - When attempting to load a save without owning all the content within the save, a popup will appear showing what content is missing.
     - Golden Age Universities now appear as eligible locations to Research Artifacts in the Continents Lens while playing in the Modern Age.
     - Ribbon Yields now stay visible with the “Always Show Ribbon Yields” option selected.
-    - Town’s yields now change properly after changing the Town’s Focus.
+    - Town's yields now change properly after changing the Town's Focus.
     - Combat Previews now only appear when attacking a District with an enemy Unit on it.
     - Auto-Fill Legacy Cards now only selects unused cards.
     - Added a background to Subtitles while creating a new game.
@@ -1285,7 +1285,7 @@ We hope our MP fans enjoy this feature and we’re excited to hear how it feels 
     - Addressed Resources being unable to be allocated to their origin City after being unassigned appearing with the message "Settlement is not connected to your empire's trade network" when in the Resource Menu.
 
 - **Notifications**
-    - Reduced the frequency of Town Specialization Available notifications. These will now only appear if the Town has just unlocked a new Focus or if the Settlement has just grown and won’t grow again for more than 20 turns.
+    - Reduced the frequency of Town Specialization Available notifications. These will now only appear if the Town has just unlocked a new Focus or if the Settlement has just grown and won't grow again for more than 20 turns.
     - Addressed a reported issue where the Settlement Razed Notifications in certain translations would use the wrong adjective vs noun. This fix will require a new save as existing saves in these languages will continue to have this issue.
 
 - **Text Changes**
@@ -1295,7 +1295,7 @@ We hope our MP fans enjoy this feature and we’re excited to hear how it feels 
     - When placing a Building on an existing rural Improvement the popup warning now explains that the Rural Population will not be lost.
     - Added text to Walls/Defensive Fortifications description that they can only be purchased in a City Center.
     - Yields greater than 10 are now rounded in the leader ribbon and top Yield bar.
-    - Removed hyphens from all Hawaiian City names as they don’t have hyphens in their language.
+    - Removed hyphens from all Hawaiian City names as they don't have hyphens in their language.
     - Removed text saying that a Settlement has been converted to a religion when capturing a Settlement despite that religion already being dominant.
     - Resolved missing text appearing when viewing the revealing the Military Sabotage Action in notification and espionage report during gameplay.
     - Addressed a reported issue where the Hale O Keawe Wonder reveal camera could play with missing text.
@@ -1306,10 +1306,10 @@ We hope our MP fans enjoy this feature and we’re excited to hear how it feels 
     - Added estimated turns until the next phase of a Crisis to the Social Policies Screen.
     - Added the turns remaining until a Diplomatic Action can be performed again.
     - Plot Tooltips will now appear underneath other 2D UI elements.
-    - Specialist’s tooltip information now only appears on urban plots.
+    - Specialist's tooltip information now only appears on urban plots.
     - Improved tooltip descriptions for game setup screens.
     - Tooltips now correctly appear after the tile selector is moved off screen and returned into view.
-    - Civ relationship is now displayed when viewing a Unit’s tooltip.
+    - Civ relationship is now displayed when viewing a Unit's tooltip.
     - Tooltips now appear correctly when viewing Buildings in the City Details Breakdown menu.
     - Tooltips now correctly display the player's Unit name when hovering over them on the map.
 
@@ -1325,7 +1325,7 @@ We hope our MP fans enjoy this feature and we’re excited to hear how it feels 
 - **Independent Village Tutorial**: Correct village name is now displayed in Tutorial.
 - **Machapuchare**: Reward tooltip for the first option now displays correctly in this event.
 - **Surprise Attack**: Reward tooltip for the first option now displays correctly in this event.
-- **Varbitsa’s Revenge**: Reward tooltip for the second option now displays correctly in this event.
+- **Varbitsa's Revenge**: Reward tooltip for the second option now displays correctly in this event.
 
 ## **Audio**
 
@@ -1362,7 +1362,7 @@ Update 1.1.1 - Patch 1 - March 27, 2025
 
 **April 3, 2025**: Update 1.1.1 – Patch 1 is now live for Nintendo Switch. Thank you for your patience, Switch players!
 
-Today, we’re rolling out a small patch that addresses a number of reported issues and aims to improve overall stability – particularly on PS4 and PS5. 
+Today, we're rolling out a small patch that addresses a number of reported issues and aims to improve overall stability – particularly on PS4 and PS5. 
 
 ## Patch Notes
 
@@ -1614,7 +1614,7 @@ Last, but certainly not least, Mount Everest has joined the list of Natural Wond
     - Addressed a reported issue where the remaining turns displayed in the “Town is in Unrest” menu were not consistent with the actual number of turns remaining.
     - The Civiolopedia entry for Prussia's Unique Infrastructure "Staatseisenbahn" now displays correctly.
     - Xerxes banner art has been updated.
-    - Applied more historically accurate icons to Han’s Shi Dafu and Ming’s Mandarin.
+    - Applied more historically accurate icons to Han's Shi Dafu and Ming's Mandarin.
     - The Commander Promotion menu now displays correctly in windowed mode.
 
 ## **Narrative**
@@ -1731,13 +1731,13 @@ Hello _Civ_ fans, 
 
 **Update 1.1.0** is here - our first major update to _Civilization VII_! This update includes a mix of both paid and free content, with many of the free additions influenced by community feedback. For these extensive Update 1.1.0 notes, we've separated PC and Console into two separate sections so you can easily read them for your preferred platform.
 
-As part of these update notes, we’re introducing a **Feature Spotlight** section, where the developers will dive deeper into new features or improvements being made. The **Update Notes** will cover all the addressed issues and improvements, including changes to both the base game and DLC. And lastly, for those who are excited about paid content additions, a **Collection** section will showcase the newest civs, leaders, and Wonders included in the latest paid Content Collection.
+As part of these update notes, we're introducing a **Feature Spotlight** section, where the developers will dive deeper into new features or improvements being made. The **Update Notes** will cover all the addressed issues and improvements, including changes to both the base game and DLC. And lastly, for those who are excited about paid content additions, a **Collection** section will showcase the newest civs, leaders, and Wonders included in the latest paid Content Collection.
 
 This update also brings a number of addressed issues and improvements specifically for console players. Some of these changes may already be available to PC players, but now all platforms are fully up-to-date. This also means crossplay between PC has been restored across PC, Playstation, Xbox, and Switch, so you can once again enjoy cross-platform multiplayer between PC and these consoles with the latest version of the game.
 
-For a look into what else we’re planning, take a look at our recently released [Update Check-in](https://civilization.2k.com/civ-vii/news/civ-vii-update-check-in-feb-27/) detailing some of what you can expect in our next update, and some major features being scoped out for the future.
+For a look into what else we're planning, take a look at our recently released [Update Check-in](https://civilization.2k.com/civ-vii/news/civ-vii-update-check-in-feb-27/) detailing some of what you can expect in our next update, and some major features being scoped out for the future.
 
-As always, we’re listening closely to your feedback, so please keep sharing your thoughts on the [Steam Discussion forums](https://steamcommunity.com/app/1295660/discussions/) or our official [_Civilization_ Discord Server](https://discord.gg/civilizationofficial). 
+As always, we're listening closely to your feedback, so please keep sharing your thoughts on the [Steam Discussion forums](https://steamcommunity.com/app/1295660/discussions/) or our official [_Civilization_ Discord Server](https://discord.gg/civilizationofficial). 
 
  ![](app://assets.2k.com/1a6ngf98576c/7BqUWyFUH5RBkW9VjU0IqU/e5bc5523d3b825e939b21377ec251e9b/1.1.1_Feature_Spotlight.png)
 
@@ -1745,7 +1745,7 @@ As always, we’re listening closely to your feedback, so please keep sharing yo
 
  ![](app://assets.2k.com/1a6ngf98576c/GD9LvUFudIxdwupVMllJA/ea474689b3f3d5b793d3d190a6b096d7/CivVII_French-Empire.jpg)
 
-If you’ve been chasing a Geographic Society victory, you might have noticed some balance quirks. We made some key changes to improve how this victory feels and plays, including removing the chance for Artifacts to run out in the game, and making it harder for players to breeze through this path when no other players are aiming for this victory. 
+If you've been chasing a Geographic Society victory, you might have noticed some balance quirks. We made some key changes to improve how this victory feels and plays, including removing the chance for Artifacts to run out in the game, and making it harder for players to breeze through this path when no other players are aiming for this victory. 
 
 Here are those key changes: 
 
@@ -1755,7 +1755,7 @@ Here are those key changes: 
 - **Additional Artifacts can be earned by completing the Future Civic** (repeatable), providing new late-game opportunities. 
 - **Additional AI and quality-of-life improvements** around Geographic Society gameplay. 
 
-We hope these changes balance the pacing of the Geographic Society victory – rewarding players who go all-in on Culture while ensuring other leaders still have a fair shot at competing for different paths! We’ll keep monitoring victory pacing across all Legacy Paths and make further adjustments as needed.
+We hope these changes balance the pacing of the Geographic Society victory – rewarding players who go all-in on Culture while ensuring other leaders still have a fair shot at competing for different paths! We'll keep monitoring victory pacing across all Legacy Paths and make further adjustments as needed.
 
 PC Update Notes
 
@@ -1772,7 +1772,7 @@ PC Update Notes
     - The Continents lens has been updated to show Natural Wonders that can provide Artifacts.
     - Hegemony has switched places with Militarism and now requires Nationalism and Globalism.
     - Increased the number of Artifacts that are spawned on Tiny maps.
-- Holy Cities can now be converted. Note that when players create their own Missionary Units, they will always follow the player’s chosen Religion.
+- Holy Cities can now be converted. Note that when players create their own Missionary Units, they will always follow the player's chosen Religion.
 
 ## Leaders & Civs
 
@@ -1785,7 +1785,7 @@ PC Update Notes
 - **America**: America now receives +2 Resource slots upon constructing their Unique Quarter.
 - **Buganda**: Adjusted Nyanza Civic Effect for Modern Buganda to award +1 Happiness and +1 Culture on Quarters adjacent to Rivers or Lakes.
 - **Meiji Japan**: Added +1 Resource slots to the Zaibatsu Unique Quarter.
-- **Siam**: Increased cost of Siam’s Itsaraphab action to be 50% more than the standard Befriend Independent action.
+- **Siam**: Increased cost of Siam's Itsaraphab action to be 50% more than the standard Befriend Independent action.
 - **Siam**: Addressed a reported issue where Siam was sometimes not properly unlocked in the Modern Age after unlocking them during the Exploration Age.
 
 ## Gameplay
@@ -1870,11 +1870,11 @@ PC Update Notes
 ## General
 
 - The Victory Achieved popup now takes you to the correct Civilopedia page if it is the final milestone, and the correct tab in the victory progress screen otherwise. 
-- Descriptions for a civ’s Unique Units will no longer mention their Tier when loading into the game.
+- Descriptions for a civ's Unique Units will no longer mention their Tier when loading into the game.
 - Social Policies and Crisis Policies can now be slotted separately when you unlock both on the same turn. This had previously made the screen appear stuck when either table had an empty slot.
 - The Plot cursor effect should now be more visible during a Growth Event or when placing a Building.
 - Selecting Factory Resources no longer highlights invalid slots.
-- A new icon for Natural Wonders in the Continent lens has been added, so it’s easier for players to see where to dig up Modern Age Artifacts.
+- A new icon for Natural Wonders in the Continent lens has been added, so it's easier for players to see where to dig up Modern Age Artifacts.
 - Updated and Improved the Leader Attribute Menu.
 - Leader portraits now properly update when Relationships change during gameplay.
 - Scrollbars now properly respond to mouse wheel input.
@@ -1889,7 +1889,7 @@ PC Update Notes
 
 ## Quests
 
-- Addressed a reported issue where the Great Library III Legacy Path Quest wasn’t completing if an Academy Building was purchased.
+- Addressed a reported issue where the Great Library III Legacy Path Quest wasn't completing if an Academy Building was purchased.
 - Addressed reported issues with incorrectly displayed quest text.
 
 ## Loading Screen
@@ -1907,11 +1907,11 @@ PC Update Notes
 
 - Added Direct Mode support for Retina displays.
 - Addressed a reported issue where the E hotkey was not functioning.
-- Addressed a reported issue where the mouse side buttons couldn’t be assigned.
+- Addressed a reported issue where the mouse side buttons couldn't be assigned.
 
 ## Linux
 
-- Addressed a reported issue where the mouse side buttons couldn’t be assigned.
+- Addressed a reported issue where the mouse side buttons couldn't be assigned.
 
 Console Update Notes
 
@@ -1928,7 +1928,7 @@ Console Update Notes
     - The Continents lens has been updated to show Natural Wonders that can provide Artifacts.
     - Hegemony has switched places with Militarism and now requires Nationalism and Globalism.
     - Increased the number of Artifacts that are spawned on Tiny maps.
-- Holy Cities can now be converted. Note that when players create their own Missionary Units, they will always follow the player’s chosen Religion.
+- Holy Cities can now be converted. Note that when players create their own Missionary Units, they will always follow the player's chosen Religion.
 - City States will now turn into Friendly Independent Powers on Age Transition instead of disappearing completely and will also now start with more units in Exploration and Modern Ages.
 - Completing the final milestone of a Legacy Path no longer adds Age Progress in the Modern Age to ensure you have more time to complete a Victory.
 
@@ -1944,7 +1944,7 @@ Console Update Notes
 - **America**: America now receives +2 Resource slots upon constructing their Unique Quarter.
 - **Buganda**: Adjusted Nyanza Civic Effect for Modern Buganda to award +1 Happiness and +1 Culture on Quarters adjacent to Rivers or Lakes.
 - **Meiji Japan**: Added +1 Resource slots to the Zaibatsu Unique Quarter.
-- **Siam**: Increased cost of Siam’s Itsaraphab action to be 50% more than the standard Befriend Independent action.
+- **Siam**: Increased cost of Siam's Itsaraphab action to be 50% more than the standard Befriend Independent action.
 - **Siam**: Addressed a reported issue where Siam was sometimes not properly unlocked in the Modern Age after unlocking them during the Exploration Age.
 
 ## Gameplay
@@ -2073,7 +2073,7 @@ Console Update Notes
 - The Social panel icon now displays tooltips when hovering the mouse cursor over it in the Main Menu.
 - Addressed a reported issue where no tooltips for Leader's name would appear when hovering over a non-selected leader when in the pre-game lobby screen.
 - Addressed a reported issue where tooltips for a civilization were not appearing properly on the pre-game lobby screen.
-- Addressed a reported issue where Tech and Civic Tree tooltip font didn’t scale.
+- Addressed a reported issue where Tech and Civic Tree tooltip font didn't scale.
 
 ## Performance & Resolution
 
@@ -2083,16 +2083,16 @@ Console Update Notes
 - Addressed a reported issue where hotkeys were inactive when the chat window was open in multiplayer.
 - Corrected inconsistent controls when in the technology tree menu.
 - The Scientific Attribute tree now displays correctly in 720p resolution without being cut off. 
-- Graphics Profile options now display correctly when changing settings in the Options menu, instead of always showing ‘High’.
+- Graphics Profile options now display correctly when changing settings in the Options menu, instead of always showing ‘High'.
 
 ## General
 
 - The Victory Achieved popup now takes you to the correct Civilopedia page if it is the final milestone, and the correct tab in the victory progress screen otherwise. 
-- Descriptions for a civ’s Unique Units will no longer mention their Tier when loading into the game.
+- Descriptions for a civ's Unique Units will no longer mention their Tier when loading into the game.
 - Social Policies and Crisis Policies can now be slotted separately when you unlock both on the same turn. This had previously made the screen appear stuck when either table had an empty slot.
 - The Plot cursor effect should now be more visible during a Growth Event or when placing a Building.
 - Selecting Factory Resources no longer highlights invalid slots.
-- A new icon for Natural Wonders in the Continent lens has been added, so it’s easier for players to see where to dig up Modern Age Artifacts.
+- A new icon for Natural Wonders in the Continent lens has been added, so it's easier for players to see where to dig up Modern Age Artifacts.
 - Updated and Improved the Leader Attribute Menu.
 - Leader portraits now properly update when Relationships change during gameplay.
 - Scrollbars now properly respond to mouse wheel input.
@@ -2105,7 +2105,7 @@ Console Update Notes
 - Addressed a reported issue where the Settlement menu fails to open when clicking on a non-player's Settlement Banner in gameplay.
 - Addressed a reported issue where some text was cut off on the Global Yields Breakdown screen.
 - City projects no longer appear to be purchasable.
-- Addressed an issue some users reported experiencing where a District’s health bar would remain on-screen after being fully healed.
+- Addressed an issue some users reported experiencing where a District's health bar would remain on-screen after being fully healed.
 - Addressed an issue some users reported experiencing where the background color remained the default color when the user changed it in the Player Customize tab.
 - Addressed a reported issue where yield icons would fail to update in the City production list when upgrading a Town to a City.
 - Addressed various memory leaks in various UI elements.
@@ -2139,7 +2139,7 @@ Console Update Notes
 - Addressed a reported issue where the text-to-speech hotkey fails to function when used on a checkbox or slider in various menus.
 - Addressed a reported issue where the Narrator fails to have function when hovering the cursor on some items in the Your Progress menu.
 - Shawnee is now listed with the Exploration Age civilizations when viewing the Player Unlocks menu.
-- Addressed a reported issue where Shawnee’s unlock notification fails to display when befriending two City-States during Antiquity gameplay.
+- Addressed a reported issue where Shawnee's unlock notification fails to display when befriending two City-States during Antiquity gameplay.
 - Addressed a reported issue where The Independent power characters remain on the screen after opening and closing the diplomacy menu several times.
 - Addressed an issue that some players reported experiencing where the Unique Quarter description appears cut off when viewing in the Building Breakdown screen.
 - Addressed an issue that some players reported experiencing where unlocalized text appeared when viewing the "Nuclear Weapons Available" warning pop-up in Modern Age.
@@ -2159,7 +2159,7 @@ Console Update Notes
 
 ## Quests
 
-- Addressed a reported issue where the Great Library III Legacy Path Quest wasn’t completing if an academy was purchased.
+- Addressed a reported issue where the Great Library III Legacy Path Quest wasn't completing if an academy was purchased.
 - Addressed reported issues with incorrectly displayed quest text.
 
 ## Loading Screen
@@ -2181,7 +2181,7 @@ Console Update Notes
 - Addressed a reported issue where it was possible to convert a Town to City without having enough gold.
 - Addressed reported issues with incorrect input prompts appearing.
 - Addressed  reported issues with controller focus.
-- Addressed a reported issue where platform friends couldn’t be added as 2K Account friends.
+- Addressed a reported issue where platform friends couldn't be added as 2K Account friends.
 - Addressed a reported issue where some multiplayer invites were not received in game.
 - Addressed a reported issue where cross-platform lobbies and cross-play saves were not available on first title launch.
 - Addressed a reported issue where the tooltips for items on the Tech and Civic Unlocked pop-ups were inaccessible on controller.
@@ -2227,7 +2227,7 @@ The first half of the Crossroads of the World Collection, our first Content Coll
 
 **[Crossroads of the World DLC*] Added new leader** [**Ada Lovelace**](https://civilization.2k.com/civ-vii/game-guide/leaders/ada-lovelace/)**.**
 
-From childhood, Ada Lovelace inspected the world through a scientist’s eyes. Forging a path between intellectualism and imagination, she applied her mathematical mind to the nineteenth century’s most cutting-edge experiments. Working with mechanical computers, which made calculations using gears and punch cards, she designed the first computer program, establishing the field of computing over a century before technology caught up to her vision.
+From childhood, Ada Lovelace inspected the world through a scientist's eyes. Forging a path between intellectualism and imagination, she applied her mathematical mind to the nineteenth century's most cutting-edge experiments. Working with mechanical computers, which made calculations using gears and punch cards, she designed the first computer program, establishing the field of computing over a century before technology caught up to her vision.
 
 - **Attributes**: Scientific, Cultural
 - **Unique Ability**: Enchantress of Number: Cities receive increased Science per Age when you complete a Civic Mastery. This resets at the start of each Age. Gain Culture equal to a percentage of your total Science per turn when you complete a Technology Mastery.
@@ -2239,7 +2239,7 @@ From childhood, Ada Lovelace inspected the world through a scientist’s eyes. F
 
 **[Crossroads of the World DLC*] Added a new Modern Age civilization** [**Great Britain**](https://civilization.2k.com/civ-vii/game-guide/civilizations/great-britain/)**.**
 
-The sun never set on Great Britain’s vast empire. Its territories spread across all continents, funneling raw materials from colonial holdings to the factories of the metropole. Foreign policy was conducted through economic strategy, extensive diplomacy, and threat of war. The British navy dominated the seas, while at home, society found a new order amid the explosion of industry. Under Pax Britannica, the world followed Britain’s lead.
+The sun never set on Great Britain's vast empire. Its territories spread across all continents, funneling raw materials from colonial holdings to the factories of the metropole. Foreign policy was conducted through economic strategy, extensive diplomacy, and threat of war. The British navy dominated the seas, while at home, society found a new order amid the explosion of industry. Under Pax Britannica, the world followed Britain's lead.
 
 - **Attributes**: Economic, Expansionist
 - **Unique Ability**: Workshop of the World: Buildings are a set percentage cheaper to produce or purchase. Converting Towns into Cities costs a set percentage more.
@@ -2251,7 +2251,7 @@ The sun never set on Great Britain’s vast empire. Its territories spread acros
 
 **[Crossroads of the World DLC*] Added new Antiquity Age civilization** [**Carthage**](https://civilization.2k.com/civ-vii/game-guide/civilizations/carthage/)**.**
 
-From humble colony to economic hegemony, Carthage rose from the shores of North Africa to dominate the Mediterranean Sea. Its sleek ships ferried goods and riches all over the known world, while at home, the city of Carthage was famed for its master craftsmen and deep agricultural knowledge. Competition with first Greece, then Rome, honed renowned generals and a powerful navy. But war was Carthage’s undoing, and the city was destroyed in 146 BCE.
+From humble colony to economic hegemony, Carthage rose from the shores of North Africa to dominate the Mediterranean Sea. Its sleek ships ferried goods and riches all over the known world, while at home, the city of Carthage was famed for its master craftsmen and deep agricultural knowledge. Competition with first Greece, then Rome, honed renowned generals and a powerful navy. But war was Carthage's undoing, and the city was destroyed in 146 BCE.
 
 - **Attributes**: Militaristic, Economic
 - **Unique Ability**: Phoenician Heritage: Can only have one City. Towns cannot use Convert to City. When you create a Merchant or Colonist Unit, gain a copy of that Unit.
@@ -2280,7 +2280,7 @@ From humble colony to economic hegemony, Carthage rose from the shores of North 
 
 Hello _Civ_ fans,
 
-Today’s 1.0.1 Patch 3 for PC focuses on addressing key areas of player-reported issues that we can act on most quickly.
+Today's 1.0.1 Patch 3 for PC focuses on addressing key areas of player-reported issues that we can act on most quickly.
 
 We're still actively working on a development roadmap outlining more major updates to the game, including improvements to the UI and other critical areas. Our goal is to share this roadmap in the coming weeks; we appreciate your patience as we determine what we can deliver in the near future. 
 
@@ -2334,7 +2334,7 @@ Hello _Civ_ fans,
 
 First off, a big thank you to all of the players that have reached out to us with bugs, comments, and suggestions during the Advanced Access period for _Civilization VII_. We are reading and collecting all of your feedback, and will continue to do so as we [roll out improvements going forward](https://civilization.2k.com/civ-vii/news/message-from-firaxis-games/).
 
-Today’s **1.0.1 Patch 2** for PC addresses some player feedback received during Advanced Access and is the first in a series of upcoming patches intended to do so. Stay tuned for larger, more substantive updates to come in the future.
+Today's **1.0.1 Patch 2** for PC addresses some player feedback received during Advanced Access and is the first in a series of upcoming patches intended to do so. Stay tuned for larger, more substantive updates to come in the future.
 
 Please continue to send us your feedback on the [Steam Discussion forums](https://steamcommunity.com/app/1295660/discussions/) or our official [_Civilization_ Discord Server](https://discord.gg/civilizationofficial). 
 
@@ -2386,7 +2386,7 @@ Please continue to send us your feedback on the [Steam Discussion forums](https:
 - Added a notification for completed Espionage actions, so that you can more easily check the results of their Espionage actions.
 - City projects no longer appear to be purchasable.
 - Your current religion is now displayed first in the belief picker tabs.
-- Addressed an issue some users reported experiencing where a District’s health bar would remain on-screen after being fully healed.
+- Addressed an issue some users reported experiencing where a District's health bar would remain on-screen after being fully healed.
 - Addressed an issue some users reported experiencing where Leaders failed to have a portrait when the Relationship has changed during gameplay.
 - Improved the alignment of leader names and portraits on the Age Summary, when viewing the Overview screen of the Victories Rankings.
 - Addressed an issue some users reported experiencing where the background color remained the default color when the user changed it in the Player Customize tab.

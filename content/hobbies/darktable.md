@@ -60,7 +60,7 @@ This is the list of the available lenses by default in darktable when you go to 
 > How to Set Up Your Hotbar
 > Locate the Quick Access Panel on the right side in the darkroom view.
 > 
-> Add modules by right-clicking the “hamburger” icon at the panel’s top-left, or use the layout manager (“Manage module layouts”) to configure which controls appear.
+> Add modules by right-clicking the “hamburger” icon at the panel's top-left, or use the layout manager (“Manage module layouts”) to configure which controls appear.
 > 
 > You can also Ctrl+click any widget in a processing module to add it to the Quick Access Panel while in visual shortcut mapping mode.
 > 
@@ -106,7 +106,7 @@ Mask --> draw mask --> oval --> edit as you please
 > [!web] About Deleting Original RAW Files
 > If you delete the original RAW files from their original import location, darktable cannot access the source file again, so you will lose the ability to reload or re-edit that RAW with full fidelity.
 > 
-> Darktable’s edits rely on the original RAW file being present because it is a non-destructive editor that reads RAW data dynamically.
+> Darktable's edits rely on the original RAW file being present because it is a non-destructive editor that reads RAW data dynamically.
 > 
 > The XMP sidecar files store editing instructions only and do not contain the RAW data itself.
 > 

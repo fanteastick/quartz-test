@@ -8,7 +8,7 @@ date modified: 2025-04-20T23:40
 
 Please review our Terms of Service (“ToS”) **before** obtaining services. By obtaining our services, you are agreeing to abide by the expectations outlined here.
 
-_If you have any questions about our Terms of Service, or if you’d like to clarify whether or not your particular desired use is allowed on our services, please_ [**_contact us_**](https://www.racknerd.com/cdn-cgi/l/email-protection#10636560607f6264506271737b7e7562743e737f7d) _before signing up! Thank you!_
+_If you have any questions about our Terms of Service, or if you'd like to clarify whether or not your particular desired use is allowed on our services, please_ [**_contact us_**](https://www.racknerd.com/cdn-cgi/l/email-protection#10636560607f6264506271737b7e7562743e737f7d) _before signing up! Thank you!_
 
 _If you are a member of our affiliate program, or if you are interested in joining the RackNerd affiliate program, please review our [Affiliates Terms of Service](https://www.racknerd.com/affiliates-terms-of-service)._
 
@@ -56,7 +56,7 @@ _In the event you placed an order for a colocation-based service and you have no
 
 Our services are highly flexible in terms of how they can be utilized, here is a **_non-exhaustive_** list of **prohibited activities.**
 
-_As mentioned above, if you have any questions about our Terms of Service, or if you’d like to clarify whether or not your particular desired use is allowed on our services, please_ [**_contact us._**](https://www.racknerd.com/cdn-cgi/l/email-protection#20535550504f5254605241434b4e4552440e434f4d) _By contacting us, your privacy is ensured; our sole intent is to communicate expectations for your benefit._
+_As mentioned above, if you have any questions about our Terms of Service, or if you'd like to clarify whether or not your particular desired use is allowed on our services, please_ [**_contact us._**](https://www.racknerd.com/cdn-cgi/l/email-protection#20535550504f5254605241434b4e4552440e434f4d) _By contacting us, your privacy is ensured; our sole intent is to communicate expectations for your benefit._
 
 - - Any illegal activities, illegal either in the United States of America, or your residing country.
 - - Utilizing services in a harassing or threatening manner
@@ -89,11 +89,11 @@ Anything related to cryptocurrency mining, email spamming, bruteforce attacks, o
 
 4. **Suspensions:**
 
-**Suspension for Non-Payment -** services interrupted for non-payment may be subject to a 10% late fee after 3 days or the maximum amount allowed by law (whichever is less). Data stored on a client’s services will not be available to the client until reconnection is established or alternative arrangements are made to the sole satisfaction of RackNerd.com. Clients deactivated for non-payment or charge-back are subject to their data being destroyed seven (7) days past due, unless otherwise specified or agreed upon.
+**Suspension for Non-Payment -** services interrupted for non-payment may be subject to a 10% late fee after 3 days or the maximum amount allowed by law (whichever is less). Data stored on a client's services will not be available to the client until reconnection is established or alternative arrangements are made to the sole satisfaction of RackNerd.com. Clients deactivated for non-payment or charge-back are subject to their data being destroyed seven (7) days past due, unless otherwise specified or agreed upon.
 
 RackNerd.com is not responsible for data integrity, regardless of circumstance. RackNerd.com strongly recommends keeping up to date and off network backups to protect against data loss.
 
-It is our intent to not want to suspend or terminate a client’s services for non-payment, we undergo efforts to give clients both adequate time and correspondence in order to avoid this scenario.
+It is our intent to not want to suspend or terminate a client's services for non-payment, we undergo efforts to give clients both adequate time and correspondence in order to avoid this scenario.
 
 **Communication is key.** In the event that your account is either past-due, or you may think that your account _might_ go past-due, please communicate the circumstances to us so that we can discuss and explore options that will allow you to retain your services.
 
@@ -105,11 +105,11 @@ Please contact us if you have any questions about this policy so we can establis
 
 5. **Cancellation and Service-Downgrade Policy:**
 
-**Cancellations -** We require five (5) day written notice of cancellation prior to your service’s renewal date that must be submitted through our client area. Very important to note, please be sure to back up any of your data prior to the cancellation date since upon cancellation the data upon the server is immediately removed for your protection. Please let us know if you have any questions about this. 
+**Cancellations -** We require five (5) day written notice of cancellation prior to your service's renewal date that must be submitted through our client area. Very important to note, please be sure to back up any of your data prior to the cancellation date since upon cancellation the data upon the server is immediately removed for your protection. Please let us know if you have any questions about this. 
 
-**Cancellations (For Contract Services) -** For any services that are in contract, we require seven (7) day written notice of cancellation prior to your service’s renewal date that must be submitted through our client area. Very important to note, please be sure to back up any of your data prior to the cancellation date since upon cancellation the data upon the server is immediately removed for your protection. Additionally please note, that such cancellations are reviewed on a case-by-case basis and that an early termination fee is determined which accounts tailored to the specific details of the service that is being pre-maturely canceled before the contract terms have been satisfied. Please let us know if you have any questions about this. 
+**Cancellations (For Contract Services) -** For any services that are in contract, we require seven (7) day written notice of cancellation prior to your service's renewal date that must be submitted through our client area. Very important to note, please be sure to back up any of your data prior to the cancellation date since upon cancellation the data upon the server is immediately removed for your protection. Additionally please note, that such cancellations are reviewed on a case-by-case basis and that an early termination fee is determined which accounts tailored to the specific details of the service that is being pre-maturely canceled before the contract terms have been satisfied. Please let us know if you have any questions about this. 
 
-**Service Downgrades -** in the event you are interested in downgrading a service, we require a five (5) day written notice prior to the service’s renewal date that must be submitted via our ticketing system. Please let us know if you have any questions about this.
+**Service Downgrades -** in the event you are interested in downgrading a service, we require a five (5) day written notice prior to the service's renewal date that must be submitted via our ticketing system. Please let us know if you have any questions about this.
 
 6. **Support Limitations:**
 

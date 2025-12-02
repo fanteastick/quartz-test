@@ -1,6 +1,8 @@
 ---
 date created: 2025-07-14T21:24
 date modified: 2025-07-15T02:00
+tags:
+  - tailscale
 ---
 ## Samba setup
 
@@ -146,7 +148,7 @@ Turns out having obsidian over a samba share slows down the user experience a lo
 > [!web]- Perplexity on persisting the wsl mount
 > To **make your mount persist between WSL sessions**, you should use the Linux standard `/etc/fstab` file, together with appropriate WSL config settings. This ensures your network or Windows drive mounts are *automatically* restored each time you start WSL.
 > 
-> Here’s how to do it:
+> Here's how to do it:
 > 
 >  1. **Update `/etc/wsl.conf` (optional, recommended)**
 > 

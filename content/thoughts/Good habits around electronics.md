@@ -50,9 +50,9 @@ EV batteries
 - Waymo Jaguar I-Pace: Lithium-ion. [Here's the electric Jaguar that Waymo will use for its driverless cars | Mashable](https://mashable.com/article/jaguar-i-pace-electric-waymo) 
 
 > [!web]- Perplexity
-> Waymo vehicles use large lithium-ion battery packs—specifically, the Jaguar I-Pace’s 90 kWh battery—which, when involved in a fire, can pose significant dangers due to the phenomenon known as "thermal runaway." During thermal runaway, the battery cells overheat and can ignite neighboring cells in a self-sustaining chain reaction, generating temperatures that can exceed 1,000 degrees Celsius. This intense heat can vaporize much of the vehicle, liquify metal components, and release hazardous gases such as hydrogen fluoride and other toxic fumes.
+> Waymo vehicles use large lithium-ion battery packs—specifically, the Jaguar I-Pace's 90 kWh battery—which, when involved in a fire, can pose significant dangers due to the phenomenon known as "thermal runaway." During thermal runaway, the battery cells overheat and can ignite neighboring cells in a self-sustaining chain reaction, generating temperatures that can exceed 1,000 degrees Celsius. This intense heat can vaporize much of the vehicle, liquify metal components, and release hazardous gases such as hydrogen fluoride and other toxic fumes.
 > 
-> Electric vehicle (EV) fires, including those involving Waymo’s Jaguar I-Pace, are especially hazardous for several reasons:
+> Electric vehicle (EV) fires, including those involving Waymo's Jaguar I-Pace, are especially hazardous for several reasons:
 > 
 > - **Extreme Temperatures:** The fires burn hotter and longer than typical gasoline vehicle fires, making them more dangerous for occupants and emergency responders.
 > - **Toxic Emissions:** Burning lithium-ion batteries release dangerous gases, including hydrogen fluoride, which is corrosive and can cause severe lung damage if inhaled.
