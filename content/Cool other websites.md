@@ -1,6 +1,6 @@
 ---
 date created: 2024-07-23T01:10
-date modified: 2025-11-30T18:36
+date modified: 2025-12-12T22:20
 tags:
   - external
 ---
@@ -62,6 +62,13 @@ A list where I have less to say
 - [Xe Iaso](https://xeiaso.net/) blogs
 - [Dirona Around the World – Adventures on Land and Sea](https://mvdirona.com/) guy that travels
 - [GitHub → Codeberg: my experience — ISSOtm's warehouse](https://eldred.fr/blog/forge-migration/) --> how'd they get their isso to look so good?
+- [Simon Willison’s Weblog](https://simonwillison.net/) 
+- [andrew blinn](https://andrewblinn.com/) programming language theory researcher
+- [Blog ⋆ Enbao Cao](https://www.enbao.me/posts) 
+- [Small things retro](https://nand2mario.github.io/) nand 2 mario hardware blog
+- [Roko's dancing basilisk - The Boston Diaries - Captain Napalm](https://boston.conman.org/2025/12/02.1) this person uses link color for distance, and also post date as permalinks
+- [Bruno's](https://bruno-simon.com/) as of 2025-12-09 he turned this site into a truck minigame!!
+- [Blog \| Max Bernstein](https://bernsteinbear.com/blog/) 
 
 ## Just cool sites
 
@@ -74,6 +81,8 @@ A list where I have less to say
 [francisco san grants](https://franciscosan.org/) Grants for silly things around the city
 
 [mitxela.com](https://mitxela.com/) electronics wizard if I've ever seen one [[Electronics wizards]]
+
+[Paged Out!](https://pagedout.institute/) these are like one-pager articles in a free magazine. I did a quick skim and there are some interesting topics, although not super relevant to me. 
 
 ### Programming Languages
 
@@ -120,3 +129,5 @@ Kind of like fonts - this is a TUI-styled webpage: [GitHub - internet-developmen
 [Google Sans Flex - Google Fonts](https://fonts.google.com/specimen/Google+Sans+Flex) 
 
 [MD Thermochrome · Mass-Driver™](https://mass-driver.com/typefaces/md-thermochrome/)
+
+[Proto Mono: download for free and install for your website or Photoshop.](https://en.bestfonts.pro/font/proto-mono) (paid)

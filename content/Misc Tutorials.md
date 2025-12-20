@@ -1,6 +1,6 @@
 ---
 date created: 2025-08-28T22:27
-date modified: 2025-11-30T18:42
+date modified: 2025-12-19T19:28
 subtitle: for FREE?!
 tags:
   - resourceland
@@ -75,7 +75,7 @@ LEGAL Free textbooks: [Free Public Domain Ebooks](https://mathcs.holycross.edu/~
 
 [Making Software: Shaders.](https://www.makingsoftware.com/chapters/shaders) Shaders. Whole site by dan hollick 
 
-[CIS531](https://kmicinski.com/cis531-f25/) ## Compiler Construction by Kmicinski of Syracuse university
+[CIS531](https://kmicinski.com/cis531-f25/) Compiler Construction by Kmicinski of Syracuse university
 
 Screenshot hosting [Screenshot hoster. Download these two files, put your screenshots in the same directory, run lister.py, and you have a fun website that shows all your screenshots. · GitHub](https://gist.github.com/sophiawisdom/c1b16fcaca017d1aec2358c6fb619697) 
 
@@ -86,3 +86,25 @@ Screenshot hosting [Screenshot hoster. Download these two files, put your screen
 [Digital Design and Computer Architecture - Spring 2025](https://safari.ethz.ch/ddca/spring2025/doku.php?id=start) 
 
 [ctut](http://usamimi.info/~suwa/ctut.htm#1_1) usamimi c tutorial
+
+[OMSCS Open Courseware](https://sites.gatech.edu/omscsopencourseware/) the entirety of the GT OMSCS videos and exercises are available online as of Dec 2025. 
+
+> _Course content typically includes things such as lecture videos and exercises; it will not include things like homeworks, projects quizzes, exams, or other graded assignments._
+
+[The BEAM Book: Understanding the Erlang Runtime System](https://blog.stenmans.org/theBeamBook/) 
+
+[Is Parallel Programming Hard, And, If So, What Can You Do About It?](https://mirrors.edge.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.html) parallel programming book
+
+[Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/) 
+
+> Welcome to **Operating Systems: Three Easy Pieces** (now **version 1.10** -- see [book news](https://pages.cs.wisc.edu/~remzi/OSTEP/combined.html) for details), a free online operating systems book! The book is centered around three conceptual pieces that are fundamental to operating systems: **virtualization,** **concurrency,** and **persistence.** In understanding the conceptual, you will also learn the practical, including how an operating system does things like schedule the CPU, manage memory, and store files persistently. Lots of fun stuff! Or [maybe not](https://pic4.zhimg.com/v2-522ded6304485cdac723f25d03c012dd_1200x500.jpg) so fun?
+
+[Welcome … — Physics-based Deep Learning](https://physicsbaseddeeplearning.org/intro.html) [Advanced Deep Learning for Physics (ADL4P)](https://tum-pbs.github.io/ADL4P/) 
+
+Group theory lecture notes: [damtp.cam.ac.uk/user/ho10//GNotes.pdf](https://www.damtp.cam.ac.uk/user/ho10//GNotes.pdf) 
+
+[Home - Introduction to In-Context Learning](https://intro-to-icl.github.io/)
+
+[Lean Game Server](https://adam.math.hhu.de/#/g/AlexKontorovich/RealAnalysisGame) Rutgers University Math 311H by [Alex Kontorovich](https://math.rutgers.edu/~alexk). [Introduction to Real Analysis](https://alexkontorovich.github.io/2025F311H/) 
+
+[CS251](https://www.cs251.com/) 

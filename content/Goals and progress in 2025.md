@@ -1,6 +1,6 @@
 ---
 date created: 2025-01-16T11:01
-date modified: 2025-11-09T20:18
+date modified: 2025-12-16T21:36
 ---
 ## Subset of the goals
 - Do a side hustle
@@ -119,3 +119,9 @@ Interesting things I read this month:
 - [Fully Countering Trusting Trust through Diverse Double-Compiling (DDC) - Countering Trojan Horse attacks on Compilers](https://dwheeler.com/trusting-trust/)
 
 I've been sick! I haTe being sick. How can I improve my immune system? [Expiration Date Information – iHealth Labs Inc](https://ihealthlabs.com/blogs/news/expiration-date-info) 
+
+## December
+
+- finished up some school! [What I learned Fa25 \| Eilleen's Blog](https://blog.eilleeenz.com/2025/2025-12-12) 
+- thinking about how to improve for next year [[2026 development]]
+- Vacation mode activated 🤣🤣
