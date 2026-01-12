@@ -1,10 +1,14 @@
 ---
 date created: 2025-04-11T18:02
-date modified: 2025-10-29T22:48
+date modified: 2025-12-09T16:39
 draft: "true"
 ---
 
 [Microarchitecture - Wikipedia](https://en.wikipedia.org/wiki/Microarchitecture) 
+
+Wikichip: [WikiChip](https://en.wikichip.org/wiki/WikiChip)
+
+[Fetching Title#ntao](https://siliconpr0n.org/archive/doku.php) doesn't load half the time but this is a link to high resolution chip maps
 
 ## Examples
 
@@ -84,3 +88,7 @@ All Nvidia microarchitectures: [Category:Nvidia microarchitectures - Wikipedia](
 [CS 146: Computer Architecture](https://www.eecs.harvard.edu/cs146-246/) 
 
 [Computer Systems Architecture Course I Stanford Online](https://online.stanford.edu/courses/ee282-computer-systems-architecture)
+
+## Utilities
+
+[8086 Microcode Explorer](https://nand2mario.github.io/8086_microcode.html) 

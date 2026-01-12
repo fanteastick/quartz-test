@@ -1,6 +1,6 @@
 ---
 date created: 2025-02-03T22:03
-date modified: 2025-11-25T18:30
+date modified: 2025-12-09T16:39
 tags:
   - recents-exclude
   - external
@@ -10,6 +10,22 @@ draft: "true"
 In reverse chronological order, so the most recent will be at the top. 
 
 ## Other stuff
+
+[Fetching Title#u13l](https://www.type1type2.com/archive?sort=new) 
+
+[Roko's dancing basilisk - The Boston Diaries - Captain Napalm](https://boston.conman.org/2025/12/02.1) 
+
+[Fonts — testing .. testing](https://kurnowhere.com/fonts) cute fonts
+
+[576 - Using LLMs at Oxide / RFD / Oxide](https://rfd.shared.oxide.computer/rfd/0576) [An Interactive Guide To The Fourier Transform – BetterExplained](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/) [Aleph 0 - YouTube](https://www.youtube.com/channel/UCzBjutX2PmitNF4avysL-vg) [Trusted AI for Our Most Trusted Institutions](https://www.intel.com/content/www/us/en/now/usai.html) 
+
+[2511.20849](https://arxiv.org/pdf/2511.20849) Length-MAX Tokenizer for Language Models
+
+[1609.08227](https://arxiv.org/pdf/1609.08227) Topological Data Analysis Larry Wasserman
+
+[Titans + MIRAS: Helping AI have long-term memory](https://research.google/blog/titans-miras-helping-ai-have-long-term-memory/) [A short note on optimizing NNs - Francesco Capuano](https://fracapuano.github.io/research/blog/2025/10/31/optimization.html) [Instant Supercompute: Launching Wolfram Compute Services—Stephen Wolfram Writings](https://writings.stephenwolfram.com/2025/12/instant-supercompute-launching-wolfram-compute-services/) 
+
+ [Paper Trails](https://www.papertrailshq.com/)someone made goodreads for papers but i'm worried about longevity
 
 [Read Something Wonderful (about Biology)](https://read.asimov.com/)
 

@@ -35,6 +35,7 @@ Also, make sure the subtitle property type is a string, not a list.
 | [[tbd/Dockerize anything.md\|Dockerize anything]]                                                                      | takes forever...                                             | tbd                        |
 | [[chips/Electronics wizards.md\|Electronics wizards]]                                                                  | there's a whole other world out there                        | chips                      |
 | [[chips/Every type of flip flop.md\|Every type of flip flop]]                                                          | 👟 but shoes? shoes, i know                                  | chips                      |
+| [[chips/FPGA magic.md\|FPGA magic]]                                                                                    | field programmable gate arrays                               | chips                      |
 | [[linux/Fumbling around a new server.md\|Fumbling around a new server]]                                                | the server room is very warm and loud                        | linux                      |
 | [[thoughts/How to cram for the GRE (2023).md\|How to cram for the GRE (2023)]]                                         | the pros n cons of standardized testing                      | thoughts                   |
 | [[linux/Ideas for what one can do with a home server.md\|Ideas for what one can do with a home server]]                | and now, they can collect dust in my home instead            | linux                      |
@@ -52,6 +53,7 @@ Also, make sure the subtitle property type is a string, not a list.
 | [[hobbies/Rawtherapee.md\|Rawtherapee]]                                                                                | hehe 💦                                                      | hobbies                    |
 | [[chips/Robotics Resources.md\|Robotics Resources]]                                                                    | How far down will you go?                                    | chips                      |
 | [[thoughts/Shopping Accounts.md\|Shopping Accounts]]                                                                   | thinly veiled effort to harvest your data                    | thoughts                   |
+| [[hobbies/Stall bars.md\|Stall bars]]                                                                                  | aka swedish bars                                             | hobbies                    |
 | [[hobbies/Tailoring and Sewing.md\|Tailoring and Sewing]]                                                              | I wish this was a hobby                                      | hobbies                    |
 | [[hobbies/To plan a fish tank.md\|To plan a fish tank]]                                                                | Fish for beginners!                                          | hobbies                    |
 | [[chips/Various areas or fields or categories or.md\|Various areas or fields or categories or]]                        | a whole new world                                            | chips                      |

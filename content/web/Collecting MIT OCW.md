@@ -14,6 +14,8 @@ tags:
 
 [Theory of Computation \| Mathematics \| MIT OpenCourseWare](https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/) 
 
+[Mathematics for Computer Science \| Electrical Engineering and Computer Science \| MIT OpenCourseWare](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/) 
+
 ## Not necessarily OCW
 
 [HTMAA 2025](https://fab.cba.mit.edu/classes/MAS.863/) 

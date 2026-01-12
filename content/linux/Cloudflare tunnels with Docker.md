@@ -1,6 +1,6 @@
 ---
 date created: 2025-03-20T22:32
-date modified: 2025-04-08T14:50
+date modified: 2025-12-19T18:49
 tags:
   - pi
   - cloudflare
@@ -16,6 +16,12 @@ I love you Let's Talk Dev... my savior frfr: [Cloudflare Tunnels for Docker: A S
 Reddit: [Is there an easier way to use cloudflared tunnels? : r/selfhosted](https://www.reddit.com/r/selfhosted/comments/1jnt02i/is_there_an_easier_way_to_use_cloudflared_tunnels/)
 
 Alternatives: [Linux Handbook: Cloudflare Tunnels Alternatives](https://linuxhandbook.com/cloudflare-tunnels-alternative/) 
+
+## Dockflare
+
+[GitHub - ChrispyBacon-dev/DockFlare: DockFlare: Automate Cloudflare Tunnels with Docker Labels](https://github.com/ChrispyBacon-dev/DockFlare)
+
+this one is Pretty Good, actually, but I was an early adopter and then started updating it and now I'm lost in the setup sauce. How am I supposed to know what my container's name is??
 
 ## Overview
 
@@ -98,10 +104,6 @@ Service: choose `HTTP` and the URL is the `name of the service:internal port in 
 With kuma, I put `uptime-kuma:3001`
 
 Let's say I have another service that I have at port 80 internally, but externally it's port 85 because it's conflicting with other stuff. Although locally I access it at `IP_ADDRESS:85`, I would put `service:80` here. 
-
-## Last step
-
-![[cloudflare#HTTPs]]
 
 ## Final words
 

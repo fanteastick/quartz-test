@@ -1,24 +1,24 @@
 ---
 date created: 2025-11-30T20:49
-date modified: 2025-11-30T21:05
+date modified: 2025-12-09T12:27
 ---
 
-Sorted by year of discovery, approximate. Plus a short review!
+Sorted by year of discovery, approximately. Plus a short review! It's only in this list because I thought it was good already. If I didn't like it, I'd be calling this page "A mix of good and bad webtoons". 
 
 ## 2025
 
 - Why you shouldn't enter a haunted house
-- Students of Illip arts high
-- Mr. Tiger's Snacks
-- Skool of Street
-- How a goddess wins over tigers
-- Obsidian bride
-- Momfluencer
+- Students of Illip arts high 💫💫💫💫
+- Mr. Tiger's Snacks 💫💫💫🥺🥺
+- Skool of Street 💫💫💫💫
+- How a goddess wins over tigers 💫💫💫💫⌛
+- Obsidian bride 💫💫
+- Momfluencer 😱😱😱
 	- everyone is morally corrupt
-- Deadpoint
-- The password is 002!
+- Deadpoint 💫💫💫💫
+- The password is 002!  💫💫
 	- DONE
-- Re: Trailer Trash
+- Re: Trailer Trash 
 	- DONE
 - Proof of Dignity
 - To whom it no longer concerns
@@ -28,34 +28,34 @@ Sorted by year of discovery, approximate. Plus a short review!
 
 ## 2024
 
-- A killer paradox
+- A killer paradox 💫💫💫😱😱
 	- DONE
-- The last passage
+- The last passage 😱😱😱😱💫💫
 - The price is your everything
 
 ## 2023
 
-- Couple Breaker
-- Zomgan
-- Stealing her place
+- Couple Breaker 💫💫💫💫
+- Zomgan 💫💫💫💫😱
+- Stealing her place 
 - Unholy blood
-- The Hip Guy
+- The Hip Guy 🤣🤣
 - I abdicate my title as empress
-- As if love doesn't exist
-- The blood of the butterfly
-- Mystic Prince !!!
+- As if love doesn't exist 💫
+- The blood of the butterfly 💫❓
+- Mystic Prince !!! 💫💫💫💫💫
 
 ## 2022
 
-- Romance 101
+- Romance 101 💫💫💫
 - Marry my husband
-- Promise of an Orchid
-- Dear Nemesis
-- From a Knight to a Lady
-- Apocalypse Live
-- Your Throne
+- Promise of an Orchid 💫💫❓
+- Dear Nemesis 
+- From a Knight to a Lady 
+- Apocalypse Live 💫💫💫❓😱
+- Your Throne 💫💫💫💫💫
 - Love Song for Illusion
-- The Artist Salieri
+- The Artist Salieri 💫💫💫💫💫⌛
 - Pyramid Game
 - See you in my 19th life
 
@@ -74,7 +74,7 @@ Sorted by year of discovery, approximate. Plus a short review!
 - Her bucket list
 - Moon you
 - It was all you
-- Dear X
+- Dear X 😱😱😱
 - FLOWAR
 ## 2020-ish
 
@@ -82,7 +82,7 @@ Sorted by year of discovery, approximate. Plus a short review!
 - Neolithic Girl
 - Dark Mortal
 - The Shadow Prophet
-- Nevertheless
+- Nevertheless 💫💫💫💫
 
 - Delusion
 - Nano List

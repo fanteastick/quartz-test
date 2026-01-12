@@ -1,6 +1,6 @@
 ---
 date created: 2025-08-28T22:27
-date modified: 2025-12-19T19:28
+date modified: 2026-01-01T01:19
 subtitle: for FREE?!
 tags:
   - resourceland
@@ -108,3 +108,9 @@ Group theory lecture notes: [damtp.cam.ac.uk/user/ho10//GNotes.pdf](https://www.
 [Lean Game Server](https://adam.math.hhu.de/#/g/AlexKontorovich/RealAnalysisGame) Rutgers University Math 311H by [Alex Kontorovich](https://math.rutgers.edu/~alexk). [Introduction to Real Analysis](https://alexkontorovich.github.io/2025F311H/) 
 
 [CS251](https://www.cs251.com/) 
+
+QUANTUM INFORMATION AND COMPUTATION[qi.damtp.cam.ac.uk/files/PartIIIQC/Part 2 QIC lecturenotes.pdf](https://www.qi.damtp.cam.ac.uk/files/PartIIIQC/Part%202%20QIC%20lecturenotes.pdf) 
+
+[Calculus Made Easy](https://calculusmadeeasy.org/) I remember this textbook!
+
+[Justin Skycak](https://www.justinmath.com/books/#introduction-to-algorithms-and-machine-learning) - this guy actually has a bunch of books, for this accelerated hs math/cs program

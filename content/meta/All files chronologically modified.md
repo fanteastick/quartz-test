@@ -7,7 +7,7 @@ tags:
   - "#tracker"
 title: All files chronologically modified
 date created: 2024-07-20T22:16
-date modified: 2025-11-30T23:18
+date modified: 2026-01-11T17:59
 ---
 ## Instructions
 
@@ -38,20 +38,42 @@ Some hidden tags: anything with "exclude" basically
 
 | File                                                                                                                                      | Folder                     | Modified     |
 | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- | ------------ |
+| [[hobbies/Stall bars.md\|Stall bars]]                                                                                                     | hobbies                    | Jan 11, 2026 |
+| [[hobbies/Gymming.md\|Gymming]]                                                                                                           | hobbies                    | Jan 11, 2026 |
+| [[hobbies/They put civ in the league client!.md\|They put civ in the league client!]]                                                     | hobbies                    | Jan 11, 2026 |
+| [[2026 development.md\|2026 development]]                                                                                                 |                            | Jan 11, 2026 |
+| [[tbd/public domain content.md\|public domain content]]                                                                                   | tbd                        | Jan 5, 2026  |
+| [[tbd/Financial literacy.md\|Financial literacy]]                                                                                         | tbd                        | Jan 3, 2026  |
+| [[tbd/Serious resources for chip design.md\|Serious resources for chip design]]                                                           | tbd                        | Jan 3, 2026  |
+| [[tbd/Online school strategies for success.md\|Online school strategies for success]]                                                     | tbd                        | Jan 2, 2026  |
+| [[hobbies/League of Legends.md\|League of Legends]]                                                                                       | hobbies                    | Jan 2, 2026  |
+| [[hobbies/Custom League Keybinds.md\|Custom League Keybinds]]                                                                             | hobbies                    | Jan 2, 2026  |
+| [[Misc Tutorials.md\|Misc Tutorials]]                                                                                                     |                            | Jan 1, 2026  |
+| [[tbd/Public domain day.md\|Public domain day]]                                                                                           | tbd                        | Jan 1, 2026  |
+| [[tbd/Cool research labs.md\|Cool research labs]]                                                                                         | tbd                        | Jan 1, 2026  |
+| [[tbd/Good pencils.md\|Good pencils]]                                                                                                     | tbd                        | Dec 19, 2025 |
+| [[hobbies/Good umbrellas.md\|Good umbrellas]]                                                                                             | hobbies                    | Dec 19, 2025 |
+| [[linux/Cloudflare tunnels with Docker.md\|Cloudflare tunnels with Docker]]                                                               | linux                      | Dec 19, 2025 |
+| [[tbd/Google Colab tips.md\|Google Colab tips]]                                                                                           | tbd                        | Dec 16, 2025 |
+| [[linux/Ideas for what one can do with a home server.md\|Ideas for what one can do with a home server]]                                   | linux                      | Dec 16, 2025 |
+| [[chips/GPUs/Comparing GPUs.md\|Comparing GPUs]]                                                                                          | chips/GPUs                 | Dec 16, 2025 |
+| [[thoughts/The breakdown of memory.md\|The breakdown of memory]]                                                                          | thoughts                   | Dec 16, 2025 |
+| [[thoughts/Goals and progress in 2025.md\|Goals and progress in 2025]]                                                                    | thoughts                   | Dec 16, 2025 |
+| [[hobbies/cool things online/Main Street Autonomy.md\|Main Street Autonomy]]                                                              | hobbies/cool things online | Dec 12, 2025 |
+| [[Cool other websites.md\|Cool other websites]]                                                                                           |                            | Dec 12, 2025 |
+| [[tbd/AI ML freebies.md\|AI ML freebies]]                                                                                                 | tbd                        | Dec 9, 2025  |
+| [[hobbies/Really good webtoons.md\|Really good webtoons]]                                                                                 | hobbies                    | Dec 9, 2025  |
+| [[chips/GPUs/GPU resources.md\|GPU resources]]                                                                                            | chips/GPUs                 | Dec 9, 2025  |
+| [[chips/FPGA magic.md\|FPGA magic]]                                                                                                       | chips                      | Dec 9, 2025  |
+| [[chips/Virtuoso shortcuts.md\|Virtuoso shortcuts]]                                                                                       | chips                      | Dec 9, 2025  |
 | [[tbd/Bookbinder usage.md\|Bookbinder usage]]                                                                                             | tbd                        | Dec 1, 2025  |
 | [[tbd/Enable 2 sided printing on windows.md\|Enable 2 sided printing on windows]]                                                         | tbd                        | Dec 1, 2025  |
 | [[linux/New server setup.md\|New server setup]]                                                                                           | linux                      | Nov 30, 2025 |
 | [[tbd/academic portfolio website templates.md\|academic portfolio website templates]]                                                     | tbd                        | Nov 30, 2025 |
-| [[hobbies/Really good webtoons.md\|Really good webtoons]]                                                                                 | hobbies                    | Nov 30, 2025 |
 | [[chips/Electronics wizards.md\|Electronics wizards]]                                                                                     | chips                      | Nov 30, 2025 |
-| [[Misc Tutorials.md\|Misc Tutorials]]                                                                                                     |                            | Nov 30, 2025 |
-| [[Cool other websites.md\|Cool other websites]]                                                                                           |                            | Nov 30, 2025 |
 | [[tbd/Mind workouts.md\|Mind workouts]]                                                                                                   | tbd                        | Nov 30, 2025 |
 | [[thoughts/Questions worth remembering.md\|Questions worth remembering]]                                                                  | thoughts                   | Nov 28, 2025 |
-| [[chips/GPUs/GPU resources.md\|GPU resources]]                                                                                            | chips/GPUs                 | Nov 26, 2025 |
-| [[chips/Virtuoso shortcuts.md\|Virtuoso shortcuts]]                                                                                       | chips                      | Nov 25, 2025 |
 | [[linux/My first ever raspberry pi!!!.md\|My first ever raspberry pi!!!]]                                                                 | linux                      | Nov 25, 2025 |
-| [[linux/Ideas for what one can do with a home server.md\|Ideas for what one can do with a home server]]                                   | linux                      | Nov 25, 2025 |
 | [[thoughts/Arguing for local AI.md\|Arguing for local AI]]                                                                                | thoughts                   | Nov 23, 2025 |
 | [[tbd/Blender tutorials.md\|Blender tutorials]]                                                                                           | tbd                        | Nov 23, 2025 |
 | [[thoughts/Lifetime regrets.md\|Lifetime regrets]]                                                                                        | thoughts                   | Nov 23, 2025 |
@@ -72,7 +94,6 @@ Some hidden tags: anything with "exclude" basically
 | [[tbd/Dockerize anything.md\|Dockerize anything]]                                                                                         | tbd                        | Nov 10, 2025 |
 | [[tbd/Inventory management dump.md\|Inventory management dump]]                                                                           | tbd                        | Nov 10, 2025 |
 | [[mac/Mac setup notes.md\|Mac setup notes]]                                                                                               | mac                        | Nov 10, 2025 |
-| [[Goals and progress in 2025.md\|Goals and progress in 2025]]                                                                             |                            | Nov 9, 2025  |
 | [[mac/Safari export all pages.md\|Safari export all pages]]                                                                               | mac                        | Nov 9, 2025  |
 | [[linux/Kanban board dump.md\|Kanban board dump]]                                                                                         | linux                      | Nov 8, 2025  |
 | [[web/Collecting MIT OCW.md\|Collecting MIT OCW]]                                                                                         | web                        | Nov 8, 2025  |
@@ -89,7 +110,6 @@ Some hidden tags: anything with "exclude" basically
 | [[hobbies/darktable.md\|darktable]]                                                                                                       | hobbies                    | Oct 26, 2025 |
 | [[tbd/Anki everything.md\|Anki everything]]                                                                                               | tbd                        | Oct 25, 2025 |
 | [[tbd/Kindle jailbreaking.md\|Kindle jailbreaking]]                                                                                       | tbd                        | Oct 24, 2025 |
-| [[tbd/Financial literacy.md\|Financial literacy]]                                                                                         | tbd                        | Oct 21, 2025 |
 | [[meta/Subtitles tracker.md\|Subtitles tracker]]                                                                                          | meta                       | Oct 19, 2025 |
 | [[hobbies/Tailoring and Sewing.md\|Tailoring and Sewing]]                                                                                 | hobbies                    | Oct 19, 2025 |
 | [[rgb/Memory debugging.md\|Memory debugging]]                                                                                             | rgb                        | Oct 19, 2025 |
@@ -124,7 +144,6 @@ Some hidden tags: anything with "exclude" basically
 | [[hobbies/Zelda BOTW.md\|Zelda BOTW]]                                                                                                     | hobbies                    | Jul 30, 2025 |
 | [[hobbies/book club/My Year of Rest and Relaxation.md\|My Year of Rest and Relaxation]]                                                   | hobbies/book club          | Jul 30, 2025 |
 | [[hobbies/book club/The Bandit Queens.md\|The Bandit Queens]]                                                                             | hobbies/book club          | Jul 30, 2025 |
-| [[chips/GPUs/Comparing GPUs.md\|Comparing GPUs]]                                                                                          | chips/GPUs                 | Jul 30, 2025 |
 | [[thoughts/Real or AI.md\|Real or AI]]                                                                                                    | thoughts                   | Jul 30, 2025 |
 | [[hobbies/Pokemon Scarlet.md\|Pokemon Scarlet]]                                                                                           | hobbies                    | Jul 29, 2025 |
 | [[hobbies/Super Mario Bros Wonder.md\|Super Mario Bros Wonder]]                                                                           | hobbies                    | Jul 29, 2025 |
@@ -162,7 +181,6 @@ Some hidden tags: anything with "exclude" basically
 | [[linux/If you have two dockers on your server.md\|If you have two dockers on your server]]                                               | linux                      | Apr 16, 2025 |
 | [[chips/GPUs/Ideas for what one could do with a nice GPU.md\|Ideas for what one could do with a nice GPU]]                                | chips/GPUs                 | Apr 12, 2025 |
 | [[hobbies/fishes/Fish homepage.md\|Fish homepage]]                                                                                        | hobbies/fishes             | Apr 9, 2025  |
-| [[linux/Cloudflare tunnels with Docker.md\|Cloudflare tunnels with Docker]]                                                               | linux                      | Apr 8, 2025  |
 | [[hobbies/They put that poker game in League of Legends!.md\|They put that poker game in League of Legends!]]                             | hobbies                    | Apr 8, 2025  |
 | [[meta/list cards proof of concept.md\|list cards proof of concept]]                                                                      | meta                       | Apr 4, 2025  |
 | [[hobbies/fishes/guppies.md\|guppies]]                                                                                                    | hobbies/fishes             | Apr 4, 2025  |

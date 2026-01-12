@@ -4,6 +4,7 @@ date modified: 2025-11-30T19:10
 subtitle: there's a whole other world out there
 tags:
   - resourceland
+  - electrical
 ---
 > Competition is always a good thing. It forces us to do our best. A monopoly renders people complacent and satisfied with mediocrity.  💬 Nancy Pearcey
 
@@ -375,6 +376,8 @@ MAGIC VLSI
 Huawei patent for 2nm [CN119301758A - A metal integration method for manufacturing integrated devices - Google Patents](https://patents.google.com/patent/CN119301758A/en?oq=CN2022097621) 
 
 [net.in.tum.de/fileadmin/TUM/NET/NET-2024-04-1/NET-2024-04-1\_16.pdf](https://www.net.in.tum.de/fileadmin/TUM/NET/NET-2024-04-1/NET-2024-04-1_16.pdf) The Path of a Packet Through the Linux Kernel 
+
+[ASM Visualizer](https://asm.diveintosystems.org/)
 
 ## Conferences
 

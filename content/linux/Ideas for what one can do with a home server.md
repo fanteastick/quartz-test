@@ -1,6 +1,6 @@
 ---
 date created: 2025-01-02T17:31
-date modified: 2025-11-25T17:21
+date modified: 2025-12-16T22:54
 subtitle: and now, they can collect dust in my home instead
 tags:
   - idea
@@ -9,6 +9,13 @@ tags:
 It's so sad to see a powerful machine becoming demoted to a glorified external hard drive. Even worse, collecting dust!
 
 - [x] blog post detailing the evolution, and then summarizing the final result --> [2025-04-29 | Eilleen's Blog](https://blog.eilleeenz.com/2025/2025-04-29) 
+
+## Self-hosted philosophy
+
+Example: Snapchat in 2025 deciding to limit cloud storage for its users, and you have to pay 5/month for all your saved photos. Why should I pay for the photos that I took, with the phone that I already paid for, with my time, which is money?
+
+Example: self-hosting open source code means you can change and edit anything you want. 
+
 ## Done
 - expose services to the internet with [[Cloudflare tunnels with Docker]]
 - web server [GitHub - http-party/http-server: a simple zero-configuration command-line http server](https://github.com/http-party/http-server) [Use HTTPS and Custom Domains for Local Development with Docker Nginx | Dave Kerr Software](https://hackerrdave.com/https-local-docker-nginx/) 
@@ -60,6 +67,7 @@ journalctl -b -1 | grep -i overheat
 - CIS benchmarks: [Center for Internet Security (CIS) Benchmarks - Microsoft Compliance | Microsoft Learn](https://learn.microsoft.com/en-us/compliance/regulatory/offering-cis-benchmark)
 - Mail server: [Home - Docker Mailserver](https://docker-mailserver.github.io/docker-mailserver/latest/) 
 - zotero + swag: [GitHub - linuxserver/docker-zotero: Web accessible Zotero inside a Debian Container](https://github.com/linuxserver/docker-zotero?tab=readme-ov-file) [docker-swag/Dockerfile at master · linuxserver/docker-swag · GitHub](https://github.com/linuxserver/docker-swag/blob/master/Dockerfile) 
+- [Server \| Cooklang: recipe markup language](https://cooklang.org/cli/commands/server/) 
 
 > [!web] From the web
 > Thanks perplexity
