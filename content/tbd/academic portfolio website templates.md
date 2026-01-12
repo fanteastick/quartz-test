@@ -22,3 +22,7 @@ Everyone and their mom uses these!!
 [GitHub - sharu725/online-cv: A minimal Jekyll Theme to host your resume (CV) on GitHub with a few clicks.](https://github.com/sharu725/online-cv) 
 
 ![[academic portfolio website templates_image_3.png]]
+
+## Misc blog templates
+
+[GitHub - ntk148v/shibui: Shibui (渋い) is a yet another minimalistic Hugo theme](https://github.com/ntk148v/shibui) 

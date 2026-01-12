@@ -1,6 +1,6 @@
 ---
 date created: 2025-10-21T22:32
-date modified: 2025-10-21T22:40
+date modified: 2026-01-03T18:07
 tags:
   - resourceland
 ---
@@ -31,3 +31,9 @@ tags:
 ## Retirement calculators
 
 [Coast FIRE Calculator | Plan Your Financial Independence with Ease](https://coastfirecalc.com/) 
+
+## ROTH IRA
+
+[What is a mega backdoor Roth? \| IRA conversion \| Fidelity](https://www.fidelity.com/learning-center/personal-finance/mega-backdoor-roth) 
+
+APPARENTLY the advice is to start one when you turn 18 bc no income for quite some time. 

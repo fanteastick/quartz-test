@@ -1,12 +1,21 @@
 ---
 date created: 2025-12-16T22:14
-date modified: 2025-12-16T22:20
+date modified: 2026-01-02T09:57
+tags:
+  - gaming
 ---
+## Relevant pages
+
+[[They put that poker game in League of Legends!]]
+
+[[Custom League Keybinds]]
+
+## Neeko dot art
 
 [I made dot art for Neeko because I couldn’t find one for her! : r/neekomains](https://www.reddit.com/r/neekomains/comments/1pgg1fh/i_made_dot_art_for_neeko_because_i_couldnt_find/) 
 
 ```
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠔⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ 
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠔⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ 
 ⠀⠀⠀⠀⠀⠀⠀⢠⡆⠀⠀⠀⡰⠃⡸⠁⠀⠀⠀⠀⠀⠀⢀⣀⠀⠀⠀⠀⠀⠀ 
 ⠀⠀⠀⠀⠀⠀⠀⢸⢣⠀⠀⢠⠇⢰⠃⠀⠀⠀⢀⠤⠒⢉⡵⠁⠀⠀⠀⠀⠀⠀ 
 ⠀⠀⠀⠀⢠⡀⠀⠘⣄⠑⢄⠘⡄⣼⠀⠀⢀⡔⠁⣠⠔⠋⠀⠀⠀⠀⠀⠀⠀⠀ 
@@ -42,7 +51,7 @@ date modified: 2025-12-16T22:20
 ```
 
 ```
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⢢⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ 
+⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⡠⢢⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ 
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡰⢠⡄⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ 
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠇⡄⠸⣸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ 
 ⠀⠀⠀⠀⠀⠀⢀⣀⠠⢝⡰⠀⠀⢣⡙⠤⠄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ 
@@ -64,3 +73,4 @@ date modified: 2025-12-16T22:20
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⠀⣨⡄⠈⠀⡌⡀⠀⡌⠀⠀⢸⠀⢠⠁⠀⠀⠀⠀⠀ 
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⡶⠉⠀⠓⠈⠐⣇⣀⠇⠀⢰⡯⠔⠁⠀⠀⠀⠀⠀⠀ 
 ```
+

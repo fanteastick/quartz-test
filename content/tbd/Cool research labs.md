@@ -1,6 +1,6 @@
 ---
 date created: 2025-12-02T00:38
-date modified: 2025-12-09T15:27
+date modified: 2026-01-01T01:15
 ---
 
 [Brains in Silicon Homepage](https://web.stanford.edu/group/brainsinsilicon/)
@@ -15,3 +15,11 @@ date modified: 2025-12-09T15:27
 [Following the Text Gradient at Scale \| SAIL Blog](https://ai.stanford.edu/blog/feedback-descent/) Stanford AI Labs (?)
 
 [Pillow Lab: people](https://pillowlab.princeton.edu/people.html) neural coding & computation group. Our research focuses on statistical models and methods for characterizing neural population responses and extracting structure from high-dimensional neural data. We collaborate closely with experimental groups to study how neural populations encode, decode, and process information in different brain areas. We also study perception, decision-making, learning, and behavior, and the theoretical principles governing the design of neural systems.
+
+## PHd application tips
+
+[Applying to CS PhD programs for Machine Learning: what I wish I knew](https://vedder.io/misc/applying_to_ml_phd.html)
+
+- LOR, statement, transcripts, GRE, **networking**
+
+[Shriram Krishnamurthi: Advice to Graduate School Recommendation Letter Writers](https://cs.brown.edu/~sk/Memos/Grad-School-Recos/) 
