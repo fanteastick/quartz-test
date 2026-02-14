@@ -1,6 +1,6 @@
 ---
 date created: 2025-12-02T00:38
-date modified: 2026-01-01T01:15
+date modified: 2026-01-28T22:20
 ---
 
 [Brains in Silicon Homepage](https://web.stanford.edu/group/brainsinsilicon/)
@@ -15,6 +15,8 @@ date modified: 2026-01-01T01:15
 [Following the Text Gradient at Scale \| SAIL Blog](https://ai.stanford.edu/blog/feedback-descent/) Stanford AI Labs (?)
 
 [Pillow Lab: people](https://pillowlab.princeton.edu/people.html) neural coding & computation group. Our research focuses on statistical models and methods for characterizing neural population responses and extracting structure from high-dimensional neural data. We collaborate closely with experimental groups to study how neural populations encode, decode, and process information in different brain areas. We also study perception, decision-making, learning, and behavior, and the theoretical principles governing the design of neural systems.
+
+[SCIP Lab Research Page](https://scip-lab.usc.edu/#/research) Superconductive computing electronics (SCE) with focus on general purpose computing with Josephson Junctions.
 
 ## PHd application tips
 

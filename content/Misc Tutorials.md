@@ -114,3 +114,9 @@ QUANTUM INFORMATION AND COMPUTATION[qi.damtp.cam.ac.uk/files/PartIIIQC/Part 2 QI
 [Calculus Made Easy](https://calculusmadeeasy.org/) I remember this textbook!
 
 [Justin Skycak](https://www.justinmath.com/books/#introduction-to-algorithms-and-machine-learning) - this guy actually has a bunch of books, for this accelerated hs math/cs program
+
+[Motion Graphic Design & Animation Principles Website - Zajno Digital Studio](https://motion.zajno.com/) 
+
+[Write your Own Virtual Machine](https://www.jmeiners.com/lc3-vm/) 
+
+[Fundamental of Virtual Memory \| Melatoni](https://nghiant3223.github.io/2025/05/29/fundamental_of_virtual_memory.html) 

@@ -1,6 +1,6 @@
 ---
 date created: 2025-08-26T09:48
-date modified: 2025-11-14T16:10
+date modified: 2026-01-30T22:15
 tags:
   - tailscale
 ---
@@ -31,6 +31,8 @@ sudo tailscale serve status | grep https | awk -F':' '{print $3}' | awk -F" \(ta
 IFS=$'\n'; for line in $(cat serves.txt); do source te "$line"; done
 sleep 15
 IFS=$'\n'; for line in $(cat serves.txt); do source ts "$line"; done
+
+docker ps --format '{{.Names}}' | while read name; do     [ -z "$(docker port "$name" 2>/dev/null)" ] && echo "$name"; done
 ```
 
 ## Basic scripts

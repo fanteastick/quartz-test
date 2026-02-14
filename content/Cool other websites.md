@@ -69,6 +69,7 @@ A list where I have less to say
 - [Roko's dancing basilisk - The Boston Diaries - Captain Napalm](https://boston.conman.org/2025/12/02.1) this person uses link color for distance, and also post date as permalinks
 - [Bruno's](https://bruno-simon.com/) as of 2025-12-09 he turned this site into a truck minigame!!
 - [Blog \| Max Bernstein](https://bernsteinbear.com/blog/) 
+- [Blogroll \| Kev Quirk](https://kevquirk.com/blogroll/) 
 
 ## Just cool sites
 

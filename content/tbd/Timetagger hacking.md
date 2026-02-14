@@ -1,14 +1,14 @@
 ---
 date created: 2025-11-03T23:22
-date modified: 2025-11-14T14:37
+date modified: 2026-01-19T22:48
 ---
 
-First time vibe coding! understanding a codebase is too hard.
+First time vibe coding! understanding a codebase is too hard. [[how I use GPTs]]
 
-## Deploy preview commands
+## Relevant commands
 
 ```
-#start
+# start locally - it will be at localhost8080 and you can log in with the default user for localhost testing! so handy
 nohup python -m timetagger > timetagger-dev.log 2>&1 & echo $! > timetagger.pid
 
 #end
@@ -22,11 +22,19 @@ kill ----
 
 # view logs
 tail -f timetagger-dev.log
+
+# build for docker
+docker build -f deploy/repo.Dockerfile -t USERNAME/timetagger:TAG .
+
 ```
 
 ## Changing tick size and color
 
 front.py: check out the env SMALLER and COLORS.tick_text
+
+## Snap to previous time
+
+Add buttons in dialogs.py with onclick functions that activate this snapping logic. 
 
 ## How timing records are stored
 

@@ -3,6 +3,7 @@ date created: 2025-09-28T23:15
 date modified: 2025-11-20T00:03
 tags:
   - resourceland
+  - vlsi
 ---
 
 [2110.06526](https://arxiv.org/pdf/2110.06526) Practice Problems for Hardware Engineers by Prof. SHAHIN NAZARIAN [View article](https://scholar.google.com/citations?view_op=view_citation&citation_for_view=22r6J9IAAAAJ:08ZZubdj9fEC) 

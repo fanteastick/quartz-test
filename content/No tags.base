@@ -11,5 +11,6 @@ views:
       - file.mtime
       - file.path
       - file.size
+      - draft
     columnSize:
       file.mtime: 208

@@ -1,11 +1,17 @@
 ---
 date created: 2024-07-16T21:48
-date modified: 2025-02-05T15:24
+date modified: 2026-01-23T23:04
 tags:
   - git
 ---
 
 > I needed this to work literally yesterday! It's so bad! 💬 Me, when I realized someone else was using my [[GoatCounter analytics]] code
+
+## Environment Secret vs Repository Secret
+
+Are NOT the same thing! [Using secrets in GitHub Actions - GitHub Docs](https://docs.github.com/en/actions/how-tos/write-workflows/choose-what-workflows-do/use-secrets)
+
+Why is it so dang complicated?...
 
 ## Secrets specifically for Quartz
 

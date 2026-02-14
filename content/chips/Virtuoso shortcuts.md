@@ -1,7 +1,11 @@
 ---
 date created: 2025-11-19T13:51
 date modified: 2025-12-09T05:34
+tags:
+  - vlsi
 ---
+For usage with Cadence Virtuoso: [Virtuoso Layout Suite \| Cadence](https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/layout-design/virtuoso-layout-suite.html) 
+
 ## Schematic
 
 | Key           | What it does                                                                                                                                                                  |

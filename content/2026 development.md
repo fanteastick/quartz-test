@@ -1,6 +1,6 @@
 ---
 date created: 2025-12-14T21:07
-date modified: 2026-01-11T21:49
+date modified: 2026-02-13T21:24
 ---
 ## Goals and affirmations
 
@@ -41,3 +41,16 @@ It's the first of the month! of the year!
 > - They've been slowly taking down their physical datacenter locations and moving to cloud
 > - Doable: moved the enterprise version to Azure already, and their datacenter vendor was shutting down anyway
 > - Some final photos of the great unracking
+
+> [!tldr]- How I estimate work as a staff software engineer
+> What: [How I estimate work as a staff software engineer](https://www.seangoedecke.com/how-i-estimate-work/) 
+> - It is basically impossible to accurately estimate software work time
+> - More often, the team comes up with the deadline and fits the amount of work to match that. e.g. an LLM project interactively working with the data, vs just processing the input. 
+> - Better to present a range of options with a range of pros/cons.
+> - Random related pull; T-shirt sizing [How to Use T-Shirt Sizing to Estimate Projects \[2026\] • Asana](https://asana.com/resources/t-shirt-sizing) 
+
+## February
+
+Working on my [[CMOS VLSI Cheatsheet]]. Debating spinning up a few more quartz sites, although I'm wary because version 5 is coming soon-ish. Please devs 🙏🙏
+
+I stopped scrolling Reddit, and got back to a little bit more of Instagram and Twitter. Thinking about my guide on [[How to get over a social media addiction]] and I still think it works pretty well. 

@@ -1,9 +1,12 @@
 ---
 date created: 2024-08-06T01:41
-date modified: 2025-04-23T00:00
+date modified: 2026-01-19T22:33
 tags:
   - guide
 ---
+
+Me when I am a shameless user of AI tools. 
+
 ## Perplexity
 
 I find that [Perplexity](https://www.perplexity.ai/) is really amazing for synthesizing information in hyper specific cases, especially when you've got a whole conversation thread going and keep adding to it. For example, something that I've asked recently is:
@@ -27,3 +30,15 @@ Prime example!
 Been doing this in a gpt window that is NOT logged in so unfortunately there is no memory... maybe would've been cool to see how having memory could help. 
 
 Sometimes "no yapping" helps a lot. 
+
+## Agent mode in IDE
+
+In VSCode, the built-in agent is not too bad, but it talks for a long time. I find that the daily limit is also not too bad, if you're only coding for a few hours. 
+
+I have also tried an API key with Continue.dev. I find that the thinking time is a lot longer...?
+
+## GPT and Obsidian
+
+TBA! Idea: Open up the vault in VSCode?? I'll probably use this to reformat some of my lists of links like in [[tags/resourceland]]
+
+Very popular on the internet lately (Jan 2026): Claude Code skills and Obsidian integrations. 

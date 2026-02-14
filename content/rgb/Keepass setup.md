@@ -1,8 +1,9 @@
 ---
 date created: 2024-08-01T22:42
 date modified: 2024-08-02T01:12
+draft: "true"
 ---
-
+- [ ] 
 Created new database in a folder. Go to syncthing and sync the entire folder. Just need the password on both sides.
 
 ## Plugins

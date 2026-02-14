@@ -16,7 +16,7 @@ Throughout high school, bullet journaling was a huge trend (still is, maybe not 
 
 I spent too long changing things on the site, which is all written out in the [[Quartz customization log]], and I also have some more ideas for changing things ([[Quartz Snippets]]), but I still need a [[Quartz Cheatsheet|cheatsheet]] to remember what I'm doing.
 
-[[Goals and progress in 2025|This]] is what I'm up to this year. If you're lost, try checking out the 🗺 [[Map|map]], or a list of [[All files chronologically modified]]. My [homepage](https://www.eilleeenz.com/) has links to other things I've put up on the internet.
+[[2026 development|This is what I'm up to this year]]. If you're lost, try checking out the 🗺 [[Map|map]], or a list of [[All files chronologically modified]]. My [homepage](https://www.eilleeenz.com/) has links to other things I've put up on the internet.
 
 > [!info] I am desperately in need of friends
 > I think it's generally good for personal growth to meet new and interesting people. Please reach out if you think it'd be fun to talk. 👥 My [Twitter](https://x.com/eilleeenz) & [Bluesky](https://bsky.app/profile/eilleeenz.bsky.social) DM's are open! I also love getting comments on various guestbooks across my sites.
