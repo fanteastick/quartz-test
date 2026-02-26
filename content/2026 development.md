@@ -1,6 +1,6 @@
 ---
 date created: 2025-12-14T21:07
-date modified: 2026-02-13T21:24
+date modified: 2026-02-22T17:05
 ---
 ## Goals and affirmations
 
@@ -51,6 +51,30 @@ It's the first of the month! of the year!
 
 ## February
 
-Working on my [[CMOS VLSI Cheatsheet]]. Debating spinning up a few more quartz sites, although I'm wary because version 5 is coming soon-ish. Please devs 🙏🙏
+Working on my [[CMOS VLSI Cheatsheet]]. Debating spinning up a few more quartz sites, although I'm wary because version 5 is coming soon-ish. Please devs 🙏🙏 (and thanks)
 
 I stopped scrolling Reddit, and got back to a little bit more of Instagram and Twitter. Thinking about my guide on [[How to get over a social media addiction]] and I still think it works pretty well. 
+
+I read through these, but I'm too lazy to summarize it: [Secure Boot, TPM and Anti-Cheat Engines – Andrew Moore](https://andrewmoore.ca/blog/post/anticheat-secure-boot-tpm/) and [The Comprehension Curve — LessWrong](https://www.lesswrong.com/posts/bxkEshxKnRde97bmW/the-comprehension-curve) and [The Secret History of Indian Science Fiction.](https://altermag.com/articles/the-secret-history-of-indian-science-fiction) 
+
+I also read this: 
+
+> [!summary]- A bunch of things that I saw in late Feb 2026
+>
+> - [Fix your tools \| Adolfo Ochagavía](https://ochagavia.nl/blog/fix-your-tools/)
+> 	- Basically this person was trying to debug, saw their debugger was broken, went back and fixed the debugger, and had a better day.
+> - [How far back in time can you understand English? | Colin Gorrie](https://www.deadlanguagesociety.com/p/how-far-back-in-time-understand-english)
+> 	- I can read up to 1500.
+> 	- At some point early enough, there wasn't a standardized spelling. 
+> 	- institvte
+> 	- First half is the same text repeatedly, second half is an explanation. 
+> 
+> > They’re both performances of a sort: the 2000s protagonist is performing for his blog’s audience, so the tone is chatty and personal. The 1800s protagonist, with the mind of a Georgian diarist, is performing for posterity, so he philosophizes.
+> 
+> - [the watchers: how openai, the US government, and persona built an identity surveillance machine that files reports on you to the feds](https://vmfunc.re/blog/persona) by vmfunc
+> 	- persona bad and training on your faces with no legal basis
+> - [How I built Timeframe, our family e-paper dashboard - Joel Hawksley](https://hawksley.org/2026/02/17/timeframe.html)
+> 	- Very fun and cool hacking around eink displays. He lands on using a Mira Pro screen in multiple spots around the house, and then using Home Assistant (the classic self-hosted tool) as a data aggregator. 
+> -  [Believix \| Winx Club Wiki \| Fandom](https://winx.fandom.com/wiki/Believix_(Form)) 
+> 	- A fairy needs to make Earth nonbelievers believe in fairies for power. 
+> 	- There is also: Winx, Charmix, or Enchantix, Speedix, Zoomix, or Tracix

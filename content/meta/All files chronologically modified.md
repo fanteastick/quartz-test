@@ -7,7 +7,7 @@ tags:
   - "#tracker"
 title: All files chronologically modified
 date created: 2024-07-20T22:16
-date modified: 2026-02-13T20:16
+date modified: 2026-02-25T23:06
 ---
 ## Instructions
 
@@ -38,14 +38,20 @@ Some hidden tags: anything with "exclude" basically
 
 | File                                                                                                                              | Folder                     | Modified     |
 | --------------------------------------------------------------------------------------------------------------------------------- | -------------------------- | ------------ |
+| [[meta/Subtitles tracker.md\|Subtitles tracker]]                                                                                  | meta                       | Feb 25, 2026 |
+| [[chips/CMOS VLSI Cheatsheet.md\|CMOS VLSI Cheatsheet]]                                                                           | chips                      | Feb 25, 2026 |
+| [[chips/Truth tables.md\|Truth tables]]                                                                                           | chips                      | Feb 24, 2026 |
+| [[thoughts/Good habits around electronics.md\|Good habits around electronics]]                                                    | thoughts                   | Feb 23, 2026 |
+| [[thoughts/Total eclipse of the heart lyrics.md\|Total eclipse of the heart lyrics]]                                              | thoughts                   | Feb 23, 2026 |
+| [[2026 development.md\|2026 development]]                                                                                         |                            | Feb 22, 2026 |
+| [[chips/Virtuoso shortcuts.md\|Virtuoso shortcuts]]                                                                               | chips                      | Feb 19, 2026 |
+| [[tbd/Cute valentines day social posts.md\|Cute valentines day social posts]]                                                     | tbd                        | Feb 14, 2026 |
 | [[tbd/Ways that I imagine AI assistant could improve my life.md\|Ways that I imagine AI assistant could improve my life]]         | tbd                        | Feb 13, 2026 |
 | [[thoughts/Trapped in optimizing productivity.md\|Trapped in optimizing productivity]]                                            | thoughts                   | Feb 13, 2026 |
-| [[chips/CMOS VLSI Cheatsheet.md\|CMOS VLSI Cheatsheet]]                                                                           | chips                      | Feb 8, 2026  |
 | [[tbd/Self hosted things that I didn't keep.md\|Self hosted things that I didn't keep]]                                           | tbd                        | Jan 30, 2026 |
 | [[linux/Tailscale serve.md\|Tailscale serve]]                                                                                     | linux                      | Jan 30, 2026 |
 | [[hobbies/Funny Neeko strategies.md\|Funny Neeko strategies]]                                                                     | hobbies                    | Jan 30, 2026 |
 | [[tbd/Cool research labs.md\|Cool research labs]]                                                                                 | tbd                        | Jan 28, 2026 |
-| [[2026 development.md\|2026 development]]                                                                                         |                            | Jan 28, 2026 |
 | [[tbd/Bases.md\|Bases]]                                                                                                           | tbd                        | Jan 28, 2026 |
 | [[web/GitHub secrets.md\|GitHub secrets]]                                                                                         | web                        | Jan 23, 2026 |
 | [[tbd/Brainstorming cpu-only ollama megafarm.md\|Brainstorming cpu-only ollama megafarm]]                                         | tbd                        | Jan 19, 2026 |
@@ -80,7 +86,6 @@ Some hidden tags: anything with "exclude" basically
 | [[hobbies/Really good webtoons.md\|Really good webtoons]]                                                                         | hobbies                    | Dec 9, 2025  |
 | [[chips/GPUs/GPU resources.md\|GPU resources]]                                                                                    | chips/GPUs                 | Dec 9, 2025  |
 | [[chips/FPGA magic.md\|FPGA magic]]                                                                                               | chips                      | Dec 9, 2025  |
-| [[chips/Virtuoso shortcuts.md\|Virtuoso shortcuts]]                                                                               | chips                      | Dec 9, 2025  |
 | [[tbd/Bookbinder usage.md\|Bookbinder usage]]                                                                                     | tbd                        | Dec 1, 2025  |
 | [[tbd/Enable 2 sided printing on windows.md\|Enable 2 sided printing on windows]]                                                 | tbd                        | Dec 1, 2025  |
 | [[linux/New server setup.md\|New server setup]]                                                                                   | linux                      | Nov 30, 2025 |
@@ -123,7 +128,6 @@ Some hidden tags: anything with "exclude" basically
 | [[hobbies/darktable.md\|darktable]]                                                                                               | hobbies                    | Oct 26, 2025 |
 | [[tbd/Anki everything.md\|Anki everything]]                                                                                       | tbd                        | Oct 25, 2025 |
 | [[tbd/Kindle jailbreaking.md\|Kindle jailbreaking]]                                                                               | tbd                        | Oct 24, 2025 |
-| [[meta/Subtitles tracker.md\|Subtitles tracker]]                                                                                  | meta                       | Oct 19, 2025 |
 | [[hobbies/Tailoring and Sewing.md\|Tailoring and Sewing]]                                                                         | hobbies                    | Oct 19, 2025 |
 | [[rgb/Memory debugging.md\|Memory debugging]]                                                                                     | rgb                        | Oct 19, 2025 |
 | [[thoughts/Party-worthy occasions.md\|Party-worthy occasions]]                                                                    | thoughts                   | Oct 19, 2025 |
@@ -166,7 +170,6 @@ Some hidden tags: anything with "exclude" basically
 | [[linux/Samba and Tailscale.md\|Samba and Tailscale]]                                                                             | linux                      | Jul 15, 2025 |
 | [[rgb/Setting up Github.md\|Setting up Github]]                                                                                   | rgb                        | Jul 14, 2025 |
 | [[hobbies/Canon 5D mk iii.md\|Canon 5D mk iii]]                                                                                   | hobbies                    | Jul 11, 2025 |
-| [[thoughts/Good habits around electronics.md\|Good habits around electronics]]                                                    | thoughts                   | Jul 7, 2025  |
 | [[Quartz customization log.md\|Quartz customization log]]                                                                         |                            | Jul 3, 2025  |
 | [[linux/Docker and Portainer FAQs.md\|Docker and Portainer FAQs]]                                                                 | linux                      | Jul 2, 2025  |
 | [[thoughts/Online presence and identity.md\|Online presence and identity]]                                                        | thoughts                   | Jun 25, 2025 |
@@ -252,7 +255,6 @@ Some hidden tags: anything with "exclude" basically
 | [[chips/BIST - built-in self test.md\|BIST - built-in self test]]                                                                 | chips                      | Jun 8, 2024  |
 | [[mac/adguard home.md\|adguard home]]                                                                                             | mac                        | Jun 8, 2024  |
 <!-- SerializedQuery END -->
-
 
 %%
 

@@ -15,6 +15,8 @@ date modified: 2025-12-09T15:02
 [The Smol Training Playbook - a Hugging Face Space by HuggingFaceTB](https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook#introduction) 
 
 [A Pragmatic Vision for Interpretability — AI Alignment Forum](https://www.alignmentforum.org/posts/StENzDcD3kpfGJssR/a-pragmatic-vision-for-interpretability)
+
+[Overview — deep learning for molecules & materials](https://dmol.pub/)
 ## Youtube lecture series
 
 [Stanford CS224R Deep Reinforcement Learning \| Spring 2025 \| Lecture 1: Class Intro - YouTube](https://www.youtube.com/watch?v=EvHRQhMX7_w&list=PLoROMvodv4rPwxE0ONYRa_itZFdaKCylL) 

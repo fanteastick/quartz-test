@@ -1,9 +1,10 @@
 ---
 date created: 2025-11-19T13:51
-date modified: 2025-12-09T05:34
+date modified: 2026-02-19T00:48
 tags:
   - vlsi
 ---
+
 For usage with Cadence Virtuoso: [Virtuoso Layout Suite \| Cadence](https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/layout-design/virtuoso-layout-suite.html) 
 
 ## Schematic
@@ -26,7 +27,7 @@ How to place multiple pins:
 4) Check the "place multiple pins"
 5) Place one
 6) Drag mouse down, and the others will hover open, click to place in desired spot
-## Layout
+## Layout XL 
 
 | Key                              | What it does                                                                                                                                                                                                        |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -43,10 +44,14 @@ Updating the layout after schematic update: Connectivity -> Update components an
 
 Remember that DRC is like a physical check, LVS is like checking that schematic <> layout match up. 
 
-## Calculators
+## Maestro simulation for test benches
 
-[Boolean Algebra Calculator - eMathHelp](https://www.emathhelp.net/calculators/discrete-mathematics/boolean-algebra-calculator)
+Setup --> Stimuli --> Authoring mode ON vs OFF. Then you can assign globals and whatnot.
 
-[Hex Calculator](https://www.rapidtables.com/calc/math/hex-calculator.html) 
+Left sidebar --> Analyses --> can set up something like "trans" (transient) and 8ns. 
 
-[Lookahead carry unit - Wikipedia](https://en.wikipedia.org/wiki/Lookahead_carry_unit) 
+## Adding a library to Library manager
+
+Sometimes even though the dir is in the same path, it's not going to show up until you manually add it. 
+
+Library Manager -> Edit -> Library path -> find the bottom one --> name your library  --> paste in the path --> done

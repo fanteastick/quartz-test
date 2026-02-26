@@ -1,6 +1,8 @@
 ---
 date created: 2025-06-09T23:39
-date modified: 2025-07-07T22:26
+date modified: 2026-02-23T00:39
+tags:
+  - guide
 ---
 
 Laptop battery
@@ -62,3 +64,5 @@ EV batteries
 > In summary, Waymo batteries—like most large lithium-ion batteries in modern EVs—are dangerous when on fire, presenting unique and heightened risks to safety compared to traditional vehicle fires.
 
 Puffed up batteries are bad and dangerous - don't electrocute yourself!!! [spicypillows](https://www.reddit.com/r/spicypillows/) 
+
+Portable power banks - if you're not going to use one for a long time, you should ideally leave it at half charge. 

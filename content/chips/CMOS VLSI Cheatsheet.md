@@ -1,11 +1,13 @@
 ---
 date created: 2026-01-30T00:51
-date modified: 2026-02-08T11:18
+date modified: 2026-02-25T00:37
 tags:
   - vlsi
 ---
 
 Sometimes I forget the basics. Sue me!
+
+- [Karnaugh Maps](https://learnabout-electronics.org/Digital/dig24.php) 
 
 see [[#Transistor operating regions]]
 
@@ -21,6 +23,16 @@ $$
 ![[Pasted image 20260208111252.png]]
 
 Source: [Book Draft: _Analog: Inexact Science, Vibrant Art_ (pdf)](https://chic.caltech.edu/wp-content/uploads/2023/01/Hajimiri_Analog_DRAFT012023.pdf) by Ali Hajimiri
+
+## Calculators
+
+[Boolean Algebra Calculator - eMathHelp](https://www.emathhelp.net/calculators/discrete-mathematics/boolean-algebra-calculator)
+
+[Hex Calculator](https://www.rapidtables.com/calc/math/hex-calculator.html) 
+
+[Lookahead carry unit - Wikipedia](https://en.wikipedia.org/wiki/Lookahead_carry_unit) 
+
+[Karnaugh Map Simulator](http://vlabs.iitkgp.ac.in/coa/exp13/kmap.html) Karnaugh maps calculator
 
 ## PMOS vs NMOS
 
@@ -52,6 +64,14 @@ Aka boolean logic
 [Boolean Algebra Simplification with Examples | Electronics Tutorials](https://www.electronics-tutorials.ws/boolean/boolean-algebra-simplification.html) 
 
 > ![[CMOS VLSI Cheatsheet_image_2.png]]
+
+### Truth Tables
+
+NAND
+
+NOR 
+
+XOR
 
 ## VTC voltage transfer curve
 
