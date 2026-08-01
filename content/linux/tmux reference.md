@@ -1,9 +1,15 @@
 ---
 date created: 2025-11-06T22:01
-date modified: 2025-11-06T22:02
+date modified: 2026-03-09T00:14
 ---
 
-Thanks perplexity
+# Cheatsheet
+
+[Tmux Cheat Sheet & Quick Reference \| Session, window, pane and more](https://tmuxcheatsheet.com/)
+
+![tmux shortcuts & cheatsheet · GitHub](https://gist.github.com/MohamedAlaa/2961058)
+
+# Thanks perplexity
 
 Tmux is a terminal multiplexer that lets you run commands inside persistent sessions, protecting them from disconnects or session loss. To use tmux for a long-running command like `docker buildx`, simply start your command inside a tmux session and detach whenever needed; you can always reattach later and regain access to the same window, even after disconnecting from SSH or your terminal.[1][2][3][4][5]
 

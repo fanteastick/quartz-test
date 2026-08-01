@@ -2,7 +2,7 @@
 tags:
   - git
 date created: 2025-08-28T22:14
-date modified: 2025-08-28T22:15
+date modified: 2026-03-09T00:15
 ---
 
 To set up a **local mirror** of GitHub repositories on a self-hosted git service, a process called "mirroring" is used. Mirroring duplicates all branches, tags, and history, and lets the local copy sync updates from the original GitHub source, ensuring preservation if the original disappears.[1][2][3]
@@ -47,18 +47,6 @@ Automate this with cron jobs or scripts.[2][1]
 
 - You can serve mirrored repositories with a simple HTTP server (like lighttpd) by storing mirrored `.git` folders in a directory, making them clonable via HTTP.[3]
 - Larger platforms (Gitea, GitLab) provide a full-featured web interface, user management, and automation.[4][5]
-
-## Summary Table
-
-| Step                   | Description                                                             | Reference     |
-|------------------------|-------------------------------------------------------------------------|---------------|
-| Clone as mirror        | `git clone --mirror ...` fetches all of a repo                          | [1]       |
-| Create local repo      | Set up a bare repo in self-hosted platform (Gitea, GitLab, etc.)        | [4][5]|
-| Mirror push            | `git push --mirror ...` to self-hosted service                          | [1]       |
-| Automate syncing       | `git fetch -p origin` then `git push --mirror` by cron or script        | [1][2]|
-| Serve/host             | Use Gitea, GitLab, HTTP server, or standalone tool (`git-mirror`)       | [2][3]|
-
-This approach keeps a complete, up-to-date local backup of any GitHub repository, independently accessible in case the original goes offline.[3][4][2][1]
 
 [1](https://docs.github.com/en/repositories/creating-and-managing-repositories/duplicating-a-repository)
 

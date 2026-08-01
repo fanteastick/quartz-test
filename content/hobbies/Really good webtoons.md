@@ -1,9 +1,32 @@
 ---
 date created: 2025-11-30T20:49
-date modified: 2025-12-09T12:27
+date modified: 2026-04-24T22:43
 ---
 
 Sorted by year of discovery, approximately. Plus a short review! It's only in this list because I thought it was good already. If I didn't like it, I'd be calling this page "A mix of good and bad webtoons". 
+
+## 2026
+
+- I'm not a soccer genius!
+- Killer Peter
+	- Similarly, Killer Lawyer
+- FOG LAND
+- Swimmer Boy
+- Dare I Hope
+- One of Three
+- ShaMONEYism
+- Falling For It
+- False Paradise
+- Four Options
+- Just Read Me Already!
+- Moonchild
+- Between Two Floors
+- Ark of the Law
+- Eyes
+- Distant Sky
+- It's Mine
+- Go Away Romeo
+-  A Groupchat Without Me
 
 ## 2025
 

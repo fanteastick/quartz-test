@@ -1,7 +1,12 @@
 ---
 date created: 2025-09-04T23:24
-date modified: 2025-10-24T20:13
+date modified: 2026-03-06T17:10
 ---
+
+Cool ideas for later:
+
+- [Repurpose your old Kindle](https://www.mariannefeng.com/portfolio/kindle/)  by Marianne Feng
+
 ## Winterbreak
 
 [Home \| Kindle Modding Wiki](https://kindlemodding.org/)

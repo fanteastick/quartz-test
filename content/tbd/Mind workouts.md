@@ -26,3 +26,6 @@ Tensor puzzles: [GitHub - hardik-vala/Tensor-Puzzles-2: Solve more puzzles. Furt
 [SadServers - Linux & DevOps Troubleshooting Interviews](https://sadservers.com/)
 
 - they also have an advent calendar at /advent (2025)
+
+[pwnable.tw](https://pwnable.tw/)  is a [wargame](https://en.wikipedia.org/wiki/Wargame_\(hacking\)) site for hackers to test and expand their binary exploiting skills.
+

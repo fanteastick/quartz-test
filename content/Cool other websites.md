@@ -1,6 +1,6 @@
 ---
 date created: 2024-07-23T01:10
-date modified: 2025-12-12T22:20
+date modified: 2026-03-06T15:08
 tags:
   - external
 ---
@@ -132,3 +132,7 @@ Kind of like fonts - this is a TUI-styled webpage: [GitHub - internet-developmen
 [MD Thermochrome · Mass-Driver™](https://mass-driver.com/typefaces/md-thermochrome/)
 
 [Proto Mono: download for free and install for your website or Photoshop.](https://en.bestfonts.pro/font/proto-mono) (paid)
+
+[BianZhiDai - Velvetyne](https://velvetyne.fr/fonts/bianzhidai/)
+
+[Redaction \| Typeface from Titus Kaphar / Reginald Dwayne Betts’ show at MoMA PS1](https://www.redaction.us/) 

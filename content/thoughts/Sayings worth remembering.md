@@ -1,6 +1,6 @@
 ---
 date created: 2025-11-26T21:49
-date modified: 2026-02-24T23:47
+date modified: 2026-03-08T23:54
 draft: "true"
 ---
 
@@ -21,3 +21,7 @@ I'd rather do the right thing but lose the game 10 times rather than make the wo
 ## I no longer build software
 
 ![[Pasted image 20260224234705.png|475]]
+
+## Chains breaking meme
+
+![[Pasted image 20260308235454.png]]

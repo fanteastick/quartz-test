@@ -1,11 +1,13 @@
 ---
 date created: 2025-11-19T13:51
-date modified: 2026-02-19T00:48
+date modified: 2026-04-15T17:45
 tags:
   - vlsi
 ---
 
 For usage with Cadence Virtuoso: [Virtuoso Layout Suite \| Cadence](https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/layout-design/virtuoso-layout-suite.html) 
+
+Columbia BIOE/EE saved the vector file guide: [bioee.ee.columbia.edu/courses/cad/html/vector\_file.pdf](https://www.bioee.ee.columbia.edu/courses/cad/html/vector_file.pdf) 
 
 ## Schematic
 

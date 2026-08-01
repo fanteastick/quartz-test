@@ -1,11 +1,15 @@
 ---
 date created: 2025-09-10T14:42
-date modified: 2025-11-10T15:59
+date modified: 2026-03-06T16:28
 subtitle: takes forever...
 ---
 ```
 docker buildx build --platform linux/arm64 -f ./Dockerfile --no-cache -t username/image:version --push .
 ```
+
+[[Build and push docker image as a github action]]
+
+Buildkit propaganda:  [BuildKit: Docker's Hidden Gem That Can Build Almost Anything - Tuan-Anh Tran](https://tuananh.net/2026/02/25/buildkit-docker-hidden-gem/) 
 
 # Changing architectures cheatsheet
 

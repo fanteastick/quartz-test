@@ -1,6 +1,6 @@
 ---
 date created: 2025-01-02T17:31
-date modified: 2025-12-16T22:54
+date modified: 2026-07-17T21:14
 subtitle: and now, they can collect dust in my home instead
 tags:
   - idea
@@ -17,6 +17,9 @@ Example: Snapchat in 2025 deciding to limit cloud storage for its users, and you
 Example: self-hosting open source code means you can change and edit anything you want. 
 
 ## Done
+
+These are things that are (probably) already on my serve(s). 
+
 - expose services to the internet with [[Cloudflare tunnels with Docker]]
 - web server [GitHub - http-party/http-server: a simple zero-configuration command-line http server](https://github.com/http-party/http-server) [Use HTTPS and Custom Domains for Local Development with Docker Nginx | Dave Kerr Software](https://hackerrdave.com/https-local-docker-nginx/) 
 - self-hosted git server, like GitLab --> turns out [[Gitea and Cloudflare Tunnels|gitea]] is better --> need a new solution for larger file dumps
@@ -68,6 +71,8 @@ journalctl -b -1 | grep -i overheat
 - Mail server: [Home - Docker Mailserver](https://docker-mailserver.github.io/docker-mailserver/latest/) 
 - zotero + swag: [GitHub - linuxserver/docker-zotero: Web accessible Zotero inside a Debian Container](https://github.com/linuxserver/docker-zotero?tab=readme-ov-file) [docker-swag/Dockerfile at master · linuxserver/docker-swag · GitHub](https://github.com/linuxserver/docker-swag/blob/master/Dockerfile) 
 - [Server \| Cooklang: recipe markup language](https://cooklang.org/cli/commands/server/) 
+- [Matrix.org - Matrix for Instant Messaging](https://matrix.org/docs/chat_basics/matrix-for-im/)
+- [Self-Hosted Web Mode - Nightingale Documentation](https://nightingale.cafe/docs/self-hosted) karoke 
 
 > [!web] From the web
 > Thanks perplexity
@@ -114,3 +119,32 @@ journalctl -b -1 | grep -i overheat
 More notetaking
 
 - [VSCodium - Open Source Binaries of VSCode](https://vscodium.com/) [About \| Dendron](https://www.dendron.so/about.html) 
+
+Wikis
+
+- [BookStack](https://www.bookstackapp.com/) 
+- [Wiki.js](https://js.wiki/) 
+
+More ideas
+
+- [Blueprint](https://blueprint.zip/) Pterodactyl is an application to manage docker containers that are game servers. 
+- [Making sure you're not a bot!](https://anubis.techaro.lol/docs/admin/botstopper/) Anubis / botstopper
+- [GitHub - magnum6actual/flipoff: Free split-flap display emulator for any TV. The classic flip-board look, without the $3,500 hardware. · GitHub](https://github.com/magnum6actual/flipoff)
+
+## Dropped/stopped using in March 2026:
+
+- colorcolor
+- castopod
+- atuin-server
+- dumbterm
+- fusion-rss
+- kan
+- LetoReader [GitHub - Axym-Labs/LetoReader: A free self-hostable speed reader. Highly customizable. Implements chunking (RSVP), pacing and highlighting. Modern UI and local-storage only. · GitHub](https://github.com/Axym-Labs/LetoReader) 
+- portnote
+- listmonk - like a self-hosted email newsletter manager
+- mazanoke - image compressor
+- wger
+- changedetection
+- dockpeek
+- vert (convert lots of things)
+- umami analytics

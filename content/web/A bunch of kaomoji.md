@@ -8,6 +8,8 @@ Yay! I love these things.
 
 These are copied from here: [Kaomoji | ⋆𐙚₊˚⊹♡ ⋆౨ৎ˚⟡˖ ࣪… | Copy & Paste](https://emojicombos.com/kaomoji) 
 
+[Kaomoji Generator - Japanese Emoticons (\*≧∀≦\*)](https://kaomoji.mozartsempiano.com/) [GitHub - mozartsempiano/kaomoji-generator: Web-based kaomoji generator and collection tool with interactive builder, filtering, and audio feedback. · GitHub](https://github.com/mozartsempiano/kaomoji-generator) 
+
 ```
  ₍ᐢ..ᐢ₎   ₍ᐢ.‸. ᐢ₎◌  ₍⑅ᐢ..ᐢ₎  ૮ ․ ․ ྀིა  ₍⑅ᐢ..ᐢ⑅₎   ꒰ ૮₍ ⑅ ᐢ..ᐢ   ₎ა ꒱    ᐢ..ᐢ   ᐢ. ֑ .ᐢ   ᐢ⸼⸼ᐢ    ₍ᐢ  ›   ̫ ‹ ᐢ₎    ₍ᐡ｡っ ̫-｡ᐡ₎    ₍⑅ᐢฅ́˘ฅ̀ᐢ₎   ₍ᵔ·͈༝·͈ᵔ₎   ₍ᵔ•ᴗ•ᵔ₎ 
 

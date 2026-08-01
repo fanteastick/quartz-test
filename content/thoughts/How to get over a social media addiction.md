@@ -28,3 +28,7 @@ Of course it all starts with a desire to change. Through willpower and resisting
 - Grayscale your phone: less color, less exciting, less addicting. 
 - Put your phone in another room
 - You can get this app or shortcut where it'll make you pause for 30 seconds to really think about whether you want to scroll or not. Or do 10 push ups before scrolling. 
+
+## Crazy new strategy
+
+As of 2026-03-22, here is my not-so-serious (but mostly serious) new strategy. I will start using the social media of my choice and start scrolling. The second I see something that I find stupid or infuriating, e.g. an ad, overconsumption, darwin awards, close the app. 

@@ -1,12 +1,16 @@
 ---
 subtitle: cold, calculated, precise.
 date created: 2025-09-07T12:28
-date modified: 2025-11-30T23:23
+date modified: 2026-05-14T22:04
 ---
 
 In comparison to [[Fumbling around a new server]]
 
 ## Installation
+
+Make sure to install the OpenSSH server so you can ssh into the machine!
+
+- sudo apt install net-tools --> so you can see the ip address of the device
 
 ### Docker and Dockge
 
@@ -60,3 +64,5 @@ Dockflare:  [GitHub - ChrispyBacon-dev/DockFlare: DockFlare: Automate Cloudflare
 [Docker - Crafty Documentation](https://docs.craftycontrol.com/pages/getting-started/installation/docker/#using-docker-cli) 
 
 [[Resolving Missing Memory Stats in Docker Stats on Raspberry Pi]]
+
+`sudo apt install ripgrep`

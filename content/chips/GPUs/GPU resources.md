@@ -26,3 +26,6 @@ tags:
 [My first Multi-GPU kernel: Writing All-to-all for AMD MI300X - gau-nernst's blog](https://gau-nernst.github.io/amd-a2a/) 
 
 [notebooks/ModuleGPU/GPU\_programming\_basics.ipynb at master · dataflowr/notebooks · GitHub](https://github.com/dataflowr/notebooks/blob/master/ModuleGPU/GPU_programming_basics.ipynb) 
+
+[Custom CPU simulation and testing](https://popovicu.com/posts/custom-cpu-simulation-and-testing/)
+

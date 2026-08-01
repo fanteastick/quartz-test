@@ -1,11 +1,13 @@
 ---
 date created: 2026-01-30T00:00
-date modified: 2026-01-30T00:08
+date modified: 2026-03-06T15:05
 tags:
   - gaming
 ---
 
 In reference to Neeko from [[League of Legends]]. Make sure to use the [[Custom League Keybinds#Neeko specific|custom neeko-specific keybinds]]!
+
+[The Neeko Passive Bible - Google Docs](https://docs.google.com/document/d/1evVeF3H-vqJ0JZIvRkuqxpkPpVi-dVmCxmKFezL_QEI/) 
 
 ## Monsters
 

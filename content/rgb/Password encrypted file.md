@@ -1,6 +1,7 @@
 ---
 date created: 2025-08-28T10:19
 date modified: 2025-08-28T10:20
+draft: "true"
 ---
 
 Thanks perplexity

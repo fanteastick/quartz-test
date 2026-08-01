@@ -3,7 +3,6 @@ date created: 2025-03-04T15:20
 date modified: 2025-03-04T23:03
 tags:
   - git
-draft: "true"
 ---
 
 In local filesystem, have a directory with files that you want to put on github. 

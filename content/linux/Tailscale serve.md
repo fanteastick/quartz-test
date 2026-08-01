@@ -1,9 +1,27 @@
 ---
 date created: 2025-08-26T09:48
-date modified: 2026-01-30T22:15
+date modified: 2026-03-16T00:21
 tags:
   - tailscale
 ---
+
+## Provision your https
+
+```
+Admin Console → DNS page → Scroll to "HTTPS Certificates" → Enable HTTPS
+
+sudo tailscale cert device.your-tailnet.ts.net
+```
+
+2026-03-16 As of today, the below doesn't work because you can't have the same port being served that the docker container is using. Apparently it's a new update in tailscale. 
+
+```
+[RATELIMIT] format("localListener failed to listen on %v, backing off: %v")
+
+localListener failed to listen on [ipv6 address]:8083, backing off: listen tcp6 [ipv6 address]:8083: bind: address already in use
+```
+
+----
 ## Basic serve commands
 
 ```
@@ -28,9 +46,9 @@ sudo tailscale serve status
 
 ```
 sudo tailscale serve status | grep https | awk -F':' '{print $3}' | awk -F" \(tail" '{print $1}' | sort > serves.txt
-IFS=$'\n'; for line in $(cat serves.txt); do source te "$line"; done
+IFS=$'\n'; for line in $(cat serves.txt); do source te "$line" & sleep 2; done
 sleep 15
-IFS=$'\n'; for line in $(cat serves.txt); do source ts "$line"; done
+IFS=$'\n'; for line in $(cat serves.txt); do source ts "$line" & sleep 5; done
 
 docker ps --format '{{.Names}}' | while read name; do     [ -z "$(docker port "$name" 2>/dev/null)" ] && echo "$name"; done
 ```

@@ -1,6 +1,6 @@
 ---
 date created: 2025-01-31T11:22
-date modified: 2025-03-06T13:32
+date modified: 2026-07-17T21:10
 ---
 
 [How to build a digital garden with TiddlyWiki - Ness Labs](https://nesslabs.com/digital-garden-tiddlywiki) 
@@ -36,3 +36,7 @@ date modified: 2025-03-06T13:32
 Very crisp!
 
 [My digital garden](https://digital-garden-jekyll-template.netlify.app/)
+
+# Pelican SSG
+
+[PELICAN 4.12.0](https://docs.getpelican.com/en/latest/index.html) 

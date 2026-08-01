@@ -1,6 +1,6 @@
 ---
 date created: 2025-12-14T21:07
-date modified: 2026-02-22T17:05
+date modified: 2026-04-29T22:23
 ---
 ## Goals and affirmations
 
@@ -78,3 +78,122 @@ I also read this:
 > -  [Believix \| Winx Club Wiki \| Fandom](https://winx.fandom.com/wiki/Believix_(Form)) 
 > 	- A fairy needs to make Earth nonbelievers believe in fairies for power. 
 > 	- There is also: Winx, Charmix, or Enchantix, Speedix, Zoomix, or Tracix
+
+## March
+
+I quickly spun up a private quartz so that I could view my school obsidian notes quickly. I'm not pushing it online so it's just running in a docker container and on my VPN network. pretty nifty!
+
+Websites that I've looked at while procrastinating on studying:
+
+- [中国卷烟博物馆 · Chinese Cigarette Museum](https://www.ciggies.app/) 
+	- This is exactly the type of website that is cool for now but i know for sure it will be taken down eventually. Domains are money, you know. I don't even smoke. 
+- [The Moment (2026 film) - Wikipedia](https://en.wikipedia.org/wiki/The_Moment_(2026_film)) 
+	- I saw clips of this on Twitter. This is kind of similar to The Weeknd's mockumentary. Very meta and self-reflective.
+- [Penguin Classics Cover Generator](https://penguin.jos.ht/) Cute idea. Not super unique, but this one is well-executed, I think. 
+![[Pasted image 20260306013923.png]]
+- Stanford's Cartographic symbologies: historic maps [Browse | Cartographic Symbologies - Spotlight Exhibits](https://exhibits.stanford.edu/cartosym/browse)
+	- Super fascinating actually. If you're into fantasy maps this could also be a big win to see. 
+
+> [!tree]- pretty
+> ```
+>            ✴
+>           ✴                                       ♥   ✦
+>           ✦                                     ✧   ○   ✦
+>            ○   ✴♥                          ☆    ✴     ♠          ✦
+>              ♦ ●  ☆                        ♠✶◆ ◆      ♥○   ♥  ☆
+>             ◇♥ ♥    ○                 ♦★  ✴●♣✴✴◇ ✦ ✧ ★★◇      ✶☆ ✴
+>              ♦   ★ ✶   ✧                  ♠ ☆✴  ✦♦ ♥   ♣     ✴ ♥♠
+>                 ◇ ◆✧✦●              ♦♠★ ★✶● ◆◆             ◆♣  ♠✴♥◆
+>                     ✴    ✶           ☆♦✶◇  ✴✶            ★♥  ♦✶◇●✦✦
+>              ✧♦ ◆ ♦  ♦♦ ♦          ✶☆☆  ○ ✶    ♠   ♥          ♥● ♦
+>                  ○  ●  ●✶   ♦    ♠★ ★✶♣ ✧                      ♦✴♠★
+>                   ○ ♣   ✴ ♦    ♣ ◆ ✧✶✧◇ ◇●      ◆         ✶   ♣ ✴ ◆
+>                      ✧✦    ✴♦♦  ✴☆ ○✶◆  ★ ◇★         ✧ ♦    ✴ ●✧  ●
+>                      ◆         ●★✴★★◇     ◆          ☆✴   ● ☆♦♣◇  ♠
+>                           ◆✧♥   ✶  ♣○♥●   ◆  ● ◇ ♠☆     ○   ✦  ◇
+>                                  ○✴○      ✶          ♥ ✦○   ♣
+>                                 ✶  ✶✶        ✴☆      ♣
+>                                 ◇ ♠✴♣ ✦            ♠
+>                                ●★✶ ✦◆ ✴●                ♥
+>                                ✶♣  ♣✧
+>                                   ✴◇
+>                                     ◆♥◆
+> 
+>                                  ♥ ♥  ♦
+>                                      ♦
+>                                 ♦     ✶
+>                                    ♠
+>                                          ●
+>                                      ○ ★
+>                                       ☆●       ✶
+>                                       ◇     ♦   ✶
+>                                                ♠      ★   ◆
+>                                            ● ✴  ○✶✴          ☆✦✶ ♦
+>                                               ◆★        ○  ☆ ✧   ◇
+>                                                     ◆◇       ✴★○  ♦
+>                                                         ◇   ● ✦    ✧♥ ●
+>                                                             ✶    ♠   ☆
+> 											```
+> 
+> ```
+> 
+
+- [Humanity's Last Machine](https://www.humanityslastmachine.com/)
+	- this is basically a super dep dive into humanoid robotics and how to make them actually come about. 
+	- Sources section... interesting...
+	- hardware components | landscape | suppliers | geopolitics
+		- geopolitics section is just us vs china. also china is ahead, apparently. 
+- Docker pro tips [Building smaller Docker images faster](https://sgt.hootr.club/blog/docker-protips/) 
+	- see the "Conclusions" section for the actual good stuff. 
+- Cool unique playing card decks
+	- Wouldn't it be sooo cool to pull up to the function with these?
+	- [Playing card deck \| boisvert](https://boisvert.bigcartel.com/product/playing-card-deck) 
+- Digikey embedded and microcontrollers volume 28
+	- Didn't have time to read this whole thing. it's great info tho. 
+	- [Embedded and Microcontrollers \| DigiKey](https://www.digikey.com/en/emedia/emagazine/2026/embedded-and-microcontrollers?page=14) 
+	- [Caelestes Playing Cards Edition 2 \| arynlei](https://www.arynlei.com/product-page/caelestes-edition-2) - found this one through social media - the art is so nice and it looks so pretty to flip through
+- Neko girl magazine 1 [nekogirlmagazine.com/nekogirlmagazine/neko\_girl\_magazine\_m\_1.pdf](https://nekogirlmagazine.com/nekogirlmagazine/neko_girl_magazine_m_1.pdf)
+	- very dramatic. what are they trying to say?
+- [The Quantified Scientist - YouTube](https://www.youtube.com/TheQuantifiedScientist) 
+	- Really interesting. I would love to track myself like this!
+- More things that I read but too lazy to write my reaction:
+	- https://medium.com/@shredlife/instagrams-url-blackhole-c1733e081664
+	- https://asindu.xyz/a-single-reason-to-not-vibe-code
+	- https://pagedout.institute/download/PagedOut_008.pdf
+- Website masterclass
+	- https://pudding.cool/2026/02/womens-sizing/
+	- https://thecreativeindependent.com/essays/laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be/
+	- https://gist.github.com/interpiduser5/547d8a7baec436f24b7cce89dd4ae1ea
+	- https://pilk.website/1/i-want-you-to-create-something-original
+	- https://henry.codes/writing/a-website-to-destroy-all-websites/#denouement
+	- https://www.sbnation.com/a/17776-football
+
+Demjoints is a producer that has the producer tag, "INCOMINGGGG!" [demjointz kpop](https://music.youtube.com/playlist?list=PL3hBocnfm0eDZ9WcqurqLIgHjlXIWufp0) 
+
+## April
+
+[Catala - Law to Code](https://catala-lang.org/)  --> an effort to formalize french law
+
+[MBC Music Core stage renders](https://program.imbc.com/BBS/musiccore?bbs_id=musiccore_stage&isfirst=y) --> updates every week/show
+
+[Five Years of Running a Systems Reading Group at Microsoft](https://armaansood.com/posts/systems-reading-group/) - admirable rundown of community-building and learning at work
+
+[A most elegant TCP hole punching algorithm — Aul Ma's research facility](https://robertsdotpm.github.io/cryptography/tcp_hole_punching.html) I know what TCP is!
+
+[decisionproblem.com/paperclips/](https://www.decisionproblem.com/paperclips/) very interesting game to play
+
+[Virtuosity: Maestro Plotting Templates - Analog/Custom Design - Cadence Blogs - Cadence Community](https://community.cadence.com/cadence_blogs_8/b/cic/posts/virtuoso-ic6-1-8-viva-plotting-templates) I had to read this for my project
+
+[Helix](https://health.martinamps.com/) this guy has a health dashboard that i dream of. Thank you martinamps of anthropic!
+
+BART made a pillow: [BARTy Pillow - Railgoods](https://www.railgoods.com/barty-pillow.html)
+
+![[Pasted image 20260424224415.png|340]]
+
+So funny, this guy made a satire post that gets viral on hn: [A compelling title that is cryptic enough to get you to take action on it – Eric Bailey](https://ericwbailey.website/published/a-compelling-title-that-is-cryptic-enough-to-get-you-to-take-action-on-it/) 
+
+Blue comparison!  [Is My Blue Your Blue?](https://ismy.blue/) 
+
+![[Pasted image 20260427235601.png]]
+
+[Horace He: Building Machine Learning Systems for a Trillion Trillion Floating Point Operations - YouTube](https://www.youtube.com/watch?v=139UPjoq7Kw) twitter really likes this video

@@ -1,6 +1,6 @@
 ---
 date created: 2025-08-28T22:27
-date modified: 2026-01-01T01:19
+date modified: 2026-03-10T19:25
 subtitle: for FREE?!
 tags:
   - resourceland
@@ -120,3 +120,24 @@ QUANTUM INFORMATION AND COMPUTATION[qi.damtp.cam.ac.uk/files/PartIIIQC/Part 2 QI
 [Write your Own Virtual Machine](https://www.jmeiners.com/lc3-vm/) 
 
 [Fundamental of Virtual Memory \| Melatoni](https://nghiant3223.github.io/2025/05/29/fundamental_of_virtual_memory.html) 
+
+[Resources | GPVM](https://develop--gpvm-website.netlify.app/resources/) 
+
+[Home - eBPF.party](https://ebpf.party/) 
+
+ [Constructive Synthesis](https://thewessens.net/synthbook/) Build and learn Subtractive Synthesis in software and hardware, using webaudio and the Teensy Audio Library 
+
+[Grid.Space for Education - STEM Learning Tools](https://grid.space/stem/) Free, Privacy-First Digital Fabrication Tools for STEM Learning 
+
+[grc.nasa.gov/WWW/k-12/Numbers/Math/documents/Tensors\_TM2002211716.pdf](https://www.grc.nasa.gov/WWW/k-12/Numbers/Math/documents/Tensors_TM2002211716.pdf)  Nasa tensors document
+
+[1. Introduction — Mathematics in Lean v4.19.0 documentation](https://leanprover-community.github.io/mathematics_in_lean/C01_Introduction.html#getting-started) 
+
+[PySDR: A Guide to SDR and DSP using Python](https://pysdr.org/) 
+
+[OpenBSD Jumpstart \| bsd.rd](https://openbsdjumpstart.org/bsd.rd/) 
+
+ [Hello Worg, the Org-Mode Community!](https://orgmode.org/worg/)
+
+[The Architecture of Open Source Applications](https://aosabook.org/en/)
+

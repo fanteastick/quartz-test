@@ -1,6 +1,6 @@
 ---
 date created: 2025-02-18T17:48
-date modified: 2025-03-20T20:36
+date modified: 2026-03-06T15:09
 tags:
   - gaming
   - civ
@@ -9,6 +9,8 @@ tags:
 After playing so much [[Civilization 6]], I decided to get the next game! It is extremely confusing...
 
 > The past is more than what we leave behind. 💬 @civgame
+
+The music playlist:  [Sid Meier's Civilization® VII Original Soundtrack - YouTube](https://m.youtube.com/playlist?list=PL-lTq9LJCHpQD5aqeUE_-dRGHwlrXE94R)
 
 # Change over time
 

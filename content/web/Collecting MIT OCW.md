@@ -19,3 +19,7 @@ tags:
 ## Not necessarily OCW
 
 [HTMAA 2025](https://fab.cba.mit.edu/classes/MAS.863/) 
+
+Berkeley - introduction to causal inference [stat.berkeley.edu/\~winston/causal314-syllabus-s21.pdf](https://www.stat.berkeley.edu/~winston/causal314-syllabus-s21.pdf) 
+
+[MIT 6.S976 and 18.S996 Cryptography and Machine Learning (Spring 2026)](https://mlcrypto.mit.edu/course/) 
